@@ -1,0 +1,19 @@
+{
+  "name": "yogaapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app 5.46.54 PM.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOverHere/yoga-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOverHere/yoga-app/issues"
+  },
+  "homepage": "https://github.com/JOverHere/yoga-app#readme"
+}

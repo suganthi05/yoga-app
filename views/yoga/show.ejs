@@ -26,6 +26,16 @@
                     </li>
                     </li>
                     </div>
+                    <div class="list-group">
+                    <li class="list-group-item active">Classes</li>
+                    <li id="classesBox" class="list-group-item">
+                    <% for(var i=0; i<yoga.classes.length; i++){ %>
+                    <i class="material-icons"><%=yoga.classes[i]%></i>
+                    <% } %>
+
+                    </li>
+                    </li>
+                    </div>
                     </div>
                     <h4><a><%=yoga.name%></a></h4>
                     <p><%= yoga.description %></p>

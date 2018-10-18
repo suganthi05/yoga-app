@@ -5,6 +5,7 @@ var yogaSchema = new mongoose.Schema({
    image: String,
    rating: Number,
    amenities: Array,
+   classes: Array,
    description: String,
    cost: Number,
    location: String,

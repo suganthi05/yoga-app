@@ -15,7 +15,18 @@
                 <div class="caption-full">
                     <h4 class="pull-right">$<%= yoga.cost %>/Day Pass</h4>
                     <h4><%=yoga.rating%></h4>
-                    <h4><%=yoga.amenities%></h4>
+
+                    <div class="list-group">
+                    <li class="list-group-item active">Amenities</li>
+                    <li id="amenitiesBox" class="list-group-item">
+                    <% for(var i=0; i<yoga.amenities.length; i++){ %>
+                    <i class="material-icons"><%=yoga.amenities[i]%></i>
+                    <% } %>
+
+                    </li>
+                    </li>
+                    </div>
+                    </div>
                     <h4><a><%=yoga.name%></a></h4>
                     <p><%= yoga.description %></p>
                     <p>

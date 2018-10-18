@@ -4,7 +4,7 @@ var yogaSchema = new mongoose.Schema({
    name: String,
    image: String,
    rating: Number,
-   amenities: String,
+   amenities: Array,
    description: String,
    cost: Number,
    location: String,

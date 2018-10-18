@@ -3,6 +3,8 @@ var mongoose = require("mongoose");
 var yogaSchema = new mongoose.Schema({
    name: String,
    image: String,
+   rating: Number,
+   amenities: String,
    description: String,
    cost: Number,
    location: String,

@@ -14,7 +14,7 @@
                 <img class="img-responsive" src="<%= yoga.image %>">
                 <div class="caption-full">
                     <h4 class="pull-right">$<%= yoga.cost %>/Day Pass</h4>
-                    <h4><%=yoga.rating%></h4>
+                    <h4>Rating: <%=yoga.rating%>/5 *</h4>
 
                     <div class="list-group">
                     <li class="list-group-item active">Amenities</li>
@@ -28,7 +28,7 @@
                     </div>
                     <div class="list-group">
                     <li class="list-group-item active">Classes</li>
-                    <li id="classesBox" class="list-group-item">
+                    <li id="amenitiesBox" class="list-group-item">
                     <% for(var i=0; i<yoga.classes.length; i++){ %>
                     <i class="material-icons"><%=yoga.classes[i]%></i>
                     <% } %>
@@ -36,6 +36,18 @@
                     </li>
                     </li>
                     </div>
+
+                    <div class="list-group">
+                    <li class="list-group-item active">Classes Suitable for Beginners?</li>
+                    <li id="amenitiesBox" class="list-group-item">
+                    <% for(var i=0; i<yoga.beginners.length; i++){ %>
+                    <i class="material-icons"><%=yoga.beginners[i]%></i>
+                    <% } %>
+
+                    </li>
+                    </li>
+                    </div>
+
                     </div>
                     <h4><a><%=yoga.name%></a></h4>
                     <p><%= yoga.description %></p>

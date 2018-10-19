@@ -51,6 +51,7 @@ router.post("/", middleware.isLoggedIn, function(req, res){
   var rating = req.body.rating;
   var amenities = req.body.amenities;
   var classes = req.body.classes;
+  var beginners = req.body.beginners;
   var author = {
       id: req.user._id,
       username: req.user.username
@@ -65,7 +66,7 @@ router.post("/", middleware.isLoggedIn, function(req, res){
     var lat = data[0].latitude;
     var lng = data[0].longitude;
     var location = data[0].formattedAddress;
-    var newYoga = {name: name, image: image, rating: rating, amenities: amenities, classes: classes, description: desc, author:author, cost: cost, location: location, lat: lat, lng: lng};
+    var newYoga = {name: name, image: image, rating: rating, amenities: amenities, classes: classes, beginners: beginners, description: desc, author:author, cost: cost, location: location, lat: lat, lng: lng};
     // Create a new campground and save to DB
     Yoga.create(newYoga, function(err, newlyCreated){
         if(err){

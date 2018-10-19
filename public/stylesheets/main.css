@@ -10,6 +10,14 @@
     padding: 9px;
 }
 
+.halfmap {
+    top: 25px;
+    display: block;
+    margin: auto;
+    height: 75%;
+    width: 100%;
+}
+
 #signed-in {
     color: #58a27c;
     font-weight: bold;

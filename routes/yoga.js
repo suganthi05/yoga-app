@@ -26,10 +26,9 @@ router.get("/getallstudios", function (req, res) {
 });
 
 
-router.get("/getfavorites", function (req, res) {
+router.get("/getfavorites", middleware.isLoggedIn, function (req, res) {
 
-    console.log(req.user._id);
-
+    //console.log(req.user._id);
     Favorites.find({
         user_id: req.user._id //this user is loggedin
     }, function (err, allfav) { //this will collect all the favs of the logged-in user

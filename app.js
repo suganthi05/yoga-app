@@ -12,7 +12,7 @@ var express     = require("express"),
     Comment     = require("./models/comment"),
     User        = require("./models/user"),
     session = require("express-session"),
-    seedDB      = require("./seeds"),
+    //seedDB      = require("./seeds"),
     methodOverride = require("method-override");
 
 //requiring routes
@@ -28,7 +28,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(methodOverride('_method'));
 app.use(cookieParser('secret'));
 
-// seedDB(); //seed the database
+//seedDB(); //seed the database
 app.locals.moment = require('moment');
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({

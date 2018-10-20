@@ -28,7 +28,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(methodOverride('_method'));
 app.use(cookieParser('secret'));
 
-// seedDB(); //seed the database
+seedDB(); //seed the database//Suganthi
 app.locals.moment = require('moment');
 // PASSPORT CONFIGURATION
 app.use(require("express-session")({
@@ -59,3 +59,4 @@ app.use("/yoga/:id/comments", commentRoutes);
 app.listen(3000, function(){
    console.log("Our Yoga Server Has Started!");
 });
+

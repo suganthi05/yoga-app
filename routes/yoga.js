@@ -35,10 +35,15 @@ router.get("/getfavorites", middleware.isLoggedIn, function (req, res) {
         if (err) {
             console.log(err);
         } else {
+
+            if (allfav.length == 0) {
+                res.send("Sorry No Favorites Added for the User!");
+            }
             //res.json(allfav);
             var allYoga = [];
             let total = allfav.length;
             let index = 0;
+
             console.log("total " + total);
             allfav.forEach(element => {
                 console.log("Yoga Id: " + element.yoga_id);
@@ -67,7 +72,7 @@ router.get("/getfavorites", middleware.isLoggedIn, function (req, res) {
         }
     });
 });
-//aa end fav
+
 router.post("/addfavorites", function (req, res) {
     console.log(req.body.yoga_id);
     console.log(req.user._id);

@@ -1,3 +1,4 @@
+//file for posting the fav studio , aa
 $(document).ready(function () {
 
     $("#favbutton").click(function (e) {

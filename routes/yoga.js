@@ -1,6 +1,7 @@
 var express = require("express");
 var router = express.Router();
 var Yoga = require("../models/yoga");
+var Favorites = require("../models/favorites");
 var middleware = require("../middleware");
 var NodeGeocoder = require('node-geocoder');
 
@@ -23,9 +24,72 @@ router.get("/getallstudios", function (req, res) {
         }
     });
 });
-//AA - End
 
-//INDEX - show all campgrounds
+
+router.get("/getfavorites", function (req, res) {
+
+    console.log(req.user._id);
+
+    Favorites.find({
+        user_id: req.user._id //this user is loggedin
+    }, function (err, allfav) { //this will collect all the favs of the logged-in user
+        if (err) {
+            console.log(err);
+        } else {
+            //res.json(allfav);
+            var allYoga = [];
+            let total = allfav.length;
+            let index = 0;
+            console.log("total " + total);
+            allfav.forEach(element => {
+                console.log("Yoga Id: " + element.yoga_id);
+                Yoga.findById(element.yoga_id, function (err, foundYoga) {
+                    if (err) {
+                        console.log(err);
+                    } else {
+                        ++index;
+                        console.log("foundYoga " + foundYoga);
+                        allYoga.push(foundYoga)
+                        if (index == total) {
+                            //res.json(allYoga);
+                            res.render("yoga/favorites", {
+                                yoga: allYoga
+                            });
+                        }
+                    }
+                });
+            });
+
+
+            // res.render("yoga/favorites", {
+            //     fav: allfav
+            // });
+
+        }
+    });
+});
+//aa end fav
+router.post("/addfavorites", function (req, res) {
+    console.log(req.body.yoga_id);
+    console.log(req.user._id);
+    var userFav = {
+        user_id: req.user._id,
+        yoga_id: req.body.yoga_id
+    }
+    Favorites.create(userFav, function (err, newlyCreated) {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log(newlyCreated);
+            res.send("");
+        }
+    });
+
+});
+//AA- end -fav
+
+
+//INDEX - show all studios
 router.get("/", function (req, res) {
     var noMatch = null;
     if (req.query.search) {

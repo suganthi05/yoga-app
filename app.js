@@ -34,7 +34,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(methodOverride('_method'));
 app.use(cookieParser('secret'));
 
-//resetAlldata(); //Only call, when you need to delete all data
+// resetAlldata(); //Only call, when you need to delete all data
 // seedDB(); //seed the database
 app.locals.moment = require('moment');
 // PASSPORT CONFIGURATION

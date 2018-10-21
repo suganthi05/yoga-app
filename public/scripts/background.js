@@ -10,13 +10,13 @@ function changeBG(){
         "url(https://images.unsplash.com/photo-1444210971048-6130cf0c46cf?dpr=2&fit=crop&fm=jpg&h=825&ixlib=rb-0.3.5&q=50&w=1450)",
         "url(https://images.pexels.com/photos/372098/pexels-photo-372098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260?dpr=2&fit=crop&fm=jpg&h=825&ixlib=rb-0.3.5&q=50&w=1450)"
       ]
-    
+
     if(counter === imgs.length) counter = 0;
     $("body").css("background-image", imgs[counter]);
 
     counter++;
 }
-  
+
   setInterval(changeBG, 2000);
 
 

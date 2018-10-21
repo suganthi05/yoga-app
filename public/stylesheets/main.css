@@ -19,7 +19,7 @@
 }
 
 #signed-in {
-    color: #58a27c;
+    color: #c6b2e8;
     font-weight: bold;
 }
 
@@ -31,8 +31,23 @@
 #map {
     height: 400px;
     width: 100%;
+    margin-bottom: 5%;
+
 }
 
 #delete-form {
     display: inline;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 60px;
+}
+
+.jumbotron {
+    margin-top: 125px;
+}
+

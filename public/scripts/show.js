@@ -16,6 +16,7 @@ $(document).ready(function () {
         }).then(function (response) {
             console.log("From Ajax Call");
             console.log(response);
+            alert("Favorite Studio Added")
 
         }).catch(function (error) {
             console.log("Error:", error);
@@ -23,4 +24,13 @@ $(document).ready(function () {
 
     });
 
+});
+
+$(document).ready(function () {
+    $("#login-button").click(function (event) {
+        event.preventDefault();
+
+        $('form').fadeOut(500);
+        $('.wrapper').addClass('form-success');
+    });
 });

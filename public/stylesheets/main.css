@@ -40,11 +40,11 @@
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 60px;
 }
 
 .jumbotron {
@@ -64,6 +64,7 @@
     color: grey;
 }
 
+<<<<<<< HEAD
 .form-check-inline{
     display: inline;
     margin-left: 2%;
@@ -90,4 +91,51 @@
     margin-top: 1%;
 }
 
+
+
+label {
+    /* Presentation */
+    font-size: 48px
+}
+
+/* Required Styling */
+
+label input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox {
+    margin-left: 2em;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-checkbox .glyphicon {
+    color: red;
+    position: absolute;
+    top: 0.4em;
+    left: -1.25em;
+    font-size: 0.75em;
+}
+
+.custom-checkbox .glyphicon-heart-empty {
+    color: gray;
+}
+
+.custom-checkbox .glyphicon-heart {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.custom-checkbox:hover .glyphicon-heart {
+    opacity: 0.5;
+}
+
+.custom-checkbox input[type="checkbox"]:checked~.glyphicon-heart {
+    opacity: 1;
+}
+
+#favbutton {
+    font-size: 0.5em;
+}
 

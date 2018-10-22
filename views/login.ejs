@@ -1,5 +1,35 @@
 <% include ./partials/header %>
-<div class="container">
+
+<!DOCTYPE html>
+<link rel="stylesheet" href="/stylesheets/register.css">
+<div class="wrapper">
+    <div class="container">
+        <h1>Welcome! Login Here</h1>
+        <form class="form" action="/login" method="post">
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="password">
+            <button type="submit" id="login-button">Submit</button>
+        </form>
+        <a href="/yoga">Go Back</a>
+    </div>
+
+    <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+
+
+<!-- <div class="container">
     <div class="row">
         <h1 style="text-align: center">Login</h1>
         <div style="width: 30%; margin: 25px auto;">
@@ -17,6 +47,5 @@
             <a href="/yoga">Go Back</a>
         </div>
     </div>
-</div>
+</div> -->
 <% include ./partials/footer %>
-

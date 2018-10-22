@@ -13,7 +13,7 @@ const data = [
   {
     name: "YYOGA Queen Street West",
     image: "https://iamyoga.ca/wp-content/uploads/2017/04/studio-experience.jpg",
-    rating: 3.25,
+    rating: 3,
     description: "12+ styles from stretchy to sweaty,  heated and non-heated,  for all levels of practice.",
     amenities: [
       "Parking",
@@ -41,7 +41,7 @@ const data = [
   {
     name: "Yoga Tree Richmond and Spadina",
     image: "https://ak4.picdn.net/shutterstock/videos/5918144/thumb/2.jpg",
-    rating: 4.5,
+    rating: 4,
     description: "experience a variety of yoga styles including Hot Yoga, Yoga for Beginners, Reduced Heat Yoga, Hatha, Restorative, Core Yoga and much more!",
     amenities: [
       "Parking",
@@ -69,7 +69,7 @@ const data = [
   {
     name: "Iam Yoga Downtown",
     image: "https://cdn6.dissolve.com/p/D187_218_100/D187_218_100_1200.jpg",
-    rating: 4.3,
+    rating: 4,
     description: "Great community and offers students the  chance to connect within the community  while offering time cleaning or supporting  our management staff on the front desk  with providing an amazing customer  experience in exchange for unlimited  access to all the classes our studios offer.",
 
     amenities: [
@@ -99,7 +99,7 @@ const data = [
   {
     name: "The Yoga Sanctuary",
     image: "https://st2.depositphotos.com/1518767/6900/i/950/depositphotos_69001081-stock-photo-people-exercising-on-fitness-mats.jpg",
-    rating: 4.25,
+    rating: 4,
     description: "Great for the benefits of mental health,  physical health as well as balancing your  emotional and spiritual health.",
     amenities: [
       "Parking",
@@ -128,7 +128,7 @@ const data = [
   {
     name: "Yoga Tree Bay & Dundas",
     image: "http://uprnc2thzbu47ptop2z7kxg1.wpengine.netdna-cdn.com/wp-content/uploads/2017/04/bay-dundas-yoga-studio-toronto-1.jpg",
-    rating: 4.4,
+    rating: 4,
     description: "Classes are designed to prepare new yogis for a balanced Hatha practice. ",
     amenities: [
       "Wifi",
@@ -169,7 +169,8 @@ const data = [
     classes: [
       "Hatha Yoga",
       "Showers Yoga",
-      "Vinyasa Yoga"
+      "Vinyasa Yoga",
+      "Prenatal Yoga"
     ],
     beginners: [
       "No"
@@ -253,34 +254,60 @@ function seedDB() {
     if (err) {
       console.log(err);
     }
-    console.log("Removed yoga studios!");
-    //add a few yoga
-    data.forEach(function (seed) {
-      Yoga.create(seed, function (err, yoga) {
-        if (err) {
-          console.log(err)
-        } else {
-          console.log("Added a yoga studio");
-          //create a comment
-          Comment.create({
-            text: "This place is great, but I wish there was internet",
-            author: {
-              id: "5bcb00d9720bbf38b66036e4",
-              username: "suganthi1483@gmail.com"
-            }
-          }, function (err, comment) {
-            if (err) {
-              console.log(err);
-            } else {
-              yoga.comments.push(comment);
-              yoga.save();
-              console.log("Created new comment for yoga studio");
-            }
-          });
-        }
-      });
+    console.log("Removed yoga studios data!");
+  });
+
+  //Remove all comments data
+  Comment.remove({}, function (err) {
+    if (err) {
+      console.log(err);
+    }
+    console.log("Removed comments data!");
+  });
+
+  //Remove all user data
+  User.remove({}, function (err) {
+    if (err) {
+      console.log(err);
+    }
+    console.log("Removed user data!");
+  });
+
+  //Remove all favorites data
+  Favorites.remove({}, function (err) {
+    if (err) {
+      console.log(err);
+    }
+    console.log("Removed favorites data!");
+  });
+
+  //add a few yoga
+  data.forEach(function (seed) {
+    Yoga.create(seed, function (err, yoga) {
+      if (err) {
+        console.log(err)
+      } else {
+        console.log("Added a yoga studio");
+        //create a comment
+        Comment.create({
+          text: "This place is great, but I wish there was internet",
+          author: {
+            id: "5bcb00d9720bbf38b66036e4",
+            username: "suganthi1483@gmail.com"
+          }
+        }, function (err, comment) {
+          if (err) {
+            console.log(err);
+          } else {
+            yoga.comments.push(comment);
+            yoga.save();
+            console.log("Created new comment for yoga studio");
+          }
+        });
+      }
     });
   });
+
   setTimeout((function () {
     console.log("Seeding complete! Exiting...");
     return process.exit(1);

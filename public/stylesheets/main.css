@@ -55,3 +55,12 @@
     background-repeat: no-repeat;
 }
 
+/* Style for star rating */
+.checked {
+    color: orange;
+}
+
+.unchecked {
+    color: grey;
+}
+

@@ -16,6 +16,7 @@ $(document).ready(function () {
         }).then(function (response) {
             console.log("From Ajax Call");
             console.log(response);
+            alert("Favorite Studio Added")
 
         }).catch(function (error) {
             console.log("Error:", error);

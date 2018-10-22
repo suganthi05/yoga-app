@@ -1,87 +1,86 @@
 <% include ../partials/header %>
-    <div class="row">
-        <h1 style="text-align: center">Create a New Yoga Rating</h1>
-        <div style="width: 30%; margin: 25px auto;">
-            <form action="/yoga" method="POST">
-                <div class="form-group">
-                    <input class="form-control" type="text" name="name" placeholder="name">
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="text" name="image" placeholder="image url">
-                </div>
-                <div class="form-group">
+<div class="row">
+    <h1 style="text-align: center">Create a New Yoga Studio</h1>
+    <div style="width: 30%; margin: 25px auto;">
+        <form action="/yoga" method="POST">
+            <div class="form-group">
+                <input class="form-control" type="text" name="name" placeholder="name">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="image" placeholder="image url">
+            </div>
+            <div class="form-group">
                 <input class="form-control" type="number" name="cost" placeholder="cost" step="0.01" min="0" required>
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="text" name="description" placeholder="description">
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="text" name="rating" placeholder="Please enter rating out of 5 (eg. 4)">
-                </div>
-                <!-- <div class="form-group">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="description" placeholder="description">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="rating" placeholder="Please enter rating out of 5 (eg. 4)">
+            </div>
+            <!-- <div class="form-group">
                     <input class="form-control" type="text" name="amenities" placeholder="amenities">
                 </div> -->
-                <h4> Amenities </h4>
-                <div class="form-check form-check-inline">
+            <h4> Amenities </h4>
+            <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="amenities" id="inlineCheckbox1" value="Parking">
                 <label class="form-check-label" for="inlineCheckbox1">Parking</label>
-                </div>
-                <div class="form-check form-check-inline">
+            </div>
+            <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="amenities" id="inlineCheckbox2" value="Wifi">
                 <label class="form-check-label" for="inlineCheckbox2">Wifi</label>
-                </div>
-                <div class="form-check form-check-inline">
+            </div>
+            <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="amenities" id="inlineCheckbox2" value="Lockers">
                 <label class="form-check-label" for="inlineCheckbox2">Lockers</label>
-                </div>
-                <div>
-                 <input class="form-check-input" type="checkbox" name="amenities" id="inlineCheckbox3" value="Showers" >
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" name="amenities" id="inlineCheckbox3" value="Showers">
                 <label class="form-check-label" for="inlineCheckbox3">Showers</label>
-                </div>
-                <div class="form-check form-check-inline">
+            </div>
+            <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="amenities" id="inlineCheckbox2" value="Smoothie Bar">
                 <label class="form-check-label" for="inlineCheckbox2">Smoothie Bar</label>
-                </div>
-                <h4> Class Categories </h4>
-                <div class="form-check form-check-inline">
+            </div>
+            <h4> Class Categories </h4>
+            <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="classes" id="inlineCheckbox1" value="Hatha Yoga">
                 <label class="form-check-label" for="inlineCheckbox1">Hatha Yoga</label>
-                </div>
-                <div class="form-check form-check-inline">
+            </div>
+            <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="classes" id="inlineCheckbox2" value="Bikram Yoga">
                 <label class="form-check-label" for="inlineCheckbox2">Bikram Yoga</label>
-                </div>
-                <div class="form-check form-check-inline">
+            </div>
+            <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="classes" id="inlineCheckbox2" value="Hot Yoga">
                 <label class="form-check-label" for="inlineCheckbox2">Hot Yoga</label>
-                </div>
-                <div>
-                 <input class="form-check-input" type="checkbox" name="classes" id="inlineCheckbox3" value="Showers Yoga" >
+            </div>
+            <div>
+                <input class="form-check-input" type="checkbox" name="classes" id="inlineCheckbox3" value="Showers Yoga">
                 <label class="form-check-label" for="inlineCheckbox3">Prenatal Yoga</label>
-                </div>
-                <div class="form-check form-check-inline">
+            </div>
+            <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="classes" id="inlineCheckbox2" value="Vinyasa Yoga">
                 <label class="form-check-label" for="inlineCheckbox2">Vinyasa Yoga</label>
-                </div>
-                <h4> Classes suitable for beginners? </h4>
-                <div class="form-check form-check-inline">
+            </div>
+            <h4> Classes suitable for beginners? </h4>
+            <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="beginners" id="inlineCheckbox1" value="Yes">
                 <label class="form-check-label" for="inlineCheckbox1">Yes</label>
-                </div>
-                <div class="form-check form-check-inline">
+            </div>
+            <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="beginners" id="inlineCheckbox2" value="No">
                 <label class="form-check-label" for="inlineCheckbox2">No</label>
-                </div>
-                <div class="form-group">
+            </div>
+            <div class="form-group">
                 <label for="location">Location</label>
                 <input class="form-control" type="text" name="location" id="location" placeholder="Toronto, Ontario">
-                </div>
-                <div class="form-group">
-                    <button class="btn btn-lg btn-primary btn-block">Submit!</button>
-                </div>
-            </form>
-            <a href="/yoga">Go Back</a>
-        </div>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-lg btn-primary btn-block">Submit!</button>
+            </div>
+        </form>
+        <a href="/yoga">Go Back</a>
     </div>
+</div>
 <% include ../partials/footer %>
-

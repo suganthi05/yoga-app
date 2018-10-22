@@ -91,31 +91,81 @@ router.post("/addfavorites", function (req, res) {
 
 });
 //AA- end -fav
-
-
-//INDEX - show all studios
+//INDEX - show and filter yoga studios
 router.get("/", function (req, res) {
-    var noMatch = null;
-    if (req.query.search) {
-        const regex = new RegExp(escapeRegex(req.query.search), 'gi');
-        // Get all campgrounds from DB
-        Yoga.find({
-            name: regex
-        }, function (err, allYoga) {
-            if (err) {
-                console.log(err);
-            } else {
-                if (allYoga.length < 1) {
-                    noMatch = "No trails match that query, please try again.";
+    let noMatch = null;
+    if (req.query.name_search || req.query.location_search || req.query.class_search ||
+        req.query.amenities_search || req.query.rating_search) {
+
+        let nameRegex, locationRegex, classRegex, amenitiesRegex, ratingRegex;
+
+        if (req.query.name_search === "") {
+            nameRegex = new RegExp('.*');
+        } else {
+            nameRegex = new RegExp(escapeRegex(req.query.name_search), 'gi');
+        }
+
+        if (req.query.location_search === "") {
+            locationRegex = new RegExp('.*');
+        } else {
+            locationRegex = new RegExp(escapeRegex(req.query.location_search), 'gi');
+        }
+
+        if (req.query.class_search === "select") {
+            classRegex = new RegExp('.*');
+        } else {
+            classRegex = new RegExp(escapeRegex(req.query.class_search), 'gi');
+        }
+
+        if (req.query.amenities_search === "select") {
+            amenitiesRegex = new RegExp('.*');
+        } else {
+            amenitiesRegex = new RegExp(escapeRegex(req.query.amenities_search), 'gi');
+        }
+
+        if (req.query.rating_search === "select") {
+            Yoga.find({
+                name: nameRegex,
+                location: locationRegex,
+                classes: classRegex,
+                amenities: amenitiesRegex
+            }, function (err, allYoga) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    if (allYoga.length < 1) {
+                        noMatch = "No yoga studio match that query, please try again.";
+                    }
+                    res.render("yoga/index", {
+                        yoga: allYoga,
+                        noMatch: noMatch
+                    });
                 }
-                res.render("yoga/index", {
-                    yoga: allYoga,
-                    noMatch: noMatch
-                });
-            }
-        });
+            });
+        } else {
+            ratingRegex = req.query.rating_search;
+            Yoga.find({
+                name: nameRegex,
+                location: locationRegex,
+                classes: classRegex,
+                amenities: amenitiesRegex,
+                rating: ratingRegex
+            }, function (err, allYoga) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    if (allYoga.length < 1) {
+                        noMatch = "No yoga studio match that query, please try again.";
+                    }
+                    res.render("yoga/index", {
+                        yoga: allYoga,
+                        noMatch: noMatch
+                    });
+                }
+            });
+        }
     } else {
-        // Get all campgrounds from DB
+        // Get all yoga studio from DB
         Yoga.find({}, function (err, allYoga) {
             if (err) {
                 console.log(err);

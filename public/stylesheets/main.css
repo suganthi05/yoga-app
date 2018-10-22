@@ -51,3 +51,12 @@
     margin-top: 125px;
 }
 
+/* Style for star rating */
+.checked {
+    color: orange;
+}
+
+.unchecked {
+    color: grey;
+}
+

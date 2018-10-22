@@ -1,7 +1,7 @@
 <% include ../partials/header %>
-    <div class="row">
+    <div class="row top-space">
         <h1 style="text-align: center">Create a New Yoga Rating</h1>
-        <div style="width: 30%; margin: 25px auto;">
+        <div>
             <form action="/yoga" method="POST">
                 <div class="form-group">
                     <input class="form-control" type="text" name="name" placeholder="name">
@@ -21,57 +21,63 @@
                 <!-- <div class="form-group">
                     <input class="form-control" type="text" name="amenities" placeholder="amenities">
                 </div> -->
+                <div class="form-wrap">
                 <h4> Amenities </h4>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline" style="width: 45%; margin-left: 29%">
                 <input class="form-check-input" type="checkbox" name="amenities" id="inlineCheckbox1" value="Parking">
                 <label class="form-check-label" for="inlineCheckbox1">Parking</label>
                 </div>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline" style="width: 45%">
                 <input class="form-check-input" type="checkbox" name="amenities" id="inlineCheckbox2" value="Wifi">
                 <label class="form-check-label" for="inlineCheckbox2">Wifi</label>
                 </div>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline" style="width: 45%">
                 <input class="form-check-input" type="checkbox" name="amenities" id="inlineCheckbox2" value="Lockers">
                 <label class="form-check-label" for="inlineCheckbox2">Lockers</label>
                 </div>
-                <div>
+                <div class="form-check form-check-inline" style="width: 45%">
                  <input class="form-check-input" type="checkbox" name="amenities" id="inlineCheckbox3" value="Showers" >
                 <label class="form-check-label" for="inlineCheckbox3">Showers</label>
                 </div>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline" style="width: 45%">
                 <input class="form-check-input" type="checkbox" name="amenities" id="inlineCheckbox2" value="Smoothie Bar">
-                <label class="form-check-label" for="inlineCheckbox2">Smoothie Bar</label>
+                <label class="form-check-label form-check-inline" for="inlineCheckbox2">Smoothie Bar</label>
                 </div>
+            </div>
+             <div class="form-wrap">
                 <h4> Class Categories </h4>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline" style="width: 45%; margin-left: 24%">
                 <input class="form-check-input" type="checkbox" name="classes" id="inlineCheckbox1" value="Hatha Yoga">
                 <label class="form-check-label" for="inlineCheckbox1">Hatha Yoga</label>
                 </div>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline" style="width: 45%">
                 <input class="form-check-input" type="checkbox" name="classes" id="inlineCheckbox2" value="Bikram Yoga">
                 <label class="form-check-label" for="inlineCheckbox2">Bikram Yoga</label>
                 </div>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline" style="width: 45%">
                 <input class="form-check-input" type="checkbox" name="classes" id="inlineCheckbox2" value="Hot Yoga">
                 <label class="form-check-label" for="inlineCheckbox2">Hot Yoga</label>
                 </div>
-                <div>
+                <div class="form-check form-check-inline" style="width: 45%">
                  <input class="form-check-input" type="checkbox" name="classes" id="inlineCheckbox3" value="Showers Yoga" >
                 <label class="form-check-label" for="inlineCheckbox3">Prenatal Yoga</label>
                 </div>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline" style="width: 45%">
                 <input class="form-check-input" type="checkbox" name="classes" id="inlineCheckbox2" value="Vinyasa Yoga">
                 <label class="form-check-label" for="inlineCheckbox2">Vinyasa Yoga</label>
                 </div>
+            </div>
+             <div class="form-wrap">
                 <h4> Classes suitable for beginners? </h4>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline" style="width: 45%; margin-left: 46%">
                 <input class="form-check-input" type="checkbox" name="beginners" id="inlineCheckbox1" value="Yes">
-                <label class="form-check-label" for="inlineCheckbox1">Yes</label>
+                <label class="form-check-label" for="inlineCheckbox1" >Yes</label>
                 </div>
                 <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" name="beginners" id="inlineCheckbox2" value="No">
                 <label class="form-check-label" for="inlineCheckbox2">No</label>
                 </div>
+                 <div class="form-wrap">
                 <div class="form-group">
                 <label for="location">Location</label>
                 <input class="form-control" type="text" name="location" id="location" placeholder="Toronto, Ontario">
@@ -80,7 +86,7 @@
                     <button class="btn btn-lg btn-primary btn-block">Submit!</button>
                 </div>
             </form>
-            <a href="/yoga">Go Back</a>
+            <a class="form-wrap" style="width: 45%; margin-left: 49%" href="/yoga">Back</a>
         </div>
     </div>
 <% include ../partials/footer %>

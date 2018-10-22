@@ -64,3 +64,30 @@
     color: grey;
 }
 
+.form-check-inline{
+    display: inline;
+    margin-left: 2%;
+    position: relative;
+}
+
+.form-group {
+    width: 35%;
+    margin: 25px auto;
+}
+
+.form-wrap {
+    margin-top: 10%;
+    margin: 30%;
+    display: inline;
+    text-align: center;
+}
+
+.top-space {
+    margin-top: 10%;
+}
+
+.top-space-fave {
+    margin-top: 1%;
+}
+
+

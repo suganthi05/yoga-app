@@ -91,7 +91,9 @@ router.post("/addfavorites", function (req, res) {
 
 });
 //AA- end -fav
+
 //INDEX - show and filter yoga studios
+// begin - sj
 router.get("/", function (req, res) {
     let noMatch = null;
     if (req.query.name_search || req.query.location_search || req.query.class_search ||
@@ -131,12 +133,12 @@ router.get("/", function (req, res) {
                 amenities: amenitiesRegex
             }, function (err, allYoga) {
                 if (err) {
-                    console.log(err);
+                    console.log('MongoDB Error:' + err);
                 } else {
                     if (allYoga.length < 1) {
                         noMatch = "No yoga studio match that query, please try again.";
                     }
-                    res.render("yoga/index", {
+                    res.send({
                         yoga: allYoga,
                         noMatch: noMatch
                     });
@@ -157,7 +159,7 @@ router.get("/", function (req, res) {
                     if (allYoga.length < 1) {
                         noMatch = "No yoga studio match that query, please try again.";
                     }
-                    res.render("yoga/index", {
+                    res.send({
                         yoga: allYoga,
                         noMatch: noMatch
                     });
@@ -165,12 +167,12 @@ router.get("/", function (req, res) {
             });
         }
     } else {
-        // Get all yoga studio from DB
+        // Get all yoga studio from DB and render
         Yoga.find({}, function (err, allYoga) {
             if (err) {
                 console.log(err);
             } else {
-                res.render("yoga/index", {
+                res.render("yoga/index", { //res.send({
                     yoga: allYoga,
                     noMatch: noMatch
                 });
@@ -178,6 +180,7 @@ router.get("/", function (req, res) {
         });
     }
 });
+// end - sj - search yoga from mongoDB
 
 //CREATE - add new campground to DB
 router.post("/", middleware.isLoggedIn, function (req, res) {

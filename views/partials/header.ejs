@@ -12,7 +12,7 @@
     <nav class="navbar sticky navbar-default navbar-inverse">
         <div class="navbar-header">
 
-            <a id="hellohike" class="navbar-brand" href="/">Yoga </a>
+            <a id="yoga-header" class="navbar-brand" href="/">Yoga </a>
 
         </div>
 
@@ -22,12 +22,12 @@
                 <li><a href="/login">Login</a></li>
                 <li><a href="/register">Sign Up</a></li>
                 <% } else { %>
-                <a class="btn btn-primary btn-large" href="/yoga/getfavorites">My Favorites</a>
                 <!-- My Favorites <span class="heartHeader"></span> you. -->
                 <!-- <button style="font-size:24px">My favorites <i class="fa fa-heart-o" href="/yoga/getfavorites"></i></button> -->
-                <li><a id="signed-in" href="#">Welcome Back
+                        <li><a id="hover-purple" href="/yoga/getfavorites">My Favorites </a></li>
+                <li><a id="hover-purple" href="/logout">Logout</a></li>
+                <li><a id="signed-in" href="#"> || Welcome  Back
                         <%= currentUser.username %>!</a></li>
-                <li><a href="/logout">Logout</a></li>
                 <% } %>
             </ul>
         </div>

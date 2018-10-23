@@ -6,6 +6,13 @@
     padding: 0;
 }
 
+.thumbnail:hover {
+  border-color: #cc66ff;
+  border-width: 1px;
+  box-shadow: 1px 2px #888888;
+}
+
+
 .thumbnail .caption-full {
     padding: 9px;
 }
@@ -21,10 +28,23 @@
 #signed-in {
     color: #c6b2e8;
     font-weight: bold;
+    font-size: 16px;
 }
 
-#hellohike {
+#hover-purple:hover{
+    font-size: 16px;
+}
+
+#yoga-header {
     font-weight: 400;
+    font-size: 28px;
+    margin-left: 14%;
+}
+
+#yoga-header:hover {
+    font-weight: 400;
+    font-size: 35px;
+    margin-left: 14%;
 }
 
 /* Google Maps */
@@ -48,8 +68,8 @@
 }
 
 .jumbotron {
-    margin-top: 5px;
-    background-image: url(https://images.pexels.com/photos/373933/pexels-photo-373933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350);
+    margin-top: 7%;
+    background-image: url(./jumbo-img.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;

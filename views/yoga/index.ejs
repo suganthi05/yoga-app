@@ -1,6 +1,8 @@
 <% include ../partials/header %>
+<!-- begin: sj -->
 <!-- Icon library for adding star -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- end: sj -->
 <div class="container">
   <script src="/scripts/index.js"></script>
   <!--Aa-->
@@ -12,45 +14,40 @@
         <a class="btn btn-primary btn-large" href="/yoga">View All Yoga Studios</a>
         <a class="btn btn-primary btn-large" href="/yoga/new">Add New Yoga Studio</a>
         <a class="btn btn-primary btn-large" href="/yoga/getfavorites">My Favorites</a>
-        <p>
-          <form action="/yoga" method="GET" class="form-inline">
-            <div class="form-group">
-              <input type="text" name="name_search" placeholder="Yoga Studio name" class="form-control">
-              <input type="text" name="location_search" placeholder="Location name" class="form-control">
-              <select name="class_search" class="form-control">
-                <option value="select">Select Classes</option>
-                <option value="hatha">Hatha Yoga</option>
-                <option value="bikram">Bikram Yoga</option>
-                <option value="hot">Hot Yoga</option>
-                <option value="prenatal">Prenatal Yoga</option>
-                <option value="vinyasa">Vinyasa Yoga</option>
-              </select>
-              <select name="amenities_search" class="form-control">
-                <option value="select">Select Amenities</option>
-                <option value="parking">Parking</option>
-                <option value="wifi">Wifi</option>
-                <option value="lockers">Lockers</option>
-                <option value="showers">Showers</option>
-                <option value="smoothie">Smoothie Bar</option>
-              </select>
-              <select name="rating_search" class="form-control">
-                <option value="select">Select Rating</option>
-                <option value="5">5</option>
-                <option value="4">4</option>
-                <option value="3">3</option>
-                <option value="2">2</option>
-                <option value="1">1</option>
-              </select>
-              <input type="submit" value="Search" class="btn btn-default">
-            </div>
-          </form>
-        </p>
-        <div class="col-md-12">
-          <% if(noMatch !== null) { %>
-          <h3>
-            <%= noMatch %>
-          </h3>
-          <% } %>
+
+      <p>
+      <form action="/yoga" method="GET" class="form-inline">
+        <div class="form-group">
+          <!--begin: sj-->
+          <input type="text" name="name_search" placeholder="Yoga Studio name" class="form-control">
+          <input type="text" name="location_search" placeholder="Location name" class="form-control">
+          <select name="class_search" class="form-control">
+            <option value="select">Select Classes</option>
+            <option value="hatha">Hatha Yoga</option>
+            <option value="bikram">Bikram Yoga</option>
+            <option value="hot">Hot Yoga</option>
+            <option value="prenatal">Prenatal Yoga</option>
+            <option value="vinyasa">Vinyasa Yoga</option>
+          </select>
+          <select name="amenities_search" class="form-control">
+            <option value="select">Select Amenities</option>
+            <option value="parking">Parking</option>
+            <option value="wifi">Wifi</option>
+            <option value="lockers">Lockers</option>
+            <option value="showers">Showers</option>
+            <option value="smoothie">Smoothie Bar</option>
+          </select>
+          <select name="rating_search" class="form-control">
+            <option value="select">Select Rating</option>
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+          </select>
+          <button id="filterbutton" class="btn btn-default">Search</button>
+          <!--end: sj-->
+
         </div>
       </p>
     </div>
@@ -59,7 +56,7 @@
   <div id="map" class="halfmap"></div>
   <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcrlOjVKHhFlqVzG9Fp96FmZNYDF-0gG4&callback=initMap"></script>
   <!--aa-->
-  <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+  <div  id="search-result" class="row text-center" style="display:flex; flex-wrap: wrap;">
     <div class="col-md-12">
       <% if(noMatch !== null) { %>
       <h3>
@@ -77,6 +74,7 @@
           </h4>
         </div>
         <p>
+          <!-- begin: sj - display rating star -->
           <% for (var i = 0; i < 5 ; i++) { %>
           <% if (i < yoga.rating) { %>
           <span class="fa fa-star checked"></span>
@@ -85,6 +83,7 @@
           <% } %>
           <% }; %>
           &nbsp;&nbsp;
+          <!-- end: sj - display rating star -->
           <a href="/yoga/<%= yoga._id %>" class="btn btn-primary">More Info</a>
         </p>
       </div>

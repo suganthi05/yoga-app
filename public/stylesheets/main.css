@@ -64,7 +64,7 @@
     color: grey;
 }
 
-<<<<<<< HEAD
+
 .form-check-inline{
     display: inline;
     margin-left: 2%;
@@ -73,11 +73,10 @@
 
 .form-group {
     width: 35%;
-    margin: 25px auto;
+    margin: 30px auto;
 }
 
 .form-wrap {
-    margin-top: 10%;
     margin: 30%;
     display: inline;
     text-align: center;
@@ -92,10 +91,9 @@
 }
 
 
-
 label {
     /* Presentation */
-    font-size: 48px
+    font-size: 15px
 }
 
 /* Required Styling */

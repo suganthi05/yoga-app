@@ -224,12 +224,14 @@ router.post("/", middleware.isLoggedIn, function (req, res) {
     var rating = req.body.rating;
     var amenities = req.body.amenities;
     var classes = req.body.classes;
+    var website = req.body.website;
+    var phone = req.body.phone;
     var beginners = req.body.beginners;
     var author = {
         id: req.user._id,
         username: req.user.username
     };
-    console.log(req.body.amenities)
+    console.log("website", req.body.website)
     geocoder.geocode(req.body.location, function (err, data) {
         if (err || !data.length) {
             console.log(err);
@@ -246,6 +248,8 @@ router.post("/", middleware.isLoggedIn, function (req, res) {
             amenities: amenities,
             classes: classes,
             beginners: beginners,
+            website: website,
+            phone: phone,
             description: desc,
             author: author,
             cost: cost,

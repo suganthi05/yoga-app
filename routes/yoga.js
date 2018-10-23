@@ -56,22 +56,38 @@ router.get("/getfavorites", middleware.isLoggedIn, function (req, res) {
                         allYoga.push(foundYoga)
                         if (index == total) {
                             //res.json(allYoga);
-                            res.render("yoga/favorites", {
-                                yoga: allYoga
-                            });
+                            fetchUserCreatedStudios(req, res, allYoga);
                         }
                     }
                 });
             });
 
-
-            // res.render("yoga/favorites", {
-            //     fav: allfav
-            // });
-
         }
     });
 });
+
+function fetchUserCreatedStudios(req, res, allYoga) {
+
+    var authorToFind = {
+        id: req.user._id,
+        username: req.user.username
+    };
+
+    Yoga.find({
+        author: authorToFind
+    }, function (err, allYogaStudios) {
+        // allYogaStudios.forEach(element => {
+        //     console.log(element);
+        // });
+
+        res.render("yoga/favorites", {
+            yoga: allYoga,
+            allstudios: allYogaStudios
+        });
+    });
+
+
+}
 
 router.post("/addfavorites", function (req, res) {
     console.log(req.body.yoga_id);

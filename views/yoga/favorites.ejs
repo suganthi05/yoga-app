@@ -23,20 +23,20 @@
 
     <header class="jumbotron">
         <div class="container">
-            <h2>My Studios!</h2>
+            <h2>My Created Studios!</h2>
         </div>
         <div class="row text-center" style="display:flex; flex-wrap: wrap;">
-            <% yoga.forEach(function(yoga){ %>
+            <% allstudios.forEach(function(mystudio){ %>
             <div class="col-md-3 col-sm-6">
                 <div class="thumbnail">
-                    <img src="<%= yoga.image %>">
+                    <img src="<%= mystudio.image %>">
                     <div class="caption">
                         <h4>
-                            <%= yoga.name %>
+                            <%= mystudio.name %>
                         </h4>
                     </div>
                     <p>
-                        <a href="/yoga/<%= yoga._id %>" class="btn btn-primary">More Info</a>
+                        <a href="/yoga/<%= mystudio._id %>" class="btn btn-primary">More Info</a>
                     </p>
                 </div>
             </div>

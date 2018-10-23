@@ -97,7 +97,7 @@ label {
 }
 
 /* Required Styling */
-/* 
+
 label input[type="checkbox"] {
     display: none;
 }
@@ -131,7 +131,7 @@ label input[type="checkbox"] {
 
 .custom-checkbox input[type="checkbox"]:checked~.glyphicon-heart {
     opacity: 1;
-} */
+}
 
 #favbutton {
     font-size: 0.5em;

@@ -9,6 +9,8 @@ var yogaSchema = new mongoose.Schema({
     beginners: Array,
     description: String,
     cost: Number,
+    website: String,
+    phone: String,
     location: String,
     lat: Number,
     lng: Number,

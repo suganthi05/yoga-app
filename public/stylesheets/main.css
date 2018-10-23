@@ -65,7 +65,7 @@
 }
 
 
-.form-check-inline{
+.form-check-inline {
     display: inline;
     margin-left: 2%;
     position: relative;
@@ -97,7 +97,7 @@ label {
 }
 
 /* Required Styling */
-
+/* 
 label input[type="checkbox"] {
     display: none;
 }
@@ -131,7 +131,7 @@ label input[type="checkbox"] {
 
 .custom-checkbox input[type="checkbox"]:checked~.glyphicon-heart {
     opacity: 1;
-}
+} */
 
 #favbutton {
     font-size: 0.5em;
@@ -140,7 +140,7 @@ label input[type="checkbox"] {
 
 /* FOOTER ------- */
 
-.footer-distributed{
+.footer-distributed {
     background-color: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
@@ -164,46 +164,46 @@ label input[type="checkbox"] {
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
-.footer-distributed .footer-right{
+.footer-distributed .footer-right {
     display: inline-block;
     vertical-align: top;
 }
 
 /* Footer left */
 
-.footer-distributed .footer-left{
+.footer-distributed .footer-left {
     width: 40%;
 }
 
 /* The company logo */
 
-.footer-distributed h3{
-    color:  #ffffff;
+.footer-distributed h3 {
+    color: #ffffff;
     font: normal 36px 'Cookie', cursive;
     margin: 0;
 }
 
-.footer-distributed h3 span{
-    color:  #5383d3;
+.footer-distributed h3 span {
+    color: #5383d3;
 }
 
 /* Footer links */
 
-.footer-distributed .footer-links{
-    color:  #ffffff;
+.footer-distributed .footer-links {
+    color: #ffffff;
     margin: 20px 0 12px;
     padding: 0;
 }
 
-.footer-distributed .footer-links a{
-    display:inline-block;
+.footer-distributed .footer-links a {
+    display: inline-block;
     line-height: 1.8;
     text-decoration: none;
-    color:  inherit;
+    color: inherit;
 }
 
-.footer-distributed .footer-company-name{
-    color:  #8f9296;
+.footer-distributed .footer-company-name {
+    color: #8f9296;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
@@ -211,12 +211,12 @@ label input[type="checkbox"] {
 
 /* Footer Center */
 
-.footer-distributed .footer-center{
+.footer-distributed .footer-center {
     width: 35%;
 }
 
-.footer-distributed .footer-center i{
-    background-color:  #33383b;
+.footer-distributed .footer-center i {
+    background-color: #33383b;
     color: #ffffff;
     font-size: 25px;
     width: 38px;
@@ -228,63 +228,64 @@ label input[type="checkbox"] {
     vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
+.footer-distributed .footer-center i.fa-envelope {
     font-size: 17px;
     line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
+.footer-distributed .footer-center p {
     display: inline-block;
     color: #ffffff;
     vertical-align: middle;
-    margin:0;
+    margin: 0;
 }
 
-.footer-distributed .footer-center p span{
-    display:block;
+.footer-distributed .footer-center p span {
+    display: block;
     font-weight: normal;
-    font-size:14px;
-    line-height:2;
+    font-size: 14px;
+    line-height: 2;
 }
 
-.footer-distributed .footer-center p a{
-    color:  #5383d3;
-    text-decoration: none;;
+.footer-distributed .footer-center p a {
+    color: #5383d3;
+    text-decoration: none;
+    ;
 }
 
 
 /* Footer Right */
 
-.footer-distributed .footer-right{
+.footer-distributed .footer-right {
     width: 20%;
 }
 
-.footer-distributed .footer-company-about{
+.footer-distributed .footer-company-about {
     line-height: 20px;
-    color:  #92999f;
+    color: #92999f;
     font-size: 13px;
     font-weight: normal;
     margin: 0;
 }
 
-.footer-distributed .footer-company-about span{
+.footer-distributed .footer-company-about span {
     display: block;
-    color:  #ffffff;
+    color: #ffffff;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.footer-distributed .footer-icons{
+.footer-distributed .footer-icons {
     margin-top: 25px;
 }
 
-.footer-distributed .footer-icons a{
+.footer-distributed .footer-icons a {
     display: inline-block;
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color:  #33383b;
+    background-color: #33383b;
     border-radius: 2px;
 
     font-size: 20px;
@@ -300,22 +301,132 @@ label input[type="checkbox"] {
 
 @media (max-width: 880px) {
 
-    .footer-distributed{
+    .footer-distributed {
         font: bold 14px sans-serif;
     }
 
     .footer-distributed .footer-left,
     .footer-distributed .footer-center,
-    .footer-distributed .footer-right{
+    .footer-distributed .footer-right {
         display: block;
         width: 100%;
         margin-bottom: 40px;
         text-align: center;
     }
 
-    .footer-distributed .footer-center i{
+    .footer-distributed .footer-center i {
         margin-left: 0;
     }
 
 }
 
+/* add to fav css */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:600,400&subset=latin,cyrillic);
+
+h4 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.click {
+    font-size: 33px;
+    color: red;
+    width: 38px;
+    height: 38px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+body {
+    padding-top: 20px;
+}
+
+.click span {
+    margin-left: 4px;
+    margin-top: 3px;
+    z-index: 999;
+    position: absolute;
+}
+
+span:hover {
+    opacity: 0.8;
+}
+
+span:active {
+    transform: scale(0.93, 0.93) translateY(2px)
+}
+
+.ring,
+.ring2 {
+    opacity: 0;
+    background: grey;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 19px;
+    left: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.active span,
+.active-2 span {
+    color: red !important;
+}
+
+.active-2 .ring {
+    width: 58px !important;
+    height: 58px !important;
+    top: -10px !important;
+    left: -10px !important;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 1 !important;
+}
+
+.active-2 .ring {
+    background: #F5CC27 !important;
+}
+
+.active-2 .ring2 {
+    background: #fff !important;
+}
+
+.active-3 .ring2 {
+    width: 60px !important;
+    height: 60px !important;
+    top: -11px !important;
+    left: -11px !important;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 1 !important;
+}
+
+.info {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: grey;
+    position: relative;
+    top: 30px;
+    left: -46px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.info-tog {
+    color: #F5CC27;
+    position: relative;
+    top: 45px;
+    opacity: 1;
+}
+
+* {
+    transition: all .32s ease;
+}

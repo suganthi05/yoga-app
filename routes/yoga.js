@@ -76,6 +76,38 @@ router.get("/getfavorites", middleware.isLoggedIn, function (req, res) {
 router.post("/addfavorites", function (req, res) {
     console.log(req.body.yoga_id);
     console.log(req.user._id);
+
+    Favorites.find({
+        yoga_id: req.body.yoga_id
+    }, function (err, allfav) {
+        if (err) {
+            console.log(err);
+        } else {
+            if (allfav.length > 0) {
+                console.log("Total count: " + allfav.length);
+                var isMatchFound = false;
+                allfav.forEach(element => {
+                    console.log("element.user_id " + element.user_id + ", req.user._id: " + req.user._id);
+                    if (element.user_id == req.user._id) {
+                        isMatchFound = true;
+                        console.log(isMatchFound);
+                    }
+                });
+                if (isMatchFound) {
+                    res.status(400).send("Already Added in Favorites!");
+                } else {
+                    insertIntoFavorites(req, res);
+                }
+            } else {
+
+                insertIntoFavorites(req, res);
+            }
+        }
+    });
+});
+
+function insertIntoFavorites(req, res) {
+
     var userFav = {
         user_id: req.user._id,
         yoga_id: req.body.yoga_id
@@ -85,11 +117,11 @@ router.post("/addfavorites", function (req, res) {
             console.log(err);
         } else {
             console.log(newlyCreated);
-            res.send("");
+            res.status(200).send("success");
         }
     });
+}
 
-});
 //AA- end -fav
 //INDEX - show and filter yoga studios
 router.get("/", function (req, res) {

@@ -11,17 +11,6 @@ var map;
 
 $(document).ready(function () {
 
-    // $.ajax({
-    //     url: "https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=mongolian%20grill&inputtype=textquery&fields=photos,formatted_address,name,opening_hours,rating&locationbias=circle:2000@47.6918452,-122.2226413&key=AIzaSyCcrlOjVKHhFlqVzG9Fp96FmZNYDF-0gG4",
-    //     method: "GET"
-    // }).then(function (response) {
-    //     console.log("From Ajax Call" + response);
-    //     //loadMapPoints(response);
-
-    // }).catch(function (error) {
-    //     console.log("Error:", error);
-    // })
-
 
     $.ajax({
         url: "yoga/getallstudios",
@@ -43,10 +32,11 @@ function loadMapPoints(response) {
     response.forEach(point => {
         ++index;
         console.log("points are", point);
-
+        var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(point.lat, point.lng),
-            map: map
+            map: map,
+            icon: image
         });
 
         google.maps.event.addListener(marker, 'click', (function (marker, i) {

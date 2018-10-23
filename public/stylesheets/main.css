@@ -97,7 +97,7 @@ label {
 }
 
 /* Required Styling */
-/* 
+/*
 label input[type="checkbox"] {
     display: none;
 }
@@ -429,4 +429,9 @@ span:active {
 
 * {
     transition: all .32s ease;
+}
+
+.avatar-pic {
+  width: 130px;
+  border-radius: 50%;
 }

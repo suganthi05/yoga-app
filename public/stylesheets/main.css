@@ -7,9 +7,9 @@
 }
 
 .thumbnail:hover {
-  border-color: #cc66ff;
-  border-width: 1px;
-  box-shadow: 1px 2px #888888;
+    border-color: #cc66ff;
+    border-width: 1px;
+    box-shadow: 1px 2px #888888;
 }
 
 
@@ -31,7 +31,7 @@
     font-size: 16px;
 }
 
-#hover-purple:hover{
+#hover-purple:hover {
     font-size: 16px;
 }
 
@@ -116,12 +116,6 @@ label {
     font-size: 15px
 }
 
-/* Required Styling */
-
-/*
-=======
-
->>>>>>> 5b64a660140b088765feee1db11ae08f0e66406f
 label input[type="checkbox"] {
     display: none;
 }
@@ -160,7 +154,6 @@ label input[type="checkbox"] {
 #favbutton {
     font-size: 0.5em;
 }
-
 
 /* FOOTER ------- */
 
@@ -456,6 +449,6 @@ span:active {
 }
 
 .avatar-pic {
-  width: 130px;
-  border-radius: 50%;
+    width: 130px;
+    border-radius: 50%;
 }

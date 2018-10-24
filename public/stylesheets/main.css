@@ -1,3 +1,8 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
 .thumbnail img {
     width: 100%;
 }
@@ -30,17 +35,18 @@
 #signed-in {
     color: #a6d9e0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #hover-purple:hover {
-    font-size: 16px;
+    font-size: 19px;
 }
 
 #yoga-header {
     font-weight: 400;
     font-size: 28px;
     margin-left: 14%;
+    color: white;
 
 }
 
@@ -167,7 +173,7 @@ label input[type="checkbox"] {
 /* FOOTER ------- */
 
 .footer-distributed {
-    background-color: #a6d9e0;
+    background-color: #222;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 114%;
@@ -500,6 +506,24 @@ span:active {
     margin-left: 5%;
     margin-top: 2%;
 }
+
+.login-font {
+    font-size: 17px;
+}
+
+.fa-heart {
+    color: white;
+}
+
+.jumbo-2 {
+  background-image: url(./yoga-img.png);
+}
+
+.jumbo-3 {
+  background-image: url(./yoga-img.png);
+}
+
+
 
 
 

@@ -5,6 +5,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+
 <!-- end: sj -->
 <div class="container">
   <script src="/scripts/index.js"></script>
@@ -59,6 +61,9 @@
   <div id="map" class="halfmap"></div>
   <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcrlOjVKHhFlqVzG9Fp96FmZNYDF-0gG4&callback=initMap"></script>
   <!--aa-->
+
+
+  <div class="col-container">
   <div id="search-result" class="row text-center" style="display:flex; flex-wrap: wrap;">
     <div class="col-md-12">
       <% if(noMatch !== null) { %>
@@ -68,7 +73,7 @@
       <% } %>
     </div>
     <% yoga.forEach(function(yoga){ %>
-    <div class="col-md-3 col-sm-6">
+    <div class="col col-md-3 col-sm-6">
       <div class="thumbnail">
         <img src="<%= yoga.image %>">
         <div class="caption">
@@ -93,6 +98,7 @@
     </div>
     <% }); %>
   </div>
+</div>
 
 
 </div>

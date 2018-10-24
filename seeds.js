@@ -485,7 +485,71 @@ const data = [
   location : "485 Trafalgar Rd, Oakville, ON L6J 3J1, Canada",
   lat : 43.4564779,
   lng : -79.6799831,
+},
+//yoga shala waterdown
+{
+  name : "The Yoga Shala Waterdown",
+  image : "https://images.pexels.com/photos/1472887/pexels-photo-1472887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  rating : 3,
+  website : "https://www.yogashalawaterdown.com/",
+  phone : "(905) 689-9642",
+  description : "Holistic 'old time' feel with this Studio. The teachers are great, and hot tea for after class!  However, no parking means I have to mark it down.",
+
+  amenities : [
+    "Wifi",
+    "Lockers",
+    "Showers",
+    "Smoothie Bar"
+  ],
+  classes : [
+    "Bikram Yoga",
+    "Hot Yoga",
+    "Vinyasa Yoga"
+  ],
+  beginners : [
+    "No"
+  ],
+  comments : [ ],
+  author : {
+    "id" : "5bd0dee224af1d5b0dc5cfb0",
+    "username" : "jack"
+  },
+  cost : 17.7,
+  location : "312 Dundas St E, Waterdown, ON L0R 2H0, Canada",
+  lat : 43.333578,
+  lng : -79.8923657,
+},
+//kula yoga studio
+{
+  name : "Kula Yoga Studio",
+  image : "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bb4481aac50fea7917a2c6ad4617c94f&auto=format&fit=crop&w=800&q=60",
+  rating : 2,
+  website : "https://www.oakville.mykula.org/",
+  phone : "905.829.3443",
+  description : "I was expecting a better place from all of the hype honestly. It was old, teachers were old, classes were slow, no real amenities. Bleh",
+
+  amenities : [
+    "Parking"
+  ],
+  classes : [
+    "Hatha Yoga",
+    "Bikram Yoga",
+    "Hot Yoga",
+    "Vinyasa Yoga"
+  ],
+  beginners : [ ],
+  comments : [ ],
+   author : {
+    "id" : "5bd0dee224af1d5b0dc5cfb0",
+    "username" : "jack"
+  },
+  cost : 20,
+  location : "2640 Bristol Cir, Oakville, ON L6H 6Z7, Canada",
+  lat : 43.5126856,
+  lng : -79.68783309999999,
 }
+
+
 
 ]
 

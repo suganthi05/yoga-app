@@ -35,14 +35,17 @@
             <option value="Vinyasa Yoga">Vinyasa Yoga</option>
           </select>
           <!-- end: sj - bootstrap multi select dropdown added for classes -->
-          <select name="amenities_search" class="form-control">
-            <option value="select">Select Amenities</option>
-            <option value="parking">Parking</option>
-            <option value="wifi">Wifi</option>
-            <option value="lockers">Lockers</option>
-            <option value="showers">Showers</option>
-            <option value="smoothie">Smoothie Bar</option>
+          
+          <!-- begin: sj - bootstrap multi select dropdown added for amenities -->
+          <select class="selectpicker" title="Select amenities" multiple data-live-search="true">    
+            <option value="Parking">Parking</option>
+            <option value="Wifi">Wifi</option>
+            <option value="Lockers">Lockers</option>
+            <option value="Showers">Showers</option>
+            <option value="Smoothie Bar">Smoothie Bar</option>
           </select>
+          <!-- end: sj - bootstrap multi select dropdown added for amenities -->
+
           <select name="rating_search" class="form-control">
             <option value="select">Select Rating</option>
             <option value="5">5</option>
@@ -55,6 +58,7 @@
           <!--end: sj-->
 
         </div>
+      </form>
       </p>
     </div>
   </header>
@@ -86,7 +90,7 @@
               <span class="fa fa-car" title="Parking"></span> | 
             <% } else if (amenities === "Wifi") { %>
               <span class="fa fa-wifi" title="Wifi"></span> | 
-            <% } else if (amenities === "Locker") { %>
+            <% } else if (amenities === "Lockers") { %>
               <span class="fa fa-lock"  title="Locker"></span> | 
             <% } else if (amenities === "Showers") { %>
               <span class="fa fa-shower"  title="Shower"></span> | 

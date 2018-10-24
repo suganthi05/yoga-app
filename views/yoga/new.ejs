@@ -1,6 +1,6 @@
 <% include ../partials/header %>
     <div class="row top-space">
-        <h1 style="text-align: center">Create a New Yoga Rating</h1>
+        <h1 class="header-plc" style="text-align: center">Create a New Yoga Rating</h1>
         <div>
             <form action="/yoga" method="POST">
                 <div class="form-group">
@@ -84,15 +84,19 @@
                     <input class="form-control" type="text" name="phone" placeholder="Contact Number">
                 </div>
                 <div class="form-group">
-                <label for="location">Location</label>
+                <label class="location-plc" for="location">Location</label>
                 <input class="form-control" type="text" name="location" id="location" placeholder="Toronto, Ontario">
                 </div>
-                <div class="form-group">
-                    <button class="btn btn-lg btn-primary btn-block">Submit!</button>
+                <div class="form-group form-check-label">
+                    <button class="btn btn-lg btn-primary btn-block btn-size">Submit!</button>
                 </div>
             </form>
-            <a class="form-wrap" style="width: 45%; margin-left: 49%" href="/yoga">Back</a>
+            <a class="form-wrap location-plc" style="width: 45%; margin-left: 49%" href="/yoga">Back</a>
 
     </div>
+</form>
+</div>
+</div>
+
 <% include ../partials/footer %>
 

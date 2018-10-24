@@ -1,14 +1,58 @@
 <!-- ejs file for fav studios AA -->
 <% include ../partials/header %>
-
+<br>
+<br>
+<br>
 <div class="container top-space-fave">
+    <div class="container">
+        <h2>
+            Welcome
+            <%= currentUser.username %>
+        </h2>
+        <h3>
+            Address:
+            <%= currentUser.home %>
+        </h3>
+    </div>
+    <script src="/scripts/index.js"></script>
+
+    <!--aa-->
+    <div id="map" class="halfmap"></div>
+    <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcrlOjVKHhFlqVzG9Fp96FmZNYDF-0gG4&callback=initMap"></script>
+    <!--aa-->
 
     <header class="jumbotron">
         <div class="container">
-            <h1>My Favorites!</h1>
+            <h2>My Created Studios!</h2>
         </div>
-    </header>
+        <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+            <% allstudios.forEach(function(mystudio){ %>
+            <div class="col-md-3 col-sm-6">
+                <div class="thumbnail">
+                    <img src="<%= mystudio.image %>">
+                    <div class="caption">
+                        <h4>
+                            <%= mystudio.name %>
+                        </h4>
+                    </div>
+                    <p>
+                        <a href="/yoga/<%= mystudio._id %>" class="btn btn-primary">More Info</a>
+                    </p>
+                </div>
+            </div>
+            <% }); %>
+        </div>
+
+</div>
+</header>
+
+
+<header class="jumbotron">
+    <div class="container">
+        <h2>My Favorites!</h2>
+    </div>
     <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+
         <% yoga.forEach(function(yoga){ %>
         <div class="col-md-3 col-sm-6">
             <div class="thumbnail">
@@ -25,6 +69,7 @@
         </div>
         <% }); %>
     </div>
-</div>
 
+    </div>
+</header>
 <% include ../partials/footer %>

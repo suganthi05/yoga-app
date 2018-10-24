@@ -20,6 +20,7 @@
         <a class="btn btn-primary btn-large" href="/yoga/new">Add New Yoga Studio</a>
         <a class="btn btn-primary btn-large" href="/yoga/getfavorites">My Favorites</a>
 
+<<<<<<< HEAD
       <p>
       <form action="/yoga" method="GET" class="form-inline">
         <div class="form-group">
@@ -54,15 +55,16 @@
           <button id="filterbutton" class="btn btn-default">Search</button>
           <!--end: sj-->
 
-        </div>
-      </p>
+
+            </div>
+        </p>
     </div>
   </header>
   <!--aa-->
   <div id="map" class="halfmap"></div>
   <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcrlOjVKHhFlqVzG9Fp96FmZNYDF-0gG4&callback=initMap"></script>
   <!--aa-->
-  <div  id="search-result" class="row text-center" style="display:flex; flex-wrap: wrap;">
+  <div id="search-result" class="row text-center" style="display:flex; flex-wrap: wrap;">
     <div class="col-md-12">
       <% if(noMatch !== null) { %>
       <h3>
@@ -112,5 +114,7 @@
     </div>
     <% }); %>
   </div>
+
+
 </div>
 <% include ../partials/footer %>

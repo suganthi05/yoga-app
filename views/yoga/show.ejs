@@ -5,7 +5,7 @@
 <!--Aa to show fav-->
 <div class="row top-space">
     <div class="col-md-3">
-        <p class="lead">Yoga</p>
+        <!-- <h1 class="lead">Yoga</h1> -->
 
         <!-- <button id="favbutton">Add to favorite</button> -->
 
@@ -18,11 +18,23 @@
             <p id="favbutton">Add to Favorites</p>
         </label>
 
+        <!-- <h4>Add to my Favorites</h4> -->
+        <!--
+        <div class="click">
+            <span class="fa fa-star-o"></span>
+            <div class="ring"></div>
+            <div class="ring2"></div>
+            <p class="info" id="favbutton">Added to favourites!</p>
+        </div>
+        -->
+        <br>
+        <br>
 
-        <div class="list-group">
-            <li class="list-group-item active"><h4><%=yoga.name%></h4></li>
-            <li class="list-group-item"><h4><a href="#"><%=yoga.website%></a></h4></li>
-            <li class="list-group-item"><h4><%=yoga.phone%></h4></li>
+        <div class="
+                list-group">
+            <li class="list-group-item active">Info 1</li>
+            <li class="list-group-item">Info 2</li>
+            <li class="list-group-item">Info 3</li>
 
         </div>
         <div id="map"></div>
@@ -34,7 +46,6 @@
             <div class="caption-full">
                 <h4 class="pull-right">$
                     <%= yoga.cost %>/Day Pass</h4>
-
                 <h4>Average Rating:
                     <h4>Rating:
 
@@ -171,5 +182,7 @@
     }
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVNqmxoPpZXHe89d2y12ozPDVjoLAk4hw&callback=initMap"></script>
+
+
 
 <% include ../partials/footer %>

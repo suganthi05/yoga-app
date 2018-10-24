@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Yoga</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/stylesheets/main.css">
-        <script src="https://code.jquery.com/jquery-git2.min.js"></script>
-    </head>
-    <body>
+
+<head>
+    <title>Yoga</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <script src="https://code.jquery.com/jquery-git2.min.js"></script>
+</head>
+
+<body>
     <nav class="navbar sticky navbar-default navbar-inverse">
-            <div class="navbar-header">
+        <div class="navbar-header">
 
-                <a id="hellohike" class="navbar-brand" href="/">Yoga </a>
+            <a id="yoga-header" class="navbar-brand" href="/">Yoga </a>
 
-            </div>
+        </div>
 
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <% if(!currentUser){ %>
-                        <li><a href="/login">Login</a></li>
-                        <li><a href="/register">Sign Up</a></li>
-                    <% } else { %>
-                        <li><a id="signed-in" href="#">Signed In As <%= currentUser.username %></a></li>
-                        <li><a href="/logout">Logout</a></li>
-                    <% } %>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <% if(!currentUser){ %>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/register">Sign Up</a></li>
+                <% } else { %>
+                <!-- My Favorites <span class="heartHeader"></span> you. -->
+                <!-- <button style="font-size:24px">My favorites <i class="fa fa-heart-o" href="/yoga/getfavorites"></i></button> -->
+                        <li><a id="hover-purple" href="/yoga/getfavorites">My Favorites </a></li>
+                <li><a id="hover-purple" href="/logout">Logout</a></li>
+                <li><a id="signed-in" href="#"> || Welcome  Back
+                        <%= currentUser.username %>!</a></li>
+                <% } %>
+            </ul>
+        </div>
         </div>
     </nav>
 
     <div class="container">
-       <% if(error && error.length > 0) { %>
-         <div class="alert alert-danger"><p><%=error %></p></div>
-       <% } %>
+        <% if(error && error.length > 0) { %>
+        <div class="alert alert-danger">
+            <p>
+                <%=error %>
+            </p>
+        </div>
+        <% } %>
 
-       <% if(success && success.length > 0) { %>
-         <div class="alert alert-success"><p><%= success %></p></div>
-       <% } %>
+        <% if(success && success.length > 0) { %>
+        <div class="alert alert-success">
+            <p>
+                <%= success %>
+            </p>
+        </div>
+        <% } %>
     </div>
     <div class="container">
-

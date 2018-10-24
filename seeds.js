@@ -122,7 +122,7 @@ const data = [
     cost: 35,
     location: "1 Wood St, Toronto, ON M4Y 2N4, Canada",
     lat: 43.66198809999999,
-    lng: -79.38293019999999
+    lng: -79.38293019999999,
   },
   //Yoga Tree Bay & Dundas
   {
@@ -244,7 +244,249 @@ const data = [
     location: "956 Bloor St W, Toronto, ON M6H 1L6, Canada",
     lat: 43.6614691,
     lng: -79.42848529999999
-  }
+  },
+//del-la-sol yoga
+  {
+  name : "De La Sol Yoga",
+  image : "https://images.pexels.com/photos/1375883/pexels-photo-1375883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+  rating : 3,
+  description : "An awesome studio. They have great monthly pass deals on sometimes, tons of classes and good amenities. No parking though so have to drop it a star.",
+
+  amenities : [
+    "Lockers",
+    "Showers"
+  ],
+  classes : [
+    "Hatha Yoga",
+    "Bikram Yoga",
+    "Hot Yoga",
+    "Showers Yoga",
+    "Vinyasa Yoga"
+  ],
+  beginners : [
+    "Yes"
+  ],
+  comments : [ ],
+  author : {
+    "id" : "5bcc75fab6ad31596f0d919b",
+    "username" : "user"
+  },
+  cost : 20,
+  location : "430 York Blvd, Hamilton, ON L8R 3K8, Canada",
+  lat : 43.2654864,
+  lng : -79.8809143,
+},
+//aviva yoga studio
+{
+  name : "Aviva Yoga Studio",
+  image : "https://images.pexels.com/photos/901439/pexels-photo-901439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  rating : 5,
+  description : "Awesome location at the Cotton Factory in hamilton. As a beginner I went for Yoga fundamentals and it was a great class.  ",
+
+  amenities : [
+    "Parking",
+    "Wifi",
+    "Lockers",
+    "Showers"
+  ],
+  classes : [
+    "Hatha Yoga",
+    "Bikram Yoga",
+    "Showers Yoga",
+    "Vinyasa Yoga"
+  ],
+  beginners : [
+    "Yes"
+  ],
+  comments : [ ],
+   author : {
+    "id" : "5bcc75fab6ad31596f0d919b",
+    "username" : "user"
+  },
+  cost : 30,
+  location : "270 Sherman Ave N, Hamilton, ON L8L 6N4, Canada",
+  lat : 43.2602691,
+  lng : -79.83378859999999,
+},
+//shanti yoga studio
+{
+  name : "Shanti Yoga Studio",
+  image : "https://images.pexels.com/photos/1103242/pexels-photo-1103242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+  rating : 3,
+  description : "A studio focused on Hatha Yoga, suitable for all levels. Studio could use some upgrades though.",
+
+  amenities : [
+    "Lockers"
+  ],
+  classes : [
+    "Hatha Yoga"
+  ],
+  beginners : [
+    "Yes"
+  ],
+  comments : [ ],
+  author : {
+    "id" : "5bcc75fab6ad31596f0d919b",
+    "username" : "user"
+  },
+  cost : 17.7,
+  location : "150 Locke St S, Hamilton, ON L8P 4A9, Canada",
+  lat : 43.2563397,
+  lng : -79.8857261,
+},
+//bikram yoga dundas
+{
+   name: "Bikram Yoga Dundas",
+  image : "https://images.pexels.com/photos/1496138/pexels-photo-1496138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+  rating : 4,
+  description : "Classes were ok but would go back for the relaxing vibe of the studio, the studio was great. Huge change rooms, and a store to buy yoga supplies inside.",
+
+  amenities : [
+    "Parking",
+    "Wifi",
+    "Lockers",
+    "Showers",
+    "Smoothie Bar"
+  ],
+  classes : [
+    "Bikram Yoga",
+    "Hot Yoga"
+  ],
+  beginners : [
+    "No"
+  ],
+  comments : [ ],
+  author : {
+    "id" : "5bcc75fab6ad31596f0d919b",
+    "username" : "user"
+  },
+  cost : 20,
+  location : "1 East Street N, Dundas, ON L9H 1N5, Canada",
+  lat : 43.2664938,
+  lng : -79.9444963,
+},
+//be well yoga and wellness
+{
+  name : "Be Yoga and Wellness",
+  image : "https://images.pexels.com/photos/892682/pexels-photo-892682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+  rating : 5,
+  description : "Beautiful place - tea room, complimentary towel service, cork board floors and spa-like feel!",
+
+  amenities : [
+    "Parking",
+    "Lockers",
+    "Showers"
+  ],
+  classes : [
+    "Hatha Yoga",
+    "Showers Yoga",
+    "Vinyasa Yoga"
+  ],
+  beginners : [ ],
+  comments : [ ],
+  author : {
+    "id" : "5bcc75fab6ad31596f0d919b",
+    "username" : "user"
+  },
+  cost : 15.93,
+  location : "4031 Fairview St, Burlington, ON L7L 2A4, Canada",
+  lat : 43.3609125,
+  lng : -79.779545,
+},
+//Modo Yoga
+{
+  name : "Modo Yoga",
+  image : "https://images.pexels.com/photos/892681/pexels-photo-892681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+  rating : 4,
+  description : "Teachers are amazing here, green and environmentally friendly studio. Downside - no parking. ",
+
+  amenities : [
+    "Lockers",
+    "Showers"
+  ],
+  classes : [
+    "Hatha Yoga",
+    "Vinyasa Yoga"
+  ],
+  beginners : [
+    "No"
+  ],
+  comments : [ ],
+   author : {
+    "id" : "5bcc75fab6ad31596f0d919b",
+    "username" : "user"
+  },
+  cost : 19.47,
+  location : "676 Appleby Line, Burlington, ON L7L 6J9, Canada",
+  lat : 43.371399,
+  lng : -79.7618044,
+},
+// sun yoga
+{
+  name : "Sun Yoga",
+  image : "https://images.pexels.com/photos/1308746/pexels-photo-1308746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+  rating : 3.5,
+
+  amenities : [
+    "Parking",
+    "Lockers"
+  ],
+  classes : [
+    "Hatha Yoga",
+    "Bikram Yoga",
+    "Hot Yoga",
+    "Showers Yoga",
+    "Vinyasa Yoga"
+  ],
+  beginners : [
+    "Yes"
+  ],
+  comments : [ ],
+   description : "I come here for the great teachers. Studio isnt so great.",
+  author : {
+    "id" : "5bcc75fab6ad31596f0d919b",
+    "username" : "user"
+  },
+  cost : 17,
+  location : "785 Pacific Rd, Oakville, ON L6L, Canada",
+  lat : 43.41356409999999,
+  lng : -79.7335466,
+},
+//Power Yoga - Oakville
+{
+   name : "Power Yoga - Oakville",
+  image : "https://images.pexels.com/photos/374694/pexels-photo-374694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
+  rating : 5,
+
+  amenities : [
+    "Parking",
+    "Wifi",
+    "Lockers",
+    "Showers",
+    "Smoothie Bar"
+  ],
+  classes : [
+    "Hatha Yoga",
+    "Bikram Yoga",
+    "Hot Yoga",
+    "Showers Yoga",
+    "Vinyasa Yoga"
+  ],
+  beginners : [
+    "Yes"
+  ],
+  comments : [ ],
+  description : "A chain of yoga studios, great programs and amenities. Has an awesome protein shake bar.",
+  author : {
+    "id" : "5bcc75fab6ad31596f0d919b",
+    "username" : "user"
+  },
+  cost : 22,
+  location : "485 Trafalgar Rd, Oakville, ON L6J 3J1, Canada",
+  lat : 43.4564779,
+  lng : -79.6799831,
+}
+
 ]
 
 

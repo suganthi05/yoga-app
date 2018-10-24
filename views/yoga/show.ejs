@@ -3,8 +3,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="/scripts/show.js"></script>
 <!--Aa to show fav-->
-<div class="row top-space">
-    <div class="col-md-3">
+<div>
+<div class="row top-space color-container">
+    <div>
+    <h1 class="yoga-header"><%=yoga.name%></h1>
+    </div>
+    <div class="col-md-3 full-card">
         <!-- <h1 class="lead">Yoga</h1> -->
 
         <!-- <button id="favbutton">Add to favorite</button> -->
@@ -48,7 +52,7 @@
         <div id="map"></div>
     </div>
 
-    <div class="col-md-9">
+    <div class="col-md-9 full-card">
         <div class="thumbnail">
             <img class="img-responsive" src="<%= yoga.image %>">
             <div class="caption-full">
@@ -159,6 +163,8 @@
     </div>
 </div>
 </div>
+</h4>
+</div>
 
 <script>
     function initMap() {
@@ -190,6 +196,7 @@
             infowindow.open(map, marker);
         });
     }
+
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVNqmxoPpZXHe89d2y12ozPDVjoLAk4hw&callback=initMap"></script>
 

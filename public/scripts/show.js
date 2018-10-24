@@ -4,7 +4,7 @@ $(document).ready(function () {
     $("#id-of-input").change(function (e) {
         //$("#favbutton").click(function (e) {
         e.preventDefault();
-        if (this.checked) {
+        if (this.clicked) {
             var urlpath = window.location.pathname; //gives the current URL
             var id = urlpath.substring(urlpath.lastIndexOf('/') + 1);
             console.log("----working-----");

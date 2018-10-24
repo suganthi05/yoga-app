@@ -76,9 +76,6 @@ function fetchUserCreatedStudios(req, res, allYoga) {
     Yoga.find({
         author: authorToFind
     }, function (err, allYogaStudios) {
-        // allYogaStudios.forEach(element => {
-        //     console.log(element);
-        // });
 
         res.render("yoga/favorites", {
             yoga: allYoga,

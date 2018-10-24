@@ -131,8 +131,10 @@ router.get("/", function (req, res) {
     if (req.query.name_search || req.query.location_search || req.query.class_search ||
         req.query.amenities_search || req.query.rating_search) {
 
-        let nameRegex, locationRegex, classRegex, amenitiesRegex, ratingRegex;
-
+        let nameRegex, locationRegex, amenitiesRegex, ratingRegex;
+        // begin - sj - declared classRegex array
+        let classRegex = [];
+        // end - sj - declared classRegex array
         if (req.query.name_search === "") {
             nameRegex = new RegExp('.*');
         } else {
@@ -145,11 +147,17 @@ router.get("/", function (req, res) {
             locationRegex = new RegExp(escapeRegex(req.query.location_search), 'gi');
         }
 
+        // begin: sj - get the comma-seperated values, split and assign to array
         if (req.query.class_search === "select") {
-            classRegex = new RegExp('.*');
+            classRegex[0] = new RegExp('.*');
         } else {
-            classRegex = new RegExp(escapeRegex(req.query.class_search), 'gi');
+            let i = 0;
+            String(req.query.class_search).split(/\s*,\s*/).forEach(function (classes) {
+                classRegex[i] = classes;
+                i = i + 1;
+            });
         }
+        // end: sj - get the comma-seperated values, split and assign to array
 
         if (req.query.amenities_search === "select") {
             amenitiesRegex = new RegExp('.*');
@@ -161,7 +169,9 @@ router.get("/", function (req, res) {
             Yoga.find({
                 name: nameRegex,
                 location: locationRegex,
-                classes: classRegex,
+                classes: {
+                    '$in': classRegex  // $in option used for multiple value search
+                },
                 amenities: amenitiesRegex
             }, function (err, allYoga) {
                 if (err) {
@@ -181,7 +191,9 @@ router.get("/", function (req, res) {
             Yoga.find({
                 name: nameRegex,
                 location: locationRegex,
-                classes: classRegex,
+                classes: {
+                    '$in': classRegex  // $in option used for multiple value search
+                },
                 amenities: amenitiesRegex,
                 rating: ratingRegex
             }, function (err, allYoga) {

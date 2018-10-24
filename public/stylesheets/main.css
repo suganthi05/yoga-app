@@ -39,6 +39,7 @@
     font-weight: 400;
     font-size: 28px;
     margin-left: 14%;
+
 }
 
 #yoga-header:hover {
@@ -458,4 +459,18 @@ span:active {
 .avatar-pic {
   width: 130px;
   border-radius: 50%;
+}
+
+.rating-star {
+    float:right;
+}
+
+.form-control {
+    width: 200%;
+    margin-left: -45%;
+    margin-top: 20%;
+}
+
+.go-back {
+    margin-left: 40%;
 }

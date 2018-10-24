@@ -468,6 +468,7 @@ span:active {
     margin-left: 40%;
 }
 
-width: 130px;
-border-radius: 50%;
+.avatar-pic {
+    width: 130px;
+    border-radius: 50%;
 }

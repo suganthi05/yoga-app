@@ -1,12 +1,7 @@
-<!-- ejs file for fav studios AA -->
 <% include ../partials/header %>
 <br>
 <br>
 <br>
-<script>
-    //userFavLocations = <%= yoga %>;
-    //var userFavLocations = [];
-</script>
 <div class="container top-space-fave">
     <div class="container">
         <h2>
@@ -19,22 +14,21 @@
         </h3>
         <h3>
             <script>
-                //var userFavLocations = [];
-                //var userStudiosLocations = [];
+                var userFavLocations = [];
+                var userStudiosLocations = [];
                 var userLat = <%= currentUser.lat %>;
                 var userLng = <%= currentUser.lng %>;
-                var username = <%= currentUser.username %>;
+                var username = "<%= currentUser.username %>";
             </script>
             Lat/Lng:
             <%= currentUser.lat %>
             <%= currentUser.lng %>
         </h3>
     </div>
-    <script src="/scripts/userProfile.js"></script>
 
     <!--aa-->
     <div id="map" class="halfmap"></div>
-    <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcrlOjVKHhFlqVzG9Fp96FmZNYDF-0gG4&callback=initMap"></script>
+
     <!--aa-->
 
     <header class="jumbotron">
@@ -51,10 +45,10 @@
                         <h4>
                             <%= mystudio.name %>
                             <script>
-                                // userStudiosLocations.push({
-                                //     lat: <%= mystudio.lat %>,
-                                //     lng: <%= mystudio.lng %>
-                                // });
+                                userStudiosLocations.push({
+                                    lat: <%= mystudio.lat %>,
+                                    lng: <%= mystudio.lng %>
+                                });
                             </script>
                         </h4>
                     </div>
@@ -75,17 +69,14 @@
         <h2>My Favorites!</h2>
     </div>
     <div class="row text-center" style="display:flex; flex-wrap: wrap;">
-        <script>
-            //userFavLocations = <%= yoga %>;
-            var userFavLocations = [];
-        </script>
+
         <% yoga.forEach(function(yogaelement){ %>
         <script>
             userFavLocations.push({
                 lat: <%= yogaelement.lat %>,
-                lng: <%= yogaelement.lng %>
-                // name: <%= yogaelement.name %>,
-                // image: <%= yogaelement.image %>
+                lng: <%= yogaelement.lng %>,
+                name: "<%= yogaelement.name %>",
+                image: "<%= yogaelement.image %>"
             });
         </script>
         <div class="col-md-3 col-sm-6">
@@ -106,4 +97,9 @@
 
     </div>
 </header>
+
+<script src="/scripts/userProfile.js"></script>
+
+<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcrlOjVKHhFlqVzG9Fp96FmZNYDF-0gG4&callback=initMap"></script>
+
 <% include ../partials/footer %>

@@ -144,8 +144,11 @@ router.get("/", function (req, res) {
     if (req.query.name_search || req.query.location_search || req.query.class_search ||
         req.query.amenities_search || req.query.rating_search) {
 
-        let nameRegex, locationRegex, classRegex, amenitiesRegex, ratingRegex;
-
+        let nameRegex, locationRegex, ratingRegex;
+        // begin - sj - declared classRegex,amenitiesRegex array
+        let classRegex = [];
+        let amenitiesRegex = [];
+        // end - sj - declared classRegex array
         if (req.query.name_search === "") {
             nameRegex = new RegExp('.*');
         } else {
@@ -158,24 +161,38 @@ router.get("/", function (req, res) {
             locationRegex = new RegExp(escapeRegex(req.query.location_search), 'gi');
         }
 
+        // begin: sj - get the comma-seperated values, split and assign to array
         if (req.query.class_search === "select") {
-            classRegex = new RegExp('.*');
+            classRegex[0] = new RegExp('.*');
         } else {
-            classRegex = new RegExp(escapeRegex(req.query.class_search), 'gi');
+            let i = 0;
+            String(req.query.class_search).split(/\s*,\s*/).forEach(function (classes) {
+                classRegex[i] = classes;
+                i = i + 1;
+            });
         }
 
         if (req.query.amenities_search === "select") {
-            amenitiesRegex = new RegExp('.*');
+            amenitiesRegex[0] = new RegExp('.*');
         } else {
-            amenitiesRegex = new RegExp(escapeRegex(req.query.amenities_search), 'gi');
+            let i = 0;
+            String(req.query.amenities_search).split(/\s*,\s*/).forEach(function (amenities) {
+                amenitiesRegex[i] = amenities;
+                i = i + 1;
+            });
         }
+        // end: sj - get the comma-seperated values, split and assign to array
 
         if (req.query.rating_search === "select") {
             Yoga.find({
                 name: nameRegex,
                 location: locationRegex,
-                classes: classRegex,
-                amenities: amenitiesRegex
+                classes: {
+                    '$in': classRegex  // $in option used for multiple value search
+                },
+                amenities:{
+                    '$in': amenitiesRegex
+                } 
             }, function (err, allYoga) {
                 if (err) {
                     console.log('MongoDB Error:' + err);
@@ -194,8 +211,12 @@ router.get("/", function (req, res) {
             Yoga.find({
                 name: nameRegex,
                 location: locationRegex,
-                classes: classRegex,
-                amenities: amenitiesRegex,
+                classes: {
+                    '$in': classRegex  // $in option used for multiple value search for class
+                },
+                amenities:{
+                    '$in':amenitiesRegex   // $in option used for multiple value search for amenities
+                },
                 rating: ratingRegex
             }, function (err, allYoga) {
                 if (err) {

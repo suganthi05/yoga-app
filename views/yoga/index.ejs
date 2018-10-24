@@ -1,6 +1,7 @@
 <% include ../partials/header %>
+
+
 <!-- begin: sj -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
@@ -47,6 +48,8 @@
           </select>
           <!-- end: sj - bootstrap multi select dropdown added for amenities -->
 
+
+
           <select name="rating_search" class="form-control">
             <option value="select">Select Rating</option>
             <option value="5">5</option>
@@ -54,9 +57,24 @@
             <option value="3">3</option>
             <option value="2">2</option>
             <option value="1">1</option>
-          </select>
+          </select>      
+
+        <select name="level_search" class="form-control">
+            <option value="select">Select Level</option>
+            <option value="Beginner">Beginner</option>
+            <option value="Beginner">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+          </select>   
+        <select name="price_search" class="form-control">
+            <option value="select">Select Price</option>
+            <option value="Low">$</option>
+            <option value="Medium">$$</option>
+            <option value="High">$$$</option>
+          </select>   
+
           <button id="filterbutton" class="btn btn-default">Search</button>
           <!--end: sj-->
+
         </div>
       </form>
       </p>

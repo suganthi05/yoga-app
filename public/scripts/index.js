@@ -31,34 +31,33 @@ function renderResult(yogadata, nomatch) {
         });
         // begin - sj - show amenities using awesome font
         let $amenities;
-        $para.append(" | "); 
+        $para.append("|"); 
         for (let amenities of yoga.amenities) {
             if (amenities === "Parking") {
               $amenities = $("<span>").addClass("fa fa-car").attr('title','Parking');
               $para.append($amenities);
-              $para.append(" | "); 
+              $para.append("|"); 
             } else if (amenities === "Wifi") {
               $amenities = $("<span>").addClass("fa fa-wifi").attr('title','Wifi');
               $para.append($amenities);
-              $para.append(" | ");
-            } else if (amenities === "Lockers") {
+              $para.append("|");
+            } else if (amenities === "Locker") {
               $amenities = $("<span>").addClass("fa fa-lock").attr('title','Locker');
               $para.append($amenities);
-              $para.append(" | ");
+              $para.append("|");
             } else if (amenities === "Showers") {
               $amenities = $("<span>").addClass("fa fa-shower").attr('title','Shower');
               $para.append($amenities);
-              $para.append(" | ");
+              $para.append("|");
             } else if (amenities === "Smoothie Bar") {
               $amenities = $("<span>").addClass("fa fa-coffee").attr('title','Smoothie Bar');
               $para.append($amenities);
-              $para.append(" | ");
+              $para.append("|");
             } 
         }
         $para.append("<br />");
         $para.append("<br />");
         // end - sj - show amenities using awesome font
-        
         // begin - sj - show rating star using awesome font
         let $star;
         for (let i = 0; i < 5; i++) {
@@ -140,33 +139,17 @@ $(document).ready(function () {
         let queryString = $("form").serialize();
         // begin - sj - get multi-select classes and build query string
         let classes = 0;
-        let selectClass = $('.selectpicker').selectpicker()[0];
-        for (let i = 0; i < selectClass.length; i++) {
-            if (selectClass[i].selected === true) {
-                queryString += "&class_search=" + selectClass[i].value;
-                classes = 1;
+        let select = $('.selectpicker').selectpicker()[0];
+        for (let i = 0; i < select.length; i++) {
+            if (select[i].selected === true) {
+                queryString += "&class_search=" + select[i].value;
+                classes = 1
             }
         }
         if (classes === 0) {
-            queryString += "&class_search=select";
+            queryString += "&class_search=select"
         }
         // end - sj - get multi-select classes and build query string
-        
-        // begin - sj - get multi-select amenities and build query string
-        let amenities = 0;
-        let selectAmenities = $('.selectpicker').selectpicker()[1];
-        for (let i = 0; i < selectAmenities.length; i++) {
-            if (selectAmenities[i].selected === true) {
-                queryString += "&amenities_search=" + selectAmenities[i].value;
-                amenities = 1;
-            }
-        }
-        if (amenities === 0) {
-            queryString += "&amenities_search=select";
-        }
-        console.log(queryString);
-        // end - sj - get multi-select amenities and build query string
-        
         $.ajax({
             url: "/yoga",
             method: "GET",
@@ -177,7 +160,6 @@ $(document).ready(function () {
         }).catch(function (error) {
             console.log("Error:", error);
         })
-        
     });
 });
 // end - sj

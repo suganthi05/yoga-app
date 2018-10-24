@@ -171,6 +171,7 @@ router.get("/", function (req, res) {
                 i = i + 1;
             });
         }
+        console.log(classRegex);
 
         if (req.query.amenities_search === "select") {
             amenitiesRegex[0] = new RegExp('.*');
@@ -187,11 +188,12 @@ router.get("/", function (req, res) {
             Yoga.find({
                 name: nameRegex,
                 location: locationRegex,
-                classes: {
-                    '$in': classRegex  // $in option used for multiple value search
-                },
+                $and: [
+                {classes: classRegex[0]},
+                {classes: classRegex[1]}
+                ], 
                 amenities:{
-                    '$in': amenitiesRegex
+                    '$in': amenitiesRegex   // $in option used for multiple value search for amenities
                 } 
             }, function (err, allYoga) {
                 if (err) {

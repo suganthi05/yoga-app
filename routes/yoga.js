@@ -142,9 +142,9 @@ function insertIntoFavorites(req, res) {
 router.get("/", function (req, res) {
     let noMatch = null;
     if (req.query.name_search || req.query.location_search || req.query.class_search ||
-        req.query.amenities_search || req.query.rating_search) {
+        req.query.amenities_search || req.query.rating_search || req.query.level_search || req.query.price_search ) {
 
-        let nameRegex, locationRegex, ratingRegex;
+        let nameRegex, locationRegex, ratingRegex, priceRegex, levelRegex;
         // begin - sj - declared classRegex,amenitiesRegex array
         let classRegex = [];
         let amenitiesRegex = [];
@@ -154,6 +154,7 @@ router.get("/", function (req, res) {
         } else {
             nameRegex = new RegExp(escapeRegex(req.query.name_search), 'gi');
         }
+        console.log(nameRegex);
 
         if (req.query.location_search === "") {
             locationRegex = new RegExp('.*');
@@ -182,11 +183,37 @@ router.get("/", function (req, res) {
                 i = i + 1;
             });
         }
+
+        if (req.query.level_search === "select") {
+            levelRegex = new RegExp('.*');
+        } else {
+            levelRegex = new RegExp(req.query.level_search);
+        }
+
+         if (req.query.price_search === "select") {
+            priceRegex = new RegExp('.*');
+        } else {
+            priceRegex = new RegExp(req.query.price_search);
+        }
+
         // end: sj - get the comma-seperated values, split and assign to array
 
         if (req.query.rating_search === "select") {
             Yoga.find({
-                name: nameRegex,
+
+                 name: nameRegex,
+                location: locationRegex,
+                classes: {
+                    '$in': classRegex  // $in option used for multiple value search for class
+                },
+                amenities:{
+                    '$in':amenitiesRegex   // $in option used for multiple value search for amenities
+                },
+                //rating: ratingRegex,
+                //cost:priceRegex,
+                beginners:levelRegex
+
+                /*name: nameRegex,
                 location: locationRegex,
                 $and: [
                 {classes: classRegex[0]},
@@ -194,7 +221,7 @@ router.get("/", function (req, res) {
                 ], 
                 amenities:{
                     '$in': amenitiesRegex   // $in option used for multiple value search for amenities
-                } 
+                } */
             }, function (err, allYoga) {
                 if (err) {
                     console.log('MongoDB Error:' + err);
@@ -219,7 +246,10 @@ router.get("/", function (req, res) {
                 amenities:{
                     '$in':amenitiesRegex   // $in option used for multiple value search for amenities
                 },
-                rating: ratingRegex
+                rating: ratingRegex,
+                //cost:priceRegex,
+                beginners:levelRegex
+
             }, function (err, allYoga) {
                 if (err) {
                     console.log(err);

@@ -40,7 +40,6 @@ router.post('/register', function (req, res) {
             username: req.body.username,
             home: formattedAddress,
             email: req.body.email,
-            photo: req.file.path,
             lat: latValue,
             lng: lngValue
         });

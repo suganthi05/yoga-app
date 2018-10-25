@@ -183,17 +183,15 @@ label input[type="checkbox"] {
 /* FOOTER ------- */
 
 .footer-distributed {
+
+    padding-top: 3%;
+    padding-bottom: 10%;
+    height: 34%;
     background-color: #222;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 114%;
-    margin-left: -6%;
-
-    text-align: left;
-    font: bold 16px sans-serif;
-
-    padding: 55px 50px;
-    margin-top: 54px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 .footer-left {
@@ -658,4 +656,7 @@ float: left !important;
     margin: 0;
 }
 
+.register-here {
+    margin-top: -8%;
+}
 

@@ -32,12 +32,12 @@ function renderResult(yogadata, nomatch) {
         });
         // begin - sj - show amenities using awesome font
         let $amenities;
-        $para.append(" | "); 
+        $para.append(" | ");
         for (let amenities of yoga.amenities) {
             if (amenities === "Parking") {
               $amenities = $("<span>").addClass("fa fa-car").attr('title','Parking');
               $para.append($amenities);
-              $para.append(" | "); 
+              $para.append(" | ");
             } else if (amenities === "Wifi") {
               $amenities = $("<span>").addClass("fa fa-wifi").attr('title','Wifi');
               $para.append($amenities);
@@ -54,7 +54,7 @@ function renderResult(yogadata, nomatch) {
               $amenities = $("<span>").addClass("fa fa-coffee").attr('title','Smoothie Bar');
               $para.append($amenities);
               $para.append(" | ");
-            } 
+            }
         }
 
         let $cost;
@@ -78,7 +78,7 @@ function renderResult(yogadata, nomatch) {
         $para.append("<br />");
         $para.append("<br />");
         // end - sj - show amenities using awesome font
-        
+
         // begin - sj - show rating star using awesome font
         let $star;
         for (let i = 0; i < 5; i++) {
@@ -171,7 +171,7 @@ $(document).ready(function () {
             queryString += "&classes=";
         }
         // end - sj - get multi-select classes and build query string
-        
+
         // begin - sj - get multi-select amenities and build query string
         let amenities = 0;
         let selectAmenities = $('.selectpicker').selectpicker()[1];
@@ -186,7 +186,7 @@ $(document).ready(function () {
         }
         console.log(queryString);
         // end - sj - get multi-select amenities and build query string
-        
+
         $.ajax({
             url: "/yoga",
             method: "GET",
@@ -197,7 +197,7 @@ $(document).ready(function () {
         }).catch(function (error) {
             console.log("Error:", error);
         })
-        
+
     });
 });
 // end - sj

@@ -26,8 +26,8 @@
       <form action="/yoga" method="GET" class="form-inline">
         <div class="form-group-2">
           <!--begin: sj-->
-          <input type="text" name="name_search" placeholder="Yoga Studio name" class="form-control">
-          <input type="text" name="location_search" placeholder="Location name" class="form-control">
+          <input type="text" name="name" placeholder="Yoga Studio name" class="form-control">
+          <input type="text" name="location" placeholder="Location name" class="form-control">
           <!-- begin: sj - bootstrap multi select dropdown added for classes -->
           <select class="selectpicker" title="Select classes" multiple data-live-search="true">
             <option value="Hatha Yoga">Hatha Yoga</option>
@@ -48,13 +48,13 @@
           </select>
           <!-- end: sj - bootstrap multi select dropdown added for amenities -->
 
-          <select name="rating_search" class="form-control">
-            <option value="select">Select Rating</option>
-            <option value="5">5</option>
-            <option value="4">4</option>
-            <option value="3">3</option>
-            <option value="2">2</option>
-            <option value="1">1</option>
+          <select name="rating" class="form-control">
+            <option value=0>Select Rating</option>
+            <option value=5>5</option>
+            <option value=4>4</option>
+            <option value=3>3</option>
+            <option value=2>2</option>
+            <option value=1>1</option>
           </select>
           <button id="filterbutton" class="btn btn-default">Search</button>
           <!--end: sj-->

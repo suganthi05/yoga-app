@@ -141,104 +141,48 @@ function insertIntoFavorites(req, res) {
 // begin - sj
 router.get("/", function (req, res) {
     let noMatch = null;
-    if (req.query.name_search || req.query.location_search || req.query.class_search ||
-        req.query.amenities_search || req.query.rating_search) {
-
-        let nameRegex, locationRegex, ratingRegex;
-        // begin - sj - declared classRegex,amenitiesRegex array
-        let classRegex = [];
-        let amenitiesRegex = [];
-        // end - sj - declared classRegex array
-        if (req.query.name_search === "") {
-            nameRegex = new RegExp('.*');
-        } else {
-            nameRegex = new RegExp(escapeRegex(req.query.name_search), 'gi');
-        }
-
-        if (req.query.location_search === "") {
-            locationRegex = new RegExp('.*');
-        } else {
-            locationRegex = new RegExp(escapeRegex(req.query.location_search), 'gi');
-        }
-
-        // begin: sj - get the comma-seperated values, split and assign to array
-        if (req.query.class_search === "select") {
-            classRegex[0] = new RegExp('.*');
-        } else {
-            let i = 0;
-            String(req.query.class_search).split(/\s*,\s*/).forEach(function (classes) {
-                classRegex[i] = classes;
-                i = i + 1;
-            });
-        }
-
-        if (req.query.amenities_search === "select") {
-            amenitiesRegex[0] = new RegExp('.*');
-        } else {
-            let i = 0;
-            String(req.query.amenities_search).split(/\s*,\s*/).forEach(function (amenities) {
-                amenitiesRegex[i] = amenities;
-                i = i + 1;
-            });
-        }
-        // end: sj - get the comma-seperated values, split and assign to array
-
-        if (req.query.rating_search === "select") {
-            Yoga.find({
-                name: nameRegex,
-                location: locationRegex,
-                classes: {
-                    '$in': classRegex  // $in option used for multiple value search
-                },
-                amenities:{
-                    '$in': amenitiesRegex
-                } 
-            }, function (err, allYoga) {
-                if (err) {
-                    console.log('MongoDB Error:' + err);
-                } else {
-                    if (allYoga.length < 1) {
-                        noMatch = "No yoga studio match that query, please try again.";
+    if (req.query.name || req.query.location || req.query.class ||
+        req.query.amenities || req.query.rating) {
+        let query = {};
+        for (let key in req.query) {
+            if (req.query[key] !== "") {
+                if (isNaN(req.query[key])) {
+                    if (key === "classes" || key === "amenities") {
+                        query[key] = { '$all': req.query[key] };
+                    } else {
+                        query[key] = new RegExp(escapeRegex(req.query[key]), 'gi');
                     }
-                    res.send({
-                        yoga: allYoga,
-                        noMatch: noMatch
-                    });
-                }
-            });
-        } else {
-            ratingRegex = req.query.rating_search;
-            Yoga.find({
-                name: nameRegex,
-                location: locationRegex,
-                classes: {
-                    '$in': classRegex  // $in option used for multiple value search for class
-                },
-                amenities:{
-                    '$in':amenitiesRegex   // $in option used for multiple value search for amenities
-                },
-                rating: ratingRegex
-            }, function (err, allYoga) {
-                if (err) {
-                    console.log(err);
                 } else {
-                    if (allYoga.length < 1) {
-                        noMatch = "No yoga studio match that query, please try again.";
+                    if (req.query[key] !== '0') {
+                        query[key] = Number(req.query[key]);
                     }
-                    res.send({
-                        yoga: allYoga,
-                        noMatch: noMatch
-                    });
                 }
-            });
+            } else {
+                query[key] = new RegExp('.*');
+            }
         }
+        console.log(query);
+
+        Yoga.find(query, function (err, allYoga) {
+            if (err) {
+                console.log('MongoDB Error:' + err);
+            } else {
+                if (allYoga.length < 1) {
+                    noMatch = "No yoga studio match that query, please try again.";
+                }
+                res.send({
+                    yoga: allYoga,
+                    noMatch: noMatch
+                });
+            }
+        });
     } else {
         // Get all yoga studio from DB and render
         Yoga.find({}, function (err, allYoga) {
             if (err) {
                 console.log(err);
             } else {
-                res.render("yoga/index", { //res.send({
+                res.render("yoga/index", {
                     yoga: allYoga,
                     noMatch: noMatch
                 });

@@ -143,12 +143,12 @@ $(document).ready(function () {
         let selectClass = $('.selectpicker').selectpicker()[0];
         for (let i = 0; i < selectClass.length; i++) {
             if (selectClass[i].selected === true) {
-                queryString += "&class_search=" + selectClass[i].value;
+                queryString += "&classes=" + selectClass[i].value;
                 classes = 1;
             }
         }
         if (classes === 0) {
-            queryString += "&class_search=select";
+            queryString += "&classes=";
         }
         // end - sj - get multi-select classes and build query string
         
@@ -157,12 +157,12 @@ $(document).ready(function () {
         let selectAmenities = $('.selectpicker').selectpicker()[1];
         for (let i = 0; i < selectAmenities.length; i++) {
             if (selectAmenities[i].selected === true) {
-                queryString += "&amenities_search=" + selectAmenities[i].value;
+                queryString += "&amenities=" + selectAmenities[i].value;
                 amenities = 1;
             }
         }
         if (amenities === 0) {
-            queryString += "&amenities_search=select";
+            queryString += "&amenities=";
         }
         console.log(queryString);
         // end - sj - get multi-select amenities and build query string

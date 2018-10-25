@@ -1,10 +1,10 @@
 //file for posting the fav studio , aa
 $(document).ready(function () {
 
-    $("#id-of-input").change(function (e) {
+    $("#id-of-input").click(function (e) {
         //$("#favbutton").click(function (e) {
         e.preventDefault();
-        if (this.checked) {
+        if (true) {
             var urlpath = window.location.pathname; //gives the current URL
             var id = urlpath.substring(urlpath.lastIndexOf('/') + 1);
             console.log("----working-----");
@@ -46,25 +46,25 @@ $(document).ready(function () {
 $(document).ready(function () {
 
     $('.click').click(function () {
-        if ($('span').hasClass("fa-star")) {
-            $('.click').removeClass('active')
+        if ($(this).find('span').hasClass("fa-star")) {
+            $(this).removeClass('active')
             setTimeout(function () {
-                $('.click').removeClass('active-2')
+                $(this).removeClass('active-2')
             }, 30)
-            $('.click').removeClass('active-3')
+            $(this).removeClass('active-3')
             setTimeout(function () {
-                $('span').removeClass('fa-star')
-                $('span').addClass('fa-star-o')
+                $(this).find('span').removeClass('fa-star');
+                $(this).find('span').addClass('fa-star-o')
             }, 15)
         } else {
-            $('.click').addClass('active')
-            $('.click').addClass('active-2')
+            $(this).addClass('active')
+            $(this).addClass('active-2')
             setTimeout(function () {
-                $('span').addClass('fa-star')
-                $('span').removeClass('fa-star-o')
+                $(this).addClass('fa-star')
+                $(this).removeClass('fa-star-o')
             }, 150)
             setTimeout(function () {
-                $('.click').addClass('active-3')
+                $(this).addClass('active-3')
             }, 150)
             $('.info').addClass('info-tog')
             setTimeout(function () {

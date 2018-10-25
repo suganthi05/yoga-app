@@ -19,7 +19,7 @@
                 var userStudiosLocations = [];
                 var userLat = <%= currentUser.lat %>;
                 var userLng = <%= currentUser.lng %>;
-                // var username = "<%= currentUser.username %>";
+                var username = "<%= currentUser.username %>";
             </script>
             Lat/Lng:
             <%= currentUser.lat %>
@@ -76,8 +76,8 @@
             userFavLocations.push({
                 lat: <%= yogaelement.lat %>,
                 lng: <%= yogaelement.lng %>,
-                // name: "<%= yogaelement.name %>",
-                // image: "<%= yogaelement.image %>"
+                name: "<%= yogaelement.name %>",
+                image: "<%= yogaelement.image %>"
             });
         </script>
         <div class="col-md-3 col-sm-6">

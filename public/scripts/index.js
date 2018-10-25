@@ -18,6 +18,7 @@ function renderResult(yogadata, nomatch) {
         let name = yoga.name;
         let yogaid = yoga._id;
         let rating = yoga.rating;
+        let cost = yoga.cost;
         let $column = $("<div>").addClass("col-md-3 col-sm-6");
         let $thumbnail = $("<div>").addClass("thumbnail");
         let $image = $(`<img src = ${img}>`)
@@ -55,6 +56,25 @@ function renderResult(yogadata, nomatch) {
               $para.append(" | ");
             } 
         }
+
+        let $cost;
+        if (cost >= 0 && cost <= 15) {
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+        } else if (cost > 15 && cost <= 25) {
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+        } else if (cost > 25) {
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+        }
+
         $para.append("<br />");
         $para.append("<br />");
         // end - sj - show amenities using awesome font
@@ -143,12 +163,12 @@ $(document).ready(function () {
         let selectClass = $('.selectpicker').selectpicker()[0];
         for (let i = 0; i < selectClass.length; i++) {
             if (selectClass[i].selected === true) {
-                queryString += "&class_search=" + selectClass[i].value;
+                queryString += "&classes=" + selectClass[i].value;
                 classes = 1;
             }
         }
         if (classes === 0) {
-            queryString += "&class_search=select";
+            queryString += "&classes=";
         }
         // end - sj - get multi-select classes and build query string
         
@@ -157,12 +177,12 @@ $(document).ready(function () {
         let selectAmenities = $('.selectpicker').selectpicker()[1];
         for (let i = 0; i < selectAmenities.length; i++) {
             if (selectAmenities[i].selected === true) {
-                queryString += "&amenities_search=" + selectAmenities[i].value;
+                queryString += "&amenities=" + selectAmenities[i].value;
                 amenities = 1;
             }
         }
         if (amenities === 0) {
-            queryString += "&amenities_search=select";
+            queryString += "&amenities=";
         }
         console.log(queryString);
         // end - sj - get multi-select amenities and build query string

@@ -1,4 +1,5 @@
-// begin - sj
+//merge 
+///// begin - sj
 // render yoga studio search results
 function renderResult(yogadata, nomatch) {
     $("div#search-result").html('');

@@ -142,7 +142,7 @@ function insertIntoFavorites(req, res) {
 router.get("/", function (req, res) {
     let noMatch = null;
     if (req.query.name || req.query.location || req.query.class ||
-        req.query.amenities || req.query.rating) {
+        req.query.amenities || req.query.rating || req.query.beginners) {
         let query = {};
         for (let key in req.query) {
             if (req.query[key] !== "") {

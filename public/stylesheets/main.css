@@ -9,6 +9,7 @@ body {
 
 .thumbnail {
     padding: 0;
+    margin-top: 12%;
 }
 
 .thumbnail:hover {
@@ -42,19 +43,21 @@ body {
     font-size: 19px;
 }
 
+
+
 #yoga-header {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 34px;
     margin-left: 14%;
     color: white;
 
 }
 
-/*#yoga-header:hover {
+#yoga-header:hover {
     font-weight: 400;
-    font-size: 35px;
+    font-size: 38px;
     margin-left: 14%;
-}*/
+}
 
 /* Google Maps */
 #map {
@@ -78,10 +81,17 @@ body {
 
 .jumbotron {
     margin-top: 7%;
-    background-image: url(./yoga-img2.jpeg);
+    background-image: url(./burst.jpg);
     background-position: 0% 25%;
     background-size: cover;
-    background-repeat: no-repeat;
+  /*  background-repeat: no-repeat;
+    -webkit-box-shadow: 1px 1px 2px 3px #ccc;
+    -moz-box-shadow:    1px 1px 2px 3px  #ccc;
+    box-shadow:         1px 1px 2px 3px #ccc;*/
+}
+
+.jumbotron background-image{
+    opacity: 0.5;
 }
 
 /* Style for star rating */
@@ -473,7 +483,9 @@ span:active {
 }
 
 .form-control {
-    width: 150%;}
+    width: 150%;
+    display: inline ;
+}
 
 .go-back {
     margin-left: 40%;
@@ -508,7 +520,7 @@ span:active {
 }
 
 .login-font {
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .fa-heart {
@@ -523,9 +535,127 @@ span:active {
   background-image: url(./yoga-img.png);
 }
 
+.jumbo-4 {
+    margin-top: 5%;
+    background: grey;
+    padding: 1%;
+}
 
+.form-style {
+    display: inline;
+}
 
+.first {
+float: left;
+margin-left: 5%;
+}
 
+.second {
+ margin-left: 32%;
+}
 
+.third {
+float: right;
+margin-right: 5%;
+}
+
+#form-1 input{
+    /*float: left !important;
+    margin-bottom: 3%;
+    margin-right: 3%;*/
+
+}
+
+#form-2{
+float: left !important;
+width: 500px;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+#form-3{
+float: left !important;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+#form-4{
+float: left !important;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+#form-5 {
+    float: left !important;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+#select-form {
+    border: grey !important;
+    width: 60%;
+}
+
+.btn-xlarge {
+    margin-right: 1%;
+    padding: 14px 18px;
+    font-size: 16px;
+    border-color: grey !important;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+            background-color: grey !important;
+}
+
+.btn-large {
+    padding: 6px 20px;
+    font-size: 16px;
+    line-height: normal;
+    border-color: grey !important;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+            background-color: grey !important;
+}
+
+.fa-heart {
+    color:black;
+}
+
+.all-yoga-studios {
+    color: white !important;
+    text-align: center;
+     font-size: 2.75em;
+  font-weight: normal;
+}
+/*
+#studio-name-form {
+ margin-top: 3%;
+ float: left !important;
+}
+
+#studio-loc-form{
+margin-top: 3%;
+float: left !important;
+}*/
+
+.explore-studios {
+    margin-left: -55%;
+}
+
+.explore-classes {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.search-form{
+    margin: 0;
+}
 
 

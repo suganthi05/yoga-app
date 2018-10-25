@@ -17,16 +17,19 @@
       <h1>Welcome To Yoga!</h1>
       <p>Explore yoga studios across the greater Toronto area!</p>
       <p>
-        <a class="btn btn-primary btn-large" href="/yoga">View All Yoga Studios</a>
-        <a class="btn btn-primary btn-large" href="/yoga/new">Add New Yoga Studio</a>
-        <a class="btn btn-primary btn-large" href="/yoga/getfavorites">My Favorites</a>
+        <a class="btn btn-primary btn-xlarge" href="#all-studios">View All Yoga Studios</a>
+        <a class="btn btn-primary btn-xlarge" href="/yoga/new">Add New Yoga Studio</a>
+        <a class="btn btn-primary btn-xlarge" href="/yoga/getfavorites">My Favorites</a>
         <p>
       <form action="/yoga" method="GET" class="form-inline">
         <div class="form-group-2">
           <!--begin: sj-->
-          <input type="text" name="name" placeholder="Yoga Studio name" class="form-control">
-          <input type="text" name="location" placeholder="Location name" class="form-control">
+          <div id="form-1">
+          <input type="text" name="name" placeholder="Yoga Studio name" class="form-1">
+          <input type="text" name="location" placeholder="Location name" >
+        </div>
           <!-- begin: sj - bootstrap multi select dropdown added for classes -->
+          <div id="form-2">
           <select class="selectpicker" title="Select classes" multiple data-live-search="true">
             <option value="Hatha Yoga">Hatha Yoga</option>
             <option value="Bikram Yoga">Bikram Yoga</option>
@@ -34,9 +37,11 @@
             <option value="Prenatal Yoga">Prenatal Yoga</option>
             <option value="Vinyasa Yoga">Vinyasa Yoga</option>
           </select>
+          <div>
           <!-- end: sj - bootstrap multi select dropdown added for classes -->
-
+          <br>
           <!-- begin: sj - bootstrap multi select dropdown added for amenities -->
+          <div id="select-form">
           <select class="selectpicker" title="Select amenities" multiple data-live-search="true">
             <option value="Parking">Parking</option>
             <option value="Wifi">Wifi</option>
@@ -44,7 +49,10 @@
             <option value="Showers">Showers</option>
             <option value="Smoothie Bar">Smoothie Bar</option>
           </select>
+        </div>
+
           <!-- end: sj - bootstrap multi select dropdown added for amenities -->
+          <div id="form-2">
           <select name="rating" class="form-control">
             <option value=0>Select Rating</option>
             <option value=5>5</option>
@@ -53,19 +61,26 @@
             <option value=2>2</option>
             <option value=1>1</option>
           </select>
+        </div>
+        <div id="form-3">
           <select name="beginners" class="form-control">
             <option value="">Select Level</option>
             <option value="Yes">Beginner</option>
             <option value="No">Intermediate</option>
             <option value="No">Advanced</option>
           </select>
+        </div>
+        <div id="form-4">
           <select name="cost" class="form-control">
             <option value=0>Select Price</option>
             <option value="low">$</option>
             <option value="medium">$$</option>
             <option value="high">$$$</option>
           </select>
-          <button id="filterbutton" class="btn btn-default">Search</button>
+        </div>
+        <div id="form-5">
+          <button id="filterbutton" class="btn btn-default btn-primary btn-large">Search</button>
+        </div>
           <!--end: sj-->
         </div>
       </form>
@@ -76,6 +91,17 @@
   <div id="map" class="halfmap"></div>
   <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcrlOjVKHhFlqVzG9Fp96FmZNYDF-0gG4&callback=initMap"></script>
   <!--aa-->
+<!--
+  <div class="jumbotron jumbo-4">
+    <a href="#"><p class="form-style first">West GTA</p></a>
+    <a href="#"><p class="form-style second">Toronto Core</p></a>
+    <a href="#"><p class="form-style third">East GTA</p></a>
+  </div> -->
+
+  <div class="jumbotron jumbo-4">
+      <h2 id="all-studios" class="all-yoga-studios">All   Yoga   Studios</h2>
+  </div>
+
   <div class="col-container">
   <div id="search-result" class="row text-center" style="display:flex; flex-wrap: wrap;">
     <div class="col-md-12">

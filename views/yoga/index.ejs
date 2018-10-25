@@ -24,8 +24,8 @@
       <form action="/yoga" method="GET" class="form-inline">
         <div class="form-group-2">
           <!--begin: sj-->
-          <input type="text" name="name_search" placeholder="Yoga Studio name" class="form-control">
-          <input type="text" name="location_search" placeholder="Location name" class="form-control">
+          <input type="text" name="name" placeholder="Yoga Studio name" class="form-control">
+          <input type="text" name="location" placeholder="Location name" class="form-control">
           <!-- begin: sj - bootstrap multi select dropdown added for classes -->
           <select class="selectpicker" title="Select classes" multiple data-live-search="true">
             <option value="Hatha Yoga">Hatha Yoga</option>
@@ -45,13 +45,25 @@
             <option value="Smoothie Bar">Smoothie Bar</option>
           </select>
           <!-- end: sj - bootstrap multi select dropdown added for amenities -->
-          <select name="rating_search" class="form-control">
-            <option value="select">Select Rating</option>
-            <option value="5">5</option>
-            <option value="4">4</option>
-            <option value="3">3</option>
-            <option value="2">2</option>
-            <option value="1">1</option>
+          <select name="rating" class="form-control">
+            <option value=0>Select Rating</option>
+            <option value=5>5</option>
+            <option value=4>4</option>
+            <option value=3>3</option>
+            <option value=2>2</option>
+            <option value=1>1</option>
+          </select>
+          <select name="beginners" class="form-control">
+            <option value="">Select Level</option>
+            <option value="Yes">Beginner</option>
+            <option value="No">Intermediate</option>
+            <option value="No">Advanced</option>
+          </select>
+          <select name="cost" class="form-control">
+            <option value=0>Select Price</option>
+            <option value="low">$</option>
+            <option value="medium">$$</option>
+            <option value="high">$$$</option>
           </select>
           <button id="filterbutton" class="btn btn-default">Search</button>
           <!--end: sj-->
@@ -84,7 +96,7 @@
         </div>
         <p>
            <!-- begin: sj - show amenities using awesome font -->
-          |<% yoga.amenities.forEach(function(amenities){ %>
+          <% yoga.amenities.forEach(function(amenities) { %>
             <% if (amenities === "Parking") { %>
               <span class="fa fa-car" title="Parking"></span> |
             <% } else if (amenities === "Wifi") { %>
@@ -97,6 +109,16 @@
               <span class="fa fa-coffee" title="Smoothie Bar"></span> |
             <%}%>
           <% }); %>
+          <% if (yoga.cost >= 0 && yoga.cost <= 15) { %>
+              <span class="fa fa-dollar"></span>
+          <% } else if (yoga.cost > 15 && yoga.cost <= 25) { %>
+              <span class="fa fa-dollar"></span>
+              <span class="fa fa-dollar"></span>
+          <% } else if (yoga.cost > 25) { %>
+              <span class="fa fa-dollar"></span>
+              <span class="fa fa-dollar"></span>
+              <span class="fa fa-dollar"></span>
+          <%}%>
           <br /><br />
           <!-- end: sj - show amenities using awesome font -->
           <!-- begin: sj - display rating star -->

@@ -65,7 +65,7 @@
           </select>
 
           <select name="cost" class="form-control">
-            <option value="">Select Price</option>
+            <option value=0>Select Price</option>
             <option value="low">$</option>
             <option value="medium">$$</option>
             <option value="high">$$$</option>
@@ -103,7 +103,7 @@
         </div>
         <p>
            <!-- begin: sj - show amenities using awesome font --> 
-          |<% yoga.amenities.forEach(function(amenities){ %>
+          <% yoga.amenities.forEach(function(amenities) { %>
             <% if (amenities === "Parking") { %>
               <span class="fa fa-car" title="Parking"></span> | 
             <% } else if (amenities === "Wifi") { %>
@@ -116,6 +116,16 @@
               <span class="fa fa-coffee" title="Smoothie Bar"></span> | 
             <%}%> 
           <% }); %>
+          <% if (yoga.cost >= 0 && yoga.cost <= 15) { %>
+              <span class="fa fa-dollar"></span>
+          <% } else if (yoga.cost > 15 && yoga.cost <= 25) { %>
+              <span class="fa fa-dollar"></span>
+              <span class="fa fa-dollar"></span>
+          <% } else if (yoga.cost > 25) { %>
+              <span class="fa fa-dollar"></span>
+              <span class="fa fa-dollar"></span>
+              <span class="fa fa-dollar"></span>
+          <%}%>
           <br /><br /> 
           <!-- end: sj - show amenities using awesome font -->
           <!-- begin: sj - display rating star -->

@@ -18,6 +18,7 @@ function renderResult(yogadata, nomatch) {
         let name = yoga.name;
         let yogaid = yoga._id;
         let rating = yoga.rating;
+        let cost = yoga.cost;
         let $column = $("<div>").addClass("col-md-3 col-sm-6");
         let $thumbnail = $("<div>").addClass("thumbnail");
         let $image = $(`<img src = ${img}>`)
@@ -55,6 +56,25 @@ function renderResult(yogadata, nomatch) {
               $para.append(" | ");
             } 
         }
+
+        let $cost;
+        if (cost >= 0 && cost <= 15) {
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+        } else if (cost > 15 && cost <= 25) {
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+        } else if (cost > 25) {
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+            $cost = $("<span>").addClass("fa fa-dollar");
+            $para.append($cost);
+        }
+
         $para.append("<br />");
         $para.append("<br />");
         // end - sj - show amenities using awesome font

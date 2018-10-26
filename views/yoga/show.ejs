@@ -8,19 +8,20 @@
 <div>
     <div class="row top-space color-container">
         <div>
-            <h1 class="yoga-header">
+            <h1 id="headerr" class="yoga-header">
                 <%=yoga.name%>
             </h1>
             <div class="col-md-3 full-card">
-                <a class="home-tag" href="/yoga">Home</a>
+
 
                 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
 
-                <label for="id-of-input" class="custom-checkbox">
+                <label id="favbutton" for="id-of-input" class="custom-checkbox">
                     <input type="checkbox" id="id-of-input" />
                     <i class="glyphicon glyphicon-heart-empty"></i>
                     <i class="glyphicon glyphicon-heart"></i>
-                    <p id="favbutton">Add to Favorites</p>
+                    <br>
+                    <p >Add to Favorites</p>
                 </label>
 
                 <!-- <div class="click" id="id-of-input">
@@ -56,9 +57,9 @@
                 <div class="thumbnail">
                     <img class="img-responsive" src="<%= yoga.image %>">
                     <div class="caption-full">
-                        <h4 class="pull-right">$
+                        <h4 class="pull-right large-ish">$
                             <%= yoga.cost %>/Day Pass</h4>
-                        <h4>Average Rating:
+                        <h4 class="large-ish">Average Rating:
                             <% for (var i = 0; i < 5 ; i++) { %>
                             <% if (i < yoga.rating) { %>
                             <span class="fa fa-star checked"></span>
@@ -69,22 +70,36 @@
                         </h4>
 
                         <div class="list-group">
-                            <li class="list-group-item active">Amenities</li>
+                            <li class="list-group-item active large-ish">Amenities<span>&emsp;
+                                 <% yoga.amenities.forEach(function(amenities) { %>
+                                     <% if (amenities === "Parking") { %>
+                                    <span class="large fa fa-car" title="Parking"></span>&emsp;
+                                    <% } else if (amenities === "Wifi") { %>
+                                     <span class="large fa fa-wifi" title="Wifi"></span>&emsp;
+                                    <% } else if (amenities === "Lockers") { %>
+                                    <span class="large fa fa-lock"  title="Locker"></span>&emsp;
+                                    <% } else if (amenities === "Showers") { %>
+                                     <span class="large fa fa-shower"  title="Shower"></span>&emsp;
+                                    <% } else if (amenities === "Smoothie Bar") { %>
+                                    <span class="large fa fa-coffee" title="Smoothie Bar"></span>&emsp;
+                                    <%}%>
+                                 <% }); %>
+                            </span></li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(var i=0; i<yoga.amenities.length; i++){ %>
                                 <i class="material-icons">
-                                    <%=yoga.amenities[i]%></i>
+                                    <%=yoga.amenities[i] + ","%></i>
                                 <% } %>
 
                             </li>
                             </li>
                         </div>
                         <div class="list-group">
-                            <li class="list-group-item active">Classes</li>
+                            <li class="list-group-item active large-ish">Classes</li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(var i=0; i<yoga.classes.length; i++){ %>
                                 <i class="material-icons">
-                                    <%=yoga.classes[i]%></i>
+                                    <%=yoga.classes[i]+ ","%></i>
                                 <% } %>
 
                             </li>
@@ -92,7 +107,7 @@
                         </div>
 
                         <div class="list-group">
-                            <li class="list-group-item active">Classes Suitable for Beginners?</li>
+                            <li class="list-group-item active large-ish">Classes Suitable for Beginners?</li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(var i=0; i<yoga.beginners.length; i++){ %>
                                 <i class="material-icons">
@@ -104,8 +119,8 @@
                         </div>
 
                     </div>
-                    <h4><a>
-                            <%=yoga.name%></a></h4>
+                    <h4 class="large-ish">
+                            Description:</h4>
                     <p>
                         <%= yoga.description %>
                     </p>
@@ -124,7 +139,7 @@
             </div>
             <div class="well">
                 <div class="text-right">
-                    <a class="btn btn-success" href="/yoga/<%= yoga._id %>/comments/new">Add New Review</a>
+                    <a class="btn btn-success " href="/yoga/<%= yoga._id %>/comments/new">Add New Review</a>
                 </div>
                 <hr>
                 <% yoga.comments.forEach(function(comment){ %>

@@ -148,14 +148,24 @@ router.get("/", function (req, res) {
             if (req.query[key] !== "") {
                 if (isNaN(req.query[key])) {
                     if (key === "classes" || key === "amenities") {
-                        query[key] = { '$all': req.query[key] };
-                    } if (key === "cost") {
+                        query[key] = {
+                            '$all': req.query[key]
+                        };
+                    } else if (key === "cost") {
                         if (req.query[key] === "low") {
-                            query[key] = {$gte: 0, $lte: 15};
+                            query[key] = {
+                                $gte: 0,
+                                $lte: 15
+                            };
                         } else if (req.query[key] === "medium") {
-                            query[key] = {$gt: 15, $lte: 25};
+                            query[key] = {
+                                $gt: 15,
+                                $lte: 25
+                            };
                         } else if (req.query[key] === "high") {
-                            query[key] = {$gt: 25};
+                            query[key] = {
+                                $gt: 25
+                            };
                         }
                     } else {
                         query[key] = new RegExp(escapeRegex(req.query[key]), 'gi');

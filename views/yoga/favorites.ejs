@@ -1,18 +1,22 @@
 <% include ../partials/header %>
+<link rel="stylesheet" href="/stylesheets/main.css">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
 <br>
 <br>
-<br>
+
 <div class="container top-space-fave">
     <div class="container">
-        <h2>
-            Welcome
-            <%= currentUser.username %>
-        </h2>
-        <h3>
-            Address:
-            <%= currentUser.home %>
-        </h3>
+        <div class="user-info">
+            <h2 style="color:#2bddcf;">
+                <br>
+                Welcome
+                <%= currentUser.username %>!
+            </h2>
+            <h3>
+                Address:
+                <%= currentUser.home %>
+            </h3>
+        </div>
         <h3>
             <script>
                 var userFavLocations = [];
@@ -20,10 +24,10 @@
                 var userLat = <%= currentUser.lat %>;
                 var userLng = <%= currentUser.lng %>;
                 var username = "<%= currentUser.username %>";
+                var photo = "<%= currentUser.photo %>";
             </script>
-            Lat/Lng:
-            <%= currentUser.lat %>
-            <%= currentUser.lng %>
+
+            <img class="profile-pic" src="<%= currentUser.photo %>" width="150px" height="150px" />
         </h3>
     </div>
 
@@ -54,7 +58,7 @@
                         </h4>
                     </div>
                     <p>
-                        <a href="/yoga/<%= mystudio._id %>" class="btn btn-primary">More Info</a>
+                        <!-- <a href="/yoga/<%= mystudio._id %>" class="btn btn-primary">More Info</a> -->
                     </p>
                 </div>
             </div>

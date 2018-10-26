@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+var PORT = 3000;
 var express = require("express"),
     app = express(),
     bodyParser = require("body-parser"),
@@ -63,7 +64,7 @@ app.use("/", indexRoutes);
 app.use("/yoga", yogaRoutes);
 app.use("/yoga/:id/comments", commentRoutes);
 
-app.listen(3000, function () {
+app.listen(PORT, function () {
     console.log("Our Yoga Server Has Started!");
 });
 //aa register

@@ -3,6 +3,43 @@ var router = express.Router();
 var passport = require('passport');
 var User = require('../models/user');
 var NodeGeocoder = require('node-geocoder');
+var multer = require('multer');
+var morgan = require('morgan');
+var bodyParser = require("body-parser");
+var crypto = require("crypto");
+var PORT = 3000;
+
+
+// https://alligator.io/nodejs/uploading-files-multer-express/
+
+router.use(express.static("public"));
+router.use(bodyParser.urlencoded({
+    extended: true
+}));
+
+let storage = multer.diskStorage({
+    destination: (req, file, cb) => {
+        cb(null, 'public/images/uploads');
+    },
+    filename: (req, file, cb) => {
+        cb(null, file.fieldname + '-' + Date.now() + '.jpg');
+    }
+});
+
+let upload = multer({
+    storage: storage
+});
+
+router.post('/fileupload', upload.single('image'), (req, res) => {
+    const host = req.hostname;
+    const filePath = req.protocol + "://" + host + ':' + PORT + '/images/uploads/' + req.file.filename;
+    console.log(req.file.filename);
+    console.log(filePath);
+
+    res.json({
+        url: filePath
+    });
+});
 
 var options = {
     provider: 'google',
@@ -25,6 +62,7 @@ router.get('/register', function (req, res) {
 
 //handle sign up logic
 router.post('/register', function (req, res) {
+
     geocoder.geocode(req.body.home, function (err, data) {
         if (err || !data.length) {
             console.log(err);
@@ -41,7 +79,8 @@ router.post('/register', function (req, res) {
             home: formattedAddress,
             email: req.body.email,
             lat: latValue,
-            lng: lngValue
+            lng: lngValue,
+            photo: req.body.url
         });
 
         User.register(newUser, req.body.password, function (err, user) {

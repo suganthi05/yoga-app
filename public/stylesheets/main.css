@@ -3,6 +3,7 @@ body {
     font-weight: 400;
 }
 
+
 .thumbnail img {
     width: 100%;
 }
@@ -13,9 +14,9 @@ body {
 
 .thumbnail:hover {
 
-  border-color: #a6d9e0;
-  border-width: 1px;
-  box-shadow: 1px 2px #888888;
+    border-color: #a6d9e0;
+    border-width: 1px;
+    box-shadow: 1px 2px #888888;
 }
 
 
@@ -105,6 +106,7 @@ body {
     margin-left: 30%;
     margin-top: 2%;
 }
+
 .form-group-2 {
     width: 30%;
     margin-left: 0;
@@ -473,7 +475,8 @@ span:active {
 }
 
 .form-control {
-    width: 150%;}
+    width: 150%;
+}
 
 .go-back {
     margin-left: 40%;
@@ -488,7 +491,7 @@ span:active {
     margin: 5%;
 }
 
-.form-height{
+.form-height {
     margin-top: 10%;
 }
 
@@ -497,7 +500,7 @@ span:active {
     margin-top: 2%;
 }
 
-.location-plc{
+.location-plc {
     margin-left: 49%;
     margin-top: 2%;
 }
@@ -516,16 +519,25 @@ span:active {
 }
 
 .jumbo-2 {
-  background-image: url(./yoga-img.png);
+    background-image: url(./yoga-img.png);
 }
 
 .jumbo-3 {
-  background-image: url(./yoga-img.png);
+    background-image: url(./yoga-img.png);
 }
 
+/* profile-pic in fav */
+.profile-pic {
+    border-radius: 50%;
+    /* background: paper.jpg; */
+    background-position: center;
+    padding: 20px;
+    width: 180px;
+    height: 180px;
+    float: right;
+    border: 3px solid #2bddcf;
+}
 
-
-
-
-
-
+.user-info {
+    float: left;
+}

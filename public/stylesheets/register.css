@@ -1,5 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
 
+.profile-pic {
+    border-radius: 15px;
+    /* background: paper.jpg; */
+    background-position: center;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -48,11 +57,11 @@ body :-ms-input-placeholder {
 }
 
 .wrapper {
-    background: #9ee0ef;
-    background: -webkit-linear-gradient(top left, #c1f6ff 0%, #96c5cc 100%);
-    background: -moz-linear-gradient(top left, #c1f6ff 0%, #96c5cc 100%);
-    background: -o-linear-gradient(top left, #c1f6ff 0%, #96c5cc 100%);
-    background: linear-gradient(to bottom right, #c1f6ff 0%, #96c5cc 100%);
+    background: #50a3a2;
+    background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
     position: absolute;
     top: 50%;
     left: 0;

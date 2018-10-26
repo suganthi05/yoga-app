@@ -8,12 +8,16 @@ mongoose.connect("mongodb://localhost:27017/yelp_camp_v6", {
   useNewUrlParser: true
 });
 
+website : "https://www.yogashalawaterdown.com/",
+  phone : "(905) 689-9642",
 const data = [
   //YYOGA Queen Street West
   {
     name: "YYOGA Queen Street West",
     image: "https://iamyoga.ca/wp-content/uploads/2017/04/studio-experience.jpg",
     rating: 3,
+    website: "https://yyoga.ca/locations/queen-street-west"
+    phone : "(416) 792-2211"
     description: "12+ styles from stretchy to sweaty,  heated and non-heated,  for all levels of practice.",
     amenities: [
       "Parking",
@@ -39,9 +43,11 @@ const data = [
   },
   //Yoga Tree Richmond and Spadina
   {
-    name: "Yoga Tree Richmond and Spadina",
+    name: "Yoga Tree Richmond",
     image: "https://ak4.picdn.net/shutterstock/videos/5918144/thumb/2.jpg",
     rating: 4,
+    website:"http://www.yogatree.ca/richmond-spadina/"
+    phone :"(416) 603-9642"
     description: "experience a variety of yoga styles including Hot Yoga, Yoga for Beginners, Reduced Heat Yoga, Hatha, Restorative, Core Yoga and much more!",
     amenities: [
       "Parking",
@@ -70,6 +76,8 @@ const data = [
     name: "Iam Yoga Downtown",
     image: "https://cdn6.dissolve.com/p/D187_218_100/D187_218_100_1200.jpg",
     rating: 4,
+    website:"https://iamyoga.ca/"
+    phone :"(416) 597-8557"
     description: "Great community and offers students the  chance to connect within the community  while offering time cleaning or supporting  our management staff on the front desk  with providing an amazing customer  experience in exchange for unlimited  access to all the classes our studios offer.",
 
     amenities: [
@@ -100,6 +108,8 @@ const data = [
     name: "The Yoga Sanctuary",
     image: "https://st2.depositphotos.com/1518767/6900/i/950/depositphotos_69001081-stock-photo-people-exercising-on-fitness-mats.jpg",
     rating: 4,
+    website:"https://www.theyogasanctuary.ca/"
+    phone :"(416) 928-3236"
     description: "Great for the benefits of mental health,  physical health as well as balancing your  emotional and spiritual health.",
     amenities: [
       "Parking",
@@ -129,6 +139,8 @@ const data = [
     name: "Yoga Tree Bay & Dundas",
     image: "http://uprnc2thzbu47ptop2z7kxg1.wpengine.netdna-cdn.com/wp-content/uploads/2017/04/bay-dundas-yoga-studio-toronto-1.jpg",
     rating: 4,
+    website:"http://www.yogatree.ca/bay-dundas/"
+    phone : "(416) 205-9642"
     description: "Classes are designed to prepare new yogis for a balanced Hatha practice. ",
     amenities: [
       "Wifi",
@@ -158,6 +170,8 @@ const data = [
     name: "BeHot Yoga Toronto",
     image: "http://96bda424cfcc34d9dd1a-0a7f10f87519dba22d2dbc6233a731e5.r41.cf2.rackcdn.com/behotyogatoronto/apilatespicc/apilatespicc_250x172.jpg",
     rating: 5,
+    website:"http://behotyogatoronto.com/"
+    phone :"(416) 203-2382"
     description: "The exercises in Hot Pilates, are designed so that anyone from the beginner to the advanced feels challenged, regardless of flexibility or strength.",
 
     amenities: [
@@ -190,6 +204,8 @@ const data = [
     name: "YYOGA Harbourfront",
     image: "https://cdn8.dissolve.com/p/D145_292_842/D145_292_842_1200.jpg",
     rating: 5,
+    website:"https://yyoga.ca/locations/harbourfront"
+    phone :"(416) 240-6175"
     description: "Great place to connect with others before  and after class at our luxurious tea station,  and to take advantage of our teachers,  workshops, and classes that will help you grow.",
 
     amenities: [
@@ -221,6 +237,8 @@ const data = [
     name: "Union Yoga + Wellness",
     image: "http://footage.framepool.com/shotimg/464980065-sport-mat-yoga-fitness-gym-class-procedure.jpg",
     rating: 5,
+    website:"http://www.unionyogastudio.ca/"
+    phone : "(416) 516-0909"
     description: "This is such a lovely yoga studio! The staff are always friendly, the teachers are fantastic and the classes are amazing! They have a combination of hot and cold yoga as well as fusion and Pilates classes. They offer free tea and free water bottles to use if you forgot yours. Renting a mat is only 2 bucks!! ",
     amenities: [
       "Parking",
@@ -250,6 +268,8 @@ const data = [
   name : "De La Sol Yoga",
   image : "https://images.pexels.com/photos/1375883/pexels-photo-1375883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 3,
+  website: "http://waterdown.delasolyoga.com/"
+  phone : "(289) 895-8222"
   description : "An awesome studio. They have great monthly pass deals on sometimes, tons of classes and good amenities. No parking though so have to drop it a star.",
 
   amenities : [
@@ -281,6 +301,8 @@ const data = [
   name : "Aviva Yoga Studio",
   image : "https://images.pexels.com/photos/901439/pexels-photo-901439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   rating : 5,
+  website: "https://www.avivayogastudio.com/"
+  phone :"(289) 208-2753"
   description : "Awesome location at the Cotton Factory in hamilton. As a beginner I went for Yoga fundamentals and it was a great class.  ",
 
   amenities : [
@@ -313,6 +335,8 @@ const data = [
   name : "Shanti Yoga Studio",
   image : "https://images.pexels.com/photos/1103242/pexels-photo-1103242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 3,
+  website: "http://shantiyogainhamilton.com/"
+  phone : "(905) 962-9642"
   description : "A studio focused on Hatha Yoga, suitable for all levels. Studio could use some upgrades though.",
 
   amenities : [
@@ -336,9 +360,11 @@ const data = [
 },
 //bikram yoga dundas
 {
-   name: "Bikram Yoga Dundas",
+  name: "Bikram Yoga Dundas",
   image : "https://images.pexels.com/photos/1496138/pexels-photo-1496138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 4,
+  website: "http://redtreehotyoga.com/"
+  phone : "(416) 503-9991"
   description : "Classes were ok but would go back for the relaxing vibe of the studio, the studio was great. Huge change rooms, and a store to buy yoga supplies inside.",
 
   amenities : [
@@ -370,6 +396,8 @@ const data = [
   name : "Be Yoga and Wellness",
   image : "https://images.pexels.com/photos/892682/pexels-photo-892682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 5,
+  website: "http://www.beyogabe.com/"
+  phone : "(905) 634-5852"
   description : "Beautiful place - tea room, complimentary towel service, cork board floors and spa-like feel!",
 
   amenities : [
@@ -398,6 +426,8 @@ const data = [
   name : "Modo Yoga",
   image : "https://images.pexels.com/photos/892681/pexels-photo-892681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 4,
+  website: "https://modoyoga.com/"
+  phone : "(905) 634-5852"
   description : "Teachers are amazing here, green and environmentally friendly studio. Downside - no parking. ",
 
   amenities : [
@@ -426,6 +456,8 @@ const data = [
   name : "Sun Yoga",
   image : "https://images.pexels.com/photos/1308746/pexels-photo-1308746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 3.5,
+  website: "http://www.sunyoga.ca/"
+  phone : "(905) 469-3309"
 
   amenities : [
     "Parking",
@@ -454,9 +486,11 @@ const data = [
 },
 //Power Yoga - Oakville
 {
-   name : "Power Yoga - Oakville",
+   name : "Power Yoga-Oakville",
   image : "https://images.pexels.com/photos/374694/pexels-photo-374694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 5,
+  website:"https://poweryogacanada.com/"
+  phone : "(905) 403-9642"
 
   amenities : [
     "Parking",

@@ -6,21 +6,21 @@ $(document).ready(function () {
         var form = ev.target;
         var data = new FormData(form);
         $.ajax({
-            url: form.action,
+            url: form.action, //gives /fileupload
             method: form.method,
             contentType: false,
             data: data,
             processData: false,
-            success: function (data) {
+            success: function (imageResponse) {
 
-                console.log("Client - " + data.url);
+                console.log("Client - " + imageResponse.url);
 
                 var dataPost = {
                     username: formData[0].value,
                     home: formData[1].value,
                     email: formData[2].value,
                     password: formData[3].value,
-                    url: data.url
+                    url: imageResponse.url
                 };
 
                 $.ajax({

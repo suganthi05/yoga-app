@@ -148,9 +148,7 @@ router.get("/", function (req, res) {
             if (req.query[key] !== "") {
                 if (isNaN(req.query[key])) {
                     if (key === "classes" || key === "amenities") {
-                        query[key] = {
-                            '$all': req.query[key]
-                        };
+                        query[key] = { '$all': req.query[key] };
                     } else if (key === "cost") {
                         if (req.query[key] === "low") {
                             query[key] = {

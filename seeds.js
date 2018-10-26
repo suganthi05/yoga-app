@@ -39,7 +39,7 @@ const data = [
   },
   //Yoga Tree Richmond and Spadina
   {
-    name: "Yoga Tree Richmond and Spadina",
+    name: "Yoga Tree Richmond",
     image: "https://ak4.picdn.net/shutterstock/videos/5918144/thumb/2.jpg",
     rating: 4,
     description: "experience a variety of yoga styles including Hot Yoga, Yoga for Beginners, Reduced Heat Yoga, Hatha, Restorative, Core Yoga and much more!",

@@ -21,145 +21,145 @@
         <a class="btn btn-primary btn-xlarge" href="/yoga/new">Add New Yoga Studio</a>
         <a class="btn btn-primary btn-xlarge" href="/yoga/getfavorites">My Favorites</a>
         <p>
-          <form action="/yoga" method="GET" class="form-inline">
-            <div class="form-group-2">
-              <!--begin: sj-->
-              <div id="form-1">
-                <input type="text" name="name" placeholder="Yoga Studio name" class="form-1">
-                <input type="text" name="location" placeholder="Location name">
-              </div>
-              <!-- begin: sj - bootstrap multi select dropdown added for classes -->
-              <div id="form-2">
-                <select class="selectpicker" title="Select classes" multiple data-live-search="true">
-                  <option value="Hatha Yoga">Hatha Yoga</option>
-                  <option value="Bikram Yoga">Bikram Yoga</option>
-                  <option value="Hot Yoga">Hot Yoga</option>
-                  <option value="Prenatal Yoga">Prenatal Yoga</option>
-                  <option value="Vinyasa Yoga">Vinyasa Yoga</option>
-                </select>
-                <div>
-                  <!-- end: sj - bootstrap multi select dropdown added for classes -->
-                  <br>
-                  <!-- begin: sj - bootstrap multi select dropdown added for amenities -->
-                  <div id="select-form">
-                    <select class="selectpicker" title="Select amenities" multiple data-live-search="true">
-                      <option value="Parking">Parking</option>
-                      <option value="Wifi">Wifi</option>
-                      <option value="Lockers">Lockers</option>
-                      <option value="Showers">Showers</option>
-                      <option value="Smoothie Bar">Smoothie Bar</option>
-                    </select>
-                  </div>
-                  <!-- end: sj - bootstrap multi select dropdown added for amenities -->
-                  <div id="form-2">
-                    <select name="rating" class="form-control">
-                      <option value=0>Select Rating</option>
-                      <option value=5>5</option>
-                      <option value=4>4</option>
-                      <option value=3>3</option>
-                      <option value=2>2</option>
-                      <option value=1>1</option>
-                    </select>
-                  </div>
-                  <div id="form-3">
-                    <select name="beginners" class="form-control">
-                      <option value="">Select Level</option>
-                      <option value="Yes">Beginner</option>
-                      <option value="No">Intermediate</option>
-                      <option value="No">Advanced</option>
-                    </select>
-                  </div>
-                  <div id="form-4">
-                    <select name="cost" class="form-control">
-                      <option value=0>Select Price</option>
-                      <option value="low">$</option>
-                      <option value="medium">$$</option>
-                      <option value="high">$$$</option>
-                    </select>
-                  </div>
-                  <div id="form-5">
-                    <button id="filterbutton" class="btn btn-default btn-primary btn-large">Search</button>
-                  </div>
-                  <!--end: sj-->
-                </div>
-          </form>
-        </p>
+      <form action="/yoga" method="GET" class="form-inline">
+        <div class="form-group-2">
+          <!--begin: sj-->
+          <div id="form-1">
+          <input type="text" name="name" placeholder="Yoga Studio name" class="form-1">
+          <input type="text" name="location" placeholder="Location name" >
+        </div>
+          <!-- begin: sj - bootstrap multi select dropdown added for classes -->
+          <div id="form-2">
+          <select class="selectpicker" title="Select classes" multiple data-live-search="true">
+            <option value="Hatha Yoga">Hatha Yoga</option>
+            <option value="Bikram Yoga">Bikram Yoga</option>
+            <option value="Hot Yoga">Hot Yoga</option>
+            <option value="Prenatal Yoga">Prenatal Yoga</option>
+            <option value="Vinyasa Yoga">Vinyasa Yoga</option>
+          </select>
+          <div>
+          <!-- end: sj - bootstrap multi select dropdown added for classes -->
+          <br>
+          <!-- begin: sj - bootstrap multi select dropdown added for amenities -->
+          <div id="select-form">
+          <select class="selectpicker" title="Select amenities" multiple data-live-search="true">
+            <option value="Parking">Parking</option>
+            <option value="Wifi">Wifi</option>
+            <option value="Lockers">Lockers</option>
+            <option value="Showers">Showers</option>
+            <option value="Smoothie Bar">Smoothie Bar</option>
+          </select>
+        </div>
+          <!-- end: sj - bootstrap multi select dropdown added for amenities -->
+          <div id="form-2">
+          <select name="rating" class="form-control">
+            <option value=0>Select Rating</option>
+            <option value=5>5</option>
+            <option value=4>4</option>
+            <option value=3>3</option>
+            <option value=2>2</option>
+            <option value=1>1</option>
+          </select>
+        </div>
+        <div id="form-3">
+          <select name="beginners" class="form-control">
+            <option value="">Select Level</option>
+            <option value="Yes">Beginner</option>
+            <option value="No">Intermediate</option>
+            <option value="No">Advanced</option>
+          </select>
+        </div>
+        <div id="form-4">
+          <select name="cost" class="form-control">
+            <option value=0>Select Price</option>
+            <option value="low">$</option>
+            <option value="medium">$$</option>
+            <option value="high">$$$</option>
+          </select>
+        </div>
+        <div id="form-5">
+          <button id="filterbutton" class="btn btn-default btn-primary btn-large">Search</button>
+        </div>
+          <!--end: sj-->
+        </div>
+      </form>
+      </p>
     </div>
   </header>
   <!--aa-->
   <div id="map" class="halfmap"></div>
   <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcrlOjVKHhFlqVzG9Fp96FmZNYDF-0gG4&callback=initMap"></script>
   <!--aa-->
-  <!--
+<!--
   <div class="jumbotron jumbo-4">
     <a href="#"><p class="form-style first">West GTA</p></a>
     <a href="#"><p class="form-style second">Toronto Core</p></a>
     <a href="#"><p class="form-style third">East GTA</p></a>
   </div> -->
   <div class="jumbotron jumbo-4">
-    <h2 id="all-studios" class="all-yoga-studios">All Yoga Studios</h2>
+      <h2 id="all-studios" class="all-yoga-studios">All   Yoga   Studios</h2>
   </div>
   <div class="col-container">
-    <div id="search-result" class="row text-center" style="display:flex; flex-wrap: wrap;">
-      <div class="col-md-12">
-        <% if(noMatch !== null) { %>
-        <h3>
-          <%= noMatch %>
-        </h3>
-        <% } %>
-      </div>
-      <% yoga.forEach(function(yoga){ %>
-      <div class="col col-md-3 col-sm-6">
-        <div class="thumbnail">
-          <img src="<%= yoga.image %>">
-          <div class="caption">
-            <h4>
-              <%= yoga.name %>
-            </h4>
-          </div>
-          <p>
-            <!-- begin: sj - show amenities using awesome font -->
-            <% yoga.amenities.forEach(function(amenities) { %>
-            <% if (amenities === "Parking") { %>
-            <span class="fa fa-car" title="Parking"></span> |
-            <% } else if (amenities === "Wifi") { %>
-            <span class="fa fa-wifi" title="Wifi"></span> |
-            <% } else if (amenities === "Lockers") { %>
-            <span class="fa fa-lock" title="Locker"></span> |
-            <% } else if (amenities === "Showers") { %>
-            <span class="fa fa-shower" title="Shower"></span> |
-            <% } else if (amenities === "Smoothie Bar") { %>
-            <span class="fa fa-coffee" title="Smoothie Bar"></span> |
-            <%}%>
-            <% }); %>
-            <% if (yoga.cost >= 0 && yoga.cost <= 15) { %>
-            <span class="fa fa-dollar"></span>
-            <% } else if (yoga.cost > 15 && yoga.cost <= 25) { %>
-            <span class="fa fa-dollar"></span>
-            <span class="fa fa-dollar"></span>
-            <% } else if (yoga.cost > 25) { %>
-            <span class="fa fa-dollar"></span>
-            <span class="fa fa-dollar"></span>
-            <span class="fa fa-dollar"></span>
-            <%}%>
-            <br /><br />
-            <!-- end: sj - show amenities using awesome font -->
-            <!-- begin: sj - display rating star -->
-            <% for (var i = 0; i < 5 ; i++) { %>
-            <% if (i < yoga.rating) { %>
-            <span class="fa fa-star checked"></span>
-            <%} else {%>
-            <span class="fa fa-star unchecked"></span>
-            <% } %>
-            <% }; %>
-            &nbsp;&nbsp;
-            <!-- end: sj - display rating star -->
-            <a href="/yoga/<%= yoga._id %>" class="btn btn-primary">More Info</a>
-          </p>
-        </div>
-      </div>
-      <% }); %>
+  <div id="search-result" class="row text-center" style="display:flex; flex-wrap: wrap;">
+    <div class="col-md-12">
+      <% if(noMatch !== null) { %>
+      <h3>
+        <%= noMatch %>
+      </h3>
+      <% } %>
     </div>
+    <% yoga.forEach(function(yoga){ %>
+    <div class="col col-md-3 col-sm-6">
+      <div class="search-results thumbnail">
+        <img class="image-results" src="<%= yoga.image %>">
+        <div class="caption">
+          <h4>
+            <%= yoga.name %>
+          </h4>
+        </div>
+        <p>
+           <!-- begin: sj - show amenities using awesome font -->
+          <% yoga.amenities.forEach(function(amenities) { %>
+            <% if (amenities === "Parking") { %>
+              <span class="fa fa-car" title="Parking"></span> |
+            <% } else if (amenities === "Wifi") { %>
+              <span class="fa fa-wifi" title="Wifi"></span> |
+            <% } else if (amenities === "Lockers") { %>
+              <span class="fa fa-lock"  title="Locker"></span> |
+            <% } else if (amenities === "Showers") { %>
+              <span class="fa fa-shower"  title="Shower"></span> |
+            <% } else if (amenities === "Smoothie Bar") { %>
+              <span class="fa fa-coffee" title="Smoothie Bar"></span> |
+            <%}%>
+          <% }); %>
+          <% if (yoga.cost >= 0 && yoga.cost <= 15) { %>
+              <span class="fa fa-dollar"></span>
+          <% } else if (yoga.cost > 15 && yoga.cost <= 25) { %>
+              <span class="fa fa-dollar"></span>
+              <span class="fa fa-dollar"></span>
+          <% } else if (yoga.cost > 25) { %>
+              <span class="fa fa-dollar"></span>
+              <span class="fa fa-dollar"></span>
+              <span class="fa fa-dollar"></span>
+          <%}%>
+          <br /><br />
+          <!-- end: sj - show amenities using awesome font -->
+          <!-- begin: sj - display rating star -->
+          <% for (var i = 0; i < 5 ; i++) { %>
+            <% if (i < yoga.rating) { %>
+              <span class="fa fa-star checked"></span>
+            <%} else {%>
+              <span class="fa fa-star unchecked"></span>
+            <% } %>
+          <% }; %>
+          &nbsp;&nbsp;
+          <!-- end: sj - display rating star -->
+          <a href="/yoga/<%= yoga._id %>" class="btn btn-primary">More Info</a>
+        </p>
+      </div>
+    </div>
+    <% }); %>
   </div>
+</div>
 </div>
 <% include ../partials/footer %>

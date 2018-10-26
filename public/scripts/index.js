@@ -34,23 +34,23 @@ function renderResult(yogadata, nomatch) {
         let $amenities;
         for (let amenities of yoga.amenities) {
             if (amenities === "Parking") {
-              $amenities = $("<span>").addClass("fa fa-car large").attr('title','Parking');
+              $amenities = $("<span>").addClass("fa fa-car").attr('title','Parking');
               $para.append($amenities);
               $para.append(" | ");
             } else if (amenities === "Wifi") {
-              $amenities = $("<span>").addClass("fa fa-wifi large").attr('title','Wifi');
+              $amenities = $("<span>").addClass("fa fa-wifi").attr('title','Wifi');
               $para.append($amenities);
               $para.append(" | ");
             } else if (amenities === "Lockers") {
-              $amenities = $("<span>").addClass("fa fa-lock large").attr('title','Locker');
+              $amenities = $("<span>").addClass("fa fa-lock").attr('title','Locker');
               $para.append($amenities);
               $para.append(" | ");
             } else if (amenities === "Showers") {
-              $amenities = $("<span>").addClass("fa fa-shower large").attr('title','Shower');
+              $amenities = $("<span>").addClass("fa fa-shower").attr('title','Shower');
               $para.append($amenities);
               $para.append(" | ");
             } else if (amenities === "Smoothie Bar") {
-              $amenities = $("<span>").addClass("fa fa-coffee large").attr('title','Smoothie Bar');
+              $amenities = $("<span>").addClass("fa fa-coffee").attr('title','Smoothie Bar');
               $para.append($amenities);
               $para.append(" | ");
             }
@@ -82,10 +82,10 @@ function renderResult(yogadata, nomatch) {
         let $star;
         for (let i = 0; i < 5; i++) {
             if (i < rating) {
-                $star = $("<span>").addClass("fa fa-star checked large");
+                $star = $("<span>").addClass("fa fa-star checked");
                 $para.append($star);
             } else {
-                $star = $("<span>").addClass("fa fa-star unchecked large");
+                $star = $("<span>").addClass("fa fa-star unchecked");
                 $para.append($star);
             }
         };

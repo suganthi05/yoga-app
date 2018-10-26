@@ -660,3 +660,13 @@ float: left !important;
     margin-top: -8%;
 }
 
+#search-result {
+    min-height: 350px;
+  max-height: 350px;
+}
+
+#image-result {
+  min-height: 175px;
+  max-height: 175px;
+}
+

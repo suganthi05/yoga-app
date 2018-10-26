@@ -3,7 +3,7 @@ let map;
 function initMap() {
     let mapOptions = {
         center: new google.maps.LatLng(43.65432, -79.38347), //Toronto
-        zoom: 8,
+        zoom: 7.5,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map(document.getElementById("map"), mapOptions);

@@ -554,8 +554,9 @@ span:active {
 
 .jumbo-4 {
     margin-top: 5%;
-    background: grey;
+    background: #222;
     padding: 1%;
+    height: 80px;
 }
 
 .form-style {
@@ -649,6 +650,7 @@ span:active {
     text-align: center;
     font-size: 2.75em;
     font-weight: normal;
+    margin-top: 1%;
 }
 
 /*

@@ -8,16 +8,15 @@ mongoose.connect("mongodb://localhost:27017/yelp_camp_v6", {
   useNewUrlParser: true
 });
 
-website : "https://www.yogashalawaterdown.com/",
-  phone : "(905) 689-9642",
+
 const data = [
   //YYOGA Queen Street West
   {
     name: "YYOGA Queen Street West",
     image: "https://iamyoga.ca/wp-content/uploads/2017/04/studio-experience.jpg",
     rating: 3,
-    website: "https://yyoga.ca/locations/queen-street-west"
-    phone : "(416) 792-2211"
+    website: "https://yyoga.ca/locations/queen-street-west",
+    phone :"(416) 792-2211",
     description: "12+ styles from stretchy to sweaty,  heated and non-heated,  for all levels of practice.",
     amenities: [
       "Parking",
@@ -34,7 +33,7 @@ const data = [
     ],
     author: {
       id: "5bcb00d9720bbf38b66036e4",
-      username: "suganthi1483@gmail.com"
+      username: "Suganthi"
     },
     cost: 100,
     location: "333 Queen St W #327, Toronto, ON M5V 2A4, Canada",
@@ -46,8 +45,8 @@ const data = [
     name: "Yoga Tree Richmond",
     image: "https://ak4.picdn.net/shutterstock/videos/5918144/thumb/2.jpg",
     rating: 4,
-    website:"http://www.yogatree.ca/richmond-spadina/"
-    phone :"(416) 603-9642"
+    website:"http://www.yogatree.ca/richmond-spadina/",
+    phone :"(416) 603-9642",
     description: "experience a variety of yoga styles including Hot Yoga, Yoga for Beginners, Reduced Heat Yoga, Hatha, Restorative, Core Yoga and much more!",
     amenities: [
       "Parking",
@@ -64,7 +63,7 @@ const data = [
     ],
     author: {
       id: "5bcb011f6bdf3339614193cb",
-      username: "suga@lighthouse.ca"
+      username: "Suganthi"
     },
     cost: 35,
     location: "140 Spadina Ave, Toronto, ON M5V 2L4, Canada",
@@ -76,8 +75,8 @@ const data = [
     name: "Iam Yoga Downtown",
     image: "https://cdn6.dissolve.com/p/D187_218_100/D187_218_100_1200.jpg",
     rating: 4,
-    website:"https://iamyoga.ca/"
-    phone :"(416) 597-8557"
+    website:"https://iamyoga.ca/",
+    phone :"(416) 597-8557",
     description: "Great community and offers students the  chance to connect within the community  while offering time cleaning or supporting  our management staff on the front desk  with providing an amazing customer  experience in exchange for unlimited  access to all the classes our studios offer.",
 
     amenities: [
@@ -96,7 +95,7 @@ const data = [
     ],
     author: {
       id: "5bcb011f6bdf3339614193cb",
-      username: "suga@lighthouse.ca"
+      username: "Nila"
     },
     cost: 40,
     location: "MetroCentre, 200 Wellington Street W Concourse, Unit 450, Toronto, ON M5V 3C7, Canada",
@@ -108,8 +107,8 @@ const data = [
     name: "The Yoga Sanctuary",
     image: "https://st2.depositphotos.com/1518767/6900/i/950/depositphotos_69001081-stock-photo-people-exercising-on-fitness-mats.jpg",
     rating: 4,
-    website:"https://www.theyogasanctuary.ca/"
-    phone :"(416) 928-3236"
+    website:"https://www.theyogasanctuary.ca/",
+    phone :"(416) 928-3236",
     description: "Great for the benefits of mental health,  physical health as well as balancing your  emotional and spiritual health.",
     amenities: [
       "Parking",
@@ -127,7 +126,7 @@ const data = [
 
     author: {
       id: "5bcb011f6bdf3339614193cb",
-      username: "suga@lighthouse.ca"
+      username: "Suganthi"
     },
     cost: 35,
     location: "1 Wood St, Toronto, ON M4Y 2N4, Canada",
@@ -139,8 +138,8 @@ const data = [
     name: "Yoga Tree Bay & Dundas",
     image: "http://uprnc2thzbu47ptop2z7kxg1.wpengine.netdna-cdn.com/wp-content/uploads/2017/04/bay-dundas-yoga-studio-toronto-1.jpg",
     rating: 4,
-    website:"http://www.yogatree.ca/bay-dundas/"
-    phone : "(416) 205-9642"
+    website:"http://www.yogatree.ca/bay-dundas/",
+    phone : "(416) 205-9642",
     description: "Classes are designed to prepare new yogis for a balanced Hatha practice. ",
     amenities: [
       "Wifi",
@@ -158,7 +157,7 @@ const data = [
     ],
     author: {
       id: "5bcb011f6bdf3339614193cb",
-      username: "suga@lighthouse.ca"
+      username: "Alex"
     },
     cost: 25,
     location: "123 Dundas St W, Toronto, ON M5G 1C4, Canada",
@@ -170,8 +169,8 @@ const data = [
     name: "BeHot Yoga Toronto",
     image: "http://96bda424cfcc34d9dd1a-0a7f10f87519dba22d2dbc6233a731e5.r41.cf2.rackcdn.com/behotyogatoronto/apilatespicc/apilatespicc_250x172.jpg",
     rating: 5,
-    website:"http://behotyogatoronto.com/"
-    phone :"(416) 203-2382"
+    website:"http://behotyogatoronto.com/",
+    phone :"(416) 203-2382",
     description: "The exercises in Hot Pilates, are designed so that anyone from the beginner to the advanced feels challenged, regardless of flexibility or strength.",
 
     amenities: [
@@ -192,7 +191,7 @@ const data = [
     comments: [],
     author: {
       id: "5bcb011f6bdf3339614193cb",
-      username: "suga@lighthouse.ca"
+      username: "Victor"
     },
     cost: 55,
     location: "43 Colborne St, Toronto, ON M5E 1E3, Canada",
@@ -204,8 +203,8 @@ const data = [
     name: "YYOGA Harbourfront",
     image: "https://cdn8.dissolve.com/p/D145_292_842/D145_292_842_1200.jpg",
     rating: 5,
-    website:"https://yyoga.ca/locations/harbourfront"
-    phone :"(416) 240-6175"
+    website:"https://yyoga.ca/locations/harbourfront",
+    phone :"(416) 240-6175",
     description: "Great place to connect with others before  and after class at our luxurious tea station,  and to take advantage of our teachers,  workshops, and classes that will help you grow.",
 
     amenities: [
@@ -225,7 +224,7 @@ const data = [
     comments: [],
     author: {
       "id": "5bcb011f6bdf3339614193cb",
-      "username": "suga@lighthouse.ca"
+      "username": "Andrea"
     },
     cost: 40,
     location: "50 Queens Quay W #204, Toronto, ON M5J, Canada",
@@ -237,8 +236,8 @@ const data = [
     name: "Union Yoga + Wellness",
     image: "http://footage.framepool.com/shotimg/464980065-sport-mat-yoga-fitness-gym-class-procedure.jpg",
     rating: 5,
-    website:"http://www.unionyogastudio.ca/"
-    phone : "(416) 516-0909"
+    website:"http://www.unionyogastudio.ca/",
+    phone : "(416) 516-0909",
     description: "This is such a lovely yoga studio! The staff are always friendly, the teachers are fantastic and the classes are amazing! They have a combination of hot and cold yoga as well as fusion and Pilates classes. They offer free tea and free water bottles to use if you forgot yours. Renting a mat is only 2 bucks!! ",
     amenities: [
       "Parking",
@@ -256,7 +255,7 @@ const data = [
     comments: [],
     author: {
       "id": "5bcb011f6bdf3339614193cb",
-      "username": "suga@lighthouse.ca"
+      "username": "Suganthi"
     },
     cost: 35,
     location: "956 Bloor St W, Toronto, ON M6H 1L6, Canada",
@@ -268,8 +267,8 @@ const data = [
   name : "De La Sol Yoga",
   image : "https://images.pexels.com/photos/1375883/pexels-photo-1375883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 3,
-  website: "http://waterdown.delasolyoga.com/"
-  phone : "(289) 895-8222"
+  website: "http://waterdown.delasolyoga.com/",
+  phone : "(289) 895-8222",
   description : "An awesome studio. They have great monthly pass deals on sometimes, tons of classes and good amenities. No parking though so have to drop it a star.",
 
   amenities : [
@@ -289,7 +288,7 @@ const data = [
   comments : [ ],
   author : {
     "id" : "5bcc75fab6ad31596f0d919b",
-    "username" : "user"
+    "username" : "Lynda"
   },
   cost : 20,
   location : "430 York Blvd, Hamilton, ON L8R 3K8, Canada",
@@ -301,8 +300,8 @@ const data = [
   name : "Aviva Yoga Studio",
   image : "https://images.pexels.com/photos/901439/pexels-photo-901439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   rating : 5,
-  website: "https://www.avivayogastudio.com/"
-  phone :"(289) 208-2753"
+  website: "https://www.avivayogastudio.com/",
+  phone :"(289) 208-2753",
   description : "Awesome location at the Cotton Factory in hamilton. As a beginner I went for Yoga fundamentals and it was a great class.  ",
 
   amenities : [
@@ -323,7 +322,7 @@ const data = [
   comments : [ ],
    author : {
     "id" : "5bcc75fab6ad31596f0d919b",
-    "username" : "user"
+    "username" : "Paul"
   },
   cost : 30,
   location : "270 Sherman Ave N, Hamilton, ON L8L 6N4, Canada",
@@ -335,8 +334,8 @@ const data = [
   name : "Shanti Yoga Studio",
   image : "https://images.pexels.com/photos/1103242/pexels-photo-1103242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 3,
-  website: "http://shantiyogainhamilton.com/"
-  phone : "(905) 962-9642"
+  website: "http://shantiyogainhamilton.com/",
+  phone : "(905) 962-9642",
   description : "A studio focused on Hatha Yoga, suitable for all levels. Studio could use some upgrades though.",
 
   amenities : [
@@ -351,7 +350,7 @@ const data = [
   comments : [ ],
   author : {
     "id" : "5bcc75fab6ad31596f0d919b",
-    "username" : "user"
+    "username" : "Victor"
   },
   cost : 17.7,
   location : "150 Locke St S, Hamilton, ON L8P 4A9, Canada",
@@ -363,8 +362,8 @@ const data = [
   name: "Bikram Yoga Dundas",
   image : "https://images.pexels.com/photos/1496138/pexels-photo-1496138.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 4,
-  website: "http://redtreehotyoga.com/"
-  phone : "(416) 503-9991"
+  website: "http://redtreehotyoga.com/",
+  phone : "(416) 503-9991",
   description : "Classes were ok but would go back for the relaxing vibe of the studio, the studio was great. Huge change rooms, and a store to buy yoga supplies inside.",
 
   amenities : [
@@ -384,7 +383,7 @@ const data = [
   comments : [ ],
   author : {
     "id" : "5bcc75fab6ad31596f0d919b",
-    "username" : "user"
+    "username" : "Anna"
   },
   cost : 20,
   location : "1 East Street N, Dundas, ON L9H 1N5, Canada",
@@ -396,8 +395,8 @@ const data = [
   name : "Be Yoga and Wellness",
   image : "https://images.pexels.com/photos/892682/pexels-photo-892682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 5,
-  website: "http://www.beyogabe.com/"
-  phone : "(905) 634-5852"
+  website: "http://www.beyogabe.com/",
+  phone : "(905) 634-5852",
   description : "Beautiful place - tea room, complimentary towel service, cork board floors and spa-like feel!",
 
   amenities : [
@@ -414,7 +413,7 @@ const data = [
   comments : [ ],
   author : {
     "id" : "5bcc75fab6ad31596f0d919b",
-    "username" : "user"
+    "username" : "Lima"
   },
   cost : 15.93,
   location : "4031 Fairview St, Burlington, ON L7L 2A4, Canada",
@@ -426,8 +425,8 @@ const data = [
   name : "Modo Yoga",
   image : "https://images.pexels.com/photos/892681/pexels-photo-892681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 4,
-  website: "https://modoyoga.com/"
-  phone : "(905) 634-5852"
+  website: "https://modoyoga.com/",
+  phone : "(905) 634-5852",
   description : "Teachers are amazing here, green and environmentally friendly studio. Downside - no parking. ",
 
   amenities : [
@@ -444,7 +443,7 @@ const data = [
   comments : [ ],
    author : {
     "id" : "5bcc75fab6ad31596f0d919b",
-    "username" : "user"
+    "username" : "Paul"
   },
   cost : 19.47,
   location : "676 Appleby Line, Burlington, ON L7L 6J9, Canada",
@@ -456,8 +455,8 @@ const data = [
   name : "Sun Yoga",
   image : "https://images.pexels.com/photos/1308746/pexels-photo-1308746.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 3.5,
-  website: "http://www.sunyoga.ca/"
-  phone : "(905) 469-3309"
+  website: "http://www.sunyoga.ca/",
+  phone : "(905) 469-3309",
 
   amenities : [
     "Parking",
@@ -477,7 +476,7 @@ const data = [
    description : "I come here for the great teachers. Studio isnt so great.",
   author : {
     "id" : "5bcc75fab6ad31596f0d919b",
-    "username" : "user"
+    "username" : "Daniel"
   },
   cost : 17,
   location : "785 Pacific Rd, Oakville, ON L6L, Canada",
@@ -489,9 +488,8 @@ const data = [
    name : "Power Yoga-Oakville",
   image : "https://images.pexels.com/photos/374694/pexels-photo-374694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350",
   rating : 5,
-  website:"https://poweryogacanada.com/"
-  phone : "(905) 403-9642"
-
+  website:"https://poweryogacanada.com/",
+  phone : "(905) 403-9642",
   amenities : [
     "Parking",
     "Wifi",
@@ -513,7 +511,7 @@ const data = [
   description : "A chain of yoga studios, great programs and amenities. Has an awesome protein shake bar.",
   author : {
     "id" : "5bcc75fab6ad31596f0d919b",
-    "username" : "user"
+    "username" : "Elisa"
   },
   cost : 22,
   location : "485 Trafalgar Rd, Oakville, ON L6J 3J1, Canada",
@@ -546,7 +544,7 @@ const data = [
   comments : [ ],
   author : {
     "id" : "5bd0dee224af1d5b0dc5cfb0",
-    "username" : "jack"
+    "username" : "Jack"
   },
   cost : 17.7,
   location : "312 Dundas St E, Waterdown, ON L0R 2H0, Canada",
@@ -575,7 +573,7 @@ const data = [
   comments : [ ],
    author : {
     "id" : "5bd0dee224af1d5b0dc5cfb0",
-    "username" : "jack"
+    "username" : "George"
   },
   cost : 20,
   location : "2640 Bristol Cir, Oakville, ON L6H 6Z7, Canada",

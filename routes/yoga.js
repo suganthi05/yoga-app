@@ -35,32 +35,34 @@ router.get("/getfavorites", middleware.isLoggedIn, function (req, res) {
         if (err) {
             console.log(err);
         } else {
-
-            if (allfav.length == 0) {
-                res.send("Sorry No Favorites Added for the User!");
-            }
-            //res.json(allfav);
             var allYoga = [];
-            let total = allfav.length;
-            let index = 0;
+            if (allfav.length == 0) {
+                //res.send("Sorry No Favorites Added for the User!");
+                fetchUserCreatedStudios(req, res, allYoga);
 
-            console.log("total " + total);
-            allfav.forEach(element => {
-                console.log("Yoga Id: " + element.yoga_id);
-                Yoga.findById(element.yoga_id, function (err, foundYoga) {
-                    if (err) {
-                        console.log(err);
-                    } else {
-                        ++index;
-                        console.log("foundYoga " + foundYoga);
-                        allYoga.push(foundYoga)
-                        if (index == total) {
-                            //res.json(allYoga);
-                            fetchUserCreatedStudios(req, res, allYoga);
+            } else {
+
+                let total = allfav.length;
+                let index = 0;
+                console.log("total " + total);
+                allfav.forEach(element => {
+                    console.log("Yoga Id: " + element.yoga_id);
+                    Yoga.findById(element.yoga_id, function (err, foundYoga) {
+                        if (err) {
+                            console.log(err);
+                        } else {
+                            ++index;
+                            console.log("foundYoga " + foundYoga);
+                            allYoga.push(foundYoga)
+                            if (index == total) {
+                                //res.json(allYoga);
+                                fetchUserCreatedStudios(req, res, allYoga);
+                            }
                         }
-                    }
+                    });
                 });
-            });
+
+            }
 
         }
     });
@@ -148,7 +150,9 @@ router.get("/", function (req, res) {
             if (req.query[key] !== "") {
                 if (isNaN(req.query[key])) {
                     if (key === "classes" || key === "amenities") {
-                        query[key] = { '$all': req.query[key] };
+                        query[key] = {
+                            '$all': req.query[key]
+                        };
                     } else if (key === "cost") {
                         if (req.query[key] === "low") {
                             query[key] = {

@@ -78,7 +78,8 @@ router.get("/:commentId/edit", middleware.isLoggedIn, function (req, res) {
 });
 
 router.put("/:comment_id", function (req, res) {
-    Comment.findByIdAndUpdate(req.params.comment_id, req.body.comment, function (err, comment) {
+    console.log("rating---", req.body.rating)
+    Comment.findByIdAndUpdate(req.params.comment_id, req.body.comment, req.body.rating, function (err, comment) {
         if (err) {
             res.render("edit");
         } else {

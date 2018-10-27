@@ -77,7 +77,9 @@ function addMarkers() {
                 infowindow.setContent(
                     "<p><b>" + yoga.name + "</b></p>" +
                     // "<p>" + yoga.location + "</p>" +
+                    console.log("favYoga" + yoga.name);
                     "<img src='" + yoga.image + "' width='100px' height='80px'>")
+
                 // "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/yoga/" + yoga._id + "' class='btn btn-primary'>More Info</a>")
                 // infowindow.open(map, marker);
             }

@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Yoga Netwok of Canada Yoga Teacher Training",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPKntiY4A5DnVfgZv9sRGcIwmJgvekL5LhjMJQ=s1600-w1024-h1024",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(416) 662-3785",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "30 Eglinton Avenue West #258, Mississauga",
+    "lat": 43.6056743,
+    "lng": -79.65275429999997,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Hatch Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMQ8N-L9M1Qiu-QL51VDVoiFTbTBsaKolT6QW0y=s1600-w1024-h1024",
+    "rating": 4.8,
+    "website": "http://www.hatchyoga.com/",
+    "phone": "(905) 232-2292",
+    "description": "Hatch is a wonderful and welcoming studio! The instructors are lovely, varying class times and a beautiful (+clean) studio. Its a win win! Personally I love and recommend the restorative practice on Mondays at 8pm!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "626 Burnhamthorpe Road West #202, Mississauga",
+    "lat": 43.58023619999999,
+    "lng": -79.6500332,
+    "commentfeed": [
+      {
+        "text": "There aren't enough words to say just how amazing this Yoga studio is! If you are anything like me, a newbie to Yoga, this is the place to start. Setting aside the obvious amazing intro deal of $30 for your first month of unlimited classes, The people and staff are just as amazing. I was so nervous and shy to start this new Yoga journey in fear or not being able to do poses correctly and feeling like an outsider, but every instructor made sure that wasn't the case. They were all so friendly and encouraging I never once felt intimidated. Every class made me feel confident and proud and it made going back more and more that much easier. I'm incredibly sad that I will be moving away and won't be able to take Hatch Yoga with me, but I will definitely be returning on days I am ever back in town. If you ever look at expanding up north, be sure to let me know :) Namaste.",
+        "rating": 5,
+        "usernamefeed": "Erica Sarasua-Reid"
+      },
+      {
+        "text": "Hatch Yoga is an oasis of serenity in the middle of Mississauga. Every detail is finely tuned so that yogi and yogini of all levels of experience feel at home and get most out of their practice. \n\nThe instructors are knowledgeable, provide variations to accommodate practitioners of different levels, and create a nurturing environment. The class variety is outstanding: there are heated, warm, and non-heated classes that vary from restorative to vinyasa to arm balances. \n\nThirty minutes between classes allow the practitioners to come early (or leave late) and get into that first flow, meditate, or surrender into a relaxation pose. Being able to take a nice nap after restorative classes was a total game-changer for me ;) .\n\nAbove all else, everyone knows everybody by name. You are treated like family: members are initiated into the mysteries of proper alignment in a series of complimentary semi-private classes by the studio director herself. If you never had semi-private or private yoga classes, these will transform your practice. Proper alignment is the key to enjoying the full benefits of the poses, deepening your practice, and preventing injury.\n\nYoga is transformational, and Hatch Yoga is the perfect place for practice.",
+        "rating": 5,
+        "usernamefeed": "M P"
+      },
+      {
+        "text": "I first heard about this studio from groupon, I really enjoy it! The instructors are fabulous and there’s plenty of class variety. The classes are also smaller and intimate so there’s more 1 on 1 time with the instructors and lots of space for you (I can’t stand when you can barely stretch your arms out due to over crowding). There’s also lots of parking which is a plus. I highly recommend this studio!",
+        "rating": 5,
+        "usernamefeed": "Jessica S"
+      },
+      {
+        "text": "It is a nice place to practice yoga. They have enough everything to make us feel comfortable. The facility is nice and clean. The instructors are knowledgeable and helpful. The classes are not big so the instructor can look after every single one there. I would recommend this place for someone who are interested in learning yoga.",
+        "rating": 5,
+        "usernamefeed": "Tri Duong"
+      }
+    ]
+  },
+  {
+    "name": "Power Yoga Canada City Centre",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNRV_suRDAssiwmJ_nUvvL45Y0N7Hr-SD1gBmE7=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.poweryogacanada.com/city-centre",
+    "phone": "(905) 949-9997",
+    "description": "Amazing place with awesome offerings. Sarah and Tania are very warm and welcoming! They are attentive to every detail.I strongly recommend this community for its instructors and programs. Thank you!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "925 Rathburn Road East Unit B1, Mississauga",
+    "lat": 43.61608299999999,
+    "lng": -79.61757599999999,
+    "commentfeed": [
+      {
+        "text": "The location of PYC City Centre is so convienant. The staff and EE's are awesome! 9:30 am classes are the BEST way to start the day. So happy a PYC opened up in this area 🙌🙌🙌",
+        "rating": 5,
+        "usernamefeed": "Nicole Henry"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Kristina Pancevski"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Sarah Desiree"
+      }
+    ]
+  },
+  {
+    "name": "Mind to Body Yoga & Fitness",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipM66JbtakGhGSzkDx7VfbzOj5xVK_zw-uZTXSZI=s1600-w1024-h1024",
+    "rating": 4.8,
+    "website": "http://mindtobody.ca/",
+    "phone": "(905) 712-9642",
+    "description": "Mind to Body is a wonderful and welcoming yoga studio for all. Levels \nGreat teachers that really know their stuff also the members are very friendly \nThis studio is very clean  and  well taken care of \nPritpal is amazing! I did my yoga teachers training here and I was very pleased with the entire program I left the program with such Great knowledge for yoga  and life long friends\nJust try it for a week you won't be disappointed :)",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "75 Watline Avenue #137, Mississauga",
+    "lat": 43.6227244,
+    "lng": -79.67128819999999,
+    "commentfeed": [
+      {
+        "text": "I come to Mississauga for business and found this studio when I looked out my hotel window.  \n\nCan’t recommend this place more highly - I’ve taken several of their hot classes and they are amazing.  Not pretentious in the least and very willing to help a novice yogi!!  Just finished tonight’s hot power core class - awesome!\n\nCan’t wait until my next trip up from Massachusetts!!  Namaste.",
+        "rating": 5,
+        "usernamefeed": "Tanya"
+      },
+      {
+        "text": "I recently completed my Restorative Yoga Teacher Training with Pritpal Singh @ Mind To Body Yoga & Fitness. I highly recommend this studio to anyone who may be interested in yoga certifications, upgrading courses or to simply enjoy the practice & benefits of yoga. The studio itself is  very clean, calming & roomy; any props required are available for use for free. Pritpal was an amazing teacher; she is knowledgeable, interesting, witty, kind & patient. Her warm manner was infectious! Her demonstrations & notes were easy to follow & understand. Originally, I dreaded spending an entire weekend in class but, to my surprise, the training was so enjoyable & interesting that it seemed to be over in the blink of an eye & I ended up wishing it lasted longer! Many thanks for your exceptional guidance Pritpal! All the best, dina",
+        "rating": 5,
+        "usernamefeed": "Dani Dowle"
+      },
+      {
+        "text": "I just recently completed my 200-HR Yoga Teacher Training here at Mind to Body and can attest to it having been a wonderful experience.  The owner and program coordinator is kind, approachable, understanding, knowledgeable and helpful.  The studio is beautiful, clean and staff is friendly.  Yoga teachers associated with this studio are also great.  Highly recommend checking this place out.",
+        "rating": 4,
+        "usernamefeed": "Sasha Flows"
+      },
+      {
+        "text": "I have just finished my 60 day intro program and did not hesitate to enrol in an annual membership! Just to echo some of the previous reviews this is an amazing place. The instructors are awesome, you feel supported and guided in each and every class, there is a common bond between all the yogis here no matter what your level is. The variety of classes offered gives you even more opportunity to explore on your yoga journey. I can't imagine practising anywhere else! Thanks everyone for being so friendly and welcoming.",
+        "rating": 5,
+        "usernamefeed": "Stephen Thomas"
+      }
+    ]
+  },
+  {
+    "name": "moksha yoga square one",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNfWLe898cP89cDcFqZbBGkVIJcoXpjv3ENA-qm=s1600-w1024-h1024",
+    "rating": 4,
+    "website": "http://www.mokshayogasquareone.com/",
+    "phone": "(905) 232-0165",
+    "description": "I love this studio, the teachers and the staff. The classes are amazing. My body and sleep really appreciate it. Thanks... Moksha Yoga Square One =)",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "4175 Confederation Parkway #5, Mississauga",
+    "lat": 43.58880299999999,
+    "lng": -79.64948729999998,
+    "commentfeed": [
+      {
+        "text": "The most gracious studio I have ever been to! The staff are super supportive and really care about the people who come in. I hurt myself and couldn't make it in for a week, and without asking they called me to extend my 1 month pass since I hadn't visited in a while. Instantly brightened my day; a true testament to their culture and sense of community.",
+        "rating": 5,
+        "usernamefeed": "Rachel Cheng"
+      },
+      {
+        "text": "It’s an absolutely wonderful community of people. Sabrina, Pearl, Normando on the drums and the live musicians that come play are fantastic. I highly recommend this facility to anyone that needs to relax and have a peace of mind, and have a great workout! Any issues I ever have the staff know exactly how to handle the issue with the best care.",
+        "rating": 5,
+        "usernamefeed": "Olivia Ha"
+      },
+      {
+        "text": "The people that work here are very friendly! Something amazing happened to me that I will always remember. I lost a wallet 3 years ago at this location and it was recently found with everything inside intact. Special thanks to Pearl for assisting me.",
+        "rating": 5,
+        "usernamefeed": "John Lazo"
+      },
+      {
+        "text": "Nice clean studio with good high energy classes. Most of the teachers are very good. The only negative is the parking. Sometimes it's hard to get a place in the underground lot. If you park on the street you have to pay. It's only $2.00 but I really don't want to pay more than what I already have paid to attend class. ",
+        "rating": 4,
+        "usernamefeed": "Michael Bairstow"
+      }
+    ]
+  },
+  {
+    "name": "Hot Yoga and Pilates",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipP58BLD21NwLVUUtcv-vTXXDrojc-PDy9UOaN3z=s1600-w1024-h1024",
+    "rating": 4.7,
+    "website": "http://www.hotyogaandpilates.com/",
+    "phone": "(289) 521-1468",
+    "description": "I enjoy myself every time I come here and also get a killer workout--there is a nice variety of classes and I'm pretty sure I have taken classes with each of the instructors. Everyone is super welcoming and helpful. The studio is always clean and the hot yoga room is top notch! The best part is the sense of community and how the owners, Mike and Lisa, are so passionate about their practice, and really try to make everyone feel welcome walking in. I love the encouraging atmosphere.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "1170 Burnhamthorpe Road West Unit 28, Mississauga",
+    "lat": 43.5679783,
+    "lng": -79.66273330000001,
+    "commentfeed": [
+      {
+        "text": "I've been here a few times with a friend (who comes more often) when they have had a promotion for a free class. Interestingly, both times I came, Mike was teaching the class and both times, when I walked in, he greeted everyone except me, like I was invisible! I felt bad the first time but chalked it up to an oversight. However, the second time it happened I was angry and that is why I'm posting the review. I ended up not signing in at the desk either time, although I know you are supposed to. My friend mentioned some instructors aren't that friendly or helpful but she likes the classes and its close to her house so she comes anyway. She also said that Mike was the owner so I was especially not impressed. Customer service is important even more for owners!\n\nThe classes were okay but I feel they are overpriced even if you buy on a promotion. I go to another yoga studio where we get corrections to our poses much more often, and I prefer it that way. Here, only a few students get corrections even though many people are doing wrong things.\n\nOverall, I would not recommend this place and don't plan on going back for any more free classes. I want to be treated well when I'm doing my yoga.\n\nUpdate: In response to the owner's reply:\n\nHello Lisa,\n\nThank you for your message. You are right in that I did not write the review immediately. I was reminded of my experiences when I got together with my friend yesterday for dinner. You said my review is unfair, I don't agree. For instance, according to her, when she signs in some instructors sometimes just make sure she scans the tag, they don't say hello, they just say thanks when the tag scans. Some instructors don't always say hello when she says hi to them, they just look at her to make sure the tag scans. She would never review your business because you know her and she doesn't want to make it awkward. It's not always friendly but she feels the classes are good for her health.\n\nIt sounds like you are coming up with reasons to excuse Mike for not greeting me when it would have been sufficient just to apologize for it and commit to it not happening again. I didn't \"bother\" to sign in at the desk because he was rude and I didn't want to speak with him. There were a fair amount of people at the free classes but the desk was not crowded either time when I got there and everyone except for me was acknowledged both times. I can't dismiss it as chance both times. Then you are commenting on the date of my review so as to discredit it. Unfortunately your response does not create any good faith, nor does it give me any motivation to return to the studio.",
+        "rating": 2,
+        "usernamefeed": "Sonia Aryd"
+      },
+      {
+        "text": "I’ve been going to the studio for just over six months and cannot say enough about Mike & Lisa plus their ace staff.  Great facility, wonderful teachers, superb classes, lots of solid advice, and mats + clothing for purchase.   Also a month ago I took both of my kids to one of Lisa’s kids classes and they have now fallen in love with yoga.",
+        "rating": 5,
+        "usernamefeed": "Grant Padley"
+      },
+      {
+        "text": "A few thoughts on Hot Yoga&Pilates Mississauga.. so now I'm a month and a half into my seventh year of practicing. (and Mike STILL welcomes me!) as do all instructors. If you searched the planet for the person least likely to practice yoga it would be me! Which is exactly the reason I love it. A studio designed for Bikram yoga from the front to the back, from the floor to the ceiling. Not some random cobbled together room with a couple space heaters and a vaporizer from Walmart, offering \"hot yoga\". This is the real deal. Classic 90, 60 for those with time restraints and a couple \"Yin\" classes for good measure. The Hot Inferno Pilates has to be experienced to be believed. Many do both. Or all three. A spotless well managed studio, qualified instructors that always make time to answer questions are the reasons it is consistently voted #1. In fact, if you are thinking of starting a business, you may want to use this one as a template.",
+        "rating": 5,
+        "usernamefeed": "Frank Ciccone"
+      },
+      {
+        "text": "I've been going to this studio for over 4 years and it is such a great yoga studio. I tried out a few others and when I found Mike and Lisa's studio I felt like I was home. The instructors are fabulous and atmosphere is very welcoming. Nothing but great energy and good vibes.",
+        "rating": 5,
+        "usernamefeed": "Olivia C"
+      }
+    ]
+  },
+  {
+    "name": "YogaStudio@Vyaniti Canada",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNLIkOfs6lXHaNVlx0SODhIiEr18Oqiwds1SEJz=s1600-w595-h277",
+    "rating": 5,
+    "website": "https://yogastudiovyaniticanada.business.site/",
+    "phone": "(647) 640-7370",
+    "description": "Vyaniti yoga studio headed by Praveen has been spreading the good news about Yoga and its healing powers. Starting from breathing right to correct stretches to healthy eating to sleeping right, managing stress, being energetic and fresh  throughout the day and many more powers of Yoga are taught in Vyaniti. \nI have experienced the healing powers of Yoga and very happy to be part of Vyanti.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "455 Apache Court #102, Mississauga",
+    "lat": 43.61866389999999,
+    "lng": -79.6488521,
+    "commentfeed": [
+      {
+        "text": "I had not done a \"real\" yoga for the past five years, so I decided on a restorative class. I couldn't be happier of my decision.  \nI was also really impressed by how much attention yoga instructor (Praveen) paid to my needs and made modifications to avoid back and neck pains. I went through lung problems and was on Ventilator support for 3 weeks. The breathing techniques taught by Praveen really helped me strengthen lungs. Even my doctor is impressed by this improvement.\nOverall this was an incredibly positive experience. I wish I lived closer and attended class in person!",
+        "rating": 5,
+        "usernamefeed": "Sandhya Rao"
+      },
+      {
+        "text": "I have learnt yoga from various places and practiced on and off. Though I have not taken in person classes with Praveen, the guru at Yogatherapy4all Canada, he has guided me and responded promptly every single time I had a query- be it on asanas or breathing or meditation. He is a living example of the true power of yoga- the inner peace and mental strength he demonstrates vouch for that. He exemplifies selfless giving -teaching and sharing his knowledge with anyone that is interested. If you need a dose of strength or positivity, you know which guru to reach out to!",
+        "rating": 5,
+        "usernamefeed": "Viji Karthikeyan"
+      },
+      {
+        "text": "This yoga institute is excellent.  Its completely diffrent from the standard North America class of yoga as we leave the yoga class with principles that we can practice in our daily lives.  The yoga instructor / guru takes unbelievable amount of extra time after and before class for questions and any clarifications we need.  I started taking these classes because I experienced lack of energy levels mid-end of day.  But the breathing exercises, particular arsanas, and eating habits I have learnt from this class have helped me so much!  My energy levels have increased dramatically and I am able to get so much out of my day!",
+        "rating": 5,
+        "usernamefeed": "S Abbas"
+      },
+      {
+        "text": "Yogatherapy4all’s mainly focuses on systematic building of inner strength and inner peace, more importantly how to apply yogic principals in day to day life. One of the important principle is not to stop breathing while performing asana’s which you hold for more counts, only after joining this studio I realised that I would hold my breath while focusing on some issue in daily life. Right breathing is what yoga instructor(Praveen) makes you practice through out the class which you will remember even after class. This studio offers practice schedule based on you needs and health conditions rather than a set of asana’s to be followed by all.\nIn short Yogatherapy4all makes sure every student inculcates yogic principles in daily life and be strong, peaceful, positive, happy 😊 and spread the same around you!!\nI am a happier person now :)\nKudos to amazing class and guru!!",
+        "rating": 5,
+        "usernamefeed": "Gajelli Jyotsna"
+      }
+    ]
+  },
+  {
+    "name": "Parivartan Mississauga Hot Yoga Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNmDCxFAIzl5hqBZ-PW9rvcWd5XlwgG290HPJK2=s1600-w1024-h1024",
+    "rating": 4.3,
+    "website": "http://www.parivartanyoga.com/",
+    "phone": "(905) 897-8680",
+    "description": "Really great place to begin or continue advancing your practice. Classes available for all levels. Teachers are very patient and knowledgeable offering a myriad of variations depending on student ability. I have been to  two classes so far and I’m really excited and inspired to continue going as long as I live in this area. \n\nThe studio is really clean and well maintained. The owner Michelle is very responsive and will address any concerns escalated to her in a very urgent, prompt and sincere way! 5 stars for Parivartan 🕉.",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "350 Burnhamthorpe Road East #5A, Mississauga",
+    "lat": 43.6003902,
+    "lng": -79.62605280000002,
+    "commentfeed": [
+      {
+        "text": "Has been my favourite studio for the past 8 years. Amazing, relaxed atmosphere, great instructors. The owner is awesome!!! Thank you Michelle for running this great studio at very competitive pricing ☺",
+        "rating": 5,
+        "usernamefeed": "Vesna S"
+      },
+      {
+        "text": "Best thing that's ever happened to me when finding this gem of a studio.  Very welcoming and helpful.  I would recommend people to try this studio out.",
+        "rating": 5,
+        "usernamefeed": "#meandyou Louro"
+      },
+      {
+        "text": "I've always felt welcomed in this studio, and became hooked on yoga after my first class there. I have been practicing here for years, and love the community aspect of the studio. The classes are fun and challenging and everyone is friendly. A great place for beginners and advanced yogis!",
+        "rating": 5,
+        "usernamefeed": "Cassandra Popescu"
+      },
+      {
+        "text": "Wide variation of instructors and classes. There will be one for your personality type! If you like to be pushed or like to go at your own pace, there is an instructor to motivate you! Michelle and Dino both highly recommended! Also I like there is a non heated room with a perinatal trained instructor for modifications if you are pregnant. The two studios at the Mississauga branch are small, so come early to get your spot in the class! Only wish the rooms were bigger, but the place is very clean and non-intimidating.  ",
+        "rating": 5,
+        "usernamefeed": "Katherine Kure"
+      }
+    ]
+  },
+  {
+    "name": "Infinite Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNu6hFRtUW3yP0ko8EL-rqze2eQK_tTi3beiF5D=s1600-w1024-h1024",
+    "rating": 3.9,
+    "website": "https://www.infiniteyoga.ca/",
+    "phone": "(416) 830-3418",
+    "description": "Love the studio. I have been practicing here for 5+ years. The staff are wonderful.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "4870 Tomken Road, Mississauga",
+    "lat": 43.625834,
+    "lng": -79.62927079999997,
+    "commentfeed": [
+      {
+        "text": "I have an accruing injuries for playing different kind of sports. I never thought that hot yoga can help my body gain flexibility and help my lower back releases tension and tightness. I been practicing hot yoga at Infinite Yoga Studio for years and I'm glad I did. The community that they created is great. People are nice, they treat you well, I tried different classes and meet different teachers and every one got  different style and practices and mostly respectful to the students. They show modifications, show's how to use props and also they show the proper alignment towards poses. What I really like is they make you are feel welcome every time you come to the studio. They talked to you and pay attention if you have any questions on how to improve your poses. Everyone has a favourite teacher and classes to attend, they alternate teachers and I also go different days and time depending with my availability from work. But ever since I'm glad that Infinite Yoga is part of my community and through yoga it teaches me how to be more aware of my body.",
+        "rating": 5,
+        "usernamefeed": "Anthony Dimitri"
+      },
+      {
+        "text": "Spent $45 on Uber to go to their New Years 5pm Hot Yoga that they advertised. The place was closed.",
+        "rating": 3,
+        "usernamefeed": "Lamar Timmins"
+      },
+      {
+        "text": "Highly recommend.\nChange room is clean and well kept. The staff are friendly and approachable. The class size (I go to the afternoon session) is perfect for a beginner like me. The instructors are helpful and offer suggestions and/or corrections so no injuries occur.\nI will absolutely be back again and again!",
+        "rating": 5,
+        "usernamefeed": "Mzzz Nono"
+      },
+      {
+        "text": "On a delightful Saturday afternoon, I had the pleasure of attending a complementary class at Infinite Yoga in Mississauga. I have a rather thorough history with hot yoga, so I was excited to try a new studio.\nTo speak to the facility itself, it is mid sized with a good \"yoga vibe\". All I mean to say is that it's decorated well, and is somewhat calming. From what I saw, there are two large practice rooms and two change rooms. The mens change room has two small showers and enough space to get your business done, though they've opted for an open shelf rather than lockers. In their defence though, they're not the only studio that doesn't have lockers.\nThe class itself was A-OK. The instructor was a really welcoming lady, who kept the experience light hearted and jovial. The difficulty level of this particular class was more on the introductory side, (which I had no qualms with), but I've got a couple minor beefs. The first may be me nitpicking, but the way that the instructed coached our breathing seemed off. It felt like when the natural next breath was an inhale, she would advise an exhale, and vice versa. Am I high maintenance? Probably. Next up, I found that for a couple poses, the instruction lacked a bit of specificity that some great instructors have. The kind where you can go through the practice solely on vocal instruction and no peeping at your peers. Last up, is the temperature of the room. This is a matter of preference, but I'm definitely a HOT yoga fan. The heat and the humidity were on the lower end.\n\nWith all that being said, I'm generally happy with the experience, but I can't say that this studio stands out amoung other options. If it's convenient for you, go try it out.",
+        "rating": 3,
+        "usernamefeed": "Kojo Asante"
+      }
+    ]
+  }
+]

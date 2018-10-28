@@ -1,5 +1,461 @@
 [
+ {
+    "name": "Iam Yoga Midtown",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNqfXMZKfoK255bGNkNp3aaj3sEJHnm6kto8Cnl=s1600-w720-h480",
+    "rating": 4.2,
+    "website": "http://www.iamyoga.ca/",
+    "phone": "(416) 920-9642",
+    "description": "I have been with Iam Yoga for a year and half now, and the only not so positive thing I have to say is the temperature control in your hot room. While most times I feel the temperature is set at a constant, lately (maybe because of the summer days) it became really frustratingly hot to the point that my skin feels burning whenever in contact with the floor. I also noticed some instructors do adjust the thermostat accordingly during practice, which is much appreciated, but NOT all of them. As a student, I can't really say or do anything in such situations besides having to walk out of the room...",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "680 Yonge Street #2, Toronto",
+    "lat": 43.667429,
+    "lng": -79.38574899999998,
+    "commentfeed": [
+      {
+        "text": "I have many positive things to say about this studio: great teachers, nice staff, excellent location and studio, warm and welcoming atmosphere to all level yogis.\nHowever evening and weekend can be really busy at this location as a result popular classes can feel a bit over capacity which compromises the beautiful experience so far. \nI have never been turn down to a class when signing up in the app, but I do believe they should probably start marking classes as \"full\" like other studios do.\nYou set time aside to focus and honor your practice rather than focusing on trying to not hit another yogui involuntarily during class. I am writing this review in hopes that they address this issue. \nThanks for reading this.",
+        "rating": 3,
+        "usernamefeed": "Alejandra Gonzalez Guel"
+      },
+      {
+        "text": "I first attended Iam Yoga a couple years back through a Groupon promotion. I was a little overwhelmed at first as it was my first experience practicing yoga publicly. That feeling changed quickly the more classes I took. The instructors are all so kind, talented and really care about your well being! After taking a bit of a break from yoga, I came back as an energy exchange student and the experience was fantastic! I really got to experience yoga on a new level and get more involved in the Iam Yoga community. I have met lots of wonderful like-minded people and my whole experience has lead me to join the Yoga Teacher training they offer :)\nI highly encourage everyone to give Iam yoga a chance and to also try to come in on off-peak hours. It can get busy in the evening, but that just shows how great of a place it is! \nThe studio has lots of different teachers and classes to explore so try as much as you can to get the best experience!",
+        "rating": 5,
+        "usernamefeed": "Jasmynn Taylor"
+      },
+      {
+        "text": "An excellent variety of yoga practices for all levels to experience. At one point they had a teacher giving classes entirely in Sanskrit. \n\nThe staff is courteous and the prices reasonable. They usually offer fairly decent introductory offers if you're new and want to try them out.",
+        "rating": 5,
+        "usernamefeed": "Jesse Harley"
+      },
+      {
+        "text": "It has a lot of class.\nVarious time,\nPerfect place to practice yoga",
+        "rating": 5,
+        "usernamefeed": "emmily JOO"
+      }
+    ]
+  },
   {
+    "name": "BeHot Yoga Toronto",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNk7aBUaAVTu4KIdR7EwOIypNk_UY7gWkQK_Pfl=s1600-w1024-h1024",
+    "rating": 4.7,
+    "website": "http://behotyogatoronto.com/",
+    "phone": "(416) 203-2382",
+    "description": "Clean studio and good teachers. Vinyasa and hitt hot Pilates are the most popular classes and they fill up quickly, you have to book them one week in advance. There aren’t many clases in the morning and there are many students which makes it feel very impersonal. Good place if you’re are lucky to book a class, get a polite greeting, find a spot in the crowded change room and just do your yoga.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "43 Colborne Street, Toronto",
+    "lat": 43.648881,
+    "lng": -79.37510399999996,
+    "commentfeed": [
+      {
+        "text": "This is my hot yoga place.  I go weekly and I love the vibe.",
+        "rating": 5,
+        "usernamefeed": "elle, Persephone"
+      },
+      {
+        "text": "I'm fairly new to yoga but thank to the teachers at this studio I can consider myself a intermediate yogi. Amazing vibe!!!. The staff is wonderful and you can tell how much they love to be there! Always with a big smile on their faces.  They will make you LOVE yoga. Variety of classes and lots of times to fit your schedule. I strongly recommend this studio.",
+        "rating": 5,
+        "usernamefeed": "Sergio Marchetta"
+      },
+      {
+        "text": "They will take your money and not let you into the class even if arrive on the dot. As a first comer booking through ClassPass you just don't know. Very bad customer experience.",
+        "rating": 1,
+        "usernamefeed": "Florent Joly"
+      },
+      {
+        "text": "I love coming here best service",
+        "rating": 5,
+        "usernamefeed": "Jennifer Dawson"
+      }
+    ]
+  },
+  {
+    "name": "YYOGA Queen Street West",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNNXONt3iAI9UQv_bRYd7fOO9Dnl3O6uiKGzzF1=s1600-w1024-h1024",
+    "rating": 4.1,
+    "website": "http://www.yyoga.ca/locations/queen-street-west",
+    "phone": "(416) 792-2211",
+    "description": "I joined Yyoga about 2 years ago from the fall season into spring for 7 months - I'm only writing a review now because of an issue I had recently redeeming my YRewards.  I frequented Yyoga about 3 or 4 times a week while a member and as such I got an email letting me know I had 2 free classes to use with an expiration date of 6 months.  I waited until the last minute to redeem these classes as I had joined another studio and the weekend I decided to go happened to be a long weekend - long story short they wouldn't make an exception or let me use one of my passes, and the person I spoke to on the phone said \"it was a free class anyway.\" This attitude brought back memories less than pleasant with Yyoga staff - they were on the pretentious side.  \nOn a positive note, I really enjoyed their fitness classes like spinning, high intensity interval training mixed with pilates (I think it was called YFit) and their yoga classes were great in teaching the fundamentals.  But, lately, I think there's been turnover and one of the classes I attended on one of the passes was one of the worst ones I had ever taken there.  I still consider myself a novice, but this particular class left me bored out of mind. \n Maybe it was just a one off and the teacher had a particular style that I just didn't get.\n\nI wrote an email to Yyoga Admin on their website and then I also responded to the email that sent me the complimentary passes.  Someone responded right away and added a pass to my account and I was quite pleased, but then I got another email saying that there was nothing they could do.  I'm still hesitant to redeem it given my recent experience taking a class there, dealing with front desk, and getting conflicting emails.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "333 Queen Street West #327, Toronto",
+    "lat": 43.64955529999999,
+    "lng": -79.39202069999999,
+    "commentfeed": [
+      {
+        "text": "Plenty of classes for people of all levels. Highly recommend the hot yoga body flow and core workouts if you're looking for a real workout. Classes appeal to males and females and all are welcome.",
+        "rating": 5,
+        "usernamefeed": "Vips"
+      },
+      {
+        "text": "Am now a member after shopping around, great seniors rates, clean bright, instructors filled with skill and love.  Beautiful interior design, as Architects we value this gorgeously detailed and well thought out studios, washrooms, changing and grooming areas. The air in the hot classes stays fairly fresh, low odours, the ambience is healing, fun, and not too in your face about yoga philosophy. There is every kind of class, from hot to cool, plus fitness,  & spin classes. Ian Jarvie  is a great instructor in all areas. They have a 30 days for $40 pass, good in Toronto Vancouver and Whistler. It's easy to love this place, Queen West or Harbourfront.",
+        "rating": 5,
+        "usernamefeed": "WinnifredM Hu"
+      },
+      {
+        "text": "Terrific studio which is well lite with natural light, high ceilings, and clean facilities.  If you're looking for the opposite of a dark and dirty yoga studio this is it.\n\nVariety of classes is the best kept secret, in addition to a large number of yoga classes they also offer spin and boot camp (called yfit) classes.  Good instructors too.  Been a member for over 2 years now.",
+        "rating": 5,
+        "usernamefeed": "Patrick Martin"
+      },
+      {
+        "text": "I bought a 10 class pass earlier this year March I think). As I had bought the pass about 5 minutes before the class started, the girl who sold me the pass did not discuss the pass with me, she sold me the pass and I went right into the room as to ensure I wasn't late for class. I had met a friend there to take the class together (she had a 1 month pass), in front of the girl working the cash register I said to my fiend that I didn't  want to purchase a 1 month pass as I rearely come to yoga. The cashier hearing that did not point out to me that there was any expiration date on the pass.\n\nLong story short: I went to a class last week, the receptionist told me my class package had expired and if I wanted to take the class I needed to pay a drop in class fee. I asked to speak to the manager and nobody was there. She told me she would ask the manager to call me and I have not received a call back. I called again on Friday and left a message for the manager to call me, I received no call back. I tried again yesterday (Monday) and was told there was no one there, management would review my membership and if they decided to honour my membership they would call me, if they wouldn't honour it nobody would call me back. \nI called again today and an answering machine came on.\n\nTheir customer service is terrible, they will not honour your memberships and won't even call you back. It's a shame as I was happy enough with the place but I won't be going back as I feel ignored. It takes a long time to build trust with your clients and you can lose it in a minute.",
+        "rating": 1,
+        "usernamefeed": "Bonny Greene"
+      }
+    ]
+  },
+  
+  {
+    "name": "Iam Yoga Downtown",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMwLoWGSeBKSj_n2HFnulJPyomC_48ll844-49t=s1600-w1024-h1024",
+    "rating": 4.5,
+    "website": "http://www.iamyoga.ca/",
+    "phone": "(416) 597-8557",
+    "description": "Great service. Love how many different kinds of classes they offer.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "MetroCentre, 200 Wellington Street W Concourse, Unit 450, Toronto",
+    "lat": 43.64585230000001,
+    "lng": -79.38786340000001,
+    "commentfeed": [
+      {
+        "text": "I have gone to several studios throughout the years and never have I felt more at home as I do here and have never seen such results in my practice . The classes are diverse, as are the instructors, and it is a fantastic place to grow your practice . The ambiance is also beautiful and extremely clean. I recommend this studio to beginners and advanced students.",
+        "rating": 5,
+        "usernamefeed": "A. HR"
+      },
+      {
+        "text": "",
+        "rating": 3,
+        "usernamefeed": "Maryana Segin"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Grainne Archbold"
+      }
+    ]
+  },
+  {
+    "name": "Yoga Tree Bay & Dundas",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipM5_7e_evM3MLSI7oH7XUgOPPf6Fk6KVd3UCjHd=s1600-w1024-h1024",
+    "rating": 4.4,
+    "website": "http://www.yogatree.ca/bay-dundas/",
+    "phone": "(416) 205-9642",
+    "description": "The classes and teachers at this studio are spot on. They offer many different types of classes which I enjoy, from relaxed to more upbeat options for when I'm feeling a little more vigorous. They offer different levels and options for poses in all classes and are consistent in the type of yoga offered depending on the class. They also offer herbal tea and cucumber water which I love. It is very clean and professional. I wish I could respond to some of the less favourable reviews on here because they really aren't fair. It is respectful to show up to class a little early (even 5-10min is fine) and remember to read the class description so you know what type of class to expect. The classes I've attended are described quite accurately and I really enjoy the variety. This is a great studio for the beginner or for someone a little deeper into their practice. If you want a little homier feel, I suggest visiting their Spadina location which is also top notch 👍🏼",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "123 Dundas Street West, Toronto",
+    "lat": 43.655337,
+    "lng": -79.384481,
+    "commentfeed": [
+      {
+        "text": "I am a yoga teacher visiting from out of town & I loved this space. The staff were very respectful & helpful when needed & the teachers were very clearly qualified & skilled. Thank you Yoga Tree! Would definitely come back to this location.",
+        "rating": 5,
+        "usernamefeed": "Divine Roots Yoga"
+      },
+      {
+        "text": "I was visiting from out of town, and this was my first time coming to Yoga Tree. I really enjoyed my time spend here, I attended two classes over the weekend and found the entire staff & teachers to be very welcoming. The space is beautiful, and very clean. I would definatly come back next time I'm in Toronto!",
+        "rating": 5,
+        "usernamefeed": "camilla zambito"
+      },
+      {
+        "text": "Negative reviews of this place seem to be because people have arrived late and not been let in as the class has started.  I can only speak from my own experience, which has been nothing but excellent for the last three months.  The studios are clean and well maintained, staff have always been friendly and the instructors have been great.",
+        "rating": 5,
+        "usernamefeed": "Doug Welch"
+      },
+      {
+        "text": "This is the WORST YOGA STUDIO in downtown Toronto, for sure. If you like feeling relaxed during your hot yoga practice and interacting with fellow human beings at reception who understand that life gets in the way sometimes, then DO NOT COME TO THIS LOCATION.\n\nMy friend and I arrived just before a yoga class and due to the unpredictability of life, we were not able to arrive 15 minutes prior to the class as suggested on the website. \n\nThe staff responded to our arrival with such disrespect. I've never been treated with such disrespect. At a yoga studio, nonetheless.\n\nThe girl working the front, and her fellow staff members chatting behind her, regarded my friend and I with disdain as we quickly signed waivers before getting ready for class. I apologized to the girl for being a few minutes late - class was at 7:15, we arrived to the front at 7:13. She shook her head with disapproval and asked if I was already changed. I nodded yes. She directed me to the lockers and I, now feeling the pressure to rush to my yoga practice, quickly misplaced my token. \n\nI rushed back to the desk asking for a new token and the girl responded with sheer disgust by shoving a token into my hand saying, \"You know what, you are already so late for your practice you better just go in\". \n\nAll I have to say is that it is extremely counter-intuitive for a YOGA STUDIO  (or anywhere  for that matter) to disrespect potential clients. I entered my yoga practice feeling guilty and upset like I had disappointed the studio by being their non-ideal client. I'll forever be regretting paying $20 for that drop-in session. \n\nThank goodness that the yoga instructor was very understanding of my tardiness. I only wish that the whole studio would embrace that same positive, warm energy. \n\nI should add that another girl working at the front grunted at my friend who, not knowing where to return her rented mat, tried to return the mat to the front desk. The girl angrily said, \"You return that back there\". We didn't even know what to do with that response. Where is 'back there'? Back where, exactly? \n\nHonestly, nothing could keep us there any longer after that.\n\nI will definitely be practicing yoga elsewhere in the future and spreading the news that this studio has horrible customer service.",
+        "rating": 1,
+        "usernamefeed": "Quenlin Cain"
+      }
+    ]
+  },
+  {
+    "name": "Yoga Tree Richmond and Spadina",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipO1wLcnAWWHeNtca_mDJWzoyMheEQ1AnrB1VnBv=s1600-w1024-h1024",
+    "rating": 4.5,
+    "website": "http://www.yogatree.ca/richmondspadina/",
+    "phone": "(416) 603-9642",
+    "description": "This is one of my favourite yoga studios! The teachers are great, very friendly and helpful, and the classes are super fun. The studios are beautiful and clean.",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "140 Spadina Avenue, Toronto",
+    "lat": 43.6477442,
+    "lng": -79.39624529999998,
+    "commentfeed": [
+      {
+        "text": "I've been a yogi of yoga tree for over 6 years now and it has been the best studio! \nThe staff are very caring and friendly. The studio is very clean and not cliche like some other downtown yoga studios. They have a really good schedule too. Would recommend!",
+        "rating": 5,
+        "usernamefeed": "Atina Chang"
+      },
+      {
+        "text": "One of the brightest and most beautiful yoga studios I’ve been to in the city. The teachers are great and I love the environment they’ve cultivated here",
+        "rating": 5,
+        "usernamefeed": "Kiah Price"
+      },
+      {
+        "text": "GOOD: Friendly staff, overall great yoga teachers with a wide variety of personalities and styles, the most rounded teachers I have found in downtown Toronto so mixing class types is recommended. SUPER Clean. Great location with excellent TTC access. Great schedule on weekdays, Good schedule on weekends (weekends could be better). Self locking lockers.\nBAD: The customers. A lot of the people that go here don't behave and out of all the studios I've been to, Yoga tree is the most lax in enforcing some decorum in their classes. Its common, in my experience, to see people on their cellphone in the studios (thankfully not during class), bringing Starbucks frappucinos and lattes into the studio and being really loud pre and post class. Really hard to relax before or after the class and get into the yoga mood here. I wish the teachers were more willing to confront bad behaviour.\nOVERALL: I really like this studio - the location, the schedule and most of all the teachers make it a winner its just too bad its chock full of stuck up and inconsiderate Queen Westers who can't live without their phone for 2 seconds.",
+        "rating": 3,
+        "usernamefeed": "Tom J"
+      },
+      {
+        "text": "I love this cozy little studio, the teachers and staff are inviting and supportive.  The classes are challenging and the teachers provide great adjustments and guidance based on your experience, I leave classes feeling energized and refreshed. I always look forward to going to my next class at Yoga Tree.  Jelayna and Angela M. are two my favorite teachers!!",
+        "rating": 5,
+        "usernamefeed": "Diane Liang"
+      }
+    ]
+  },
+  {
+    "name": "The Yoga Sanctuary",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNbTliYKVO5e-VpXj73IUyty9EbFgGK_EKaMi_5=s1600-w1024-h1024",
+    "rating": 4.4,
+    "website": "http://www.theyogasanctuary.ca/",
+    "phone": "(416) 928-3236",
+    "description": "My favourite yoga studio in Toronto!  The have great specials for new students!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "1 Wood Street, Toronto",
+    "lat": 43.661988,
+    "lng": -79.38292999999999,
+    "commentfeed": [
+      {
+        "text": "This studio has best teachers in the town!! They also cover a wide range of styles of yoga you can pick, and Mysore classes you can practise with teacher’s assistance. In additional warm staff and good location. I took the YTT250 there and it was one of the best experiences I had!",
+        "rating": 5,
+        "usernamefeed": "Sunnie Yao"
+      },
+      {
+        "text": "Love this place. Lots of great classes, never been disappointed. Lately I've been attending a lot of Trisha Sevilla's classes. She is a wonderful instructor. She is always positive, smiling, and inspiring. Thanks Trisha!",
+        "rating": 5,
+        "usernamefeed": "Emily McDonough"
+      },
+      {
+        "text": "I completed my YTT here and love the staff, the building and the vibes from TYS!   High quality teachers with zero ego & great intentions. Cynthia is an amazing human & a great leader which sets this place apart from others.",
+        "rating": 5,
+        "usernamefeed": "Kristy Rachkowski"
+      },
+      {
+        "text": "Wonderful community feel. Loved every class and I've been there since October 2016. The instructors are great. The schedule is awesome too and has extended hours to fit every schedule (so you don't have any excuse not to go haha). Their late night classes from 8:45-10pm are especially great if you have to work late or want something to make you sleep like a baby. I always float home right into bed with a huge smile on my face.",
+        "rating": 5,
+        "usernamefeed": "Natasha Nesrine"
+      }
+    ]
+  },
+  {
+    "name": "YYOGA Harbourfront",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipO7UWvoEhvY8_6naBArjngBNHN07xHfFIyKD9Df=s1600-w1024-h1024",
+    "rating": 3.8,
+    "website": "https://yyoga.ca/locations/harbourfront",
+    "phone": "(416) 240-6175",
+    "description": "Went to my first class here yesterday and loved it! Really nice facility, the teacher was amazing, and the temperature in the room was just right to be challenging but not unbearable! If I wasn’t visiting from out of town, this would be my new go-to yoga studio!",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "350 Queens Quay West #204, Toronto",
+    "lat": 43.6386709,
+    "lng": -79.38911860000002,
+    "commentfeed": [
+      {
+        "text": "Cute place, great if you live in the neighborhood. They offer various yoga classes, including hot yoga. They have tea, lockers and offer free yoga mats and other yoga accessories. Friendly staff and instructors. I used to do alot of yoga and more recently I started getting into it and i felt some 'open to beginner classes' were a bit intense, but it's great if you if you're open to that.",
+        "rating": 4,
+        "usernamefeed": "Tharmila Raja"
+      },
+      {
+        "text": "I came here for hot yoga, but the room's temperature was only a bit warm. Really disappointing, as I get free regular yoga at my gym, and it felt not very different from that. \nThe teacher and facility are great though. I'm sure it's fine for regular yoga, but not hot yoga.",
+        "rating": 3,
+        "usernamefeed": "Solaris"
+      },
+      {
+        "text": "Staff are great but the class times and scheduling at this location could be improved.",
+        "rating": 4,
+        "usernamefeed": "Alyssia Armborst"
+      },
+      {
+        "text": "The place is clean and the vibes are great but their hours are ridiculous!! Who are they trying to target with their class times? Rich housewives who have nothing to do all day? They know that most people work 9-5 and they have ZERO MORNING CLASSES, and all their good evening classes start at 5:15 pm or 5:30 pm. There's no way I can make it there straight from work. Definitely not spending my money buying a membership I can't use!",
+        "rating": 2,
+        "usernamefeed": "Mina Mt"
+      }
+    ]
+  },
+  {
+    "name": "The Yoga Lounge",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4.5,
+    "website": "http://theyogalounge.net/",
+    "description": "The instructor was amazing! I did the vinyasa flow class which was a great workout, and also included a great finishing touch of lavender oil at the end.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "80 Sherbourne Street, Toronto",
+    "lat": 43.65227900000001,
+    "lng": -79.3688426,
+    "commentfeed": [
+      {
+        "text": "Yoga Lounge is some of the best yoga in the city of Toronto. The instructors really know what they are doing and they are highly experienced - Particularly Susan, the owner, and Carlyn. Classes are intimate with special attention given to each student. Well worth the price.",
+        "rating": 5,
+        "usernamefeed": "Elyssa Seidman"
+      },
+      {
+        "text": "I had hit a wall in my journey to get healthy. I was stuck at 223 pounds and could not get below this number for nothing.  So I thought I needed to shake things up and do some HOT YOGA. I went to go try Florence's Friday class at 7pm and then again to her 1pm class on Sunday. I loved it so much that I did her classes on Friday and Sunday again. What happened? I lost 10 pounds in 10 days and got down to 213 pounds!!!\n\nIf you have hit a wall in your weight loss I highly recommend Florence's Hot Yoga class.",
+        "rating": 5,
+        "usernamefeed": "Mark Makivirta"
+      },
+      {
+        "text": "Great teachers, but the facility is not the best. BBQ style hot yoga heaters (space heaters directly above you)  are not my favourite, and the change rooms are small. besides that the door for the men's change area opens directly into the foyer. They're doing the best they can with such a small space. ",
+        "rating": 3,
+        "usernamefeed": "Conrad Siebert"
+      },
+      {
+        "text": "It's not your spa like studio.  Lots of plants and resident cat max may not be everyone's cup of tea but there good teachers and I like the naturally lit class rooms Free mats although lots of old ones.  the focus is on hatha and restorative but does have non corporate branded hot yoga too which I didn't like but lots of regular students aren't all wrong. ",
+        "rating": 4,
+        "usernamefeed": "Lily Hua"
+      }
+    ]
+  },
+
+   {
     "name": "Yoga Netwok of Canada Yoga Teacher Training",
     "image": "https://lh3.googleusercontent.com/p/AF1QipPKntiY4A5DnVfgZv9sRGcIwmJgvekL5LhjMJQ=s1600-w1024-h1024",
     "rating": 4,

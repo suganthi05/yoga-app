@@ -137,21 +137,6 @@ function insertIntoFavorites(req, res) {
     });
 }
 
-
-router.get("/toppicks", function (req, res) {
-
-    Yoga.find({
-        rating: {
-            $gte: 5
-        }
-    }, function (err, allYoga) {
-        if (err) {
-            console.log('MongoDB Error:' + err);
-        } else {
-            res.json(allYoga);
-        }
-    });
-});
 //AA- end -fav
 
 //INDEX - show and filter yoga studios
@@ -217,8 +202,16 @@ router.get("/", function (req, res) {
             if (err) {
                 console.log(err);
             } else {
+
+                var sortedyoga = allYoga.slice();
+                sortedyoga.sort(function (a, b) {
+                    return a.rating - b.rating
+                });
+                var topRatedyogaArray = sortedyoga.slice(0, 4);
+
                 res.render("yoga/index", {
                     yoga: allYoga,
+                    topratedyoga: topRatedyogaArray,
                     noMatch: noMatch
                 });
             }

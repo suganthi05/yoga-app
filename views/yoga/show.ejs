@@ -150,15 +150,16 @@
                             <strong class="rating-star"> Rating:
                                 <%= comment.rating %></strong>
 
+                            <h4> Rating:
 
-                            <h4 class="large-ish">Average Rating:
-                                <% for (var i = 0; i < 5 ; i++) { %>
-                                <% if (i < comment.rating) { %>
+                                <% for (var i = 0; i < comment.rating ; i++) { %>
                                 <span class="fa fa-star checked"></span>
-                                <%} else {%>
-                                <span class="fa fa-star unchecked"></span>
-                                <% } %>
                                 <% }; %>
+
+                                <!-- <% for (var i = 0; i < (5 - comment.rating) ; i++) { %>
+                                <span class="fa fa-star"></span>
+                                <% }; %> -->
+
                             </h4>
                         </strong>
                         </strong>

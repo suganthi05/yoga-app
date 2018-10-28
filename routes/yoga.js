@@ -137,6 +137,21 @@ function insertIntoFavorites(req, res) {
     });
 }
 
+
+router.get("/toppicks", function (req, res) {
+
+    Yoga.find({
+        rating: {
+            $gte: 5
+        }
+    }, function (err, allYoga) {
+        if (err) {
+            console.log('MongoDB Error:' + err);
+        } else {
+            res.json(allYoga);
+        }
+    });
+});
 //AA- end -fav
 
 //INDEX - show and filter yoga studios

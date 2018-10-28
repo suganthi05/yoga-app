@@ -894,5 +894,420 @@
         "usernamefeed": "Kojo Asante"
       }
     ]
+  },
+
+  {
+    "name": "Balanced Life Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOEPzf5Pt81EaHiaxzebsvs2OmI6MGsIWyUutx-=s1600-w960-h960",
+    "rating": 4,
+    "website": "http://www.balancedlifeyoga.ca/",
+    "phone": "(905) 428-2300",
+    "description": "Started practicing yoga at this studio at a young age. Welcoming, inviting, respectful and inspiring community. Amazing and kind people who create beautifully sequenced classes.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "274 Mackenzie Avenue #250, Ajax",
+    "lat": 43.84235160000001,
+    "lng": -79.02970979999998,
+    "commentfeed": [
+      {
+        "text": "Wrong account. Apologies. That's my work account. Here is proper info: After beginning training there I found it is more of a business than a sacred space. Seeing behind the scenes really ruined it for me, I went home crying twice after heavy judgement from Shasta. I was consistently intimidated by the senior staff and felt I had to prove my worthiness which is not in the spirit of yoga. As someone with a disability I was tossed, charged thousands of dollars, and held to an impossibly high standard where I was met with criticism rather than education. The studio has a very fake atmosphere where I consistently felt out of place, even when I was just a student. Overall, I wouldn't recommend...especially for anyone who struggles with any type of special needs or disability.",
+        "rating": 1,
+        "usernamefeed": "Zee Malvern"
+      },
+      {
+        "text": "The founder Sasha and her team are amazing. Professional, positive and friendly environment. They always make you feel welcomed each time you enter and motivate you to reach your goals. Excellent studio and amazing products. Stories are shared and goals are reached. A must try for all people who want some positivity in their lives. An amazing place to be and learn. Be respectful,friendly and have an open mind to learn from instructors who are experienced and have a passion to teach and answer any questions you may have.",
+        "rating": 5,
+        "usernamefeed": "Live Learn"
+      },
+      {
+        "text": "Balanced Life yoga completely changed my life for the better. Reiki healing, the various workshop and class offerings along with the Inspiring Spirit 200 hour teacher training - I have been a member of this incredible community for 3 years and as a result my fears have truly dissolved and my life has become abundant and enriching. There is always such a welcoming and comforting positive energy held in this amazing space. I have met lifelong sisters and mentors. Through this community I finally feel I have found my true self and place in this world and I cannot express the gratitude I have to Shasta for attracting and creating such a powerful and amazing community and to all the members and teachers who were called and said yes. I love you all and wish you peace and love always - Anyone with an opportunity to come here, you may not know for what or why- trust in it and I promise you will not regret it!",
+        "rating": 5,
+        "usernamefeed": "Nadia Y"
+      },
+      {
+        "text": "Cindy's beginner classes are amazing. Great for anyone who has never done yoga, or those who want to really learn the proper way to do things. The drop in classes I've been to have also been fantastic. Very friendly and warm atmosphere.",
+        "rating": 5,
+        "usernamefeed": "Pia Kaukoranta"
+      }
+    ]
+  },
+  {
+    "name": "Ahimsa Yoga Whitby",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipN0i_os2CWdTSDvhZE4Xq8SwMvrVm11edwLMM2b=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.ahimsayoga.com/",
+    "phone": "(905) 999-0429",
+    "description": "Love and inclusion radiates out of JP. He teaches from his heart and lives yoga as opposed to just doing yoga. I always love when there is a discussion or learning in a class, and the class I attended was just that. Adjustments are very important to me in a class- to take me deeper and to focus breath. There were two people performing them which was amazing.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "3, 100 Dundas Street West, Whitby",
+    "lat": 43.8799405,
+    "lng": -78.9423559,
+    "commentfeed": [
+      {
+        "text": "I really enjoy Rebecca's class, she is doing such a great job.",
+        "rating": 5,
+        "usernamefeed": "rosemarie reichl"
+      },
+      {
+        "text": "Great yoga studio. Famtastic teachers, classes and workshops. Easy parking.",
+        "rating": 5,
+        "usernamefeed": "Doug Brick"
+      },
+      {
+        "text": "Wonderful staff and AMAZING classes.  I recommend this studio to all :)",
+        "rating": 5,
+        "usernamefeed": "Audrianna Martin Del Campo"
+      },
+      {
+        "text": "Friendly , welcoming and very helpful",
+        "rating": 5,
+        "usernamefeed": "Shelley Shaubel"
+      }
+    ]
+  },
+  {
+    "name": "Anahata Yoga Therapy",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMJjVkDsPQVE6v4fkxpNCCqUvbYAI5mCx4w-Ukx=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.anahatayogatherapy.net/",
+    "phone": "(905) 431-9656",
+    "description": "I've never found a better place to do yoga!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "11 Atkinson Court, Ajax",
+    "lat": 43.8602164,
+    "lng": -79.01513749999998,
+    "commentfeed": [
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Rocco Zambri"
+      }
+    ]
+  },
+  {
+    "name": "Glow Yoga Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipODIxsmkzM6ZSAKO__CBBV5M8FK9c2DQHwrRSLl=s1600-w980-h980",
+    "rating": 5,
+    "website": "http://www.glowyogastudio.ca",
+    "phone": "(905) 668-4569",
+    "description": "Fantastic facilities, both on Brock Street and coronation road, and Carol and her team do a fantastic job of providing both fantastic workout and magical energy",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "4535 Coronation Road, Whitby",
+    "lat": 43.9183578,
+    "lng": -78.9895555,
+    "commentfeed": [
+      {
+        "text": "This studio is so incredibly beautiful, surrounded by gorgeous nature. Imagine doing yoga in the midst of hearing a water fountain from a pond just outside and the sounds of birds and trees blowing in the wind. I had the opportunity to do a class in the outside studio made of wood surrounded by trees. I also went to a workshop which was filled with the aroma of sacred frankincense. I did another restorative class in the winter and the walk alone down the hill and into the studio was like a trip to heaven. It's just gorgeous and serenity for your mind. The instructors teach from their heart. They are all so kind and provide hands on support. I am so happy to be a part of the studio. I cannot wait to take more classes!",
+        "rating": 5,
+        "usernamefeed": "Therisita Meditation"
+      },
+      {
+        "text": "Such a great welcoming studio.",
+        "rating": 5,
+        "usernamefeed": "kelly graff"
+      },
+      {
+        "text": "Need a stretch? Visit Glow Yoga and they will provide you with the Top Notch exercises and advice that you need:) They are trusted, proven by the Top Choice Award survey as they were voted the Top yoga studio in the Durham region..",
+        "rating": 5,
+        "usernamefeed": "David Silvestre"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Francoise Bosse"
+      }
+    ]
+  },
+  {
+    "name": "YogaBliss",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipM9Y0A2e84LRAl-fn9lbZteumyMXu3bg82fp3k=s1600-w960-h960",
+    "rating": 5,
+    "website": "http://yogabliss.me/",
+    "phone": "(905) 903-9642",
+    "description": "I came in with my friend for the first time to Yoga Bliss and immediately were welcomed in. It's always a little nerve wracking entering a new studio, but the environment was so comforting and nonjudgmental. The studio itself is absolutely beautiful, and a true gem to the Whitby core. Our class was lead by Nienke who was a wonderful teacher -very thorough, and knowledgeable. We did Yin yoga -I have insomnia, and at the best of times cannot sleep -by the end of her class I was so relaxed and zen that I could have passed out happily! I can not wait to make this part of my weekly routine!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "105 Colborne Street West, Whitby",
+    "lat": 43.87866100000001,
+    "lng": -78.94201399999997,
+    "commentfeed": [
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "stan griffiths"
+      }
+    ]
+  },
+  {
+    "name": "Livewithspirit.ca",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipORn8nHopf2JKs5nJw_7xtAb2vnQ946VSGsMSmW=s1600-w1024-h1024",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(905) 620-1151",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "101 Mary Street West, Whitby",
+    "lat": 43.88142999999999,
+    "lng": -78.94318199999998,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Yoga Group Inc",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(905) 426-4022",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "Ajax",
+    "lat": 43.84666319999999,
+    "lng": -79.01916720000003,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "P3 Yoga Zone",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(905) 409-8861",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "1050 Brock Road #20, Pickering",
+    "lat": 43.835112,
+    "lng": -79.06953699999997,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Hot Yoga",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4,
+    "phone": "(905) 426-1998",
+    "description": "",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "377 Mackenzie Avenue, Ajax",
+    "lat": 43.84053249999999,
+    "lng": -79.02724739999996,
+    "commentfeed": []
+  },
+  {
+    "name": "Moksha Yoga",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4.5,
+    "website": "http://pickering.mokshayoga.ca/",
+    "phone": "(905) 831-4888",
+    "description": "Great place to keep your stress levels all time low.. i love moksha hot yoga classes\nThey do need improvement in yin yoga and meditation but still a good place for yoga over all with nice small studio",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "1099 Kingston Road, Pickering",
+    "lat": 43.8279394,
+    "lng": -79.09720670000002,
+    "commentfeed": [
+      {
+        "text": "Been coming here for 2 years now and loving the studio more and more each time.  The teachers and staff are friendly and knowledgeable.  Talk to them before and after the class if you have any concerns.  The hot yoga series are challenging yet flexible.   The place is age and gender friendly and I love seeing a diverse class.  If you sign up for an account on the online booking system, you can even earn points and trade for class or yoga wear.   If you are still unsure,  get the intro month pass for a great deal.",
+        "rating": 5,
+        "usernamefeed": "Yvonne Ouyang"
+      },
+      {
+        "text": "Changed my life",
+        "rating": 5,
+        "usernamefeed": "Emran Singh"
+      },
+      {
+        "text": "Hot yoga at Moksha rocks, great time everytime",
+        "rating": 5,
+        "usernamefeed": "Terri J"
+      },
+      {
+        "text": "Great hot yoga. Instructors are really nice and knowledgeable. ",
+        "rating": 5,
+        "usernamefeed": "Mich D"
+      }
+    ]
   }
 ]

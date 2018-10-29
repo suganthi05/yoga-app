@@ -5334,6 +5334,487 @@
         "usernamefeed": "lorr d"
       }
     ]
+  },
+  {
+    "name": "Yoga Interlude",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(416) 787-7877",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "211 Cameron Avenue, North York",
+    "lat": 43.7543512,
+    "lng": -79.42146450000001,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Yoga Centre Toronto",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4.3,
+    "website": "http://yogacentretoronto.ca/",
+    "phone": "(416) 482-1334",
+    "description": "Good to see a Iyengar Yoga style based studio - however for serious yoga aspirants, monthly membership is a must, which I don't see in the fees schedule.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "3366 Yonge Street, Toronto",
+    "lat": 43.73233889999999,
+    "lng": -79.40449109999997,
+    "commentfeed": [
+      {
+        "text": "A yoga centre is only as good as its word.",
+        "rating": 1,
+        "usernamefeed": "Steve Lanys-Morris"
+      },
+      {
+        "text": "Amazing place! The instructors are incredibly knowledgeable. I highly recommend",
+        "rating": 5,
+        "usernamefeed": "Angela larocque"
+      },
+      {
+        "text": "Excellent yoga studio. Teachers are well versed in Iyengar yoga. Always a pleasure to return. It is a very precise and strict type of yoga with many health benefits if done right. Rest assured the teachers at YCT know what they are doing.",
+        "rating": 5,
+        "usernamefeed": "Albert"
+      },
+      {
+        "text": "The teachers at Yoga Centre Toronto are very experienced and friendly.  I have been doing yoga there for 8 years now.  Iyengar yoga is very precise and can help those with physical issues.\n\nI have great confidence that doing this type of yoga at Yoga Centre Toronto has been responsible for easing my muscle pains, for helping with my posture and for helping keep me healthy!  I don't know what I would do without them!",
+        "rating": 5,
+        "usernamefeed": "Vasant R"
+      }
+    ]
+  },
+  {
+    "name": "Jaya Yoga Centre",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPUwXN21rnwUI2D1o3njVcx4NrtJn4gbDu8IDJn=s1600-w554-h272",
+    "rating": 4.6,
+    "website": "http://www.jayayoga.ca/",
+    "phone": "(647) 352-5292",
+    "description": "Wonderful, knowledgeable teachers ...and great studio space",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "121 Willowdale Avenue, North York",
+    "lat": 43.7651307,
+    "lng": -79.39982939999999,
+    "commentfeed": [
+      {
+        "text": "I originally tried Jaya when a regular instructor at another school left for a few weeks vacation. Now I have moved my whole practice there. It's a great school. The space is lovely, but the real draw are the teachers. I have tried all of them now, and they are all wonderful. Each is very different from the other, but having that variety of teaching styles keeps it interesting. I love it at Jaya and will never go anywhere else. I highly recommend it.",
+        "rating": 5,
+        "usernamefeed": "Joelle Stromberg"
+      },
+      {
+        "text": "\"Recently found this gem of a studio and being injured during a hot yoga class at a studio nearby. Tired of the hot yoga workout world, I can't believe how lucky I was to stumble onto Jaya Yoga. Great teachers, well educated and extremely helpful and therapeutic! The studio itself is warm and inviting, and is the perfect addition to my day. The owner is as sweet and kind as could be, and the vibe of the whole place is extremely special. True community yoga studio with authentic teachings\"",
+        "rating": 5,
+        "usernamefeed": "monika czekaj"
+      },
+      {
+        "text": "This studio is way to overpriced for what they offer. I went to prenatal yoga classes the regular instructor Tatjana is great. However she went on vacation and it was replaced by an inexperienced instructor who does difficult postures in very fast pace, most of them don't even recommended in pregnancy. ( I am a health teacher and I have a colleague who is an experienced yoga instructor so I know What I am talking about) Half of the class left. I deeply regret because  I purchased 6 weeks pass instead of drop in. Be aware that they are very quick in taking your money and very slow in giving your money back , even when the instructor doesn't show up at the classes.   I went to another yoga studio with more professional standards , really experienced instructors, including substitute ones and more affordable prices. The extra driving is worth it. I do not remand this unprofessional studio where you have hard time to contact them by email or phone.",
+        "rating": 1,
+        "usernamefeed": "Mario Luca"
+      },
+      {
+        "text": "Wow, I strongly disagree with the one star reviewer... in comparison to the other studios in this beautiful city, Jaya Yoga actually has the fairest policies as I've had issues with other places and so was quite interested in the details of the next studio i committed to after i moved into this area. I had the pleasure of meeting the owner Jacqualine and have never met anyone so genuine and kind. I think any complaints on here are from people who just need to complain about something... and probably need way way way more yoga in their life to help with that. \nI really feel at home at this studio and it's so cozy and magical. Bonus - They have registered massage inside too. If you're looking for a great yoga experience and home base, then look no further!",
+        "rating": 5,
+        "usernamefeed": "FunkeeStuff CEO"
+      }
+    ]
+  },
+  {
+    "name": "Ca Wellness Clinic",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNXDwTHCv_eYdwGTNJHsn_OEIMFXmIFt4IP4WWp=s1600-w480-h409",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(647) 918-1750",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "4632 Yonge Street Unit 203-C, North York",
+    "lat": 43.757413,
+    "lng": -79.41019699999998,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Ashtanga Yoga Centre",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipM28E0F0_mJh66ruU4A8gemMAnx-QeMCkyi3_Et=s1600-w1024-h1024",
+    "rating": 4.7,
+    "website": "https://www.ashtangatoronto.com/",
+    "phone": "(647) 342-6550",
+    "description": "I really like this Yoga place. The instructors are great, the location is great and the Mysore classes are great. I feel much better every time I go. It would be awesome if there were earlier weekend classes. But maybe that's just me.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "3215a Yonge Street, Toronto",
+    "lat": 43.7281763,
+    "lng": -79.40285779999999,
+    "commentfeed": [
+      {
+        "text": "I'm from Saudi Arabia and recently practicing Ashtanga in Arab yoga foundation school AYF  .. I came to Canada for tourism and I found this amazing school for practicing.. it's really amazing and i love it. Also i highly recommended for Ashtangi people. ",
+        "rating": 4,
+        "usernamefeed": "Toots Samman"
+      },
+      {
+        "text": "This place is amazing!!! Everyone is so friendly. I felt so welcomed the minute I entered the space. I took my first Mysore class, and the instructors were kind. They guided my practice the entire time. I felt so safe and they held the space so well. ",
+        "rating": 5,
+        "usernamefeed": "Yara Elarabi"
+      },
+      {
+        "text": "Walked into my first Ashtanga Yoga class after a few months of home practice. The Studio is a beautiful and welcoming space, and every teacher I've had has had tremendous knowledge and personal attention to give. I'm often amazed at how even when the room is full, the teachers and assistants are always keeping a watchful eye on you and are able to be constantly assisting students. I'm excited to learn more! ",
+        "rating": 5,
+        "usernamefeed": "Allison A"
+      },
+      {
+        "text": "The morning mysore practice was very high energy and very well attended.  David was not there when my wife and I visited.  We were very impressed with the three teachers working the mysore room.  They were on the move constantly assisting students.  They are well trained and welcoming.  My wife and I enjoyed the experience thoroughly.   We live and practice and Boston.  Whenever we visit Toronto, we will definitely return to this studio.",
+        "rating": 5,
+        "usernamefeed": "gary barsomian"
+      }
+    ]
+  },
+  {
+    "name": "Hot Yoga TNT",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMKNoL8rMR1fP8o_9kC18oLl3drTb2jxja5BmX-=s1600-w1024-h1024",
+    "rating": 4.4,
+    "website": "http://www.hotyogatnt.com/",
+    "phone": "(416) 226-0440",
+    "description": "This class is great ! I haven’t practiced yoga in 2 years and I am so happy to be back. My body and mind is looking forward to it! I am new to this location, I traveled 1 hour to and from! and I am impressed! I witnessed and experienced the true meaning of practicing it regularly, love the medicinal part of yoga... what it does to your body. I want to thank  the teachers...I met Sarah, Linda, David, Hannah, Maria... your guidance is so important to us teaching step by step the proper way of deep breathing, the poses, and of course the caring attitude  it’s so encouraging! Their passion and compassion is tremendous! it’s  a nice ambience  and very close to the subway...teachers are sweet and welcoming.  it’s a total exercise of wellbeing and it’s true Yoga is medicine  for the soul and body. Highly recommend!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "500 Sheppard Avenue East #208, North York",
+    "lat": 43.766762,
+    "lng": -79.388848,
+    "commentfeed": [
+      {
+        "text": "Very nice yoga studio with a variety of great instructors and class types. Amenities provided are adequate and staff is very friendly. Class sizes can get a bit full at times but that attests to the popularity of the place. The app makes it very easy to see the schedule and book classes",
+        "rating": 5,
+        "usernamefeed": "Ian Robert Lau"
+      },
+      {
+        "text": "Went in for a stretch after being away for a while. The class was a killer and worth every drop of sweat. I felt so refreshed and energized! The heat is strong and helps warming up your body for that incredible 90 min stretch. \n\nI consider myself to be in a good shape, this practice is by far the most challenging thing that I have ever done. Not only do you sweat, stretch, build strength and endurance, you also gain many health benefits, increased lung capacity, and tremendous mental strength.  In addition to the many many physical benefits, you also gain self esteem and learn to have a very positive outlook on things.\n\nThe instructors are great, encouraging and helpful.\n\nThere is free parking which is always a plus.  This is a great  studio for advanced and beginner practitioners alike.\nOverall: I'm excited to go back.",
+        "rating": 5,
+        "usernamefeed": "Larissa Dedkova"
+      },
+      {
+        "text": "So glad I found this studio. The teachers are excellent and encouraging and really know there stuff. I love that they encourage everyone to focus on proper posturing and not  forcing poses. The studio is big,bright and clean and lots of great time slots to choose classes from.  I really enjoy having the option of a 60 minute bikram class which allows me to make it to yoga more often.  Best studio I've been to!",
+        "rating": 5,
+        "usernamefeed": "Tania Barrie"
+      },
+      {
+        "text": "I loved my membership at Hot Yoga TNT. This location is always kept clean so I would highly recommend coming here. I went to 5 classes so far  and have gotten pretty familiar with most of the staff at the studio. Most of the staff were nice and most of the teachers were welcoming and professional. Inferno Pilates is a great activity and so good for your body!",
+        "rating": 5,
+        "usernamefeed": "Marcelo Guevara"
+      }
+    ]
+  },
+  {
+    "name": "The Basement Yoga Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipP2m-CI_z-CRXpqULABdEM3U-RG_PiHIGnq6_td=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.thebasementyoga.com/",
+    "phone": "(416) 901-0500",
+    "description": "I teach there. Love it :)",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "626C Sheppard Avenue West, North York",
+    "lat": 43.7556336,
+    "lng": -79.44050089999996,
+    "commentfeed": [
+      {
+        "text": "Really great teachers. Every one here genuinely cares about their students. Smaller class sizes means more attention to perfecting your alignment and posture.",
+        "rating": 5,
+        "usernamefeed": "Nadia Kismet"
+      },
+      {
+        "text": "Great instructors. ",
+        "rating": 5,
+        "usernamefeed": "Gennaro Cioffi"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Michael g"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Patricia Guillen"
+      }
+    ]
+  },
+  {
+    "name": "Breath Uptown Pilates & Yoga Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipM2jBsM938Sxx78_fiF-eRAyL3wXgFBU1Idv5lO=s1600-w1024-h818",
+    "rating": 5,
+    "website": "http://www.breatheuptownpilates.ca/",
+    "phone": "(416) 301-6968",
+    "description": "Uptown Pilates has definitely become my second home over the past few months. I have been doing Pilates for about 13 years and have gone to numerous studios around the world, but once I found this studio and owner Andrea I can honestly say that this is one of the best. This private studio is truly a safe haven, where you come to release your worries and connect with your inner strength. Andrea is beyond qualified; she makes sure you are in good form and feel comfortable. She will challenge you when needed but never farther then they know you can handle. I recommend Uptown Pilates to anyone who wants to try Pilates. Andrea has an attention to detail that you will not find anywhere else and you will also get a great workout. Her place is more then just a Pilates studio, she will support you as well and for that I am forever grateful.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "4750 Yonge St #302, North York",
+    "lat": 43.7603729,
+    "lng": -79.41111539999997,
+    "commentfeed": [
+      {
+        "text": "As a beginner to Pilates, I’d highly recommend Breathe Uptown Pilates & Yoga Studio. The studio’s instructor, Andrea, caters to the individual needs of each person in her classes whether it’s your first day doing Pilates or your 100th.  Andrea takes the time to clearly explain the exercises and helps you make corrections as needed. She challenges you to do your best every class. Andrea's created a welcoming, relaxing and fun space.",
+        "rating": 5,
+        "usernamefeed": "Emilia Di Luca"
+      },
+      {
+        "text": "Andrea is a really good pilates instructor. I had a great experience. She was patient and knowledgeable in her guidance with the reformer. I highly recommend her studio.",
+        "rating": 5,
+        "usernamefeed": "RMT-Jesse Van Rooi"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "raheleh abbaci"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Sylvia Gerz"
+      }
+    ]
+  },
+  {
+    "name": "Iyengar YogAnanta",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOnnbrSQrjBo-wZyvnluJdqkmdlLv8HkWlmXG4v=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.iyengaryogananta.com/",
+    "phone": "(416) 931-2103",
+    "description": "Outstanding and the best way to experience it is to come and check it out for oneself. I wish I could give 10 stars as 5 seem to be too little. Highly recommended.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "40 Devondale Avenue, North York",
+    "lat": 43.7779477,
+    "lng": -79.43690509999999,
+    "commentfeed": [
+      {
+        "text": "Iyengar Yogananta is one of the finest, cosiest, most welcoming studios in Toronto with the beautiful setting and ambiance and most importantly the classes are out of the world experience. My first class with Niren was life changing. He teaches, inspires and motivates you, as he says, to make yoga your way of life and not just a day on your calendar. \nHis passion, dedication and devotion to art of yoga and teaching and his constant generosity, support and care for all his students, one by one, is exceptional.",
+        "rating": 5,
+        "usernamefeed": "Jasmina Vicentijevic"
+      },
+      {
+        "text": "A very pleasant, well equipped studio run by a very sincere teacher with tremendous experience who is committed to Guruji BKS Iyengar's  methodology.",
+        "rating": 5,
+        "usernamefeed": "E Kva"
+      },
+      {
+        "text": "If you are sincere in your desire to seek a teacher, and true to yourself in your drive to practice, you will be undoubtedly thrilled to have discovered Iyengar Yogananta and Niren Pandya. This yoga studio is less about the thrills and trends of modern yoga and all about the raw fundamentals of yogasana as prescribed by the sutras of Patanjali.\n\nNo student is perfect and neither is the teacher. In my humble opinion, the mark of a fantastic teacher is greatly attributed to his/her openness and willingness to continuously evolve as a human being and as a practitioner. Where the student is constantly in learning mode, the teacher must also be able to switch from teaching to learning and back again. Few teachers (outside of the most 'advanced' Iyengar instructors) have this capacity and exhibit it the way in which I believe that Niren does.\n\nI would highly recommend Niren to anyone who is new to yogic practice or who has been practicing for years. That being said, you do not need my suggestion to discover this, you simply need to dedicate yourself to the practice and experience Niren's teaching for yourself.",
+        "rating": 5,
+        "usernamefeed": "Adamo Vittiglio"
+      },
+      {
+        "text": "Niren is an excellent instructor with tremendous knowledge,  patience and wisdom.",
+        "rating": 5,
+        "usernamefeed": "Karen Haar"
+      }
+    ]
+  },
+  {
+    "name": "Moksha Yoga North York",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOZtmOxCADpNSPT9B1f3ojdgF6PCGA0lwcvitVS=s1600-w1024-h1024",
+    "rating": 4.8,
+    "website": "https://north-york.mokshayoga.ca/",
+    "phone": "(416) 225-6767",
+    "description": "Best hot yoga studio ever. The place is very spacious, and they have amazing staff members. It’s very welcoming, warm and cozy place where everyone is respectful and friendly to each other. The programs are amazing, and the instructors are really great as well. I can’t recommend this place enough to my friends and family!",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "100 Sheppard Avenue East #100, North York",
+    "lat": 43.76320679999999,
+    "lng": -79.40547279999998,
+    "commentfeed": [
+      {
+        "text": "This studio is where I started doing yoga for the very first time. I've been to other studios since then, but Moksha (either North York or Thornhill locations that I have been to) have been distinctively different. I enjoy practicing at this studio so much because the staff and instructors are amazing! Every single instructor at Moksha is well trained and does a fabulous job providing instructions. This is one of the few studios where instructors take the time to observe each client and help ensure that they are doing the postures correctly. Also, Moksha is probably one of the few studios where you actually get to relax before and after class - there's a very good culture established amongst members to ensure they are respectful of each other's practice. The only downside with this location is that it gets crowded (specially in the evening and at night), and that there is limited free parking (and only at certain hours).",
+        "rating": 4,
+        "usernamefeed": "Sanaz Baradaran"
+      },
+      {
+        "text": "It's an amazing place to learn yoga and go a little deeper to know yourself. I love the place from the very first class. It's super positive aura make every practice more meaningful. All the instructors are full of a positive aura. I love Tess and Jes specially. Cheers to the team and all the Yogis!!!",
+        "rating": 5,
+        "usernamefeed": "NA"
+      },
+      {
+        "text": "Emily’s class are the BEST! She has a true gift. What a blessing.",
+        "rating": 5,
+        "usernamefeed": "Oren Epstein"
+      },
+      {
+        "text": "I've been practicing regularly here for a few months now and I love it. It has great instructors, lots of classes and clean facilities. Also, a membership lets you practice at the North York and Thornhill locations which opens up even more great classes. Front desk is always professional and friendly.",
+        "rating": 5,
+        "usernamefeed": "Farah Ng"
+      }
+    ]
   }
 
 ]

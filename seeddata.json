@@ -3065,5 +3065,493 @@
         "usernamefeed": "Alex Parrish"
       }
     ]
+  },
+  
+  {
+    "name": "Chandra Yoga Shala",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipN_zoiJazVNzIMWNL1v9oOgIpsgeCTh1K64VFep=s1600-w323-h323",
+    "rating": 5,
+    "website": "http://www.chandrayogashala.com/",
+    "phone": "(416) 259-7101",
+    "description": "Just excellent. The best class I've taken.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "200 Evans Avenue Unit 101, Etobicoke",
+    "lat": 43.6185538,
+    "lng": -79.51386660000003,
+    "commentfeed": [
+      {
+        "text": "Best Ashtanga studio in Etobicoke. Traditional practice, experienced teachers and big sense of community.  Highly recommend.",
+        "rating": 5,
+        "usernamefeed": "florent balsez"
+      }
+    ]
+  },
+  {
+    "name": "Modo Yoga Bloor West",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPdRmjgnmZNJKBkZLeK31Zsgexxpm-aNI8FNKOh=s1600-w1024-h683",
+    "rating": 4.3,
+    "website": "http://mokshayogabloorwest.com/",
+    "phone": "(416) 766-9642",
+    "description": "Such an uplifting environment.  The instructors take the time to truly get to know their students and show they care about your wellbeing and progress. Since I have moved from Toronto, I have not been able to find a studio as inspiring as Moksha Bloor West -  It really is a special place. Can't wait to come back to visit!",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "2481a Bloor Street West, Toronto",
+    "lat": 43.648597,
+    "lng": -79.48507029999996,
+    "commentfeed": [
+      {
+        "text": "I understand there has been some controversy surrounding a Facebook post made by this studio around the time of the April van attacks. I understand why this has offended some. My review is not based around that. \n\nThis studio is run by wonderful people, despite what some may be posting regarding the controversial post. I worked at this studio as an Energy Exchanger for a few months and honestly I wasn't even practicing yoga at the time. I just volunteered because I was going through an emotional time in my life and wanted to be surrounded by positive people, spend time in a peaceful space and do what I could to grow during a difficult time in my life. I loved the space, the environment and the people. Don is a very wonderful man. I never had the chance to meet Meg, but everyone only had great things to say about her. \n\nThey are very mindful and considerate of the fact that some people may need yoga in their lives, but cannot afford it. This is the only studio I have known to operate on a sliding scale so that everyone can feel the positive effects of yoga. To me, this is the embodiment of yoga. \n\nThey keep a very clean space, have fair prices and it is a wonderful community. I would recommend this studio to anyone. I would also recommend their Energy Exchange program to anyone who would like to practice yoga regularly but cannot afford it, and anyone who would like to surround themselves with like-minded individuals.",
+        "rating": 5,
+        "usernamefeed": "Carly Brennan"
+      },
+      {
+        "text": "I love this studio! Everyone is so warm and welcoming and there is no judgement.  I couldn't be more happy to be a member of this studio.  Every teacher is amazing and are truly gifted of the art. The studio is very clean and cozy. I have fallen asleep in the zen den on more than one occasion.   As a mother of two babies wanting to get back into shape it is extremely overwhelming.  Coming into the studio I feel very safe and it eases that feeling of being overwhelmed.  I love this studio and I can't say that enough. Thank you Moksha Bloor West for being my safe get away.",
+        "rating": 5,
+        "usernamefeed": "Marcela Amaral"
+      },
+      {
+        "text": "I've practiced Yoga at many yoga studios (including a few different Moksha'). I especially love this studio. Beautiful physically (especially the practice room with its windows and the \"Zen Den\" with books, many live tropical plants, and musical instruments tea and fruit, people relaxing and chatting) great energy, amazing teachers/staff, many classes throughout the day for busy schedules etc. It is a very special place and i'd recommend setting up a regular practice there to get in with the community and make some friends, let alone the benefit of regular Yoga. Very positive vibes and will impact your life in POSITIVE ways.",
+        "rating": 5,
+        "usernamefeed": "Sean Hutchison"
+      },
+      {
+        "text": "I've tried yoga for years and never could enjoy it much at all. Moksha yoga completely changed my appreciation for doing yoga and I can't get enough of it now! Amazing classes  and amazing facilities. Love it",
+        "rating": 5,
+        "usernamefeed": "Dan Demsky"
+      }
+    ]
+  },
+  {
+    "name": "Bikram Yoga Red Tree",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPGgU_4mI5-7WGPEHHtiZ_-OwusLjNeYt9eOy3w=s1600-w1024-h1024",
+    "rating": 4.2,
+    "website": "http://redtreehotyoga.com/",
+    "phone": "(416) 503-9991",
+    "description": "Very happy practicing yoga at Red Tree Hot Yoga. I discovered the studio by chance from a Groupon offer 4 years ago and I have been coming ever since.   It is a bit of a drive for me to get to the studio  but the classes are always rewarding so it is worth the trip.  The Red Tree studio is bright and the teachers are knowledgeable sometimes giving you suggestions and offering specific suggestions about  the poses.  The tone of the classes can be serious and quiet or they can be fun and energetic with upbeat music depending on the type of class. There are different classes posted on their website and most recently  Red Tree is offering warm Vinyasa flow classes which I am happy about because I enjoy this type of class as well.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "12 Drummond Street, Etobicoke",
+    "lat": 43.613131,
+    "lng": -79.49837730000002,
+    "commentfeed": [
+      {
+        "text": "Cute, clean studio - but none of that really matters.  I've been practicing Bikram for a number of years, but unwisely stopped for 2 1/2 years.  Back at it in my new home here in Toronto, I stumbled across this fabulous studio.  The thing that separates this studio from some others I've been to is that these teachers are truly invested in student success.  The poses are held for the full counts, little corrections are given here and there to help you take your practice to the next level, and the room is hot enough but not over the top 40+.  Well done, Red Tree!  #clientforlife",
+        "rating": 5,
+        "usernamefeed": "Julie Vogt"
+      },
+      {
+        "text": "I was a member for years but quit to go elsewhere. Hopefully improved with the new owner.",
+        "rating": 3,
+        "usernamefeed": "Jeff Vogan"
+      },
+      {
+        "text": "Had a private group session with approximately 17 people. The staff at Red Tree were amazing as it was the first time attempting hot yoga for many of us and the response was overwhelming. We will for sure be back and highly recommend giving it a try. \nThe clean facility and service  just added to the  experience. \n\nSee you guys soon!!!",
+        "rating": 5,
+        "usernamefeed": "Mark Bremner"
+      },
+      {
+        "text": "Loved the warmth welcome and to bebe my first time, I felt incredibly comfortable!!!",
+        "rating": 5,
+        "usernamefeed": "Maria Isabel Bellon-Hernandez"
+      }
+    ]
+  },
+  {
+    "name": "YogaSpiritus",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOLUVnw_fpf4FjrtNdgGG8zbp28rwD60IzNmgOD=s1600-w630-h466",
+    "rating": 5,
+    "website": "http://www.yogaspiritus.com/",
+    "phone": "(416) 859-0585",
+    "description": "Donna is a great instructor, I have been enjoying her classes for many years and always leave feeling very cared for. Her classes are very personalized.  She explains how the body works in various poses and specializes in recovery from pain.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "54 Lake Crescent, Etobicoke",
+    "lat": 43.6071642,
+    "lng": -79.4937079,
+    "commentfeed": [
+      {
+        "text": "I have been a client of Donna's for several years now. I am so impressed with her continuous and passionate study of yoga, anatomy and pain physiology and her application of this knowledge within our classes. In her small group classes or private sessions, she is very explicit and clear in her instruction. She has provided me with an excellent customized program of exercises for low back pain that I have incorporated into my daily routine.",
+        "rating": 5,
+        "usernamefeed": "Kelly Ohashi-Pisak"
+      },
+      {
+        "text": "Wonderful instructor. I have been attending yoga at Yoga Spiritus for many years and I can’t speak highly enough of Donna’s expert instruction and relaxed atmosphere.  The yoga retreat in the summer is amazing too.",
+        "rating": 5,
+        "usernamefeed": "Rena S."
+      },
+      {
+        "text": "I have always had individual sessions with Donna and it has been a few years now.  I had never done yoga before and as an big girl with no a lot of flexibility I was nervous.  Donna is so calm and encouraging and listens to what you need or want to work on and tailors your session to your experience.  I have had some injuries here and there and I find that her suggestions and only helped to speed up my healing.  I would recommend her to anyone.  Wholeheartedly.",
+        "rating": 5,
+        "usernamefeed": "Melanie Joseph"
+      },
+      {
+        "text": "I've been attending these classes for several years now. I like the small class size, the ease of parking and how the class is always different, so I  never get bored. Donna knows her yoga.",
+        "rating": 5,
+        "usernamefeed": "Cocomira Orders"
+      }
+    ]
+  },
+  {
+    "name": "ALIVE yoga & fitness",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipO-eyr3YnulDE_0BAwsfBFcUMEZkteJU2pCVw1n=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.aliveyogato.com/",
+    "phone": "(647) 926-3948",
+    "description": "Love this place!  It's a wonderful atmosphere to come and unwind after a long day.  All of the instructors are very friendly and always accommodate for any injuries or provide alternative poses.  The owners are great and always make you feel at home.  Everyone at Alive yoga & fitness go the extra mile to make your yoga experience as great as it can be.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "2240 Lake Shore Boulevard West #229, Etobicoke",
+    "lat": 43.621064,
+    "lng": -79.48331999999999,
+    "commentfeed": [
+      {
+        "text": "As a novice I was anxious about starting at Alive, but I didn’t need to be. Stef, one of the owners, was my teacher for my first class and she made me feel totally welcome and instantly put me at ease.  I loved that first class and i’ve been a member there for over 3 months now.  \nAlive is a beautiful bright space with two studios. It has excellent facilities. There is a large changing area with plenty of lockers, and a bathroom with showers. The walls are adorned with artwork, there is filtered water, complimentary teas, and plenty of high quality equipment for your practice. They have a variety of classes for all levels and preferences, and I have been able to try most of them.  All of the teachers there are fantastic, super knowledgeable and approachable, and they all add to the positive atmosphere. I love everything about Alive!\nI occasionally drive there and the free parking under the attached condos is a bonus.",
+        "rating": 5,
+        "usernamefeed": "Sarah Oakley"
+      },
+      {
+        "text": "From the minute you walk into the space, you're welcomed with a smile and you instantly feel more calm. Stef and Seb are two of the most genuinely kind hearted warm people. The classes are great, and all the trainers are knowledgeable and welcome all levels with open arms. The space is super clean and I love that they offer tea (that tastes amazing by the way)! Highly recommend this place!",
+        "rating": 5,
+        "usernamefeed": "Michelle Bialy"
+      },
+      {
+        "text": "I absolutely love this studio. Not only is it an aesthetically pleasing and extremely friendly and welcoming space, each teacher has their own unique aspect that makes every class special and worth trying. I have been so happy since ALIVE opened up. The teachers are so approachable and encouraging and the owners are truly so kind. I recommend ALIVE 100%",
+        "rating": 5,
+        "usernamefeed": "Valerie Stachurski"
+      },
+      {
+        "text": "I discovered Alive through ClassPass when I was in search of local yoga studios. After one class at Alive, my search ended. Since then, I have enjoyed a variety of mixed-level classes with great, non-pretentious instructors in a clean facility with a serene view. I recommend this studio for anybody wanting to try yoga for the first time, and for more seasoned yogis too.",
+        "rating": 5,
+        "usernamefeed": "Adriana d’Entremont"
+      }
+    ]
+  },
+  {
+    "name": "Maureen Rae's Yoga Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipM25BIGXu_A8h9CPIjB1MzxtF0nhY7dg5geyX00=s1600-w1024-h1024",
+    "rating": 4.3,
+    "website": "http://mraesyogastudio.com/",
+    "phone": "(416) 716-7589",
+    "description": "Great studio. Wonderful instruction, never the same class. Maureen really runs this place well. My only issue here is the limited choice of classes but great studio & instruction if the day/time suits you. Conveniently located near ample parking, bus stops and the Kipling subway station",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "5324 Dundas Street West, Etobicoke",
+    "lat": 43.6347841,
+    "lng": -79.54207550000001,
+    "commentfeed": [
+      {
+        "text": "Maureen is wonderful. The only reason I didn't give the studio 5 stars is because Maureen doesn't teach all of the classes. The studio is welcoming and homey, it isn't pretentious. It doesn't have as many extras as some other studios but I would say the price reflects that and the focus is really on the people and the yoga.",
+        "rating": 4,
+        "usernamefeed": "K"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Marina Quattrocchi"
+      }
+    ]
+  },
+  {
+    "name": "Moksha Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMJYbl8ha_UUmCSSwoRguQBXTMbQ2H1_hh1p6T6=s1600-w1024-h1024",
+    "rating": 4.6,
+    "website": "http://www.mokshayogaetobicoke.com/",
+    "phone": "(416) 253-9642",
+    "description": "If you're looking for variety, quality, and friendliness this is a great place to go.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "1138 The Queensway, Etobicoke",
+    "lat": 43.6228048,
+    "lng": -79.5197116,
+    "commentfeed": [
+      {
+        "text": "I just love this studio!",
+        "rating": 5,
+        "usernamefeed": "Melody And Diane"
+      },
+      {
+        "text": "Love this place! Some of the negative reviewers sound like winey little children OR have something to gain by reviewing negatively. I certainly have no affiliation and am not even a member but I'm treated professionally and greeted with a smile every time I show up. Keep up the good work Moksha Etobicoke!",
+        "rating": 5,
+        "usernamefeed": "Nuno Fonseca"
+      },
+      {
+        "text": "Not only do they offer Amazing classes, I always feel welcomed and enjoy every teacher. I’ve tried out many studios in the area and this studio is the one I’ve chosen.",
+        "rating": 5,
+        "usernamefeed": "Sarah Faraone"
+      },
+      {
+        "text": "Good Lordy. Where do I begin? This is a great little place to practice yoga... on certain dates only. Let me explain and try to maintain my composure while doing so:\n- This place is located in a weirdly small little plaza right on a the busy road. Limited parking spots. There are some spots on the side road and back but you have to risk getting a ticket.\n- Their practice room is in a very small room in the basement. I repeat. In the basement. In. the. basement. with. no. windows. So, if you're claustrophobic; be prepared to meet your death.\n- Imagine 50 people cramped together in a little room in the basement, with the heat on. Each and every single person is sweating profusely. The Instructor repeatedly asks everyone to \"stick out their tongue and sigh and breathe out loudly\". So basically, you are breathing other people's vile breath and odour for the ENTIRE duration of the practice. If you like breathing in other people's breath/odour for 60 straight minutes while you bask in puddles of other people's sweat, then YOU WILL FEEL RIGHT AT HOME. Personally, I'd rather do my breathing exercises and poses in fresh air.\n- In order to avoid over-crowding, you have to go in at odd times (early on weekends)\n\nOverall, it's a great place. However, the over-crowding room with stinky people, dingy basement and an extremely limited parking space makes it a deal breaker for me. I hope you have a better experience than I did.",
+        "rating": 1,
+        "usernamefeed": "Janine D"
+      }
+    ]
+  },
+  {
+    "name": "Branch Yoga & Wellness",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOKcfas-tis4m-WVhdB2awR7hU11gXTG-C8wXLO=s1600-w1024-h1024",
+    "rating": 4.9,
+    "website": "http://branchyoga.com/",
+    "phone": "(647) 293-5360",
+    "description": "Great studio! Always clean! Amazing instructors, always very helpful. I definitely recommend this place to anyone wanting to try yoga for the first time. I only recently started and this place has made it so easy! The aerial class by far has to be my favorite! Will continue coming here!",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "3301 Lake Shore Boulevard West, Etobicoke",
+    "lat": 43.5964487,
+    "lng": -79.5241059,
+    "commentfeed": [
+      {
+        "text": "I’ve been going to Branch for a few months, after trying several yoga studies in the Mississauga area. As soon as I walked in I felt safe and at home. There are no mirrors in the studio, so no judgement. The staff and teachers are incredible, such an incredible energy.",
+        "rating": 5,
+        "usernamefeed": "Creasy"
+      },
+      {
+        "text": "This studio is very inviting and welcoming. They are fully stocked with bolsters, blocks, blankets. They also do aerial yoga which is both fun and exciting. The instructors are patient and provide excellent instruction. My things were stuck in a jammed locker once but they were very apologetic about it and did everything they can to get the door open.",
+        "rating": 5,
+        "usernamefeed": "Shellen Chak"
+      },
+      {
+        "text": "What I like about Branch Yoga is the variety of classes. Yoga Gym gives you an intense workout, Budokon challenges you to move in new and playful ways, and Vinyasa is a mix of more traditional yoga movements. The instructors are approachable and really know their stuff; every class there is something different that pushes you beyond your comfort zone. Get the intro pass and try different classes- you'll find something you love.",
+        "rating": 5,
+        "usernamefeed": "Anna Kuznetsov"
+      },
+      {
+        "text": "Not crowded clean environment. Good studio!",
+        "rating": 5,
+        "usernamefeed": "Agatha Love"
+      }
+    ]
+  },
+  {
+    "name": "Bliss Yoga Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMduelHzRNs3EKE7QKq7oAuiDTtJXrOWkJ9vofJ=s1600-w1024-h1024",
+    "rating": 4.6,
+    "website": "http://blissyogastudio.net/",
+    "phone": "(416) 207-9642",
+    "description": "True Yogic atmosphere. Professional management. Fact that many students are members for years - proves the quality! Many great students** I am very happy to teach Yoga @ Bliss",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "2992 Bloor Street West, Etobicoke",
+    "lat": 43.64775290000001,
+    "lng": -79.51026809999996,
+    "commentfeed": [
+      {
+        "text": "Great studio & varied classes. Excellent instructors & good friendly atmosphere. Overall a very positive experience so far!",
+        "rating": 5,
+        "usernamefeed": "Maria F"
+      },
+      {
+        "text": "Welcoming and experienced instructors and a beautiful space to practice in.",
+        "rating": 5,
+        "usernamefeed": "Ena Music"
+      },
+      {
+        "text": "",
+        "rating": 3,
+        "usernamefeed": "Shahida Adil"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Jessica Bachana"
+      }
+    ]
+  },
+  {
+    "name": "Power Yoga Canada",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipO_VOh-BVffX-hAaMuvR6GvhmR_P25dQ0QysYNe=s1600-w1024-h1024",
+    "rating": 4.8,
+    "website": "http://poweryogacanada.com/etobicoke/",
+    "phone": "(647) 729-4631",
+    "description": "The hot class is nice and it you feel really good after it. Friendly people there",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "1092 Islington Avenue, Etobicoke",
+    "lat": 43.6365102,
+    "lng": -79.52068700000001,
+    "commentfeed": [
+      {
+        "text": "I’ve been going to PYC since about 2013. PYC has helped me through a number of injuries and I am stronger and fitter than I’ve been in decades.",
+        "rating": 5,
+        "usernamefeed": "Jeff Vogan"
+      },
+      {
+        "text": "I just started at PYC Etobicoke this past month and fell in love. The energy and the positive vibes of the space, the teachers and the individuals that come out to sweat it out on their mats. Incredible. Also it's only $40 for your first month. :)",
+        "rating": 5,
+        "usernamefeed": "Miranda Scott"
+      },
+      {
+        "text": "Went to Saturday morning hot power yoga 60 taught by Denise. Nice facilities and provided minty smelling shampoo. Would definitely go back for more classes.",
+        "rating": 5,
+        "usernamefeed": "Monica Lee"
+      },
+      {
+        "text": "I’ve been attending yoga classes at the Etobicoke PYC for the past 1.5yrs. Love it - excellent instructors and classes. Highly recommend.",
+        "rating": 5,
+        "usernamefeed": "John Capozzolo"
+      }
+    ]
   }
+
 ]

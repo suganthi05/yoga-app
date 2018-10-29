@@ -17,14 +17,10 @@
       <h1>Welcome To YOGO</h1>
       <p>Explore yoga studios across the greater Toronto area!</p>
       <p>
-        <a class="btn btn-primary btn-xlarge" href="#all-studios">
-          <span class="fa fa-eye" title="View"></span>&nbsp;&nbsp;View All Yoga Studios</a>
-        <a class="btn btn-primary btn-xlarge" href="/yoga/new">
-          <span class="fa fa-plus" title="Add"></span>&nbsp;&nbsp;Add New Yoga Studio</a>
-        <a class="btn btn-primary btn-xlarge" href="/yoga/getfavorites">
-          <span class="fa fa-heart" title="Add"></span>&nbsp;&nbsp;My Favorites</a>
+        <a class="btn btn-primary btn-xlarge" href="#all-studios">View All Yoga Studios</a>
+        <a class="btn btn-primary btn-xlarge" href="/yoga/new">Add New Yoga Studio</a>
+        <a class="btn btn-primary btn-xlarge" href="/yoga/getfavorites">My Favorites</a>
         <p>
-
           <form action="/yoga" method="GET" class="form-inline">
             <div class="form-group-2">
               <!--begin: sj-->
@@ -110,13 +106,12 @@
 
       <% topratedyoga.forEach(function(mystudio){ %>
       <div class="col-md-3 col-sm-6">
-        <div class="search-results thumbnail">
-          <img class="image-results" src="<%= mystudio.image %>">
+        <div class="search-results2 thumbnail">
+          <img class="image-results2" src="<%= mystudio.image %>">
           <div class="caption">
             <h4>
               <%= mystudio.name %>
             </h4>
-                 <!-- begin: sj - show amenities using awesome font -->
 
           </div>
 

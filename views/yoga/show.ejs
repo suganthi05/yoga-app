@@ -35,10 +35,10 @@
                     <li class="list-group-item">
                         <%=yoga.name%>
                     </li>
-                    <li class="list-group-item"><a href="<%=yoga.website%>" target="_blank">
+                    <li class="list-group-item"><a href="<%=yoga.website%>">
                             <%=yoga.website%></a></li>
                     <li class="list-group-item">
-                        <a href="tel:<%=yoga.phone%>"><%=yoga.phone%></a>
+                        <%=yoga.phone%>
                     </li>
                 </div>
                 <div id="map"></div>
@@ -60,20 +60,20 @@
                         </h4>
                         <div class="list-group">
                             <li class="list-group-item active large-ish">Amenities<span>&emsp;
-                                 <% yoga.amenities.forEach(function(amenities) { %>
-                                     <% if (amenities === "Parking") { %>
+                                    <% yoga.amenities.forEach(function(amenities) { %>
+                                    <% if (amenities === "Parking") { %>
                                     <span class="large fa fa-car" title="Parking"></span>&emsp;
                                     <% } else if (amenities === "Wifi") { %>
-                                     <span class="large fa fa-wifi" title="Wifi"></span>&emsp;
+                                    <span class="large fa fa-wifi" title="Wifi"></span>&emsp;
                                     <% } else if (amenities === "Lockers") { %>
-                                    <span class="large fa fa-lock"  title="Locker"></span>&emsp;
+                                    <span class="large fa fa-lock" title="Locker"></span>&emsp;
                                     <% } else if (amenities === "Showers") { %>
-                                     <span class="large fa fa-shower"  title="Shower"></span>&emsp;
+                                    <span class="large fa fa-shower" title="Shower"></span>&emsp;
                                     <% } else if (amenities === "Smoothie Bar") { %>
                                     <span class="large fa fa-coffee" title="Smoothie Bar"></span>&emsp;
                                     <%}%>
-                                 <% }); %>
-                            </span></li>
+                                    <% }); %>
+                                </span></li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(var i=0; i<yoga.amenities.length; i++){ %>
                                 <i class="material-icons">
@@ -104,12 +104,12 @@
                         </div>
                     </div>
                     <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish">
-                            Description:</h4>
+                        Description:</h4>
                     <p>
                         <%= yoga.description %>
                     </p>
-                    <p >
-                        <em >Submitted by:
+                    <p>
+                        <em>Submitted by:
                             <%= yoga.author.username %>,
                             <%= moment(yoga.createdAt).fromNow() %></em>
                     </p>
@@ -121,7 +121,7 @@
                     <% } %>
                 </div>
             </div>
-                <div class="well background-box">
+            <div class="well background-box">
                 <div class="text-right">
                     <a class="btn btn-success " href="/yoga/<%= yoga._id %>/comments/new">Add New Review</a>
                 </div>
@@ -142,7 +142,7 @@
                         </strong>
                         <div class="list-group-item">
                             <span><strong>
-                            <%= moment(comment.createdAt).fromNow() %>: </strong></span>
+                                    <%= moment(comment.createdAt).fromNow() %>: </strong></span>
                             <%= comment.text %>
                             <% if(currentUser && comment.author.id.equals(currentUser._id)){ %>
                             <form style="display: inline" class="pull-right pull-right2" action="/yoga/<%=yoga._id%>/comments/<%=comment._id%>?_method=DELETE"
@@ -154,12 +154,11 @@
                         </div>
                     </div>
                 </div>
-                <p class="weird-para">test</p>
                 <% }) %>
+            </div>
+            </h4>
         </div>
-    </h4>
-     </div>
-</div>
+    </div>
 </div>
 <script>
     function initMap() {
@@ -191,7 +190,6 @@
             infowindow.open(map, marker);
         });
     }
-    //comment
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVNqmxoPpZXHe89d2y12ozPDVjoLAk4hw&callback=initMap"></script>
 <% include ../partials/footer %>

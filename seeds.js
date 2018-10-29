@@ -12,7 +12,7 @@ mongoose.connect("mongodb://localhost:27017/yelp_camp_v6", {
 
 function seedDB() {
 
-  
+
   //Remove all yoga
   Yoga.remove({}, function (err) {
     if (err) {
@@ -30,7 +30,7 @@ function seedDB() {
       console.log("Removed comments data!");
     }
   });
-    
+
   /*//Remove all user data
   User.remove({}, function (err) {
     if (err) {
@@ -39,17 +39,17 @@ function seedDB() {
       console.log("Removed user data!");
     }
   });
-   
+  */
   //Add users
   userdata.forEach(function (seed) {
-    User.create(seed, function(err, yoga) {
+    User.create(seed, function (err, yoga) {
       if (err) {
         console.log(err);
       } else {
         console.log("Added a user");
       }
     })
-  }); */
+  });
 
   //Remove all favorites data
   Favorites.remove({}, function (err) {
@@ -62,7 +62,7 @@ function seedDB() {
 
   //Add Favorites
   favdata.forEach(function (seed) {
-    Favorites.create(seed, function(err, yoga) {
+    Favorites.create(seed, function (err, yoga) {
       if (err) {
         console.log(err);
       } else {
@@ -70,7 +70,7 @@ function seedDB() {
       }
     })
   });
-  
+
   //add a few yoga
   data.forEach(function (seed) {
     Yoga.create(seed, function (err, yoga) {

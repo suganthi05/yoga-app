@@ -44,17 +44,19 @@ router.post("/", middleware.isLoggedIn, function (req, res) {
                     //save comment
                     comment.save();
                     yoga.comments.push(comment);
+
+
                     console.log("Old Rating: " + yoga.rating);
+
                     var totalNumberOfRatings = yoga.comments.length;
                     console.log("totalNumberOfRatings: " + totalNumberOfRatings);
                     var previousAvgRating = yoga.rating;
                     console.log("previousAvgRating :" + previousAvgRating);
-                    var newAvgRating = ((previousAvgRating + parseInt(req.body.rating)) / totalNumberOfRatings);
+                    var previousTotalRating = previousAvgRating * (totalNumberOfRatings - 1)
+                    var newAvgRating = ((previousTotalRating + parseInt(req.body.rating)) / totalNumberOfRatings);
                     console.log("newAvgRating :" + newAvgRating);
                     yoga.rating = newAvgRating;
                     yoga.save();
-                    // console.log("comment" + comment);
-                    // console.log("yoga" + yoga);
                     req.flash('success', 'Created a comment!');
                     res.redirect('/yoga/' + yoga._id);
                 }

@@ -1,5 +1,4 @@
-[
- {
+[{
     "name": "Iam Yoga Midtown",
     "image": "https://lh3.googleusercontent.com/p/AF1QipNqfXMZKfoK255bGNkNp3aaj3sEJHnm6kto8Cnl=s1600-w720-h480",
     "rating": 4.2,
@@ -27,8 +26,7 @@
     "location": "680 Yonge Street #2, Toronto",
     "lat": 43.667429,
     "lng": -79.38574899999998,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I have many positive things to say about this studio: great teachers, nice staff, excellent location and studio, warm and welcoming atmosphere to all level yogis.\nHowever evening and weekend can be really busy at this location as a result popular classes can feel a bit over capacity which compromises the beautiful experience so far. \nI have never been turn down to a class when signing up in the app, but I do believe they should probably start marking classes as \"full\" like other studios do.\nYou set time aside to focus and honor your practice rather than focusing on trying to not hit another yogui involuntarily during class. I am writing this review in hopes that they address this issue. \nThanks for reading this.",
         "rating": 3,
         "usernamefeed": "Alejandra Gonzalez Guel"
@@ -78,8 +76,7 @@
     "location": "43 Colborne Street, Toronto",
     "lat": 43.648881,
     "lng": -79.37510399999996,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "This is my hot yoga place.  I go weekly and I love the vibe.",
         "rating": 5,
         "usernamefeed": "elle, Persephone"
@@ -129,8 +126,7 @@
     "location": "333 Queen Street West #327, Toronto",
     "lat": 43.64955529999999,
     "lng": -79.39202069999999,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Plenty of classes for people of all levels. Highly recommend the hot yoga body flow and core workouts if you're looking for a real workout. Classes appeal to males and females and all are welcome.",
         "rating": 5,
         "usernamefeed": "Vips"
@@ -152,7 +148,7 @@
       }
     ]
   },
-  
+
   {
     "name": "Iam Yoga Downtown",
     "image": "https://lh3.googleusercontent.com/p/AF1QipMwLoWGSeBKSj_n2HFnulJPyomC_48ll844-49t=s1600-w1024-h1024",
@@ -181,8 +177,7 @@
     "location": "MetroCentre, 200 Wellington Street W Concourse, Unit 450, Toronto",
     "lat": 43.64585230000001,
     "lng": -79.38786340000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I have gone to several studios throughout the years and never have I felt more at home as I do here and have never seen such results in my practice . The classes are diverse, as are the instructors, and it is a fantastic place to grow your practice . The ambiance is also beautiful and extremely clean. I recommend this studio to beginners and advanced students.",
         "rating": 5,
         "usernamefeed": "A. HR"
@@ -227,8 +222,7 @@
     "location": "123 Dundas Street West, Toronto",
     "lat": 43.655337,
     "lng": -79.384481,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I am a yoga teacher visiting from out of town & I loved this space. The staff were very respectful & helpful when needed & the teachers were very clearly qualified & skilled. Thank you Yoga Tree! Would definitely come back to this location.",
         "rating": 5,
         "usernamefeed": "Divine Roots Yoga"
@@ -279,8 +273,7 @@
     "location": "140 Spadina Avenue, Toronto",
     "lat": 43.6477442,
     "lng": -79.39624529999998,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I've been a yogi of yoga tree for over 6 years now and it has been the best studio! \nThe staff are very caring and friendly. The studio is very clean and not cliche like some other downtown yoga studios. They have a really good schedule too. Would recommend!",
         "rating": 5,
         "usernamefeed": "Atina Chang"
@@ -330,8 +323,7 @@
     "location": "1 Wood Street, Toronto",
     "lat": 43.661988,
     "lng": -79.38292999999999,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "This studio has best teachers in the town!! They also cover a wide range of styles of yoga you can pick, and Mysore classes you can practise with teacher’s assistance. In additional warm staff and good location. I took the YTT250 there and it was one of the best experiences I had!",
         "rating": 5,
         "usernamefeed": "Sunnie Yao"
@@ -381,8 +373,7 @@
     "location": "350 Queens Quay West #204, Toronto",
     "lat": 43.6386709,
     "lng": -79.38911860000002,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Cute place, great if you live in the neighborhood. They offer various yoga classes, including hot yoga. They have tea, lockers and offer free yoga mats and other yoga accessories. Friendly staff and instructors. I used to do alot of yoga and more recently I started getting into it and i felt some 'open to beginner classes' were a bit intense, but it's great if you if you're open to that.",
         "rating": 4,
         "usernamefeed": "Tharmila Raja"
@@ -431,8 +422,7 @@
     "location": "80 Sherbourne Street, Toronto",
     "lat": 43.65227900000001,
     "lng": -79.3688426,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Yoga Lounge is some of the best yoga in the city of Toronto. The instructors really know what they are doing and they are highly experienced - Particularly Susan, the owner, and Carlyn. Classes are intimate with special attention given to each student. Well worth the price.",
         "rating": 5,
         "usernamefeed": "Elyssa Seidman"
@@ -455,8 +445,8 @@
     ]
   },
 
-   {
-    "name": "Yoga Netwok of Canada Yoga Teacher Training",
+  {
+    "name": "Yooooooooo!",
     "image": "https://lh3.googleusercontent.com/p/AF1QipPKntiY4A5DnVfgZv9sRGcIwmJgvekL5LhjMJQ=s1600-w1024-h1024",
     "rating": 4,
     "website": "http://sampleyogastudio.com",
@@ -483,13 +473,11 @@
     "location": "30 Eglinton Avenue West #258, Mississauga",
     "lat": 43.6056743,
     "lng": -79.65275429999997,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Hatch Yoga",
@@ -519,8 +507,7 @@
     "location": "626 Burnhamthorpe Road West #202, Mississauga",
     "lat": 43.58023619999999,
     "lng": -79.6500332,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "There aren't enough words to say just how amazing this Yoga studio is! If you are anything like me, a newbie to Yoga, this is the place to start. Setting aside the obvious amazing intro deal of $30 for your first month of unlimited classes, The people and staff are just as amazing. I was so nervous and shy to start this new Yoga journey in fear or not being able to do poses correctly and feeling like an outsider, but every instructor made sure that wasn't the case. They were all so friendly and encouraging I never once felt intimidated. Every class made me feel confident and proud and it made going back more and more that much easier. I'm incredibly sad that I will be moving away and won't be able to take Hatch Yoga with me, but I will definitely be returning on days I am ever back in town. If you ever look at expanding up north, be sure to let me know :) Namaste.",
         "rating": 5,
         "usernamefeed": "Erica Sarasua-Reid"
@@ -570,8 +557,7 @@
     "location": "925 Rathburn Road East Unit B1, Mississauga",
     "lat": 43.61608299999999,
     "lng": -79.61757599999999,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "The location of PYC City Centre is so convienant. The staff and EE's are awesome! 9:30 am classes are the BEST way to start the day. So happy a PYC opened up in this area 🙌🙌🙌",
         "rating": 5,
         "usernamefeed": "Nicole Henry"
@@ -616,8 +602,7 @@
     "location": "75 Watline Avenue #137, Mississauga",
     "lat": 43.6227244,
     "lng": -79.67128819999999,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I come to Mississauga for business and found this studio when I looked out my hotel window.  \n\nCan’t recommend this place more highly - I’ve taken several of their hot classes and they are amazing.  Not pretentious in the least and very willing to help a novice yogi!!  Just finished tonight’s hot power core class - awesome!\n\nCan’t wait until my next trip up from Massachusetts!!  Namaste.",
         "rating": 5,
         "usernamefeed": "Tanya"
@@ -667,8 +652,7 @@
     "location": "4175 Confederation Parkway #5, Mississauga",
     "lat": 43.58880299999999,
     "lng": -79.64948729999998,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "The most gracious studio I have ever been to! The staff are super supportive and really care about the people who come in. I hurt myself and couldn't make it in for a week, and without asking they called me to extend my 1 month pass since I hadn't visited in a while. Instantly brightened my day; a true testament to their culture and sense of community.",
         "rating": 5,
         "usernamefeed": "Rachel Cheng"
@@ -718,8 +702,7 @@
     "location": "1170 Burnhamthorpe Road West Unit 28, Mississauga",
     "lat": 43.5679783,
     "lng": -79.66273330000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I've been here a few times with a friend (who comes more often) when they have had a promotion for a free class. Interestingly, both times I came, Mike was teaching the class and both times, when I walked in, he greeted everyone except me, like I was invisible! I felt bad the first time but chalked it up to an oversight. However, the second time it happened I was angry and that is why I'm posting the review. I ended up not signing in at the desk either time, although I know you are supposed to. My friend mentioned some instructors aren't that friendly or helpful but she likes the classes and its close to her house so she comes anyway. She also said that Mike was the owner so I was especially not impressed. Customer service is important even more for owners!\n\nThe classes were okay but I feel they are overpriced even if you buy on a promotion. I go to another yoga studio where we get corrections to our poses much more often, and I prefer it that way. Here, only a few students get corrections even though many people are doing wrong things.\n\nOverall, I would not recommend this place and don't plan on going back for any more free classes. I want to be treated well when I'm doing my yoga.\n\nUpdate: In response to the owner's reply:\n\nHello Lisa,\n\nThank you for your message. You are right in that I did not write the review immediately. I was reminded of my experiences when I got together with my friend yesterday for dinner. You said my review is unfair, I don't agree. For instance, according to her, when she signs in some instructors sometimes just make sure she scans the tag, they don't say hello, they just say thanks when the tag scans. Some instructors don't always say hello when she says hi to them, they just look at her to make sure the tag scans. She would never review your business because you know her and she doesn't want to make it awkward. It's not always friendly but she feels the classes are good for her health.\n\nIt sounds like you are coming up with reasons to excuse Mike for not greeting me when it would have been sufficient just to apologize for it and commit to it not happening again. I didn't \"bother\" to sign in at the desk because he was rude and I didn't want to speak with him. There were a fair amount of people at the free classes but the desk was not crowded either time when I got there and everyone except for me was acknowledged both times. I can't dismiss it as chance both times. Then you are commenting on the date of my review so as to discredit it. Unfortunately your response does not create any good faith, nor does it give me any motivation to return to the studio.",
         "rating": 2,
         "usernamefeed": "Sonia Aryd"
@@ -769,8 +752,7 @@
     "location": "455 Apache Court #102, Mississauga",
     "lat": 43.61866389999999,
     "lng": -79.6488521,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I had not done a \"real\" yoga for the past five years, so I decided on a restorative class. I couldn't be happier of my decision.  \nI was also really impressed by how much attention yoga instructor (Praveen) paid to my needs and made modifications to avoid back and neck pains. I went through lung problems and was on Ventilator support for 3 weeks. The breathing techniques taught by Praveen really helped me strengthen lungs. Even my doctor is impressed by this improvement.\nOverall this was an incredibly positive experience. I wish I lived closer and attended class in person!",
         "rating": 5,
         "usernamefeed": "Sandhya Rao"
@@ -821,8 +803,7 @@
     "location": "350 Burnhamthorpe Road East #5A, Mississauga",
     "lat": 43.6003902,
     "lng": -79.62605280000002,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Has been my favourite studio for the past 8 years. Amazing, relaxed atmosphere, great instructors. The owner is awesome!!! Thank you Michelle for running this great studio at very competitive pricing ☺",
         "rating": 5,
         "usernamefeed": "Vesna S"
@@ -872,8 +853,7 @@
     "location": "4870 Tomken Road, Mississauga",
     "lat": 43.625834,
     "lng": -79.62927079999997,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I have an accruing injuries for playing different kind of sports. I never thought that hot yoga can help my body gain flexibility and help my lower back releases tension and tightness. I been practicing hot yoga at Infinite Yoga Studio for years and I'm glad I did. The community that they created is great. People are nice, they treat you well, I tried different classes and meet different teachers and every one got  different style and practices and mostly respectful to the students. They show modifications, show's how to use props and also they show the proper alignment towards poses. What I really like is they make you are feel welcome every time you come to the studio. They talked to you and pay attention if you have any questions on how to improve your poses. Everyone has a favourite teacher and classes to attend, they alternate teachers and I also go different days and time depending with my availability from work. But ever since I'm glad that Infinite Yoga is part of my community and through yoga it teaches me how to be more aware of my body.",
         "rating": 5,
         "usernamefeed": "Anthony Dimitri"
@@ -924,8 +904,7 @@
     "location": "274 Mackenzie Avenue #250, Ajax",
     "lat": 43.84235160000001,
     "lng": -79.02970979999998,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Wrong account. Apologies. That's my work account. Here is proper info: After beginning training there I found it is more of a business than a sacred space. Seeing behind the scenes really ruined it for me, I went home crying twice after heavy judgement from Shasta. I was consistently intimidated by the senior staff and felt I had to prove my worthiness which is not in the spirit of yoga. As someone with a disability I was tossed, charged thousands of dollars, and held to an impossibly high standard where I was met with criticism rather than education. The studio has a very fake atmosphere where I consistently felt out of place, even when I was just a student. Overall, I wouldn't recommend...especially for anyone who struggles with any type of special needs or disability.",
         "rating": 1,
         "usernamefeed": "Zee Malvern"
@@ -975,8 +954,7 @@
     "location": "3, 100 Dundas Street West, Whitby",
     "lat": 43.8799405,
     "lng": -78.9423559,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I really enjoy Rebecca's class, she is doing such a great job.",
         "rating": 5,
         "usernamefeed": "rosemarie reichl"
@@ -1026,13 +1004,11 @@
     "location": "11 Atkinson Court, Ajax",
     "lat": 43.8602164,
     "lng": -79.01513749999998,
-    "commentfeed": [
-      {
-        "text": "",
-        "rating": 5,
-        "usernamefeed": "Rocco Zambri"
-      }
-    ]
+    "commentfeed": [{
+      "text": "",
+      "rating": 5,
+      "usernamefeed": "Rocco Zambri"
+    }]
   },
   {
     "name": "Glow Yoga Studio",
@@ -1062,8 +1038,7 @@
     "location": "4535 Coronation Road, Whitby",
     "lat": 43.9183578,
     "lng": -78.9895555,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "This studio is so incredibly beautiful, surrounded by gorgeous nature. Imagine doing yoga in the midst of hearing a water fountain from a pond just outside and the sounds of birds and trees blowing in the wind. I had the opportunity to do a class in the outside studio made of wood surrounded by trees. I also went to a workshop which was filled with the aroma of sacred frankincense. I did another restorative class in the winter and the walk alone down the hill and into the studio was like a trip to heaven. It's just gorgeous and serenity for your mind. The instructors teach from their heart. They are all so kind and provide hands on support. I am so happy to be a part of the studio. I cannot wait to take more classes!",
         "rating": 5,
         "usernamefeed": "Therisita Meditation"
@@ -1113,13 +1088,11 @@
     "location": "105 Colborne Street West, Whitby",
     "lat": 43.87866100000001,
     "lng": -78.94201399999997,
-    "commentfeed": [
-      {
-        "text": "",
-        "rating": 5,
-        "usernamefeed": "stan griffiths"
-      }
-    ]
+    "commentfeed": [{
+      "text": "",
+      "rating": 5,
+      "usernamefeed": "stan griffiths"
+    }]
   },
   {
     "name": "Livewithspirit.ca",
@@ -1149,13 +1122,11 @@
     "location": "101 Mary Street West, Whitby",
     "lat": 43.88142999999999,
     "lng": -78.94318199999998,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Yoga Group Inc",
@@ -1185,13 +1156,11 @@
     "location": "Ajax",
     "lat": 43.84666319999999,
     "lng": -79.01916720000003,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "P3 Yoga Zone",
@@ -1222,13 +1191,11 @@
     "location": "1050 Brock Road #20, Pickering",
     "lat": 43.835112,
     "lng": -79.06953699999997,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Hot Yoga",
@@ -1287,8 +1254,7 @@
     "location": "1099 Kingston Road, Pickering",
     "lat": 43.8279394,
     "lng": -79.09720670000002,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Been coming here for 2 years now and loving the studio more and more each time.  The teachers and staff are friendly and knowledgeable.  Talk to them before and after the class if you have any concerns.  The hot yoga series are challenging yet flexible.   The place is age and gender friendly and I love seeing a diverse class.  If you sign up for an account on the online booking system, you can even earn points and trade for class or yoga wear.   If you are still unsure,  get the intro month pass for a great deal.",
         "rating": 5,
         "usernamefeed": "Yvonne Ouyang"
@@ -1338,8 +1304,7 @@
     "location": "3068 George Savage Avenue, Oakville",
     "lat": 43.471399,
     "lng": -79.74175600000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Once Upon a Mat goes above and beyond in every way. Not only does Incia incorporate an age appropriate experience that is educational and fun, she does everything with love. The minute we walked in the door of her beautiful studio my daughter and I felt at home and as if we’d been part of Once Upon a Mat forever! We can’t wait to return.",
         "rating": 5,
         "usernamefeed": "Jenny Fox"
@@ -1389,8 +1354,7 @@
     "location": "On 5A bus route, 3085 George Savage Avenue, Oakville",
     "lat": 43.47187,
     "lng": -79.74222700000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Love the aerial yoga classes, Lynne is the best!",
         "rating": 5,
         "usernamefeed": "Rattan West"
@@ -1440,8 +1404,7 @@
     "location": "2640 Bristol Circle, Oakville",
     "lat": 43.5126782,
     "lng": -79.687997,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I have never been so disappointed in a yoga class in my life. Save yourself the time and money and watch a yoga video online, it would be a million times more engaging than the Friday night karma class at Kula Yoga Oakville. “Hot” yoga is a lie, the room was barely warm. I’m sure the yoga teacher is a nice woman, but the class was so boring. There was no variation, no levels or options proposed during the class. if youre a begginner in yoga, then this class is STILL WAY TOO SLOW AND EASY for you. Also, you couldn’t hear the music at all. I am not a certified yoga teacher by any means and I could have led a more dynamic and interesting class. It is no surprise I was one of only 5 people in the class that day. If you’re looking for a workout, a good yoga class, relaxing way to spend an hour or a pleasant experience, DEFINITELY SKIP KULA YOGA!!it didn’t help that The two receptionists on Friday karma class were not very welcoming",
         "rating": 1,
         "usernamefeed": "Katherina Horvath"
@@ -1521,8 +1484,7 @@
     "location": "220 Lakeshore Road East, Oakville",
     "lat": 43.4459627,
     "lng": -79.66750639999998,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "This gym is amazing. For a beginner, weekend warrior, or someone just looking to just get healthy again (like me), Jamie and his instructors are welcoming, inviting, and results driven. Oh, and the place is beautiful too!",
         "rating": 5,
         "usernamefeed": "John Tourigny"
@@ -1572,8 +1534,7 @@
     "location": "485 Trafalgar Road, Oakville",
     "lat": 43.45654119999999,
     "lng": -79.68002630000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I’ve always had an interest in yoga and as of late, wanted to kick it up a notch and be involved in a setting more challenging than the basic gym-membership yoga class. Power Yoga doesn’t only challenge my body, mind and spirit each class I attend, but has developed a deeper level of love for myself and this wonderful art. Thank you PYC for the warm welcome :)",
         "rating": 5,
         "usernamefeed": "Angela E.U."
@@ -1623,13 +1584,11 @@
     "location": "160 William Street, Oakville",
     "lat": 43.4436182,
     "lng": -79.66743559999998,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "iGita Hot Yoga Studios",
@@ -1659,8 +1618,7 @@
     "location": "2, 467 Speers Road, Oakville",
     "lat": 43.4381273,
     "lng": -79.69808660000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Fantastic staff and a great studio! I would highly recommend Tim's yoga classes for anyone to try 5*",
         "rating": 5,
         "usernamefeed": "James Inwood"
@@ -1710,15 +1668,13 @@
     "location": "1033 North Service Road East, Oakville",
     "lat": 43.4693135,
     "lng": -79.67726379999999,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
-  
+
   {
     "name": "Ahimsa Yoga Whitby",
     "image": "https://lh3.googleusercontent.com/p/AF1QipN0i_os2CWdTSDvhZE4Xq8SwMvrVm11edwLMM2b=s1600-w1024-h1024",
@@ -1747,8 +1703,7 @@
     "location": "3, 100 Dundas Street West, Whitby",
     "lat": 43.8799405,
     "lng": -78.9423559,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I really enjoy Rebecca's class, she is doing such a great job.",
         "rating": 5,
         "usernamefeed": "rosemarie reichl"
@@ -1826,8 +1781,7 @@
     "location": "182 Wellington Street, Bowmanville",
     "lat": 43.9163348,
     "lng": -78.69526810000002,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Amazing flow, BEAUTIFUL studio, and really great energy all together!",
         "rating": 5,
         "usernamefeed": "Angelica M"
@@ -1867,13 +1821,11 @@
     "location": "1430 Pebblestone Road, Courtice",
     "lat": 43.9298471,
     "lng": -78.82018419999997,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "ReSoulution Yoga Massage Spa",
@@ -1903,8 +1855,7 @@
     "location": "98 King Street West, Bowmanville",
     "lat": 43.9130483,
     "lng": -78.69196420000003,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Awesome yoga! \nFrom beginner to advanced classes are available for all levels.  The instructors are knowledgeable, professional  and friendly. \nIf you have never practiced yoga the beginner series offered by the owner Jana is a perfect introduction to the practice of yoga.  If you are a seasoned yogie the hot advanced classes are amazing!\nThe spa is spotless and professional.",
         "rating": 5,
         "usernamefeed": "Kate Kunath"
@@ -1954,8 +1905,7 @@
     "location": "866 Taunton Road West #1, Oshawa",
     "lat": 43.926182,
     "lng": -78.911203,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Love Power Yoga Oshawa!  The studio is amazing.  Kelly and Denise are amazing, so encouraging and supportive.  I was intimidating about trying hot yoga but now I'm hooked.  What a great and supportive community of people.  Can't imagine going anywhere else.",
         "rating": 5,
         "usernamefeed": "R Dm"
@@ -2005,8 +1955,7 @@
     "location": "1 Simcoe Street North, Oshawa",
     "lat": 43.89786669999999,
     "lng": -78.86354340000003,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Very welcoming atmosphere. Got a hug on my first visit! Thank you!",
         "rating": 5,
         "usernamefeed": "Jonathan French"
@@ -2056,8 +2005,7 @@
     "location": "1050 Grandview Street North, Oshawa",
     "lat": 43.931768,
     "lng": -78.835647,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I am proud to say I am Wendy's first student.  In 2008 I fell 15 ft sustaining a burst L1fracture.  Two years later my fracture was well healed but I still had a fair amount of discomfort. I had never done  a yoga class so I started with private classes. Wendy was very patient and with the use of props I was able to get in most poses.\n\nWendy is constantly learning and sharing her knowledge with her students.\n\nWendy's studio is still my happy place 6 years later.",
         "rating": 5,
         "usernamefeed": "Patti Watson"
@@ -2108,8 +2056,7 @@
     "location": "103 King Street East, Bowmanville",
     "lat": 43.91119,
     "lng": -78.68587200000002,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Awesome yoga classes! Like the variety and small classes.  Sarah is amazing at leading the class, no matter what your level.  Overall a great place.",
         "rating": 5,
         "usernamefeed": "Jane Camacho"
@@ -2159,13 +2106,11 @@
     "location": "388 Fleetwood Drive, Oshawa",
     "lat": 43.9146609,
     "lng": -78.82535970000004,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Yoga Tree Richmond Hill",
@@ -2195,8 +2140,7 @@
     "location": "360 Highway 7 #1, Richmond Hill",
     "lat": 43.84145700000001,
     "lng": -79.397219,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Yoga Tree - FINALLY!  I have tried many studios over the years, but none measured up. A friend recommended yoga tree. I tried several classes with various instructors. They were all excellent. The studios and change rooms are so clean, light and meticulously kept.  The support staff is friendly and always ready to help. If you are looking for a professional studio look no further. Yoga Tree is the perfect oasis to escape to during a busy day. Your body will thank you.",
         "rating": 5,
         "usernamefeed": "victoria dombrower"
@@ -2246,8 +2190,7 @@
     "location": "# LMN, 8200 Birchmount Road, Markham",
     "lat": 43.8568213,
     "lng": -79.32440880000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Very good experience trying hot yoga!  Nice environment and instructors.  As a beginner, I never feel strange if I can't do some poses.  I like the flexibility of the schedule, open early and close late!",
         "rating": 5,
         "usernamefeed": "Lolita Wong"
@@ -2297,8 +2240,7 @@
     "location": "5051 Highway 7 #2,3&4, Unionville",
     "lat": 43.86528269999999,
     "lng": -79.28950050000003,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I have been going to this location for 3 weeks now. The classes are amazing and the instructors are very knowledgeable. If you are a beginner, it is an excellent place to start.",
         "rating": 5,
         "usernamefeed": "Russell Ali"
@@ -2348,8 +2290,7 @@
     "location": "1455 16th Avenue #10-12, Richmond Hill",
     "lat": 43.8612372,
     "lng": -79.38839050000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I have been going to this yoga studio since 2012. A lot has changed in the past a few years but this is still one of my fav yoga studio in Toronto. (This studio previous is moksha Richmond hill, then it changed to my hot yoga studio, then changed to hot yoga wellness. Name change, owner changed.)\n\nThe studio is very good size, cozy but big enough. one room for both hot and regular temperature. Hold around up to 25 people. Rarely get too crowded. There is a mirror in the excise room, little decoration, very minimal. 4 large size shower and rarely get too busy either. Change room does not have locker but it was never needed. \n\nThis studio is always clean, does. It have strange smell some other yoga place. Sometime they use essential oil defused and I love it. \n\nStaff are very friendly despite there has been so many changes going on, there are a few Excellent teacher teach in this studio regularly. \n\nWhat I like the best is the temperature - this studio has best temperature for practice yoga, regular is warm, hot yoga is not too hot. In fact practice yoga in a external hot room is not best to our body - this studio make it just right. \n\nClass around 12$ - 20$ depends on drop in or buy class card. Membership is 135, couple is 175. (Membership is unlimited class). I normally buy family class card so I can share with families and, have flexible schedule. \n\nThe only thing I would I recommend - recent a year, there are students talking before and after class in the practice room - it shall and need to be a quiet practice, I hope staff and teacher will inform and educate new student on silence practice so it won’t interfere others practice or meditation before/after the class. Add some snack will also be nice. If there are some matt sort and small dry towel in the practice room to clean matt would be really nice as there is only a small rack outside to hang matt. \n\nOverall, if you looking for real yoga, great teacher, none fancy and none pretentious place for your yoga practice, this is the one.",
         "rating": 5,
         "usernamefeed": "Marine Zhang"
@@ -2400,13 +2341,11 @@
     "location": "401 Alden Road unit 8, Markham",
     "lat": 43.8338073,
     "lng": -79.3330656,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "The Yoga Mat",
@@ -2436,13 +2375,11 @@
     "location": "115 Apple Creek Boulevard #201a, Markham",
     "lat": 43.8573583,
     "lng": -79.35628029999998,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Hub Climbing",
@@ -2472,8 +2409,7 @@
     "location": "165 McIntosh Drive, Markham",
     "lat": 43.85713699999999,
     "lng": -79.3575558,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I had my daughter’s birthday @ The Hub recently and I was very impressed that the staff was extremely helpful, friendly and organized. \nMy party group was well looked after by 3 trained staff who stayed with the group until it was pizza time. \nThe front desk staff had great customer skills, especially Andrew, who looked after my party sign in. He was patient and friendly. \nI would highly  recommend The Hub for a birthday party because the staff made everything easy and all the kids had a great time, including the novice climbers.",
         "rating": 5,
         "usernamefeed": "649 Ping"
@@ -2523,8 +2459,7 @@
     "location": "3621 Highway 7, Markham",
     "lat": 43.8540662,
     "lng": -79.33746780000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Most instructors are very helpful. My favorite is Jovita and Ben.  They come over to help and correct your poses from time to time.  Nice studio and with lockers.  A bit down side is they don't have many schedules as the others.",
         "rating": 5,
         "usernamefeed": "peggy cheng"
@@ -2574,13 +2509,11 @@
     "location": "8b Station Lane, Unionville",
     "lat": 43.8646289,
     "lng": -79.31115260000001,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Toronto Yoga Center",
@@ -2610,13 +2543,11 @@
     "location": "131 Telson Road, Markham",
     "lat": 43.8200736,
     "lng": -79.33987589999998,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Reach Yoga",
@@ -2646,8 +2577,7 @@
     "location": "40 Underhill Drive, North York",
     "lat": 43.7440939,
     "lng": -79.3266481,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "A worthy practice with heartfelt guidance.",
         "rating": 4,
         "usernamefeed": "Fran Masterson"
@@ -2723,13 +2653,11 @@
     "location": "248 Scarborough Golf Club Road, Scarborough",
     "lat": 43.748206,
     "lng": -79.21047449999998,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "YOGA YOGA EAST",
@@ -2758,13 +2686,11 @@
     "location": "33 East Road, Scarborough",
     "lat": 43.68851739999999,
     "lng": -79.2713415,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "PUR YOGA Toronto",
@@ -2794,8 +2720,7 @@
     "location": "2245 Queen Street East, Lower Level, Toronto",
     "lat": 43.6709824,
     "lng": -79.29457230000003,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "PUR YOGA is my perfect fit. The genuinely caring and involved owners, are part of our community and are authentically interested in listening to and building the PUR community. The classes offered are diverse and interesting, the instructors are experienced and their styles diverse so you will find exactly the right fit for getting what you want from your yoga experience and the studio is small enough to feel relaxed and intimate. Perfect.",
         "rating": 5,
         "usernamefeed": "Susan Ward"
@@ -2834,8 +2759,7 @@
     "location": "2638 Saint Clair Avenue East, East York",
     "lat": 43.705417,
     "lng": -79.31377900000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "This studio is so flexible (no pun intended), professional and friendly. I have lived in the area for years and have seen this go from one owner to another. J is great! He is very prompt to answer any questions or concerns. Instructors from my experience have been wonderful. They just added Hot Pilates as well. I appreciate a yoga studio like this in the neighbourhood and I look forward to going to the classes! \nHighly recommend! \nJust make sure you are on time --- as no one likes interruptions!",
         "rating": 5,
         "usernamefeed": "D. Roudka"
@@ -2884,13 +2808,11 @@
     "location": "3785 Kingston Road, Scarborough",
     "lat": 43.74746560000001,
     "lng": -79.207605,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Satya Yoga",
@@ -2920,13 +2842,11 @@
     "location": "248 Scarborough Golf Club Road, Scarborough",
     "lat": 43.74837230000001,
     "lng": -79.21088450000002,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Fore! Yoga",
@@ -2956,8 +2876,7 @@
     "location": "1110 Birchmount Road, Scarborough",
     "lat": 43.7362514,
     "lng": -79.2809916,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Soulful experience!  In this crazy fast pace world we live in having Fore! Yoga and specifically Chantal to help calm the body mind and sole is a much needed break. Chantal has taught me so much about the restorative benefits of breath and relaxation. I'm am not a golfer so if you are thinking that because you don't golf this is not for you - think again!  Thank you Chantal for always helping me calm\nMy crazy world. I always leave feeling clam, relaxed and energized!  Namaste",
         "rating": 5,
         "usernamefeed": "Tracey Sullivan"
@@ -3007,15 +2926,13 @@
     "location": "#105 (Onsite Services), 1 Firvalley Court, Scarborough",
     "lat": 43.70324,
     "lng": -79.28059999999999,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
-  
+
   {
     "name": "Chandra Yoga Shala",
     "image": "https://lh3.googleusercontent.com/p/AF1QipN_zoiJazVNzIMWNL1v9oOgIpsgeCTh1K64VFep=s1600-w323-h323",
@@ -3044,13 +2961,11 @@
     "location": "200 Evans Avenue Unit 101, Etobicoke",
     "lat": 43.6185538,
     "lng": -79.51386660000003,
-    "commentfeed": [
-      {
-        "text": "Best Ashtanga studio in Etobicoke. Traditional practice, experienced teachers and big sense of community.  Highly recommend.",
-        "rating": 5,
-        "usernamefeed": "florent balsez"
-      }
-    ]
+    "commentfeed": [{
+      "text": "Best Ashtanga studio in Etobicoke. Traditional practice, experienced teachers and big sense of community.  Highly recommend.",
+      "rating": 5,
+      "usernamefeed": "florent balsez"
+    }]
   },
   {
     "name": "Modo Yoga Bloor West",
@@ -3080,8 +2995,7 @@
     "location": "2481a Bloor Street West, Toronto",
     "lat": 43.648597,
     "lng": -79.48507029999996,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I understand there has been some controversy surrounding a Facebook post made by this studio around the time of the April van attacks. I understand why this has offended some. My review is not based around that. \n\nThis studio is run by wonderful people, despite what some may be posting regarding the controversial post. I worked at this studio as an Energy Exchanger for a few months and honestly I wasn't even practicing yoga at the time. I just volunteered because I was going through an emotional time in my life and wanted to be surrounded by positive people, spend time in a peaceful space and do what I could to grow during a difficult time in my life. I loved the space, the environment and the people. Don is a very wonderful man. I never had the chance to meet Meg, but everyone only had great things to say about her. \n\nThey are very mindful and considerate of the fact that some people may need yoga in their lives, but cannot afford it. This is the only studio I have known to operate on a sliding scale so that everyone can feel the positive effects of yoga. To me, this is the embodiment of yoga. \n\nThey keep a very clean space, have fair prices and it is a wonderful community. I would recommend this studio to anyone. I would also recommend their Energy Exchange program to anyone who would like to practice yoga regularly but cannot afford it, and anyone who would like to surround themselves with like-minded individuals.",
         "rating": 5,
         "usernamefeed": "Carly Brennan"
@@ -3131,8 +3045,7 @@
     "location": "12 Drummond Street, Etobicoke",
     "lat": 43.613131,
     "lng": -79.49837730000002,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Cute, clean studio - but none of that really matters.  I've been practicing Bikram for a number of years, but unwisely stopped for 2 1/2 years.  Back at it in my new home here in Toronto, I stumbled across this fabulous studio.  The thing that separates this studio from some others I've been to is that these teachers are truly invested in student success.  The poses are held for the full counts, little corrections are given here and there to help you take your practice to the next level, and the room is hot enough but not over the top 40+.  Well done, Red Tree!  #clientforlife",
         "rating": 5,
         "usernamefeed": "Julie Vogt"
@@ -3182,8 +3095,7 @@
     "location": "54 Lake Crescent, Etobicoke",
     "lat": 43.6071642,
     "lng": -79.4937079,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I have been a client of Donna's for several years now. I am so impressed with her continuous and passionate study of yoga, anatomy and pain physiology and her application of this knowledge within our classes. In her small group classes or private sessions, she is very explicit and clear in her instruction. She has provided me with an excellent customized program of exercises for low back pain that I have incorporated into my daily routine.",
         "rating": 5,
         "usernamefeed": "Kelly Ohashi-Pisak"
@@ -3233,8 +3145,7 @@
     "location": "2240 Lake Shore Boulevard West #229, Etobicoke",
     "lat": 43.621064,
     "lng": -79.48331999999999,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "As a novice I was anxious about starting at Alive, but I didn’t need to be. Stef, one of the owners, was my teacher for my first class and she made me feel totally welcome and instantly put me at ease.  I loved that first class and i’ve been a member there for over 3 months now.  \nAlive is a beautiful bright space with two studios. It has excellent facilities. There is a large changing area with plenty of lockers, and a bathroom with showers. The walls are adorned with artwork, there is filtered water, complimentary teas, and plenty of high quality equipment for your practice. They have a variety of classes for all levels and preferences, and I have been able to try most of them.  All of the teachers there are fantastic, super knowledgeable and approachable, and they all add to the positive atmosphere. I love everything about Alive!\nI occasionally drive there and the free parking under the attached condos is a bonus.",
         "rating": 5,
         "usernamefeed": "Sarah Oakley"
@@ -3284,8 +3195,7 @@
     "location": "5324 Dundas Street West, Etobicoke",
     "lat": 43.6347841,
     "lng": -79.54207550000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Maureen is wonderful. The only reason I didn't give the studio 5 stars is because Maureen doesn't teach all of the classes. The studio is welcoming and homey, it isn't pretentious. It doesn't have as many extras as some other studios but I would say the price reflects that and the focus is really on the people and the yoga.",
         "rating": 4,
         "usernamefeed": "K"
@@ -3325,8 +3235,7 @@
     "location": "1138 The Queensway, Etobicoke",
     "lat": 43.6228048,
     "lng": -79.5197116,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I just love this studio!",
         "rating": 5,
         "usernamefeed": "Melody And Diane"
@@ -3377,8 +3286,7 @@
     "location": "3301 Lake Shore Boulevard West, Etobicoke",
     "lat": 43.5964487,
     "lng": -79.5241059,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I’ve been going to Branch for a few months, after trying several yoga studies in the Mississauga area. As soon as I walked in I felt safe and at home. There are no mirrors in the studio, so no judgement. The staff and teachers are incredible, such an incredible energy.",
         "rating": 5,
         "usernamefeed": "Creasy"
@@ -3428,8 +3336,7 @@
     "location": "2992 Bloor Street West, Etobicoke",
     "lat": 43.64775290000001,
     "lng": -79.51026809999996,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Great studio & varied classes. Excellent instructors & good friendly atmosphere. Overall a very positive experience so far!",
         "rating": 5,
         "usernamefeed": "Maria F"
@@ -3479,8 +3386,7 @@
     "location": "1092 Islington Avenue, Etobicoke",
     "lat": 43.6365102,
     "lng": -79.52068700000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I’ve been going to PYC since about 2013. PYC has helped me through a number of injuries and I am stronger and fitter than I’ve been in decades.",
         "rating": 5,
         "usernamefeed": "Jeff Vogan"
@@ -3530,13 +3436,11 @@
     "location": "400 Main Street East, Milton",
     "lat": 43.5176059,
     "lng": -79.87764399999998,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "VITALITY YOGA MILTON",
@@ -3566,13 +3470,11 @@
     "location": "350 Main Street East, Milton",
     "lat": 43.5160071,
     "lng": -79.8795801,
-    "commentfeed": [
-      {
-        "text": "",
-        "rating": 3,
-        "usernamefeed": "Valérie Pospodinis"
-      }
-    ]
+    "commentfeed": [{
+      "text": "",
+      "rating": 3,
+      "usernamefeed": "Valérie Pospodinis"
+    }]
   },
   {
     "name": "The WOMB Milton",
@@ -3603,8 +3505,7 @@
     "location": "388 Main Street East, Milton",
     "lat": 43.516886,
     "lng": -79.87869649999999,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Heard great things but their website has no prices listed for massage options.",
         "rating": 3,
         "usernamefeed": "Erica Speare"
@@ -3654,8 +3555,7 @@
     "location": "517-519 Main Street East, Milton",
     "lat": 43.519987,
     "lng": -79.87692099999998,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "great place and even better people...highly recommeded",
         "rating": 5,
         "usernamefeed": "Chris Greig"
@@ -3705,8 +3605,7 @@
     "location": "61 Regional Road 4 #203, Milton",
     "lat": 43.5394592,
     "lng": -79.85669860000002,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Beautifull decor. Lovely, peaceful, intimate zen studio. Caring, kind and knowledgeable staff. Great location, awesome variety of yoga. I’m so thrilled to be a member. 🌹",
         "rating": 5,
         "usernamefeed": "Christina Michaels"
@@ -3756,8 +3655,7 @@
     "location": "300 Main Street East, Milton",
     "lat": 43.51514699999999,
     "lng": -79.88083,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "After a particularly stressful and harried day, I arrived at Knead to Balance Massage & Pilates Clinic, in joyful expectation for my massage. The massage therapy service provided by RMT Shawna Cleland was amazing! She took the time to do a pre-massage consultation to get a thorough understanding of any areas of concerns. Further, she made it clear to me to \"speak up\" if the massage pressure was too light or too heavy. I left my 1-hour massage feeling relaxed and yet extremely energized and ready to face on the rest of the challenges in my day. ",
         "rating": 4,
         "usernamefeed": "Elizabeth Marques Kogan"
@@ -3807,8 +3705,7 @@
     "location": "6901 Derry Road, Milton",
     "lat": 43.4959599,
     "lng": -79.87422900000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Absolutely best yoga classes in Milton. I  started hot yoga classes 1 month ago and I love it, I see changes in my body and my mind.  Great instructors and really good group of students. Highly recommended!",
         "rating": 5,
         "usernamefeed": "Angelika Tseben Smok"
@@ -3858,8 +3755,7 @@
     "location": "369 Mountainview Road South, Georgetown",
     "lat": 43.6317943,
     "lng": -79.8758919,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Honestly one of the best decisions I have ever made.  I walked into Power Yoga Canada Georgetown 3 years ago, took my first Hot Power Yoga class and was hooked.  Beautiful souls own, operate, work and practice here.  I am thankful beyond words...  You won't be sorry you tried it! Sweat, Love & Magic live here.",
         "rating": 5,
         "usernamefeed": "BRENDA NAGEE"
@@ -3909,8 +3805,7 @@
     "location": "821 Main Street East, Milton",
     "lat": 43.5268549,
     "lng": -79.86922600000003,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "If you like hot yoga, it's a nice place to do your yoga practise. Friendly teachers who care about everyone's health. Various yoga practice to accommodate various people with various physical and health conditions. Great place to relax or work out. Your choice.",
         "rating": 5,
         "usernamefeed": "Paulina Palele"
@@ -3960,8 +3855,7 @@
     "location": "775 Main Street East, Milton",
     "lat": 43.5251208,
     "lng": -79.87123439999999,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Wow haha nice",
         "rating": 5,
         "usernamefeed": "Dawood Khan"
@@ -4011,8 +3905,7 @@
     "location": "4031 Fairview Street #103, Burlington",
     "lat": 43.361108,
     "lng": -79.77936599999998,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "I absolutely adore this studio and the lovely people who teach, work and volunteer here! I definitely can't get enough of Lauren's Aerial Yoga classes. They are the perfect blend of fun and relaxation which definitely brings me into the studio more often! Dustin is also such a knowledgeable and encouraging teacher that he makes me want to improve and put more energy into my practice. All in all, great space and great choice to start or continue your practice!  5/5 :D",
         "rating": 5,
         "usernamefeed": "Andrea P"
@@ -4062,8 +3955,7 @@
     "location": "468 Brant Street 2nd floor, Burlington",
     "lat": 43.32682740000001,
     "lng": -79.80002150000001,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "The first time I tried yoga was a little over nine months ago and since then have gone from a once a week student to a monthly member and I have never felt better. I don’t just mean physically, but an overall feeling of well being.\nMelinda, both the owner and an instructor at the 7th wave, always says “it’s yoga practice not yoga perfect” so it doesn’t matter whether you are young or old, a beginner or an expert you will never feel out of place in this beautiful and calming yoga studio.\nThere are many different teachers, styles and levels of yoga to choose from so you will be able to find the one that’s right for you. \nStop by and check it out when you are in the neighborhood you will be glad you did.",
         "rating": 5,
         "usernamefeed": "Andrew Taylor"
@@ -4108,8 +4000,7 @@
     "location": "4040 Palladium Way #11, Burlington",
     "lat": 43.3968,
     "lng": -79.82865700000002,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "WELCOME HOME! The best decision of my entire life was to join this incredible community of passionate instructors and fellow yogis. Shanine (the owner) is lovely, so approachable, and passionate. She takes pride in the studio, as do all of the teachers. I was intimidated initially having had no experience but I quickly learned that it didn't matter as we are all on our own path. Fast forward 4 years and I don't know what I would do without them. They have classes for all levels- both hot, reduced heat, and regular temperature rooms. Thank you Shanine, Natalie, Jennifer, Rachel, Amanda, Kaitlyn, Michelle, Johanna, Kristina, Anwar, Justyna, Marion, Sarah B., Karli, Robyn, Stephanie, Angela D., Angela J., Wendy, and Carolyn for your ongoing support and love.",
         "rating": 5,
         "usernamefeed": "Christine Kluczynski"
@@ -4159,8 +4050,7 @@
     "location": "676 Appleby Line, Burlington",
     "lat": 43.3714818,
     "lng": -79.76181609999998,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Beautiful studio and friendly staff.  I loved Moksha when I was in Toronto and I'm happy to find the same quality  in Burlington.",
         "rating": 5,
         "usernamefeed": "angel charette"
@@ -4211,8 +4101,7 @@
     "location": "442 Pearl Street, Burlington",
     "lat": 43.3272169,
     "lng": -79.79601389999999,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Great atmosphere. Always clean and nice smelling! The staff are friendly and the place provides a safe and non-judgemental space to work out in. ",
         "rating": 5,
         "usernamefeed": "Vanesa Sale"
@@ -4252,13 +4141,11 @@
     "location": "1285 Ontario Street, Apt. 303, Burlington",
     "lat": 43.32380800000001,
     "lng": -79.80170069999997,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Craniosacral & Shiatsu Therapy By Jennifer Song, RCST",
@@ -4288,13 +4175,11 @@
     "location": "1214 Bellview Street, Burlington",
     "lat": 43.3184755,
     "lng": -79.80524880000002,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Santosha Yoga",
@@ -4324,13 +4209,11 @@
     "location": "541 Brant Street, Burlington",
     "lat": 43.3286133,
     "lng": -79.80178389999998,
-    "commentfeed": [
-      {
-        "text": "This is good yoga studio. I love it!",
-        "rating": 4,
-        "usernamefeed": "Alex Parrish"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This is good yoga studio. I love it!",
+      "rating": 4,
+      "usernamefeed": "Alex Parrish"
+    }]
   },
   {
     "name": "Kinetic Yoga & Pilates",
@@ -4360,13 +4243,11 @@
     "location": "401 Pearl Street, Burlington",
     "lat": 43.326443,
     "lng": -79.79423429999997,
-    "commentfeed": [
-      {
-        "text": "This place is so warm and inviting! The teachers are welcoming and experts at offering modifications for different conditions and body types. I always feel at home here. ",
-        "rating": 5,
-        "usernamefeed": "Eryl McCaffrey"
-      }
-    ]
+    "commentfeed": [{
+      "text": "This place is so warm and inviting! The teachers are welcoming and experts at offering modifications for different conditions and body types. I always feel at home here. ",
+      "rating": 5,
+      "usernamefeed": "Eryl McCaffrey"
+    }]
   },
   {
     "name": "Ashtanga Yoga Burlington",
@@ -4396,8 +4277,7 @@
     "location": "Canada",
     "lat": 43.38184079999999,
     "lng": -79.7999102,
-    "commentfeed": [
-      {
+    "commentfeed": [{
         "text": "Amazing and informative instructor! Assists his students with proper alignment and pays attention to ensure that you are in proper positioning. Challenges those that are looking for something a little more, while modifying poses for those that require it. Definitely worth the personal experience of signing up for a class series instead of drop-in's at all the big name studios. Even if you've done yoga for years, this will change the way you practice! ",
         "rating": 5,
         "usernamefeed": "Kaleigh Mullen"

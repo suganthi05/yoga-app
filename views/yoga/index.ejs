@@ -89,6 +89,7 @@
   <!--aa-->
   <div id="map" class="halfmap"></div>
   <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcrlOjVKHhFlqVzG9Fp96FmZNYDF-0gG4&callback=initMap"></script>
+</div>
   <!--aa-->
   <!--
   <div class="jumbotron jumbo-4">
@@ -98,10 +99,12 @@
   </div> -->
 
   <!-- code for top pics starts -->
-  <header class="jumbotron jumbo-2">
-    <div class="container">
-      <h2 style="text-align: center">Top Rated Studios!</h2>
-    </div>
+
+  <header >
+    <div class="jumbotron" id="jumbo-5">
+    <div class="jumbotron jumbo-4">
+  <h2 id="all-studios" class="all-yoga-studios">Top Rated Studios</h2>
+  </div>
     <div class="row text-center" style="display:flex; flex-wrap: wrap;">
 
       <% topratedyoga.forEach(function(mystudio){ %>
@@ -123,6 +126,7 @@
       </div>
       <% }); %>
     </div>
+</div>
 
 </div>
 </header>
@@ -130,11 +134,12 @@
 <!-- code for top pics ends -->
 
 
-
+<div class="container">
 <div class="jumbotron jumbo-4">
   <h2 id="all-studios" class="all-yoga-studios">All Yoga Studios</h2>
 </div>
 <div class="col-container">
+    <div >
   <div id="search-result" class="row text-center" style="display:flex; flex-wrap: wrap;">
     <div class="col-md-12">
       <% if(noMatch !== null) { %>
@@ -196,5 +201,9 @@
     <% }); %>
   </div>
 </div>
+</div>
+</form>
+</p>
+</p>
 </div>
 <% include ../partials/footer %>

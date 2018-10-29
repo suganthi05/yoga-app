@@ -7,7 +7,7 @@
 <div class="container top-space-fave">
     <div class="container">
         <div class="user-info">
-            <h1 class="welcome" style="color:#2bddcf;">
+            <h1 class="welcome" style="color:#b8be19;">
                 <br>
                 Welcome
                 <%= currentUser.username %>!
@@ -41,17 +41,51 @@
 
         <!--aa-->
 
+   <header class="jumbotron jumbo-3">
+        <div class="container">
+            <h2>My Favorites!</h2>
+        </div>
+        <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+
+            <% yoga.forEach(function(yogaelement){ %>
+            <script>
+                userFavLocations.push({
+                    lat: <%= yogaelement.lat %>,
+                    lng: <%= yogaelement.lng %>,
+                    name: "<%= yogaelement.name %>",
+                    image: "<%= yogaelement.image %>"
+                });
+            </script>
+            <div class="col-md-3 col-sm-6">
+                <div class="search-results2 thumbnail">
+                    <img class="image-results2" src="<%= yogaelement.image %>">
+                    <div class="caption">
+                        <h4>
+                            <%= yogaelement.name %>
+                        </h4>
+
+                    </div>
+                    <p>
+                        <a href="/yoga/<%= yogaelement._id %>" class="btn btn-primary">More Info</a>
+                    </p>
+                </div>
+            </div>
+            <% }); %>
+        </div>
+
+</div>
+</header>
 
         <header class="jumbotron jumbo-2">
-            <div class="container">
-                <h2>My Created Studios!</h2>
-            </div>
+            <div class="jumbotron jumbo-4">
+  <h2 id="all-studios" class="all-yoga-studios">My Created Studios</h2>
+</div>
             <div class="row text-center" style="display:flex; flex-wrap: wrap;">
 
                 <% allstudios.forEach(function(mystudio){ %>
                 <div class="col-md-3 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="<%= mystudio.image %>">
+                    <div class="search-results2 thumbnail">
+                        <img class="image-results2" src="<%= mystudio.image %>">
                         <div class="caption">
                             <h4>
                                 <%= mystudio.name %>
@@ -75,40 +109,7 @@
     </header>
 
 
-    <header class="jumbotron jumbo-3">
-        <div class="container">
-            <h2>My Favorites!</h2>
-        </div>
-        <div class="row text-center" style="display:flex; flex-wrap: wrap;">
 
-            <% yoga.forEach(function(yogaelement){ %>
-            <script>
-                userFavLocations.push({
-                    lat: <%= yogaelement.lat %>,
-                    lng: <%= yogaelement.lng %>,
-                    name: "<%= yogaelement.name %>",
-                    image: "<%= yogaelement.image %>"
-                });
-            </script>
-            <div class="col-md-3 col-sm-6">
-                <div class="thumbnail">
-                    <img src="<%= yogaelement.image %>">
-                    <div class="caption">
-                        <h4>
-                            <%= yogaelement.name %>
-                        </h4>
-
-                    </div>
-                    <p>
-                        <a href="/yoga/<%= yogaelement._id %>" class="btn btn-primary">More Info</a>
-                    </p>
-                </div>
-            </div>
-            <% }); %>
-        </div>
-
-</div>
-</header>
 
 <script src="/scripts/userProfile.js"></script>
 

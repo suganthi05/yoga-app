@@ -35,13 +35,14 @@ body {
 }
 
 #signed-in {
-    color: #a6d9e0;
+    color: #b8be19;
     font-weight: bold;
     font-size: 18px;
 }
 
 #hover-purple:hover {
     font-size: 19px;
+    color: #b8be19;
 }
 
 
@@ -82,7 +83,7 @@ body {
 
 .jumbotron {
     margin-top: 6%;
-    background-image: url(./burst.jpg);
+    background-image: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ea7aeb5fc4e3623a3f16af817ec12129&auto=format&fit=crop&w=800&q=60);
     background-position: 0% 25%;
     background-size: cover;
     /*  background-repeat: no-repeat;
@@ -202,7 +203,7 @@ label input[type="checkbox"] {
     height: 34%;
     padding-bottom: 10%;
     padding-top: 3%;
-    background-color: #222;
+    background-image: url(https://images.unsplash.com/photo-1516830927954-58378e11dbe5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8b1862a2ce7cda1580944b7a2a39065&auto=format&fit=crop&w=800&q=60);
     margin-bottom: 0px;
     margin-top: 3%;
     left: 0px;
@@ -538,6 +539,12 @@ span:active {
 
 .login-font {
     font-size: 19px;
+    color: white !important;
+}
+
+.login-font:hover {
+ color: #b8be19 !important;
+
 }
 
 .fa-heart {
@@ -545,7 +552,9 @@ span:active {
 }
 
 .jumbo-2 {
-    background-image: url(./yoga-img.png);
+    background: white;
+    margin-bottom: 0;
+    /*background-image: url(./yoga-img.png);*/
 }
 
 .jumbo-3 {
@@ -554,9 +563,10 @@ span:active {
 
 .jumbo-4 {
     margin-top: 5%;
-    background: #222;
+    background-image: url(https://images.unsplash.com/photo-1516830927954-58378e11dbe5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8b1862a2ce7cda1580944b7a2a39065&auto=format&fit=crop&w=800&q=60);
     padding: 1%;
     height: 80px;
+    margin-bottom: 4%;
 }
 
 .form-style {
@@ -646,11 +656,13 @@ span:active {
 }
 
 .all-yoga-studios {
+    margin-top:0;
     color: white !important;
     text-align: center;
     font-size: 2.75em;
     font-weight: normal;
     margin-top: 1%;
+
 }
 
 /*
@@ -691,7 +703,7 @@ float: left !important;
     padding:1%;
     width: 20%;
     height: 20%;
-    border: 3px solid #2bddcf;
+    border: 3px solid #b8be19;
     margin-right: -5%;
 }
 
@@ -790,7 +802,7 @@ float: left !important;
 
 .weird-para {
     color: grey;
-    opacity: 0;
+  /*  opacity: 0;*/
     margin-bottom: 0;
 }
 
@@ -805,6 +817,7 @@ float: left !important;
 
 .glyphicon-home {
     font-size: 1.3em;
+    color: #b8be19;
 }
 
 #center-form {
@@ -832,6 +845,23 @@ float: left !important;
 
 #center-form8 {
     margin-left: 5%;
+}
+
+.star-right {
+        float: right;
+}
+
+.container-2 {
+    padding-bottom: 0;
+}
+
+.navbar {
+    border: 0;
+    background-image: url(https://images.unsplash.com/photo-1516830927954-58378e11dbe5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8b1862a2ce7cda1580944b7a2a39065&auto=format&fit=crop&w=800&q=60);
+}
+
+#jumbo-5 {
+   background-image: url(./lightwood.png);
 }
 
 

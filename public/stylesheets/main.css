@@ -739,11 +739,12 @@ float: left !important;
 
 .review-size {
     height: 40px !important;
-    margin-top: 1%;
+    margin-top: 0%;
 }
 
 .well {
     margin-bottom: 2% !important;
+
 }
 
 .pull-right2 {
@@ -773,6 +774,16 @@ float: left !important;
 .review-edit-width {
     width: 300px;
     margin-bottom: -10%;
+}
+
+/*.well-border {
+    border: 2px grey solid !important;
+}*/
+
+.weird-para {
+    color: grey;
+    opacity: 0;
+    margin-bottom: 0;
 }
 
 

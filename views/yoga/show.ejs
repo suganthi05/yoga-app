@@ -24,7 +24,7 @@
                     <i class="glyphicon glyphicon-heart-empty"></i>
                     <i class="glyphicon glyphicon-heart"></i>
                     <br>
-                    <p style="font-family: 'Raleway', sans-serif;">Add to Favorites</p>
+                    <p style="font-family: 'Raleway', sans-serif; font-weight: normal;">Add to Favorites</p>
                 </label>
 
                 <!-- <div class="click" id="id-of-input">
@@ -61,7 +61,7 @@
                     <img class="img-responsive" src="<%= yoga.image %>">
                     <div class="caption-full">
                         <h4 class="pull-right large-ish">$
-                            <%= yoga.cost %>/Day Pass</h4>
+                            <%= yoga.cost %>/Day Pass</h4>   </h4>
                         <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish">Average Rating:
                             <% for (var i = 0; i < 5 ; i++) { %>
                             <% if (i < yoga.rating) { %>
@@ -140,7 +140,8 @@
                     <% } %>
                 </div>
             </div>
-                <div class="well background-box">
+            <div class="well-border">
+        <div  class="well background-box">
                 <div class="text-right">
                     <a class="btn btn-success " href="/yoga/<%= yoga._id %>/comments/new">Add New Review</a>
                 </div>
@@ -171,16 +172,21 @@
                                 <button class="btn btn-xs btn-danger">DELETE</button>
                                 <a href="/yoga/<%=yoga._id%>/comments/<%=comment._id%>/edit" class="btn btn-xs btn-info">EDIT</a>
                             </form>
+
                             <% } %>
+
                         </div>
+
+                      </div>
+
                     </div>
-                </div>
-                <% }) %>
-        </div>
-    </h4>
-     </div>
+                    <p class="weird-para">hello</p>
+             <% }) %>
+       </div>
+   </div>
 </div>
 </div>
+
 
 
 
@@ -215,8 +221,11 @@
         });
     }
 </script>
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVNqmxoPpZXHe89d2y12ozPDVjoLAk4hw&callback=initMap"></script>
 
 
 
+
 <% include ../partials/footer %>
+

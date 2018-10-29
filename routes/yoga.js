@@ -205,7 +205,7 @@ router.get("/", function (req, res) {
 
                 var sortedyoga = allYoga.slice();
                 sortedyoga.sort(function (a, b) {
-                    return a.rating - b.rating
+                    return b.rating - a.rating
                 });
                 var topRatedyogaArray = sortedyoga.slice(0, 4);
 

@@ -3,7 +3,7 @@ let map;
 function initMap() {
     let mapOptions = {
         center: new google.maps.LatLng(43.65432, -79.38347), //Toronto
-        zoom: 7.5,
+        zoom: 8,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -77,7 +77,6 @@ function addMarkers() {
                 let infowindow = new google.maps.InfoWindow();
                 infowindow.setContent(
                     "<p><b>" + yoga.name + "</b></p>" +
-                    console.log("favYoga" + yoga.name);
                     // "<p>" + yoga.location + "</p>" +
                     "<img src='" + yoga.image + "' width='100px' height='80px'>")
                 // "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/yoga/" + yoga._id + "' class='btn btn-primary'>More Info</a>")

@@ -120,13 +120,16 @@ function removeMapMarkers() {
 function loadMapMarkers(yogadata) {
     let marker;
     let index;
+    let position;
     removeMapMarkers();
     for (let yoga of yogadata) {
+        position = new google.maps.LatLng(yoga.lat, yoga.lng);
         marker = new google.maps.Marker({
-            position: new google.maps.LatLng(yoga.lat, yoga.lng),
+            position: position,
             map: map
         });
         gmarkers.push(marker);
+        map.setCenter(position);
         google.maps.event.addListener(marker, 'click', (function (marker, i) {
             return function () {
                 let infowindow = new google.maps.InfoWindow();

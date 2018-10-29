@@ -187,12 +187,14 @@ router.get("/", function (req, res) {
             if (err) {
                 console.log('MongoDB Error:' + err);
             } else {
+                console.log(allYoga.length);
                 if (allYoga.length < 1) {
                     noMatch = "No yoga studio match that query, please try again.";
                 }
                 res.send({
                     yoga: allYoga,
-                    noMatch: noMatch
+                    noMatch: noMatch,
+                    count: allYoga.length
                 });
             }
         });
@@ -211,8 +213,10 @@ router.get("/", function (req, res) {
 
                 res.render("yoga/index", {
                     yoga: allYoga,
+                    count: allYoga.length,
                     topratedyoga: topRatedyogaArray,
                     noMatch: noMatch
+
                 });
             }
         });

@@ -24,9 +24,7 @@
                     <i class="glyphicon glyphicon-heart-empty"></i>
                     <i class="glyphicon glyphicon-heart"></i>
                     <br>
-
-                    <p style="font-family: 'Raleway', sans-serif; font-weight: normal;">Add to Favorites</p>
-
+                    <p style="font-family: 'Raleway', sans-serif;">Add to Favorites</p>
                 </label>
 
                 <!-- <div class="click" id="id-of-input">
@@ -63,7 +61,7 @@
                     <img class="img-responsive" src="<%= yoga.image %>">
                     <div class="caption-full">
                         <h4 class="pull-right large-ish">$
-                            <%= yoga.cost %>/Day Pass</h4>   </h4>
+                            <%= yoga.cost %>/Day Pass</h4>
                         <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish">Average Rating:
                             <% for (var i = 0; i < 5 ; i++) { %>
                             <% if (i < yoga.rating) { %>
@@ -76,20 +74,20 @@
 
                         <div class="list-group">
                             <li class="list-group-item active large-ish">Amenities<span>&emsp;
-                                    <% yoga.amenities.forEach(function(amenities) { %>
-                                    <% if (amenities === "Parking") { %>
+                                 <% yoga.amenities.forEach(function(amenities) { %>
+                                     <% if (amenities === "Parking") { %>
                                     <span class="large fa fa-car" title="Parking"></span>&emsp;
                                     <% } else if (amenities === "Wifi") { %>
-                                    <span class="large fa fa-wifi" title="Wifi"></span>&emsp;
+                                     <span class="large fa fa-wifi" title="Wifi"></span>&emsp;
                                     <% } else if (amenities === "Lockers") { %>
-                                    <span class="large fa fa-lock" title="Locker"></span>&emsp;
+                                    <span class="large fa fa-lock"  title="Locker"></span>&emsp;
                                     <% } else if (amenities === "Showers") { %>
-                                    <span class="large fa fa-shower" title="Shower"></span>&emsp;
+                                     <span class="large fa fa-shower"  title="Shower"></span>&emsp;
                                     <% } else if (amenities === "Smoothie Bar") { %>
                                     <span class="large fa fa-coffee" title="Smoothie Bar"></span>&emsp;
                                     <%}%>
-                                    <% }); %>
-                                </span></li>
+                                 <% }); %>
+                            </span></li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(var i=0; i<yoga.amenities.length; i++){ %>
                                 <i class="material-icons">
@@ -124,10 +122,8 @@
                         </div>
 
                     </div>
-
                     <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish">
                             Description:</h4>
-
                     <p>
                         <%= yoga.description %>
                     </p>
@@ -144,8 +140,7 @@
                     <% } %>
                 </div>
             </div>
-            <div class="well-border">
-        <div  class="well background-box">
+                <div class="well background-box">
                 <div class="text-right">
                     <a class="btn btn-success " href="/yoga/<%= yoga._id %>/comments/new">Add New Review</a>
                 </div>
@@ -157,20 +152,12 @@
                             <%= comment.author.username %>
                             <strong class="rating-star"> Rating:
                                 <%= comment.rating %></strong>
+                            <% for (var i = 0; i < 5 ; i++) { %>
+                            <% if (i < comment.rating) { %>
+                            <span class="fa fa-star checked"></span>
+                            <%}%>
 
-                            <h4> Rating:
-
-                            <h4 class="review-size"> Average Rating:
-
-                                <% for (var i = 0; i < comment.rating ; i++) { %>
-                                <span class="fa fa-star checked"></span>
-                                <% }; %>
-
-                                <!-- <% for (var i = 0; i < (5 - comment.rating) ; i++) { %>
-                                <span class="fa fa-star"></span>
-                                <% }; %> -->
-
-                            </h4>
+                            <% }; %>
                         </strong>
                         </strong>
                         <div class="list-group-item">
@@ -183,21 +170,17 @@
                                 <button class="btn btn-xs btn-danger">DELETE</button>
                                 <a href="/yoga/<%=yoga._id%>/comments/<%=comment._id%>/edit" class="btn btn-xs btn-info">EDIT</a>
                             </form>
-
                             <% } %>
-
                         </div>
-
-                      </div>
-
                     </div>
-                    <p class="weird-para">hello</p>
-             <% }) %>
-       </div>
-   </div>
+                </div>
+                <span class="weird-para">test</span>
+                <% }) %>
+        </div>
+    </h4>
+     </div>
 </div>
 </div>
-
 
 
 
@@ -232,11 +215,8 @@
         });
     }
 </script>
-
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVNqmxoPpZXHe89d2y12ozPDVjoLAk4hw&callback=initMap"></script>
 
 
 
-
 <% include ../partials/footer %>
-

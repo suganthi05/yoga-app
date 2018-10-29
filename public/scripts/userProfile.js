@@ -3,7 +3,7 @@ let map;
 function initMap() {
     let mapOptions = {
         center: new google.maps.LatLng(43.65432, -79.38347), //Toronto
-        zoom: 7.5,
+        zoom: 8,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -38,9 +38,8 @@ function addMarkers() {
             position: new google.maps.LatLng(yoga.lat, yoga.lng),
             map: map,
             icon: {
-                url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL6SURBVFhH7ZdNaxNRFIbrJyrSlQt3IoKoK8XPhR+k1rYotm6kFBVakzbGUoXupAvdudGNa/+AWQidCUEXUgU3tqltWk0mqbVY6iKZqYqKIOp7PTOcpml6U+5kxjZgH3ghM3O4eXJz58ydmlVWcQkm+pqEiG7kw+oDqbYZmHqED6sLpEM9YjQgSPBDVc4ikvWztqCwdJLUwny6OkD26nUxuEfMC+pTVTWLSJ6xigUdybzeyZdXFmQ6w45cqaCpvxcisYHLVg4kG0yZoCNp9Qe5bGWAEQwV5KSC2qQQA+u5fPlBsjG/lCBLdnD58oJ0sGOBXHnBd/98FoXRu00YXRdhtN/D29YnGG/O4PXRXyqCLPmCeuMDSjdm9Ubk4ruoDa3j4dVAtqdWTEQuIN1+lyRieNOSpub7CcOHfy8SKZcygrLQXf4Tlm5QNPp8nxKhH3Aan2I7hLi9lrXmsRc8hvZD+sWqcSFYLiT6Ela8lrUWAqPzChIeJD0K2ktB5KJbWUcOUqE2DB2oTNKDIP3Vz8RHbQtrLI1zQyQO/pFKLJUKBelvfaosNweMcItryQoESS4upgY28de6A5nwWSQOqUu6FLTvYM+7HmQjDcqtxoUgtZTHvm3JMBEJYPjI4sZcGlVBU4v6vtOhG+e4GNonF5uLmuBz108RFTDTvVsqVRwFQbud8JD+gkzwhlSqOEqCWp6H9BdhXIpKpYqjugZzse08rH/Q5iEllSqOoiDM/joe1j8wEvgqlSqOqqCl3+Rh/UNlp4PRAGRCpaGnx0Me1h8w1XNMJlQItR9nE2vXWbF6asKvZGJzsa/z0P4g0h13pGKDewXGzk3D6GriUgchxBpaZy0kMi4VtPRvdg2XeweptnipHMYaczAirVwixd4Zw4xddt5LSiU/9+/kMu9g/PxkQS5Z9wXZ0DW+pIT9WKPZDFNmCoKm3syXvYOREz8wcuo7UsFbfKoiMP1oM2a1XpIzaVb7+LR3nDUoe5GpEHtbj3zsJB+u8r9SU/MXRigwABA6Zl8AAAAASUVORK5CYII="
+                url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJHSURBVGhD7ZbBS1RRFMYHhEIj3CWCkO9qBAZuDKeCWkSESEUL35tJpxQtylWYFFQUrVLURGlTUTupRRAu8g9Q3wzM4L/QxoWOiK6bRfd0zp3jKHod3L3z8P7gg/vuvefwfdw7817CcRyA3nNKp9Rb1KIOvD9GNE6pN7TG2+Siu1pPoulZnfJKkFJgE63pQE2D33aCy2ShMw2n0GRYMf30OsDkE4BPLwE+DB8MFKgluNVYx+VywJOYNybvtwF8fAbwc3ZX3yfQfIsljPeLy2UAQctdY67vPMBnPAEy/2MK4P0AwMgNgIH2AyF2hGFuc5vowSuVM8be3SuHmBsHeHTRany/6Dpym2jRaa8B7/s/c3XmxspBRm9aTdtEtTqjznC76NBB8zVjaqhj9/eQbrWaPkx4Kle5XXTodPMdY2j4cjnIl9dWs9VEPbhddOjg7CVjKI1X60U3wOOk1Ww1UQ9uFx3gq3p6ydkMHkVY+5d6cLtoQTMLNpNHEf79/uY20YN3PInfUdpmtJqoRvd4ndxGBmhqyma2mvA0JrhcDuAnajDMN5thm/D98ZVquFwe2vcG0eSazTyJ1rSv+nm7bOirtjSUzKyPPYetVw+MaFx6eKVP9zTV8rZ4sLKyXZ8tbMBe0RwvxwcXRBouiDRcEGm4INJwQaThgkjDBZGGCyINF0QaLog0XBBphOHm6f1BaI6X40U2X1yuBMExT8ePsFDMVE4DxzwdP3K51dpsobhNojFPx5MwvzFD4sf4spxfv0DiR8cxIZH4DzW9T1I9vq8WAAAAAElFTkSuQmCC"
             }
-
         });
         // console.log("yoga lat: " + yoga.lat);
         // console.log("yoga Obj: " + JSON.stringify(yoga));
@@ -66,7 +65,7 @@ function addMarkers() {
             position: new google.maps.LatLng(yoga.lat, yoga.lng),
             map: map,
             icon: {
-                url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJHSURBVGhD7ZbBS1RRFMYHhEIj3CWCkO9qBAZuDKeCWkSESEUL35tJpxQtylWYFFQUrVLURGlTUTupRRAu8g9Q3wzM4L/QxoWOiK6bRfd0zp3jKHod3L3z8P7gg/vuvefwfdw7817CcRyA3nNKp9Rb1KIOvD9GNE6pN7TG2+Siu1pPoulZnfJKkFJgE63pQE2D33aCy2ShMw2n0GRYMf30OsDkE4BPLwE+DB8MFKgluNVYx+VywJOYNybvtwF8fAbwc3ZX3yfQfIsljPeLy2UAQctdY67vPMBnPAEy/2MK4P0AwMgNgIH2AyF2hGFuc5vowSuVM8be3SuHmBsHeHTRany/6Dpym2jRaa8B7/s/c3XmxspBRm9aTdtEtTqjznC76NBB8zVjaqhj9/eQbrWaPkx4Kle5XXTodPMdY2j4cjnIl9dWs9VEPbhddOjg7CVjKI1X60U3wOOk1Ww1UQ9uFx3gq3p6ydkMHkVY+5d6cLtoQTMLNpNHEf79/uY20YN3PInfUdpmtJqoRvd4ndxGBmhqyma2mvA0JrhcDuAnajDMN5thm/D98ZVquFwe2vcG0eSazTyJ1rSv+nm7bOirtjSUzKyPPYetVw+MaFx6eKVP9zTV8rZ4sLKyXZ8tbMBe0RwvxwcXRBouiDRcEGm4INJwQaThgkjDBZGGCyINF0QaLog0XBBphOHm6f1BaI6X40U2X1yuBMExT8ePsFDMVE4DxzwdP3K51dpsobhNojFPx5MwvzFD4sf4spxfv0DiR8cxIZH4DzW9T1I9vq8WAAAAAElFTkSuQmCC"
+                url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL6SURBVFhH7ZdNaxNRFIbrJyrSlQt3IoKoK8XPhR+k1rYotm6kFBVakzbGUoXupAvdudGNa/+AWQidCUEXUgU3tqltWk0mqbVY6iKZqYqKIOp7PTOcpml6U+5kxjZgH3ghM3O4eXJz58ydmlVWcQkm+pqEiG7kw+oDqbYZmHqED6sLpEM9YjQgSPBDVc4ikvWztqCwdJLUwny6OkD26nUxuEfMC+pTVTWLSJ6xigUdybzeyZdXFmQ6w45cqaCpvxcisYHLVg4kG0yZoCNp9Qe5bGWAEQwV5KSC2qQQA+u5fPlBsjG/lCBLdnD58oJ0sGOBXHnBd/98FoXRu00YXRdhtN/D29YnGG/O4PXRXyqCLPmCeuMDSjdm9Ubk4ruoDa3j4dVAtqdWTEQuIN1+lyRieNOSpub7CcOHfy8SKZcygrLQXf4Tlm5QNPp8nxKhH3Aan2I7hLi9lrXmsRc8hvZD+sWqcSFYLiT6Ela8lrUWAqPzChIeJD0K2ktB5KJbWUcOUqE2DB2oTNKDIP3Vz8RHbQtrLI1zQyQO/pFKLJUKBelvfaosNweMcItryQoESS4upgY28de6A5nwWSQOqUu6FLTvYM+7HmQjDcqtxoUgtZTHvm3JMBEJYPjI4sZcGlVBU4v6vtOhG+e4GNonF5uLmuBz108RFTDTvVsqVRwFQbud8JD+gkzwhlSqOEqCWp6H9BdhXIpKpYqjugZzse08rH/Q5iEllSqOoiDM/joe1j8wEvgqlSqOqqCl3+Rh/UNlp4PRAGRCpaGnx0Me1h8w1XNMJlQItR9nE2vXWbF6asKvZGJzsa/z0P4g0h13pGKDewXGzk3D6GriUgchxBpaZy0kMi4VtPRvdg2XeweptnipHMYaczAirVwixd4Zw4xddt5LSiU/9+/kMu9g/PxkQS5Z9wXZ0DW+pIT9WKPZDFNmCoKm3syXvYOREz8wcuo7UsFbfKoiMP1oM2a1XpIzaVb7+LR3nDUoe5GpEHtbj3zsJB+u8r9SU/MXRigwABA6Zl8AAAAASUVORK5CYII="
             }
         });
         //console.log("yoga lat: " + yoga.lat);
@@ -77,7 +76,6 @@ function addMarkers() {
                 let infowindow = new google.maps.InfoWindow();
                 infowindow.setContent(
                     "<p><b>" + yoga.name + "</b></p>" +
-                    console.log("favYoga" + yoga.name);
                     // "<p>" + yoga.location + "</p>" +
                     "<img src='" + yoga.image + "' width='100px' height='80px'>")
                 // "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/yoga/" + yoga._id + "' class='btn btn-primary'>More Info</a>")

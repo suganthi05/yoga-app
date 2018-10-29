@@ -2217,5 +2217,456 @@
         "usernamefeed": "Alex Parrish"
       }
     ]
+  },
+  {
+    "name": "Yoga Tree Richmond Hill",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNJCZUagyeSmmWCBDeMf0xCf5Tw_tZ80kjHDlCO=s1600-w800-h533",
+    "rating": 4.3,
+    "website": "https://www.yogatree.ca/richmond-hill/",
+    "phone": "(905) 882-9642",
+    "description": "Jason's class is consistently challenging. I always get a great workout and leave feeling proud that I finished his class. I feel refreshed and like how I learn more about yoga poses, transitions between poses and more awareness about myself. Not all yoga classes nor studios are the same. It is an art form and Yogatree is the best in Toronto, hands down.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "360 Highway 7 #1, Richmond Hill",
+    "lat": 43.84145700000001,
+    "lng": -79.397219,
+    "commentfeed": [
+      {
+        "text": "Yoga Tree - FINALLY!  I have tried many studios over the years, but none measured up. A friend recommended yoga tree. I tried several classes with various instructors. They were all excellent. The studios and change rooms are so clean, light and meticulously kept.  The support staff is friendly and always ready to help. If you are looking for a professional studio look no further. Yoga Tree is the perfect oasis to escape to during a busy day. Your body will thank you.",
+        "rating": 5,
+        "usernamefeed": "victoria dombrower"
+      },
+      {
+        "text": "The instructors here are great and I enjoy the classes but today when I went to the restorative class, they overbooked it and the there was literally no space.  I left.  The receptionist informed me that they let people in because they came as a couples.  Kind of like the airlines only instead of being refused a seat, they expect you to share yours!! This is not the first time I have left the class because they overbooked it. Extremely disappointed.  Once it gets to the maximum, then they shouldn't allow anyone else in.  Only ruins the experience for everyone.",
+        "rating": 2,
+        "usernamefeed": "Ron Jervis"
+      },
+      {
+        "text": "Yoga Tree Richmond Hill is by far my favourite yoga studio. The entire staff is extremely kind, friendly, and accommodating. Definitely would recommend this location time and time again.",
+        "rating": 5,
+        "usernamefeed": "Negin FA"
+      },
+      {
+        "text": "Thanks to beautiful Pamela - Front Desk girl,  for helping me in a situation where I thought I cannot make it.",
+        "rating": 5,
+        "usernamefeed": "Najma Zuberi"
+      }
+    ]
+  },
+  {
+    "name": "Moksha Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipONUbPQ7uIcIBS1nKH3Yqz7RB3DA0HoGe7Mv8aP=s1600-w560-h294",
+    "rating": 4.7,
+    "website": "http://markham.mokshayoga.ca/",
+    "phone": "(905) 604-5683",
+    "description": "Moksha Yoga Markham offers such a clean space and beautiful atmosphere. There are so many classes to choose from, between the two studios, and every teacher who has led my classes has been present, warm and inclusive of all levels. They also offer a variety of workshops every month that allow its members to continue to deepen their practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "# LMN, 8200 Birchmount Road, Markham",
+    "lat": 43.8568213,
+    "lng": -79.32440880000001,
+    "commentfeed": [
+      {
+        "text": "Very good experience trying hot yoga!  Nice environment and instructors.  As a beginner, I never feel strange if I can't do some poses.  I like the flexibility of the schedule, open early and close late!",
+        "rating": 5,
+        "usernamefeed": "Lolita Wong"
+      },
+      {
+        "text": "5/5! Had previously tried classes at the Thornhill location and my expectations were low. However, this location is a lot smaller and the teachers do hands-on adjustments which I love!! Also, for some reason, the hot room isn't as unbearably hot as the other location, and I'm pretty sure it's because the classes are much smaller! Super clean studio, nice staff, amazing teachers, and free street parking! So happy I gave it a try!",
+        "rating": 5,
+        "usernamefeed": "Maddy R"
+      },
+      {
+        "text": "If you have never tried hot yoga before I strongly suggest you try it at Moksha Yoga Markham. The studio is fantastic, friendly staff, tranquil  environment and great variety of classes make Moksha Yoga Markham one of the best kept secrets in Markham. Try it once and you will be hooked. The instructors are very helpful and will help ensure you get the best of your yoga session. Move at your own pace is one of their key principles.",
+        "rating": 5,
+        "usernamefeed": "Rohit Malik"
+      },
+      {
+        "text": "This location is great for hot yoga, especially if you are a beginner! I always recommend it to my friends and bring them along whenever i get the chance. I recommend aways arriving early as classes can get pretty full quickly!",
+        "rating": 4,
+        "usernamefeed": "Christine Tan"
+      }
+    ]
+  },
+  {
+    "name": "Moksha Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNuuEODGwcjsHW_C4-T7cF6NdZqlIDBlGBpQlcw=s1600-w960-h720",
+    "rating": 4.1,
+    "website": "http://markham.mokshayoga.ca/",
+    "phone": "(905) 474-9642",
+    "description": "Its Saturday afternoon,  I'd love to go to yoga but they aren't open. All week I had 1-3:30pm open ...unfortunately no classes between 2-5pm. Finding it hard to practice, especially with new rules, I'm afraid to preschedule in case I get too busy and cancel late. The summer was absolute chaos and my husband refused to go back after only attending once since one of the locations had renovations and classes were packed. Wont give up.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "5051 Highway 7 #2,3&4, Unionville",
+    "lat": 43.86528269999999,
+    "lng": -79.28950050000003,
+    "commentfeed": [
+      {
+        "text": "I have been going to this location for 3 weeks now. The classes are amazing and the instructors are very knowledgeable. If you are a beginner, it is an excellent place to start.",
+        "rating": 5,
+        "usernamefeed": "Russell Ali"
+      },
+      {
+        "text": "i dont know why this yoga has so much harsh rules to their member，like if you sign up online but you can't attend in it and you forget to cancel it, you need to pay extra 25 dollars to next class if you want to attend it, otherwise you can't join the class any more. and there are a lot of people every time，even there are no way to stench the leg and even can kiss other guys foot who stand in front of you. It is a really terrible studio that I ever attend in. And I will never go to this store.",
+        "rating": 1,
+        "usernamefeed": "katie wu"
+      },
+      {
+        "text": "Loved the atmosphere, the yoga studio was at perfect temperature for hot yoga, and the instructors were very helpful throughout the sessions without delaying the classes.",
+        "rating": 4,
+        "usernamefeed": "emily chan"
+      },
+      {
+        "text": "Moksha Yoga Markham has gone above and beyond to become and remain as the best yoga studio in Markham. The facility is constantly being cleaned in between the classes. Considering how much sweating goes on, this is particularly important to maintain proper cleanliness. Unlike the typical changeroom, the ones at this studio are spa-like. All this aside, the most important aspects are the staff and the availability of classes. All the teachers are great, and they have a lot of class times. There is even a class at 9:45pm, which accomodates people like me who finish work late. High recommendations for this place!",
+        "rating": 5,
+        "usernamefeed": "Derek Ng"
+      }
+    ]
+  },
+  {
+    "name": "Hot Yoga Wellness Richmond Hill",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMmcXt3hqBWFoxBsFmtTG-sfLqODIZWphdfsjAS=s1600-w1024-h1024",
+    "rating": 4.9,
+    "website": "http://www.hotyogawellnessrichmondhill.com/",
+    "phone": "(905) 881-0010",
+    "description": "A fantastic place to learn, grow, and get inspired. Lots of classes to choose from and all instructors are highly qualified. Whether you're looking to try yoga out for the first time (as I was a couple months back) or try out a new studio - this place won't disappoint! And the best part is, all levels are catered to - from beginner to pretty freakin advanced and everything in between!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "1455 16th Avenue #10-12, Richmond Hill",
+    "lat": 43.8612372,
+    "lng": -79.38839050000001,
+    "commentfeed": [
+      {
+        "text": "I have been going to this yoga studio since 2012. A lot has changed in the past a few years but this is still one of my fav yoga studio in Toronto. (This studio previous is moksha Richmond hill, then it changed to my hot yoga studio, then changed to hot yoga wellness. Name change, owner changed.)\n\nThe studio is very good size, cozy but big enough. one room for both hot and regular temperature. Hold around up to 25 people. Rarely get too crowded. There is a mirror in the excise room, little decoration, very minimal. 4 large size shower and rarely get too busy either. Change room does not have locker but it was never needed. \n\nThis studio is always clean, does. It have strange smell some other yoga place. Sometime they use essential oil defused and I love it. \n\nStaff are very friendly despite there has been so many changes going on, there are a few Excellent teacher teach in this studio regularly. \n\nWhat I like the best is the temperature - this studio has best temperature for practice yoga, regular is warm, hot yoga is not too hot. In fact practice yoga in a external hot room is not best to our body - this studio make it just right. \n\nClass around 12$ - 20$ depends on drop in or buy class card. Membership is 135, couple is 175. (Membership is unlimited class). I normally buy family class card so I can share with families and, have flexible schedule. \n\nThe only thing I would I recommend - recent a year, there are students talking before and after class in the practice room - it shall and need to be a quiet practice, I hope staff and teacher will inform and educate new student on silence practice so it won’t interfere others practice or meditation before/after the class. Add some snack will also be nice. If there are some matt sort and small dry towel in the practice room to clean matt would be really nice as there is only a small rack outside to hang matt. \n\nOverall, if you looking for real yoga, great teacher, none fancy and none pretentious place for your yoga practice, this is the one.",
+        "rating": 5,
+        "usernamefeed": "Marine Zhang"
+      },
+      {
+        "text": "I have been going to this location since it opened (previously I had been a member of the Woodbridge location). Kind staff, great teachers, clean studio, diverse and comprehensive schedule. I would recommend anyone to try this place.",
+        "rating": 5,
+        "usernamefeed": "Katie Daniels"
+      },
+      {
+        "text": "I must say, the teachers here are great. They really involve themselves in ensuring your poses are accurate and that you're getting the most out of it.  I am really happy with my experience.  They also use interesting music and scented inscense.  They have this real focus on healing.  Especially Jennifer on friday night classes! She is my favourite teacher so far.  The reason they get 4 stars is because the room isn't hot, even for hot yoga.",
+        "rating": 4,
+        "usernamefeed": "Bharti Dhillon"
+      },
+      {
+        "text": "The owner Stella is amazing. Great instructors .",
+        "rating": 5,
+        "usernamefeed": "Selena Jee"
+      }
+    ]
+  },
+  {
+    "name": "Thomas Ding Yoga Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipO2nXrhFc_eUvxKHDK460bzvTsvN-34QHMcKQX2=s1600-w1024-h1024",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(647) 779-2863",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "401 Alden Road unit 8, Markham",
+    "lat": 43.8338073,
+    "lng": -79.3330656,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "The Yoga Mat",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNSECcS5u8FAlGa8244gfpGNPyQP2bOltVMfGNh=s1600-w1024-h1024",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(647) 961-4363",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "115 Apple Creek Boulevard #201a, Markham",
+    "lat": 43.8573583,
+    "lng": -79.35628029999998,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Hub Climbing",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPnVAV6a5-O72qj2P88_yMqgXVwbvI-bK4uswSz=s1600-w1024-h1024",
+    "rating": 4.7,
+    "website": "https://hubclimbing.com/",
+    "phone": "(905) 604-4588",
+    "description": "The atmosphere is very friendly and welcoming. The gym itself is a lot of fun and great for groups or soloing. I love the large variety of auto belays available! The routes are more challenging than other gyms in the area and each one helps you work on different techniques. Great work! :D",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "165 McIntosh Drive, Markham",
+    "lat": 43.85713699999999,
+    "lng": -79.3575558,
+    "commentfeed": [
+      {
+        "text": "I had my daughter’s birthday @ The Hub recently and I was very impressed that the staff was extremely helpful, friendly and organized. \nMy party group was well looked after by 3 trained staff who stayed with the group until it was pizza time. \nThe front desk staff had great customer skills, especially Andrew, who looked after my party sign in. He was patient and friendly. \nI would highly  recommend The Hub for a birthday party because the staff made everything easy and all the kids had a great time, including the novice climbers.",
+        "rating": 5,
+        "usernamefeed": "649 Ping"
+      },
+      {
+        "text": "We hosted a birthday party here today, we had a fabulous time! The staff were very helpful in setting up the party room, as well as cleaning afterwards, they even helped us carry our boxes to the parking lot!  The coaches were attentive and encouraging.  All the girls enjoyed the climbing, including the first timers!  We would definitely recommend hosting your birthday party here.",
+        "rating": 5,
+        "usernamefeed": "Cathy Wong"
+      },
+      {
+        "text": "Some ppl call it the place where climbing shoes go to die. Since the climbs can wear out your climbing shoes very quickly. Staffs are amazingly friendly and the climbs change frequently. Plus the place is big enough so you won’t get bored even if you go 2-3 times a week.  Also people who climb there are usually really friendly so you can meet climbing buddy’s pretty easily",
+        "rating": 4,
+        "usernamefeed": "Robin Ling"
+      },
+      {
+        "text": "I came in with my daughter to have her climb the other evening after work, first visit. The front desk was staffed by a VERY sick girl, who should have been in bed resting. I asked her why she was working, and was told that there no other staff scheduled. Her co-worker had stayed late to make sure she wasn't alone, and looked exhausted and harried. I couldn't believe it. The size of this gym, and one sick person was scheduled to supervise everybody?! I brought this up to the girl, and was told that management had been made aware but she didn't have any further info on when it would be resolved. She didn't sound particularly hopeful that it would be to me, though she was very professional in her responses. I was then told because my child was under 12, she could not climb higher than a certain height. Alright. The height, however, was not marked anywhere except one wall, and was more or less 1 foot lower than the actual routes?! I asked for clarification on how a 10 year old was supposed to recognize this, and apparently the staff and myself would be responsible for 'ensuring they stayed within the limits'. Given the amount of people there, this was an absolutely ridiculous limitation, and there was NO WAY that this poor girl and her exhausted colleague working the front desk (conveniently placed facing away from the marked wall where she could not keep an eye on the beginner area) could do so. I will NEVER bring my child here. I suggest anyone thinking of doing so seriously reconsider. I have been to True North Climbing, which is inconveniently further away, but always staffed sufficiently and I have always felt myself and child have been treated safely.",
+        "rating": 1,
+        "usernamefeed": "Sarah Stildman"
+      }
+    ]
+  },
+  {
+    "name": "Hot Yoga Markham",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4.8,
+    "website": "http://www.hotyogamarkham.com/",
+    "phone": "(905) 489-9642",
+    "description": "Fantastic teachers.  Would benefit from being able to correct students postures and giving clearer instructions.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "3621 Highway 7, Markham",
+    "lat": 43.8540662,
+    "lng": -79.33746780000001,
+    "commentfeed": [
+      {
+        "text": "Most instructors are very helpful. My favorite is Jovita and Ben.  They come over to help and correct your poses from time to time.  Nice studio and with lockers.  A bit down side is they don't have many schedules as the others.",
+        "rating": 5,
+        "usernamefeed": "peggy cheng"
+      },
+      {
+        "text": "Great",
+        "rating": 5,
+        "usernamefeed": "Manjeet Cheema"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Cindy J"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Cecilia Chan"
+      }
+    ]
+  },
+  {
+    "name": "Yoga in Unionville",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(905) 479-9329",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "8b Station Lane, Unionville",
+    "lat": 43.8646289,
+    "lng": -79.31115260000001,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Toronto Yoga Center",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(647) 896-0658",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "131 Telson Road, Markham",
+    "lat": 43.8200736,
+    "lng": -79.33987589999998,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
   }
 ]

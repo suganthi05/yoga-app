@@ -2668,5 +2668,402 @@
         "usernamefeed": "Alex Parrish"
       }
     ]
+  },
+  {
+    "name": "Reach Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipM_02AjnWjoD9njqTeFQVXqaM34W5Rg2wKC7nGP=s1600-w484-h721",
+    "rating": 4.8,
+    "website": "http://www.reachyoga.ca/",
+    "phone": "(416) 803-9907",
+    "description": "Love the Monday night yoga in Don Mills!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "40 Underhill Drive, North York",
+    "lat": 43.7440939,
+    "lng": -79.3266481,
+    "commentfeed": [
+      {
+        "text": "A worthy practice with heartfelt guidance.",
+        "rating": 4,
+        "usernamefeed": "Fran Masterson"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Avinash Kaur"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Tiffany Fleming"
+      }
+    ]
+  },
+  {
+    "name": "Amor Healthy Lifestyle",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipN_EpC_Sw8reO6zjmAu6lyGlEF7BR_hGXmM_wMc=s1600-w727-h576",
+    "rating": 5,
+    "website": "http://www.amorhl.com/",
+    "phone": "(416) 559-0522",
+    "description": "Amazing place for yoga classes!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "40 Production Drive, Scarborough",
+    "lat": 43.7789429,
+    "lng": -79.23872719999997,
+    "commentfeed": []
+  },
+  {
+    "name": "SATYAYOGA",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNFg2QUt7DmcfVE4BwldBDK-N3z_H6hBj_vfqj6=s1600-w1024-h1024",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(416) 266-8830",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "248 Scarborough Golf Club Road, Scarborough",
+    "lat": 43.748206,
+    "lng": -79.21047449999998,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "YOGA YOGA EAST",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNca3oxTKIj_O4t4UsR9TwEHd978h-yMfyrLbaI=s1600-w1024-h1024",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "33 East Road, Scarborough",
+    "lat": 43.68851739999999,
+    "lng": -79.2713415,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "PUR YOGA Toronto",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPo4ug9He2ZXIChEF5uocVDd0wq3yl5UMo9B5-v=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.puryogatoronto.com/",
+    "phone": "(416) 694-9642",
+    "description": "This studio is the Beaches sanctuary. I love it. It's a safe space where I can clear my head, meditate, connect to a friendly supportive yoga community in a family-like atmosphere. Thank you Liz for creating such a beautiful space for our community to enjoy. So many wonderful memories made! I especially love the many options of classes from Iyengar Yoga to SUP YOGA , Paddle boarding in the summer out on the lake, to Vinyasa, Hatha, Yin & Restorative Yoga and TRX. This studio has so many props, which is lovely to feel supported. They even use chairs, straps and blocks in most of the classes to open up deeper and relax into postures. The teachers are so experienced and you can tell they truly care about their student community.\n\nThere's so much happening here from the special guest events with Crystal Bowl Sound Healing Therapy, to Reiki and Massage to Kirtan and Sacred Music Evenings. \n\nThis place is so special. - Caitlan Carver",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "2245 Queen Street East, Lower Level, Toronto",
+    "lat": 43.6709824,
+    "lng": -79.29457230000003,
+    "commentfeed": [
+      {
+        "text": "PUR YOGA is my perfect fit. The genuinely caring and involved owners, are part of our community and are authentically interested in listening to and building the PUR community. The classes offered are diverse and interesting, the instructors are experienced and their styles diverse so you will find exactly the right fit for getting what you want from your yoga experience and the studio is small enough to feel relaxed and intimate. Perfect.",
+        "rating": 5,
+        "usernamefeed": "Susan Ward"
+      },
+      {
+        "text": "Loved the atmosphere and the small class size. Feels like a community. ",
+        "rating": 5,
+        "usernamefeed": "Kelly Bennett"
+      }
+    ]
+  },
+  {
+    "name": "Redwood Hot Yoga Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNvBwo2O0TGjMnuN4dNeta__VwEWATGl-3Bnxmw=s1600-w990-h503",
+    "rating": 5,
+    "website": "http://www.redwoodhotyoga.com/",
+    "description": "Awesome studio with a friendly and welcoming attitude. Challenging workouts for all levels. After you try hot yoga you will never go back to regular yoga. They offer pilates here as well.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "2638 Saint Clair Avenue East, East York",
+    "lat": 43.705417,
+    "lng": -79.31377900000001,
+    "commentfeed": [
+      {
+        "text": "This studio is so flexible (no pun intended), professional and friendly. I have lived in the area for years and have seen this go from one owner to another. J is great! He is very prompt to answer any questions or concerns. Instructors from my experience have been wonderful. They just added Hot Pilates as well. I appreciate a yoga studio like this in the neighbourhood and I look forward to going to the classes! \nHighly recommend! \nJust make sure you are on time --- as no one likes interruptions!",
+        "rating": 5,
+        "usernamefeed": "D. Roudka"
+      },
+      {
+        "text": "I've been to 3 yoga studios and Redwood is my favourite.  Some of the classes have unconventional poses that get students to activate muscles we rarely use in day-to-day life.  Smart, dedicated instructors and owner.",
+        "rating": 5,
+        "usernamefeed": "Michael Sgabellone"
+      },
+      {
+        "text": "I appreciate how the class has a lot of interesting postures for helping the lower back pain and shoulder/neck tension. Nice people too! Highly recommend it.",
+        "rating": 5,
+        "usernamefeed": "Mariam Al-Naser"
+      },
+      {
+        "text": "Great instructors, great atmosphere and absolutely love that they offer 6am classes!",
+        "rating": 5,
+        "usernamefeed": "Victoria Grigg"
+      }
+    ]
+  },
+  {
+    "name": "Guildwood Yoga Studio",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "3785 Kingston Road, Scarborough",
+    "lat": 43.74746560000001,
+    "lng": -79.207605,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Satya Yoga",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(416) 993-2360",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "248 Scarborough Golf Club Road, Scarborough",
+    "lat": 43.74837230000001,
+    "lng": -79.21088450000002,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Fore! Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPsvS-V2ov0YOXkMbAFEgkdCtV5hd03dG7_yOql=s1600-w1024-h1024",
+    "rating": 4.9,
+    "website": "http://www.foreyoga.ca/",
+    "phone": "(416) 617-6273",
+    "description": "Very centralized and easy to access location.  Lots of parking.  Studio is located on second floor and is very peaceful with its soft lighting.  Add great teachers to the mix and you have a recipe for a wonderful yoga experience!  Will definitely go back!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "1110 Birchmount Road, Scarborough",
+    "lat": 43.7362514,
+    "lng": -79.2809916,
+    "commentfeed": [
+      {
+        "text": "Soulful experience!  In this crazy fast pace world we live in having Fore! Yoga and specifically Chantal to help calm the body mind and sole is a much needed break. Chantal has taught me so much about the restorative benefits of breath and relaxation. I'm am not a golfer so if you are thinking that because you don't golf this is not for you - think again!  Thank you Chantal for always helping me calm\nMy crazy world. I always leave feeling clam, relaxed and energized!  Namaste",
+        "rating": 5,
+        "usernamefeed": "Tracey Sullivan"
+      },
+      {
+        "text": "Chantal is a skilled communicator and instructor who spends the time to teach the yoga positions. Her gentle manner and watchful eye can immediately detect when a correction or re-alignment is required. Although the classes are specialized for golfers, the sessions are focused on the yoga practice and my individual ability and now a part of my regular wellness routine.",
+        "rating": 5,
+        "usernamefeed": "cate hazell"
+      },
+      {
+        "text": "I attend the Tuesday night \"Gentle Yoga\" classes on Tuesday night at this location. It is a very warm, inviting, and comfortable environment! The instructor is accommodating to each individual participant and sensitive to the needs of all!\nFacilities are terrific! Parking is excellent!!!",
+        "rating": 5,
+        "usernamefeed": "Larraine Schoop"
+      },
+      {
+        "text": "What a fantastic space with great energy!  Chantal and Lisa are lovely!  Whether you're a beginner yogi or seasoned practitioner, do your self a favor and check out Fore! yoga!",
+        "rating": 5,
+        "usernamefeed": "Chloe Westman"
+      }
+    ]
+  },
+  {
+    "name": "Yogaaah",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOyhNyGqysmtVZVV6HZ02SsMMoMOjKdzj7JH5xD=s1600-w960-h564",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(647) 876-0842",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "#105 (Onsite Services), 1 Firvalley Court, Scarborough",
+    "lat": 43.70324,
+    "lng": -79.28059999999999,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
   }
 ]

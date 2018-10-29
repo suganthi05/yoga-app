@@ -34,25 +34,25 @@ function renderResult(yogadata, nomatch) {
         let $amenities;
         for (let amenities of yoga.amenities) {
             if (amenities === "Parking") {
-              $amenities = $("<span>").addClass("fa fa-car").attr('title','Parking');
-              $para.append($amenities);
-              $para.append(" | ");
+                $amenities = $("<span>").addClass("fa fa-car").attr('title', 'Parking');
+                $para.append($amenities);
+                $para.append(" | ");
             } else if (amenities === "Wifi") {
-              $amenities = $("<span>").addClass("fa fa-wifi").attr('title','Wifi');
-              $para.append($amenities);
-              $para.append(" | ");
+                $amenities = $("<span>").addClass("fa fa-wifi").attr('title', 'Wifi');
+                $para.append($amenities);
+                $para.append(" | ");
             } else if (amenities === "Lockers") {
-              $amenities = $("<span>").addClass("fa fa-lock").attr('title','Locker');
-              $para.append($amenities);
-              $para.append(" | ");
+                $amenities = $("<span>").addClass("fa fa-lock").attr('title', 'Locker');
+                $para.append($amenities);
+                $para.append(" | ");
             } else if (amenities === "Showers") {
-              $amenities = $("<span>").addClass("fa fa-shower").attr('title','Shower');
-              $para.append($amenities);
-              $para.append(" | ");
+                $amenities = $("<span>").addClass("fa fa-shower").attr('title', 'Shower');
+                $para.append($amenities);
+                $para.append(" | ");
             } else if (amenities === "Smoothie Bar") {
-              $amenities = $("<span>").addClass("fa fa-coffee").attr('title','Smoothie Bar');
-              $para.append($amenities);
-              $para.append(" | ");
+                $amenities = $("<span>").addClass("fa fa-coffee").attr('title', 'Smoothie Bar');
+                $para.append($amenities);
+                $para.append(" | ");
             }
         }
 
@@ -104,7 +104,7 @@ let map;
 function initMap() { //will give the blank map
     let mapOptions = {
         center: new google.maps.LatLng(43.65432, -79.38347), //Toronto
-        zoom: 12,
+        zoom: 7,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -146,6 +146,9 @@ function loadMapMarkers(yogadata) {
 
 // ajax call to get yoga search result and render on screen
 $(document).ready(function () {
+
+
+
     // initial load of map
     $.ajax({
         url: "yoga/getallstudios",

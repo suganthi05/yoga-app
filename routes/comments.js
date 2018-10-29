@@ -78,10 +78,28 @@ router.get("/:commentId/edit", middleware.isLoggedIn, function (req, res) {
 });
 
 router.put("/:comment_id", function (req, res) {
-    Comment.findByIdAndUpdate(req.params.comment_id, req.body.comment, function (err, comment) {
+
+    console.log("new ----rating---new: " + req.body.comment);
+    console.log(req.body.comment);
+
+    var updateValue = {
+        'text': req.body.comment,
+        'rating': parseInt(req.body.rating),
+    };
+
+    Comment.findOneAndUpdate({
+        "_id": req.params.comment_id
+    }, {
+        $set: updateValue
+    }).exec(function (err, comment) {
         if (err) {
-            res.render("edit");
+            console.log(err);
+            res.send(err)
+            //res.render("edit");
         } else {
+            console.log('new rating:   ' + comment.rating);
+            console.log('new text:  ' + comment.text);
+
             res.redirect("/yoga/" + req.params.id);
         }
     });

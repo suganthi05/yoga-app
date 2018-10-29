@@ -78,7 +78,6 @@ router.post('/register', function (req, res) {
             username: req.body.username,
             home: formattedAddress,
             email: req.body.email,
-            //photo: req.file.path,
             lat: latValue,
             lng: lngValue,
             photo: req.body.url
@@ -120,7 +119,7 @@ router.post(
 // logout route
 router.get('/logout', function (req, res) {
     req.logout();
-    req.flash('success', 'LOGGED YOU OUT!');
+    req.flash('success', 'See you later!');
     res.redirect('/yoga');
 });
 

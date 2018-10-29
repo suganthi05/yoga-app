@@ -1,16 +1,19 @@
 <% include ../partials/header %>
 <!-- Icon library for adding star -->
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script src="/scripts/show.js"></script>
 <!--Aa to show fav-->
-<div>
+<div style="font-family: 'Raleway', sans-serif;">
     <div class="row top-space color-container">
         <div>
-            <h1 id="headerr" class="yoga-header">
+
+            <h1 style="font-family: 'Raleway', sans-serif;" id="headerr" class="yoga-header">
                 <%=yoga.name%>
             </h1>
+
+
             <div class="col-md-3 full-card">
 
 
@@ -21,7 +24,9 @@
                     <i class="glyphicon glyphicon-heart-empty"></i>
                     <i class="glyphicon glyphicon-heart"></i>
                     <br>
-                    <p >Add to Favorites</p>
+
+                    <p style="font-family: 'Raleway', sans-serif; font-weight: normal;">Add to Favorites</p>
+
                 </label>
 
                 <!-- <div class="click" id="id-of-input">
@@ -58,8 +63,8 @@
                     <img class="img-responsive" src="<%= yoga.image %>">
                     <div class="caption-full">
                         <h4 class="pull-right large-ish">$
-                            <%= yoga.cost %>/Day Pass</h4>
-                        <h4 class="large-ish">Average Rating:
+                            <%= yoga.cost %>/Day Pass</h4>   </h4>
+                        <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish">Average Rating:
                             <% for (var i = 0; i < 5 ; i++) { %>
                             <% if (i < yoga.rating) { %>
                             <span class="fa fa-star checked"></span>
@@ -71,20 +76,20 @@
 
                         <div class="list-group">
                             <li class="list-group-item active large-ish">Amenities<span>&emsp;
-                                 <% yoga.amenities.forEach(function(amenities) { %>
-                                     <% if (amenities === "Parking") { %>
+                                    <% yoga.amenities.forEach(function(amenities) { %>
+                                    <% if (amenities === "Parking") { %>
                                     <span class="large fa fa-car" title="Parking"></span>&emsp;
                                     <% } else if (amenities === "Wifi") { %>
-                                     <span class="large fa fa-wifi" title="Wifi"></span>&emsp;
+                                    <span class="large fa fa-wifi" title="Wifi"></span>&emsp;
                                     <% } else if (amenities === "Lockers") { %>
-                                    <span class="large fa fa-lock"  title="Locker"></span>&emsp;
+                                    <span class="large fa fa-lock" title="Locker"></span>&emsp;
                                     <% } else if (amenities === "Showers") { %>
-                                     <span class="large fa fa-shower"  title="Shower"></span>&emsp;
+                                    <span class="large fa fa-shower" title="Shower"></span>&emsp;
                                     <% } else if (amenities === "Smoothie Bar") { %>
                                     <span class="large fa fa-coffee" title="Smoothie Bar"></span>&emsp;
                                     <%}%>
-                                 <% }); %>
-                            </span></li>
+                                    <% }); %>
+                                </span></li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(var i=0; i<yoga.amenities.length; i++){ %>
                                 <i class="material-icons">
@@ -119,13 +124,15 @@
                         </div>
 
                     </div>
-                    <h4 class="large-ish">
+
+                    <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish">
                             Description:</h4>
+
                     <p>
                         <%= yoga.description %>
                     </p>
-                    <p>
-                        <em>Submitted by:
+                    <p >
+                        <em >Submitted by:
                             <%= yoga.author.username %>,
                             <%= moment(yoga.createdAt).fromNow() %></em>
                     </p>
@@ -137,47 +144,62 @@
                     <% } %>
                 </div>
             </div>
-            <div class="well">
+            <div class="well-border">
+        <div  class="well background-box">
                 <div class="text-right">
                     <a class="btn btn-success " href="/yoga/<%= yoga._id %>/comments/new">Add New Review</a>
                 </div>
                 <hr>
                 <% yoga.comments.forEach(function(comment){ %>
-                <div class="row review-width">
+                <div class="row review-size">
                     <div class="col-md-12">
-                        <strong class="list-group-item active">
+                        <strong class="list-group-item active review-size">
                             <%= comment.author.username %>
                             <strong class="rating-star"> Rating:
                                 <%= comment.rating %></strong>
-                            <% for (var i = 0; i < 5 ; i++) { %>
-                            <% if (i < comment.rating) { %>
-                            <span class="fa fa-star checked"></span>
-                            <%} else {%>
-                            <span class="fa fa-star unchecked"></span>
-                            <% } %>
-                            <% }; %>
+
+                            <h4> Rating:
+
+                            <h4 class="review-size"> Average Rating:
+
+                                <% for (var i = 0; i < comment.rating ; i++) { %>
+                                <span class="fa fa-star checked"></span>
+                                <% }; %>
+
+                                <!-- <% for (var i = 0; i < (5 - comment.rating) ; i++) { %>
+                                <span class="fa fa-star"></span>
+                                <% }; %> -->
+
+                            </h4>
                         </strong>
                         </strong>
-                        <span class="pull-right">
-                            <%= moment(comment.createdAt).fromNow() %></span>
                         <div class="list-group-item">
+                            <span><strong>
+                            <%= moment(comment.createdAt).fromNow() %>: </strong></span>
                             <%= comment.text %>
                             <% if(currentUser && comment.author.id.equals(currentUser._id)){ %>
-                            <form style="display: inline" class="pull-right" action="/yoga/<%=yoga._id%>/comments/<%=comment._id%>?_method=DELETE"
+                            <form style="display: inline" class="pull-right pull-right2" action="/yoga/<%=yoga._id%>/comments/<%=comment._id%>?_method=DELETE"
                                 method="POST">
                                 <button class="btn btn-xs btn-danger">DELETE</button>
                                 <a href="/yoga/<%=yoga._id%>/comments/<%=comment._id%>/edit" class="btn btn-xs btn-info">EDIT</a>
                             </form>
+
                             <% } %>
+
                         </div>
+
+                      </div>
+
                     </div>
-                </div>
-                <% }) %>
-            </div>
-        </div>
-    </div>
-    </h4>
+                    <p class="weird-para">hello</p>
+             <% }) %>
+       </div>
+   </div>
 </div>
+</div>
+
+
+
 
 <script>
     function initMap() {
@@ -210,8 +232,11 @@
         });
     }
 </script>
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVNqmxoPpZXHe89d2y12ozPDVjoLAk4hw&callback=initMap"></script>
 
 
 
+
 <% include ../partials/footer %>
+

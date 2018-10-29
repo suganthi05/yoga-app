@@ -104,19 +104,55 @@
   <!-- code for top pics starts -->
   <header class="jumbotron jumbo-2">
     <div class="container">
-      <h2>Top Picks Studios!</h2>
+      <h2 style="text-align: center">Top Rated Studios!</h2>
     </div>
     <div class="row text-center" style="display:flex; flex-wrap: wrap;">
 
       <% topratedyoga.forEach(function(mystudio){ %>
       <div class="col-md-3 col-sm-6">
-        <div class="thumbnail">
-          <img src="<%= mystudio.image %>">
+        <div class="search-results thumbnail">
+          <img class="image-results" src="<%= mystudio.image %>">
           <div class="caption">
             <h4>
               <%= mystudio.name %>
             </h4>
+                 <!-- begin: sj - show amenities using awesome font -->
+          <% topratedyoga.forEach(function(amenities) { %>
+          <% if (amenities === "Parking") { %>
+          <span class="fa fa-car" title="Parking"></span> |
+          <% } else if (amenities === "Wifi") { %>
+          <span class="fa fa-wifi" title="Wifi"></span> |
+          <% } else if (amenities === "Lockers") { %>
+          <span class="fa fa-lock" title="Locker"></span> |
+          <% } else if (amenities === "Showers") { %>
+          <span class="fa fa-shower" title="Shower"></span> |
+          <% } else if (amenities === "Smoothie Bar") { %>
+          <span class="fa fa-coffee" title="Smoothie Bar"></span> |
+          <%}%>
+          <% }); %>
+          <% if (yoga.cost >= 0 && yoga.cost <= 15) { %>
+          <span class="fa fa-dollar"></span>
+          <% } else if (yoga.cost > 15 && yoga.cost <= 25) { %>
+          <span class="fa fa-dollar"></span>
+          <span class="fa fa-dollar"></span>
+          <% } else if (yoga.cost > 25) { %>
+          <span class="fa fa-dollar"></span>
+          <span class="fa fa-dollar"></span>
+          <span class="fa fa-dollar"></span>
+          <%}%>
+          <br /><br />
+          <!-- end: sj - show amenities using awesome font -->
+          <!-- begin: sj - display rating star -->
+          <% for (var i = 0; i < 5 ; i++) { %>
+          <% if (i < yoga.rating) { %>
+          <span class="fa fa-star checked"></span>
+          <%} else {%>
+          <span class="fa fa-star unchecked"></span>
+          <% } %>
+          <% }; %>
+          &nbsp;&nbsp;
           </div>
+
           <p>
             <a href="/yoga/<%= mystudio._id %>" class="btn btn-primary">More Info</a>
           </p>

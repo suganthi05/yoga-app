@@ -3552,6 +3552,487 @@
         "usernamefeed": "John Capozzolo"
       }
     ]
+  },
+  {
+    "name": "Inner Sanctum",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(905) 876-0551",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "400 Main Street East, Milton",
+    "lat": 43.5176059,
+    "lng": -79.87764399999998,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "VITALITY YOGA MILTON",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMtcFg50GaNZdYbrfKrNKIwP0_qYNraiv3cbPVw=s1600-w375-h500",
+    "rating": 4,
+    "website": "http://www.vitalityyoga.com/",
+    "phone": "(647) 832-4799",
+    "description": "Very calming and helpful. Great teacher. Highly recommended.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "350 Main Street East, Milton",
+    "lat": 43.5160071,
+    "lng": -79.8795801,
+    "commentfeed": [
+      {
+        "text": "",
+        "rating": 3,
+        "usernamefeed": "Valérie Pospodinis"
+      }
+    ]
+  },
+  {
+    "name": "The WOMB Milton",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOHo1IkqwYnGlKQo-J8D82uGSU1NILMVlBGWvrn=s1600-w906-h602",
+    "rating": 4.8,
+    "website": "http://www.thewomb.ca/",
+    "phone": "(905) 842-2434",
+    "description": "We had Laura Yager as our doula for the home birth of our first child and loved the experience! We would do it exactly the same and highly recommend her services. You will be in capable, caring hands :-)",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "388 Main Street East, Milton",
+    "lat": 43.516886,
+    "lng": -79.87869649999999,
+    "commentfeed": [
+      {
+        "text": "Heard great things but their website has no prices listed for massage options.",
+        "rating": 3,
+        "usernamefeed": "Erica Speare"
+      },
+      {
+        "text": "I've tried infant massage, osteopathy and yoga at the WOMB. All have been great experiences and a wonderful place for mothers to take care of themselves.",
+        "rating": 5,
+        "usernamefeed": "Jane Emes"
+      },
+      {
+        "text": "As a first time Mom, for me The WOMB was not only a place where I learned SO MUCH about pregnancy, birth and what to expect in parenthood, but was also a family that supported, guided and cheered me on every step of the way! They have an encouraging,  non judgemental and experienced approach that is truly commendable. From their workshops, to physiotherapists, massage, counselling and my AMAZING Doula, Lorri Fleming, I felt completely supported throughout my pregnancy, labour, delivery and even after my son was born! Truly a fantastic experience, many thanks to the WOMB! :-)",
+        "rating": 5,
+        "usernamefeed": "Daniela Rumeo"
+      },
+      {
+        "text": "Angie Stanley was awesome!  As we prepared for the birth of our son, we wanted someone with more experience to help us through the process. \n\nThe initial conversation where we discussed birth wishes and talked about what to expect in different situations helped me and Don get more comfortable with our options and it was great to get to know Angie better.  Angie is so warm, friendly and knowledgeable and her conversation helped us feel at ease about the upcoming birth.  \n\nFrom the several late-night texts \"I think I might be in labour\" (I wasn't....) to the follow-up visits, Angie was so responsive, encouraging and positive.  We really appreciated her advice and recommendations.  It was great to have someone who was very familiar birth and babies suggest options for us to try as we navigated becoming parents.\n\nIt was fantastic to have Angie there on the day of our son's birth.  When she walked into our hospital room our nurses told us we were in good hands with Angie. Don was reassured by Angie's presence as she was able to suggest different things to try throughout labour and Angie was as much a coach for him as for me.  The two of them worked together to support me as Don knew what I needed and Angie knew possibilities for making labour more comfortable.  Thanks to Angie's help, I had a relatively quick labour and delivery.  Her experience at the Oakville hospital was also great because she knew the staff, told us what we could expect with different nurses and doctors and where everything was.  With Angie's support we had a fantastic birth experience.  \n\nWe will definitely call Angie again for our next kid!",
+        "rating": 5,
+        "usernamefeed": "Megan Enns"
+      }
+    ]
+  },
+  {
+    "name": "ONYX Fit",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOrW8rRLi5Xt7GQIrexpZg04m97tmqlRQRS_Ei2=s1600-w1024-h1024",
+    "rating": 4.8,
+    "website": "https://www.onyxfit.ca/",
+    "phone": "(416) 816-3136",
+    "description": "I really liked these classes during my trial so o just purchase a student month plan. Yay im excited. Being in school part time with full time work is hard to stay motivated but these classes make me want to go. Im excited for my journey to loose 20 pounds within the next few months. Yay!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "517-519 Main Street East, Milton",
+    "lat": 43.519987,
+    "lng": -79.87692099999998,
+    "commentfeed": [
+      {
+        "text": "great place and even better people...highly recommeded",
+        "rating": 5,
+        "usernamefeed": "Chris Greig"
+      },
+      {
+        "text": "Oxygen is an empowering studio! The motivation you get from studio owner & fitness guru, Lori Ann is exceptional. Whether you're looking to make a change in your life, make fitness a greater priority in your life, reach new fitness goals, challenge yourself or just look great on the beach for an upcoming vacation, Oxygen is the place to go. The class schedule lends itself to a busy work schedule, a family schedule, stay at home moms, you name it. \nThe selection of classes are amazing and the line up of instructors are the best I've seen - they are energetic, inspiring, helpful and clearly practice what they preach!\nIt's very easy to become an Oxygen Addict once you join.... ",
+        "rating": 5,
+        "usernamefeed": "Allison Pigden"
+      },
+      {
+        "text": "Fantastic private gym!",
+        "rating": 5,
+        "usernamefeed": "Mylissa Poppe"
+      },
+      {
+        "text": "Went to a yoga class on Wednesday with Kosh (I hope I spelt it right). It was incredible. I felt amazing. Totally was not expecting this. It was better then amazing. Thank you Oxygen team for this amazing experience. ",
+        "rating": 5,
+        "usernamefeed": "Heba Malki"
+      }
+    ]
+  },
+  {
+    "name": "Life Yoga Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOeN68mO2m72Ofr9iVkI5Y6qlrfpOzz1F67JW18=s1600-w1024-h1024",
+    "rating": 4.9,
+    "website": "http://www.lifeyogastudio.com/",
+    "phone": "(905) 749-5433",
+    "description": "Beautiful, clean studio. Amazingly comfortable and friendly atmosphere. Best of all it's a normal temperature studio. I love Life Yoga Studio, best part of my day!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "61 Regional Road 4 #203, Milton",
+    "lat": 43.5394592,
+    "lng": -79.85669860000002,
+    "commentfeed": [
+      {
+        "text": "Beautifull decor. Lovely, peaceful, intimate zen studio. Caring, kind and knowledgeable staff. Great location, awesome variety of yoga. I’m so thrilled to be a member. 🌹",
+        "rating": 5,
+        "usernamefeed": "Christina Michaels"
+      },
+      {
+        "text": "Love teaching yoga here 🙏🏾",
+        "rating": 5,
+        "usernamefeed": "Janina Lee Del Rio"
+      },
+      {
+        "text": "Great yoga studio! The classes are good for all levels, and all of the instructors are knowledgeable and amazing.  Everyone at the studio is supportive and helpful. This studio has helped me develop a love and appreciation for yoga!",
+        "rating": 5,
+        "usernamefeed": "Michelle Jo"
+      },
+      {
+        "text": "Had a great experience here. The teacher was so relaxing. I didn't feel out of place even though I'm still pretty new to yoga. Overall, really great experience I will definitely be back!",
+        "rating": 5,
+        "usernamefeed": "Nadia R"
+      }
+    ]
+  },
+  {
+    "name": "Knead To Balance",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOCatn5MtaSwwKqus18TejHJgIqcCeJfp0uaRYZ=s1600-w913-h685",
+    "rating": 4.8,
+    "website": "http://www.kneadtobalance.com/",
+    "phone": "(905) 876-1228",
+    "description": "Shawna is awesome.  I have been attending pilates classes and using the reformer for quite a few years.   I am sure that is the only reason that I am still walking around with all of my back and neck issues.  Shawna is very patient with me and allowed me to work at my own speed and I am injury free today.  I can't say enough about the other people at the clinic as I have been treated like solid gold.  The best day for me is when I can book a back to back appointment...1st a reformer workout and then get a fabulous massage right after.  \n\nI have tried other RMT's but Shawna is the very best!",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "300 Main Street East, Milton",
+    "lat": 43.51514699999999,
+    "lng": -79.88083,
+    "commentfeed": [
+      {
+        "text": "After a particularly stressful and harried day, I arrived at Knead to Balance Massage & Pilates Clinic, in joyful expectation for my massage. The massage therapy service provided by RMT Shawna Cleland was amazing! She took the time to do a pre-massage consultation to get a thorough understanding of any areas of concerns. Further, she made it clear to me to \"speak up\" if the massage pressure was too light or too heavy. I left my 1-hour massage feeling relaxed and yet extremely energized and ready to face on the rest of the challenges in my day. ",
+        "rating": 4,
+        "usernamefeed": "Elizabeth Marques Kogan"
+      },
+      {
+        "text": "Best place in Milton to train Pilates and recover with massage therapy.  I am signing up for TRX classes in the fall. \n\nAng ",
+        "rating": 5,
+        "usernamefeed": "Angela Copeland"
+      },
+      {
+        "text": "Great workout and even better massage! Deep tissue massage was so healing!",
+        "rating": 5,
+        "usernamefeed": "Andrea Pahn"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Waqqas Hussain"
+      }
+    ]
+  },
+  {
+    "name": "Shunyata Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOEXTjSTW5lHpTWiHH2ahvjSmXSHuZdXJS0Fd39=s1600-w768-h960",
+    "rating": 4.7,
+    "website": "http://www.shunyatayoga.ca/",
+    "phone": "(905) 864-6774",
+    "description": "Best studio hands down.  I love how different each instructor is and how attentive they are to each student.  Alignment is something they focus on a lot which is so important! :)  Shunyata makes yoga accessible to everyone from new to advanced practioners in addition to being very well priced! Highly recommend this studio. Life changing. :)",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "6901 Derry Road, Milton",
+    "lat": 43.4959599,
+    "lng": -79.87422900000001,
+    "commentfeed": [
+      {
+        "text": "Absolutely best yoga classes in Milton. I  started hot yoga classes 1 month ago and I love it, I see changes in my body and my mind.  Great instructors and really good group of students. Highly recommended!",
+        "rating": 5,
+        "usernamefeed": "Angelika Tseben Smok"
+      },
+      {
+        "text": "I highly recommend that you experience Shunyata Yoga Studio, explore their facility and participate in a class. Based on my personal experience, Shunyata provides an inclusive and accessible environment for both experienced yogis and those new to practicing yoga. Their holistic approach considers the mental, physical and spiritual well-being of each guest. The Shunyata team provides a diverse range of class formats and styles that meet the individual and changing needs of their guests and their highly trained and experienced instructors attentively guide participants during each class.  If you have an injury, are recovering from surgery or want to take your asanas to the next level, instructors will provide modifications that accommodate the physical abilities of each class participant. If you are worried about pricing, inquiry about one of their many class packages or membership options.  They make practicing yoga financially accessible for any budget. Shunyata demonstrates a genuine care for their members , I value that in a yoga studio and I think that you will too.",
+        "rating": 5,
+        "usernamefeed": "Erin Caldwell"
+      },
+      {
+        "text": "I've been to many studios over my years of practice and Shunyata yoga studio in Milton is a true gem. The people are friendly, the teachers are knowledgeable, and the studio is warm, welcoming, and beautiful. Highly recommend this studio if you're thinking of starting or continuing your yoga!",
+        "rating": 5,
+        "usernamefeed": "Lara Sacks"
+      },
+      {
+        "text": "Hands down the best yoga studio I've attended. Awesome classes, workshops and instructors. ",
+        "rating": 5,
+        "usernamefeed": "Anne Hoffman"
+      }
+    ]
+  },
+  {
+    "name": "Power Yoga Canada Georgetown",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMspFCN5NWEUfeD8x3m-wi3qZODQMjM38p31kdL=s1600-w1024-h1024",
+    "rating": 4.8,
+    "website": "http://poweryogacanada.com/georgetown/",
+    "phone": "(905) 702-0452",
+    "description": "There is a reason Jackie and Sita have a solid 5-star rating across the board.  Studio and instructors are first class, and everyone is super positive.  Plus, Jackie's laugh is legendary.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "369 Mountainview Road South, Georgetown",
+    "lat": 43.6317943,
+    "lng": -79.8758919,
+    "commentfeed": [
+      {
+        "text": "Honestly one of the best decisions I have ever made.  I walked into Power Yoga Canada Georgetown 3 years ago, took my first Hot Power Yoga class and was hooked.  Beautiful souls own, operate, work and practice here.  I am thankful beyond words...  You won't be sorry you tried it! Sweat, Love & Magic live here.",
+        "rating": 5,
+        "usernamefeed": "BRENDA NAGEE"
+      },
+      {
+        "text": "Such an incredible yoga studio. The community is like no other. They know your name when you walk in. I'll keep coming back.",
+        "rating": 5,
+        "usernamefeed": "John Charette"
+      },
+      {
+        "text": "So happy to be a part of such a wonderful community!  \nI didn't know much about yoga and was a bit hesitant on signing up for I felt inadequate. Boy was I wrong!  The studio owners and employees, together with their members received me with such open arms.  I was so relieved to see that everyone was so friendly and helpful and that no one was interested in judging or showing off.  I felt so comfortable seeing that everyone at the studio was working at a different level and I no longer felt intimidated walking in there.  The classes are run by very knowledgeable, friendly staff.  They always greet you at the door by your name and they never hesitate to give a helping hand during class or after class.  Wish I had signed up sooner but so glad that I am now a part of such a wonderful yoga family!   Thank you Power Yoga!",
+        "rating": 5,
+        "usernamefeed": "Rita Succo"
+      },
+      {
+        "text": "Awesome studio! I was very new to anything yoga and on a whim tried out the Jam class with my friend. I was in love! I made it a mission to go at least once a week because I loved the teachers and sessions so much. \nPYC Georgetown is like a little family that you have fun and get sweaty with. I definitely recommend anyone new to the yoga scene to just give it a try, it's worth it.",
+        "rating": 5,
+        "usernamefeed": "Amy Robinson"
+      }
+    ]
+  },
+  {
+    "name": "Rebirth Yoga Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPJIffoDs4Z0U_zkPxGqJ6-X3Axk4hB7alE9NiS=s1600-w1024-h1024",
+    "rating": 4.6,
+    "website": "http://www.birthyogastudio.com/",
+    "phone": "(647) 864-7119",
+    "description": "A beautiful space, knowledgeable teachers who are passionate about their practice. I have been practicing yoga for 20 years but Rebirth yoga is different - it makes you strong in addition to more centered and peaceful.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "821 Main Street East, Milton",
+    "lat": 43.5268549,
+    "lng": -79.86922600000003,
+    "commentfeed": [
+      {
+        "text": "If you like hot yoga, it's a nice place to do your yoga practise. Friendly teachers who care about everyone's health. Various yoga practice to accommodate various people with various physical and health conditions. Great place to relax or work out. Your choice.",
+        "rating": 5,
+        "usernamefeed": "Paulina Palele"
+      },
+      {
+        "text": "I cannot praise this hot yoga studio enough!! I have been attending this studio for several years now and am empowered by my journey every single day. The instructors are incredibly skilled and in tune with the individuals in their class. I love the variety of classes that are available, depending on what my body is feeling on any given day. I have introduced many of my friends and family to this studio who now are on their own journey within the studio. If you are looking for a studio that has an inviting and positive vibe then I would highly recommend checking this one out!",
+        "rating": 5,
+        "usernamefeed": "Brooklyn Harding"
+      },
+      {
+        "text": "First time going to a real yoga class and loved it!",
+        "rating": 5,
+        "usernamefeed": "Heather Delyea"
+      },
+      {
+        "text": "I have been a client of Rebirth in Milton for two years now and I am completely addicted to this studio.  I usually attend 4-5 classes a week, and can honestly say that it is because of this studio that I have the most strength I have ever had.  I typically attend power classes, but they have classes that would meet the need of every level of yogi.  It is a warm and inviting studio with a positive vibe from the instructors and other clients! I would recommend to anyone.",
+        "rating": 5,
+        "usernamefeed": "Caitlin G."
+      }
+    ]
+  },
+  {
+    "name": "Moksha Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMKTjJDr1GZvSsk5f32xEE0nbsbWkKktKO08WTH=s1600-w1024-h1024",
+    "rating": 4.6,
+    "website": "http://milton.mokshayoga.ca/",
+    "phone": "(905) 864-8677",
+    "description": "This studio is special; friendly staff, clean facilities and a super hot studio space!  The Friendship Lounge is a really nice touch to allow people to make time to sit, communicate and connect.\nGreat Work Moksha Yoga Milton!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "775 Main Street East, Milton",
+    "lat": 43.5251208,
+    "lng": -79.87123439999999,
+    "commentfeed": [
+      {
+        "text": "Wow haha nice",
+        "rating": 5,
+        "usernamefeed": "Dawood Khan"
+      },
+      {
+        "text": "Love the atmosphere and community! Teachers are amazing and having an on site massage therapist, chiropractor and Chinese medicine expert is an added plus ☺",
+        "rating": 4,
+        "usernamefeed": "Denise Fuller"
+      },
+      {
+        "text": "Great flow, great teachers, and a large studio so even when it's busy, you still have room to move around.",
+        "rating": 5,
+        "usernamefeed": "rachel s"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Rachel S"
+      }
+    ]
   }
 
 ]

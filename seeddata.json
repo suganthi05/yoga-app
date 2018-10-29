@@ -251,7 +251,7 @@
     ]
   },
   {
-    "name": "Yoga Tree Richmond and Spadina",
+    "name": "Yoga Tree Spadina",
     "image": "https://lh3.googleusercontent.com/p/AF1QipO1wLcnAWWHeNtca_mDJWzoyMheEQ1AnrB1VnBv=s1600-w1024-h1024",
     "rating": 4.5,
     "website": "http://www.yogatree.ca/richmondspadina/",
@@ -456,7 +456,7 @@
   },
 
    {
-    "name": "Yoga Netwok of Canada Yoga Teacher Training",
+    "name": "Yoga Netwok of Canada",
     "image": "https://lh3.googleusercontent.com/p/AF1QipPKntiY4A5DnVfgZv9sRGcIwmJgvekL5LhjMJQ=s1600-w1024-h1024",
     "rating": 4,
     "website": "http://sampleyogastudio.com",
@@ -543,7 +543,7 @@
     ]
   },
   {
-    "name": "Power Yoga Canada City Centre",
+    "name": "Power Yoga City Centre",
     "image": "https://lh3.googleusercontent.com/p/AF1QipNRV_suRDAssiwmJ_nUvvL45Y0N7Hr-SD1gBmE7=s1600-w1024-h1024",
     "rating": 5,
     "website": "http://www.poweryogacanada.com/city-centre",
@@ -793,7 +793,7 @@
     ]
   },
   {
-    "name": "Parivartan Mississauga Hot Yoga Studio",
+    "name": "Parivartan Hot Yoga Studio",
     "image": "https://lh3.googleusercontent.com/p/AF1QipNmDCxFAIzl5hqBZ-PW9rvcWd5XlwgG290HPJK2=s1600-w1024-h1024",
     "rating": 4.3,
     "website": "http://www.parivartanyoga.com/",
@@ -1545,7 +1545,7 @@
     ]
   },
   {
-    "name": "Power Yoga Canada - Oakville",
+    "name": "Power Yoga Oakville",
     "image": "https://lh3.googleusercontent.com/p/AF1QipOCRVtl7abWLFpAf_LEibXVJ-RxDE2HkarnkGQC=s1600-w1024-h1024",
     "rating": 5,
     "website": "http://www.poweryogacanada.com/",
@@ -1596,7 +1596,7 @@
     ]
   },
   {
-    "name": "Sunseed Yoga at St Jude's Church (Lower Level)",
+    "name": "Sunseed Yoga",
     "image": "https://lh3.googleusercontent.com/p/AF1QipM1KI3Pk5DVcqu899n2tllXwZwz9o8Y-oDn018L=s1600-w1024-h1024",
     "rating": 4,
     "website": "http://sampleyogastudio.com",
@@ -1683,7 +1683,7 @@
     ]
   },
   {
-    "name": "Scoria World Yoga HQ + Champions",
+    "name": "Scoria World Yoga",
     "image": "https://lh3.googleusercontent.com/p/AF1QipNMzyEEQNs5PIjm5VV0nMtRYOPv-N3xP_cjyQs-=s1600-w1024-h1024",
     "rating": 4,
     "website": "http://sampleyogastudio.com",
@@ -1771,7 +1771,7 @@
     ]
   },
   {
-    "name": "Lotus Blossom Day Spa and Yoga Studio",
+    "name": "Lotus Yoga Studio",
     "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
     "rating": 5,
     "phone": "(905) 449-8612",
@@ -1876,7 +1876,7 @@
     ]
   },
   {
-    "name": "ReSoulution Yoga Massage Spa",
+    "name": "ReSoulution Yoga",
     "image": "https://lh3.googleusercontent.com/p/AF1QipNt0xKqyqweJKC95MLIryyGw0qJjsGfKkx0LDly=s1600-w1024-h1024",
     "rating": 4.7,
     "website": "http://resoulution.ca/",
@@ -2321,7 +2321,7 @@
     ]
   },
   {
-    "name": "Hot Yoga Wellness Richmond Hill",
+    "name": "Hot Yoga Richmond Hill",
     "image": "https://lh3.googleusercontent.com/p/AF1QipMmcXt3hqBWFoxBsFmtTG-sfLqODIZWphdfsjAS=s1600-w1024-h1024",
     "rating": 4.9,
     "website": "http://www.hotyogawellnessrichmondhill.com/",
@@ -3831,7 +3831,7 @@
     ]
   },
   {
-    "name": "Power Yoga Canada Georgetown",
+    "name": "Power Yoga Georgetown",
     "image": "https://lh3.googleusercontent.com/p/AF1QipMspFCN5NWEUfeD8x3m-wi3qZODQMjM38p31kdL=s1600-w1024-h1024",
     "rating": 4.8,
     "website": "http://poweryogacanada.com/georgetown/",
@@ -4183,7 +4183,7 @@
     ]
   },
   {
-    "name": "440 Fitness For Men & Women",
+    "name": "440 Fitness",
     "image": "https://lh3.googleusercontent.com/p/AF1QipPuB0j8s8v82kPjrU0g_Sy5kC6ZVMzbryKJhXTy=s1600-w1024-h1024",
     "rating": 4.7,
     "website": "http://www.fourfortyfitness.ca/",
@@ -4261,7 +4261,7 @@
     ]
   },
   {
-    "name": "Craniosacral & Shiatsu Therapy By Jennifer Song, RCST",
+    "name": "Craniosacral & Shiatsu",
     "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
     "rating": 4,
     "website": "http://sampleyogastudio.com",
@@ -4416,6 +4416,922 @@
         "text": "Excellent classes!  Best instructor I have ever had.  I highly recommend this class. It is so difficult to find good yoga... this is it!",
         "rating": 5,
         "usernamefeed": "April Smith"
+      }
+    ]
+  },
+  {
+    "name": "Yoga Tree Richmond Hill",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNJCZUagyeSmmWCBDeMf0xCf5Tw_tZ80kjHDlCO=s1600-w800-h533",
+    "rating": 4.3,
+    "website": "https://www.yogatree.ca/richmond-hill/",
+    "phone": "(905) 882-9642",
+    "description": "Jason's class is consistently challenging. I always get a great workout and leave feeling proud that I finished his class. I feel refreshed and like how I learn more about yoga poses, transitions between poses and more awareness about myself. Not all yoga classes nor studios are the same. It is an art form and Yogatree is the best in Toronto, hands down.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "360 Highway 7 #1, Richmond Hill",
+    "lat": 43.84145700000001,
+    "lng": -79.397219,
+    "commentfeed": [
+      {
+        "text": "Yoga Tree - FINALLY!  I have tried many studios over the years, but none measured up. A friend recommended yoga tree. I tried several classes with various instructors. They were all excellent. The studios and change rooms are so clean, light and meticulously kept.  The support staff is friendly and always ready to help. If you are looking for a professional studio look no further. Yoga Tree is the perfect oasis to escape to during a busy day. Your body will thank you.",
+        "rating": 5,
+        "usernamefeed": "victoria dombrower"
+      },
+      {
+        "text": "The instructors here are great and I enjoy the classes but today when I went to the restorative class, they overbooked it and the there was literally no space.  I left.  The receptionist informed me that they let people in because they came as a couples.  Kind of like the airlines only instead of being refused a seat, they expect you to share yours!! This is not the first time I have left the class because they overbooked it. Extremely disappointed.  Once it gets to the maximum, then they shouldn't allow anyone else in.  Only ruins the experience for everyone.",
+        "rating": 2,
+        "usernamefeed": "Ron Jervis"
+      },
+      {
+        "text": "Yoga Tree Richmond Hill is by far my favourite yoga studio. The entire staff is extremely kind, friendly, and accommodating. Definitely would recommend this location time and time again.",
+        "rating": 5,
+        "usernamefeed": "Negin FA"
+      },
+      {
+        "text": "Thanks to beautiful Pamela - Front Desk girl,  for helping me in a situation where I thought I cannot make it.",
+        "rating": 5,
+        "usernamefeed": "Najma Zuberi"
+      }
+    ]
+  },
+  {
+    "name": "Yin Yang Yoga Loft",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNQ1KPVd1JtlYFUFP9yt2Hbt8fkzYtOU48jhsX-=s1600-w290-h290",
+    "rating": 4.9,
+    "website": "http://yinyangyogaloft.com/",
+    "phone": "(416) 844-7435",
+    "description": "Nice and clean studio. Great instructors. Very knowledgeble owner Galina.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "140 Brooke Street, Thornhill",
+    "lat": 43.81407999999999,
+    "lng": -79.42753199999999,
+    "commentfeed": [
+      {
+        "text": "Yin Yang Yoga Loft is my favourite yoga studio ever!  The instructors emphasize strength and proper alignment in a gentle manner.  I have gained strength in my mind and body as a result.  The smaller studio size is inviting and comfortable. My favourite classes are Hatha Core and Strength and Mobility. Yin classes are great too and I always leave feeling calm and relaxed.  I strongly encourage you to check it out!",
+        "rating": 5,
+        "usernamefeed": "Devon Caldwell"
+      },
+      {
+        "text": "My husband and I were looking for a long time for the yoga classes that will answer our needs. The Yin Yang Yoga Loft  in Thornhill has everything we need and more! Most importantly the best teacher you can find! Interesting classes, every time some new elements and personal care for the students. Those classes not just for young and fit ,but also for the 50+ age group.   ",
+        "rating": 5,
+        "usernamefeed": "Nataly Valitsky"
+      },
+      {
+        "text": "Yin Yang Yoga Loft is a great studio with a light and airy atmosphere. The lead instructor Galina is very knowledgeable and attentive. A great emphasis is paid to proper alignment and each posture is explained in detail. All the classes I have tried with Galina are excellent as is Hatha Core class taught by Fatima.",
+        "rating": 5,
+        "usernamefeed": "Tatiana Boutaev"
+      },
+      {
+        "text": "Classes are suited to the individual, challenging if that is what you want, gentle when you want gentle.  There is variety in the schedule and it covers most time options.  The instructors are well informed and design classes to cover most levels.  A caring atmosphere and peaceful studio.",
+        "rating": 4,
+        "usernamefeed": "Judy Postello"
+      }
+    ]
+  },
+  {
+    "name": "Michal Ashtanga Yoga",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(416) 303-6365",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "133 Valley Vista Drive, Vaughan",
+    "lat": 43.8603517,
+    "lng": -79.46669159999999,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Yoga Bodies",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNT3CTY9ZiXqJO4MsVPtJtPAqnMG6dwZmGRmXTQ=s1600-w1024-h1024",
+    "rating": 4,
+    "website": "http://www.yogabodies.ca/",
+    "phone": "(416) 526-9255",
+    "description": "A gorgeous Yoga studio that I would recommend to all my friends!  The owner and staff are wonderful!  I have attended other studios in Woodbridge and Yoga Bodies is amazing.  The decor and environment allow you to zone out after a busy day.  The instructors are top notch, and the memberships are very affordable.  They also give you a free bottle of water and towel use every visit which no other studio does, and a great variety of classes and times.   I would highly recommend Yoga Bodies!!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "3580 Rutherford Road #97, Woodbridge",
+    "lat": 43.827611,
+    "lng": -79.55060700000001,
+    "commentfeed": [
+      {
+        "text": "I’ve gone to this studio since it’s been open (October) and every time I walk in the essential oils and the sage light up the studio with a beautiful aroma. The customer service at the front desk is amazing. When you walk in you always get a nice hello from anyone there, Vanessa , Sofia, and Aasif (the studio owner) always greet you with a warm hello. The space in the studio is fantastic. I love what they did with the space and the new entrance.",
+        "rating": 5,
+        "usernamefeed": "Sofia Styles"
+      },
+      {
+        "text": "I purchased a special summer promo which was a month pass for unlimited classes which included towels and water.\n\nI had a great experience with all the staff and the yoga instructors there. They have a variety of different classes from beginner to advanced. They have Pilates and yoga instructor classes.\n\nSadly my pass has expired but my personal yoga journey will continue.",
+        "rating": 5,
+        "usernamefeed": "Ha Pham"
+      },
+      {
+        "text": "Good news, it’s a good one. A beautifully scented yoga entrance with a good size studio. Accessories are plentiful and available in the yoga room. Offers many classes, choose your favorite. Promotional deals available. Welcoming staff, the manager owner is very nice and helpful. offers yoga gear for purchase, scented items, refreshments, free parking. Did one class of morning hot yoga and it was excellent, releases every negative stress in mind bodyand relieves stiffness and pain in joints. Be ready to flex stretch and breathe while doing all these as well as follow instruction by voice, rooms are well heated, music. Provides unisex lockers, washrooms, mats, towels, currently under renovation in the neighboring unit to create another studio. Does not interfere at all with the current studio.",
+        "rating": 4,
+        "usernamefeed": "Claudia G"
+      },
+      {
+        "text": "One of the best studios I've been a member of. Great variety of classes, yoga, hot yoga, barre/Pilates, Pilates/Yoga fusion, Yin, and more! Love it! The only downside is that the classes are so good that they can fill up fast! :)",
+        "rating": 5,
+        "usernamefeed": "Amanda K"
+      }
+    ]
+  },
+  {
+    "name": "VaibsMediYoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPGYK5pZ3Qr9pHgbDNwqxqJXZ-NnRbYyKnl8Zmh=s1600-w1024-h810",
+    "rating": 5,
+    "website": "http://www.vaibsmediyoga.ca/",
+    "phone": "(905) 553-2700",
+    "description": "Very nice instructors. This is what real yoga is. None of that gimmicky stuff. Really in depth practice with getting to know yourself. Glad I came here.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "3550 Rutherford Road #86, Vaughan",
+    "lat": 43.827904,
+    "lng": -79.54963599999996,
+    "commentfeed": [
+      {
+        "text": "This place is a gem!  I have been a student of yoga for over 10 years and I am grateful to finally embrace meditation as a result of attending this gem of a studio.  Vaibs has a gift for sharing his knowledge and passion for meditation.  His unique guidance during a class has inspired me to now learn this very important part of a yoga practice.  I am forever grateful.  Namaste!\nOh, and if you're looking for a traditional yoga practice, this is the place!  Great classes practiced in a non-heated studio.  Thank you!",
+        "rating": 5,
+        "usernamefeed": "Mary S"
+      },
+      {
+        "text": "Its taken me a while to find the right exercise use for my body.  I have grown much stronger in a short time attending the Hatha Yoga and Power Toga classes.  I feel my muscles are stretched and I have toned my body.  The instructors are smooth and very knowledgeable in traditional yoga.  The pace is perfect for me.  I would highly recommend this Yoga Studio.",
+        "rating": 5,
+        "usernamefeed": "Connie Mancuso"
+      },
+      {
+        "text": "I got the chance to experience a 1-day retreat with Vaibs in Jackson’s Point at the Ramada and I must say that I am very glad that I went. This was my second retreat (which I attended with my 12-year old daughter) that I have ever been to and the experience of it all was beyond amazing. The day flowed perfectly, starting my with meditation then went into Hatha Yoga, Pranayama and so much more. They had a guest speaker by the name of Ashley K Lloyd who presented a lecture on healthy lifestyle and that was lots of fun. The food provided by the the hotel was exceptionally good. I’m not one to eat a healthy plate of food but I found myself saying “I could eat more of this on a daily basis.” I am super excited for the next retreat that will be coming up this Summer and I want to Thank Vaibs again for such a wonderful experience.",
+        "rating": 5,
+        "usernamefeed": "SUE-TANYA PARKS"
+      },
+      {
+        "text": "Amazing instructors and classes! Highly recommend.",
+        "rating": 5,
+        "usernamefeed": "Ashley K Lloyd"
+      }
+    ]
+  },
+  {
+    "name": "Flow360",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 5,
+    "website": "http://www.acroyoga360.com/",
+    "phone": "(647) 588-3981",
+    "description": "Dave is professional, knowledgeable, and friendly. The atmosphere is great for any skill level.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "411 Confederation Parkway Unit 11 (2nd Floor, Concord",
+    "lat": 43.8328722,
+    "lng": -79.49285600000002,
+    "commentfeed": []
+  },
+  {
+    "name": "Moksha Yoga Maple",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNcj0DVl9a54UY73JLBuupiwyO7MTn0-MumMkB4=s1600-w1024-h1024",
+    "rating": 4.9,
+    "website": "http://www.mokshayogamaple.com/",
+    "phone": "(905) 303-8886",
+    "description": "This place is so wonderful. The people at the front desk and the instructors make this place unbeatable. Whether I am having a great day or a bad one this is my go to place to always make me feel better. Thank You all for being so amazing.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "1480 Major Mackenzie Drive West unit e8, Maple",
+    "lat": 43.8630187,
+    "lng": -79.48728940000001,
+    "commentfeed": [
+      {
+        "text": "Excellent teachers and beautiful space. I have been practicing for 20 years and this place is really great. Very detail oriented teachers who truly care.",
+        "rating": 5,
+        "usernamefeed": "Bernadette Wrobel"
+      },
+      {
+        "text": "Love this studio. Recently started doing yoga and as a beginner I felt welcome since day one. All of my interactions with the instructors have been fantastic. I can't say enough good things about this place, if you're looking into getting started with yoga or a regular practitioner this is the place to be.",
+        "rating": 5,
+        "usernamefeed": "Mark Chiovitti"
+      },
+      {
+        "text": "So far my favorite yoga studio. It starts with friendly receptionist, clean washrooms/change room/classroom and amazing teachers who will help you to get the most from yoga session. I can’t express how grateful I am for teachers who helped me with pregnancy-related leg/muscle pain. During summer months they also have nice promo packages.",
+        "rating": 5,
+        "usernamefeed": "Iryna F"
+      },
+      {
+        "text": "Very friendly and welcoming environment. Clean studios and change rooms. Many classes to choose from all throughout the day. Great instructors and admin team.",
+        "rating": 5,
+        "usernamefeed": "Valerie B"
+      }
+    ]
+  },
+  {
+    "name": "Hot Yoga Wellness,",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 3.7,
+    "website": "http://www.hotyogawellness.com/",
+    "phone": "(416) 554-9704",
+    "description": "I have been coming here for the past 4 years, the teachers offer a good range of yoga styles and cater to all skill levels.  The atmosphere is always friendly, welcoming and comforting.  You really get the sense of community at this studio so not only can you focus on healing yourself physically but also mentally and spiritually.  I recommend this studio to everyone.",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "8301 Jane Street Unit 9, Concord",
+    "lat": 43.8086857,
+    "lng": -79.52682949999996,
+    "commentfeed": [
+      {
+        "text": "I  tried a 5 pass with groupon at the Woodbridge location, 3 of the 5 classes were great, good vibes and teacher. For the first time practicing yoga over 11 years I had to leave a mixed styles class on feb 27 930-11 am. I am usually very quiet about having my yoga teacher training, but I understand correct alignment cues and what may not be safe for the body. I felt as though she had no idea what she was teaching, there was no sequencing and the postures were- well it wasn't yoga, we bounced around all over the place. I quietly bowed out 40 mins in and will not be back. There was only one other student in the class so maybe that was an indicator, as a new person at the studio I had no idea. At another class I also left feeling as though there was something abrasive or negative lingering  in the air when the class was told to \"let go of their day\" quite a few times, but we seemed cool and ready to practice, maybe teach needed a meditation sesh. Before the teacher arrived the CD was skipping for 5 mins until a student turned it off. I usually don't leave reviews, but hey maybe it will help create a more positive yogic environment!\ncheers.",
+        "rating": 2,
+        "usernamefeed": "Amanda"
+      },
+      {
+        "text": "Works well with activia.",
+        "rating": 5,
+        "usernamefeed": "Jason Xin"
+      },
+      {
+        "text": "My sister and I attended the 6 pm 90-minute mixed yoga class on Monday evening with Rhyll and I loved it. It was our first experience with hot yoga. At first I thought the heat would be too much but it was great, and the class flew by. Rhyll is very enthusiastic and she comes around and helps you if you are having trouble with a certain pose. I have never sweat so much in my life. Afterward I felt like a million bucks. Can't wait to go back.",
+        "rating": 5,
+        "usernamefeed": "Katia Caporiccio"
+      },
+      {
+        "text": "The teachers are fabulous at this studio but unfortunately the management and poor customer service ruins the experience as a student. ",
+        "rating": 3,
+        "usernamefeed": "Jessica Pompeo"
+      }
+    ]
+  },
+  {
+    "name": "Yoga Tree Vaughan",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPzAfV43xRvAbLAOJmhs44klYnrGdi6XtKQi__d=s1600-w1024-h1024",
+    "rating": 4.4,
+    "website": "http://www.yogatree.ca/vaughan/",
+    "phone": "(905) 553-8733",
+    "description": "I've always been intrigued by the benefits of yoga but having had a delightful session with Yoga Tree on October 5th, I've been converted! The stretches and poses were so beneficial to my body's stressed areas that I didn't even realize just how much in a dire need I was for such a session. Felt immensely rejuvenated and ready to take on the world in just that one session! Will definitely weave yoga into my daily schedule! Thank you Yoga Tree :)",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "9141 Keele Street, Vaughan",
+    "lat": 43.83539529999999,
+    "lng": -79.50717250000002,
+    "commentfeed": [
+      {
+        "text": "Yoga Tree - FINALLY!  I have tried many studios over the years, but none measured up. A friend recommended yoga tree. I tried several classes with various instructors. They were all excellent. The studios and change rooms are so clean, light and meticulously kept.  The support staff is friendly and always ready to help. If you are looking for a professional studio look no further. Yoga Tree is the perfect oasis to escape to during a busy day. Your body will thank you.",
+        "rating": 5,
+        "usernamefeed": "victoria dombrower"
+      },
+      {
+        "text": "I took a class at Yoga Tree with Jen. She created a welcoming and open environment and helped everyone have a wonderful experience. The owners of the studio are also welcoming. I will be going back for sure.",
+        "rating": 5,
+        "usernamefeed": "Daniella Di Adamo"
+      },
+      {
+        "text": "As an MBA student life can get pretty stressful which is why my decision to go for a yoga session at YogaTree made perfect sense. As soon as one enters the studio a feeling of tranquility slowly trickles down one's body. And if that and the warm welcome provided by the owners Debbie and Jason; and the staff wasn't enough, the yoga class itself was phenomenal. Our trainer Jen, led us through a series of challenging yet calming positions that left me with a feeling of cathartic release. Sufficeth to say I'll be going again, perhaps for one of their more challenging classes (they have so many different types!). I highly recommend this experience.",
+        "rating": 5,
+        "usernamefeed": "Ali Rushdi"
+      },
+      {
+        "text": "Yoga Tree has the perfect ambience for a relaxing and de-stressing yoga class! Jen led a beautiful Vinyasa flow which not only helped in loosening some really tight muscles, but also in clearing the mind and I left the class feeling rejuvenated! Highly recommend Yoga Tree!",
+        "rating": 5,
+        "usernamefeed": "Neha Varma"
+      }
+    ]
+  },
+  {
+    "name": "Yoga Light Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPtslQ5aCyXu0pSW3XqDFohoLF4Pmu68theTPis=s1600-w1024-h576",
+    "rating": 4.7,
+    "website": "http://www.yogalightstudio.ca/",
+    "phone": "(905) 850-3845",
+    "description": "",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "51 Jevlan Drive #2, Woodbridge",
+    "lat": 43.7955267,
+    "lng": -79.54619479999997,
+    "commentfeed": [
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Michelle Hernandez"
+      },
+      {
+        "text": "",
+        "rating": 4,
+        "usernamefeed": "Jennifer Lawrence"
+      }
+    ]
+  },
+
+  {
+    "name": "Moksha Yoga Brampton",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMRLbY3UZK1d95nHnnWbeJgDFb2I8SFr-3xFThw=s1600-w768-h960",
+    "rating": 4.6,
+    "website": "http://www.mokshayogabrampton.com/",
+    "phone": "(905) 497-9477",
+    "description": "Most amazing yoga facility. The teachers are amazing and the atmosphere is electric. I would highly recommend this place over anywhere else. They have classes for all levels and great timing available. Must try",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "50 Peel Centre Drive #205, Brampton",
+    "lat": 43.714673,
+    "lng": -79.72643599999998,
+    "commentfeed": [
+      {
+        "text": "This is my second home (well, besides work that is)!!! If I can go everyday, I would!  I have been practicing with Moksha Brampton since 2014 and I have tried other moksha locations. Nothing beats my second home.  You are simply the best!  I love the  place, ambiance and most of all the instructors.  All the instructors are excellent!  Staff is very friendly and approachable.  They would go an extra mile to accommodate your needs and concerns.  Thank you everyone!",
+        "rating": 5,
+        "usernamefeed": "Jen O"
+      },
+      {
+        "text": "Moksha yoga is such a peaceful and open minded place. All the teachers are highly qualified, and teach us something different each class. I highly recommend this place for all level of yoga adepts!!",
+        "rating": 5,
+        "usernamefeed": "Sophie P"
+      },
+      {
+        "text": "The instructors are helpful and very nice. The studio is very clean and such a nice peaceful environment. I am enjoying my practice thus far and look forward to many more classes.",
+        "rating": 5,
+        "usernamefeed": "Sarah Singh"
+      },
+      {
+        "text": "After attending Moksha Yoga for a couple of classes I have to say I highly recommend this experience to anyone willing to try something new. \nits not just for physical fitness but its great for the mind. \nThe instructors are very knowledgeable, kind heated and personable\nAlso... be prepared to sweat like crazy!",
+        "rating": 5,
+        "usernamefeed": "Jessica Mistry"
+      }
+    ]
+  },
+  {
+    "name": "EasternVibes Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMW2PnmS8t__BAOggJoZSUfBslUOZGYYWz-GD8u=s1600-w1024-h1024",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(416) 520-2325",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "22 Willow Park Drive, Brampton",
+    "lat": 43.74747489999999,
+    "lng": -79.75338149999999,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Yogacafe.ca",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPtjLWjjNWLQw3mbMEtqrshxeS9LlvIk9Bg7R56=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.yogacafe.ca/",
+    "phone": "(416) 833-4738",
+    "description": "I attended my first gentle yoga class with Evangeline this morning. I am so glad I did! She is very gentle, thorough in that she is careful to explain all the different angles and difficulties of each pose. The room she uses in quiet and peaceful and there is never any pressure to overextend yourself. Lovely! I am signing up for the spring session.\n\nDiana Aspin",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "46 Wadsworth Circle, Brampton",
+    "lat": 43.735631,
+    "lng": -79.81092999999998,
+    "commentfeed": [
+      {
+        "text": "I was having neck and shoulder problems that neither acupuncure, Shiatsu nor deep-tissue massage could ease for more than a day or two. A couple of massages from Evangeline took care of the problem. Highly, HIGHLY recommended.",
+        "rating": 5,
+        "usernamefeed": "Bill Taylor"
+      },
+      {
+        "text": "Everything. Small class. Wonderful instructor who takes everybodies 'failings' into account, precise instructions for every move, personal help at all times!",
+        "rating": 5,
+        "usernamefeed": "Diana Aspin"
+      }
+    ]
+  },
+  {
+    "name": "Art Of Living Centre - GTA",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMgf9bIeiCI17D-2aoFOTk3Zhk7i94UtxHBtXr6=s1600-w1024-h444",
+    "rating": 4.7,
+    "website": "http://www.internationaldayofyoga.ca/",
+    "phone": "(905) 405-9642",
+    "description": "Tara's yoga classes are wonderful. You can find them on Meetup.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "1510 Drew Road, Mississauga",
+    "lat": 43.680747,
+    "lng": -79.680971,
+    "commentfeed": [
+      {
+        "text": "Amazing place to learn beautiful meditations :)",
+        "rating": 5,
+        "usernamefeed": "Jash Pandya"
+      },
+      {
+        "text": "Great place to discover meditation and yoga in Toronto. ",
+        "rating": 5,
+        "usernamefeed": "Drake Digital"
+      },
+      {
+        "text": "After doing Art of living course, for the first time I experienced a sense of contentment in me - I went home as a calm & relaxed person. \n\nArt of Living GTA centre at Drew Road hosts a quite and pleasant environment. Thanks to this centre, I had a opportunity to meet some cool people with diverse interests.",
+        "rating": 5,
+        "usernamefeed": "Mahesh Ram"
+      },
+      {
+        "text": "Good Yoga place. friendly people. my son enjoys his weekly Yoga session for kids. highly recommended.",
+        "rating": 5,
+        "usernamefeed": "Akila Raman"
+      }
+    ]
+  },
+  {
+    "name": "Ignite Evolution Fitness",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMrVyUOcD9HoGiGp-OF_8cmlZYohOmgflYP4Es7=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.igniteevolutionfitness.com/",
+    "phone": "(905) 867-5889",
+    "description": "This studio offers an experience far beyond your average yoga class. It truly lends itself to a mind, body and spiritual transformation. Melanie is an incredible teacher and goes out of her way to make every class memorable. I will never go anywhere else for yoga !",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "10 Henderson Avenue #3, Brampton",
+    "lat": 43.678311,
+    "lng": -79.76342299999999,
+    "commentfeed": [
+      {
+        "text": "Love having this local yoga & fitness studio in my neighborhood. Melanie & all the instructors are welcoming, friendly and knowledgeable. I had no experience when I first started attending classes and I never felt out of place. Melanie has created a community in her studio that is open and fun for everyone.",
+        "rating": 5,
+        "usernamefeed": "Tara Burke"
+      },
+      {
+        "text": "I echo a lot of what the other reviews say. Great location, competitive pricing, excellent variety of classes, very skilled and experienced teachers. I personally love the AcroYoga class led by Sandra and I think it's quite a unique challenge from anything else I've ever done. Great community in here. Highly recommend trying out classes here.",
+        "rating": 5,
+        "usernamefeed": "Gavin Demonte"
+      },
+      {
+        "text": "I have been attending this fitness studio for a year, and have loved every moment of the experience. The teachers are extremely knowledgeable, and care about each student's progress. Plus, they are the only studio in Brampton offering AcroYoga, what more could you ask for!",
+        "rating": 5,
+        "usernamefeed": "Jennifer Yu"
+      },
+      {
+        "text": "Beautiful human, who had created such a safe sanctuary for people to evolve where ever they are in their journey. Melanie genuinely cares and is passionate about coaching and igniting others to pursue more out of themselves. She is a friend and a healer to all that reach. Go get ignited Go evolve, and Go sweat a little.",
+        "rating": 5,
+        "usernamefeed": "Michael Tiani"
+      }
+    ]
+  },
+  {
+    "name": "Kaulika Yoga & Pilates",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOOCPSSZO9FLMxGT9msAOQaji0Fg72JW-rUHZE9=s1600-w1024-h1024",
+    "rating": 4.9,
+    "website": "http://www.kaulikayoga.com/",
+    "phone": "(905) 451-9642",
+    "description": "I couldn't speak more highly of this yoga studio. All the instructors are so kind and helpful. The classes range from great ones for beginners (Carrie Sage's are really informative while being just challenging enough) to really difficult ones (Cassandra Marcon's Saturday class is rigorous and I find it leaves me in an amazing mood. Miriana Simpraga's classes are incredibly challenging, but well worth it). I find all the class times to be convenient, the space is welcoming and calming. Highly recommend trying out this studio whether beginning or more advanced in your practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "57 Mill Street North Unit 301, Brampton",
+    "lat": 43.686613,
+    "lng": -79.76696800000002,
+    "commentfeed": [
+      {
+        "text": "For nearly 2 years this place has been my sanctuary!  I love the classes, the teachers and the atmosphere.  There is just  sense of calm and togetherness, whether you are a social butterfly or more reserved (me!) this place is for everyone.  There are classes for everyone - beginners to advanced.  Ursula, Carrie, Rachel, Larissa...amazing teachers!  Thank You Kaulika!!",
+        "rating": 5,
+        "usernamefeed": "Jess Woods"
+      },
+      {
+        "text": "Such a zen space. Love the Studio and the community of yogis.",
+        "rating": 5,
+        "usernamefeed": "Lenita Mendes"
+      },
+      {
+        "text": "Truly a place of healing - - to rejuvenate and nurture the self (mind, body and spirit) back to a state of balance.  Instructors are an embodiment of their practice, thus able to affect transformational change to students - breath after breath.  As the saying goes, \"when I change, the world changes\".  Keep up the great work and momentum !!!  Your contribution 🌐 is unlimited ... congratulations! \nLots of thanks, 😇😍 and blessings.\n~ namaste ~ 🙏",
+        "rating": 5,
+        "usernamefeed": "maristel"
+      },
+      {
+        "text": "This yoga studio has an amazing community and even more amazing teachers. Each with their own style, they work with each student with where their practice is at to make sure that they get the best experience. I don't do yoga anywhere else!",
+        "rating": 5,
+        "usernamefeed": "Courtney Scott"
+      }
+    ]
+  },
+  {
+    "name": "Clear Intentions Yoga",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 5,
+    "phone": "(647) 524-3599",
+    "description": "",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "74 Neville Crescent, Brampton",
+    "lat": 43.7321268,
+    "lng": -79.75540999999998,
+    "commentfeed": []
+  },
+  {
+    "name": "Hot Yoga Brampton",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4.1,
+    "website": "http://hotyogawellnessbrampton.com/",
+    "phone": "(416) 220-3987",
+    "description": "I gave 1 star because owner is very polite and nice. But he is scared to tell the yoga instructor that they are not doing well.  We go to yoga classes  to learn , not to watch them that they are doing yoga.  Yoga instructor are too fast and they don't care if others can learn or do . She just keep her own stuff . They have to think  that some people are new and they can't do like others.  We go to learn , and if we knew how to do yoga , we will not go there and pay money . They say instructor is there to help u but reality is that they don't help u . They don't even show to how to do . U just have to follow them .",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "2 Automatic Road, Brampton",
+    "lat": 43.754578,
+    "lng": -79.70834790000004,
+    "commentfeed": [
+      {
+        "text": "I was new to hot yoga and was convinced by a friend to give it a try. I did and have never looked back. I miss it on days when I can't make my class. The studio is very neat and clean, instructors are friendly and with variety of classes, it is a complete experience.\nLove the vibe here sooo relaxing. Sometimes tough but great workouts in Rupa’s classes.",
+        "rating": 5,
+        "usernamefeed": "Shammi M."
+      },
+      {
+        "text": "I’ve been to many yoga studios in the past but this one so far has been my all time favourite. It’s super clean, very posh and the staff is very nice and welcoming! Their customer service is on point with everything and if your coming for the first time...trust me you will not feel uncomfortable at all. Workouts are better when you have clean and positive environment around you. And the best part is that the studio does not smell bad like other studios in the area... Keep it up guys!👍🏼🙏🏼",
+        "rating": 5,
+        "usernamefeed": "Sukhraj Nirwan"
+      },
+      {
+        "text": "Great design of the studio, very clean, doesn't smell like other places I've been, and friendly staff. Great first experience! Just a little busy but didn't seem to matter during the class. Great core at the end 😃 ",
+        "rating": 4,
+        "usernamefeed": "Stephanie Bellissimo"
+      },
+      {
+        "text": "Excellent studio, instructors and staff....",
+        "rating": 4,
+        "usernamefeed": "gary Gill"
+      }
+    ]
+  },
+  {
+    "name": "The Eternal Yogi",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(226) 998-1818",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "65 Brickyard Way #83, Brampton",
+    "lat": 43.7016219,
+    "lng": -79.7801895,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Indian Yoga Centre",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNYyQeo1opWR_PmIhuHScZ1RMptJDQbtFMOiB4v=s1600-w1024-h1024",
+    "rating": 4.7,
+    "website": "http://indianyoga.ca/",
+    "phone": "(905) 866-2485",
+    "description": "I happened spend some time with Sarabhjit Ji when he visited us Vancouver month ago ,till then i had no faith in Yoga ,but I was severely suffering from back pain due to accident.Thank you Sarabhjit ji for helping me and introducing Yoga in my life I am still doing  and its really helpful.I wish I am in Brampton and attend your classes everyday.Big Thanks",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "5 Brisdale Drive #209, Brampton",
+    "lat": 43.683894,
+    "lng": -79.81168200000002,
+    "commentfeed": [
+      {
+        "text": "I am very happy to join Indian Yoga and Meditation Center. It has very nice facilities for Hot Yoga, non heated option is available too.I take this opportunity to thank owner  and all the teachers for being so wonderful, knowledgeable and \"being there\" whenever I need. The center has provided me opportunity to refresh my  yoga practice and start my definite healing journey towards achieving ultimate Divine goal.\nOnce again - feeling grateful, Thanks a lot.",
+        "rating": 5,
+        "usernamefeed": "Neeta Desai"
+      },
+      {
+        "text": "Great place for beginners to learn and practice yoga.  The studio has a heated room as well as a non-heated room for those who do not want the heat. They offer several sessions during the day allowing you to pick the one that's most convenient. Since they have different teachers conducting different sessions through the week you're sure to learn something new each session. It keeps the sessions from getting repetitive. The size of the studio is large enough to accommodate a sizable number of people yet no so big that the instructor can't pay attention to individuals. Every session I have attended so far has been interesting and fun. Great place to get started on those awesome yoga moves :-)",
+        "rating": 5,
+        "usernamefeed": "Chaitali Mulay"
+      },
+      {
+        "text": "I've been going to IY for 3 years. On my first day, I was instantly welcomed. I tried all the classes with the different teachers, and each has their own way of teaching and are very dedicated to their practice. I love Sally! She is so receptive to the students and changes the flow of the class to fit the students energy level. I always feel encouraged to do my best by all teachers.",
+        "rating": 4,
+        "usernamefeed": "Michelle Pagliaro"
+      },
+      {
+        "text": "On a whim I decided to avail of the great  introductory offer and I am very happy I did so. \nThis is a simple, clean and no fuss place purely focusing on delivering good yoga practice. I love the option of heated or regular rooms where one can switch from either even mid class! They have  supportive, dedicated and enthusiastic instructors, each with a different style that makes every class interesting. The owner, Sarabjit, is a pleasure to deal with. \nIf you care about your health and well being, don't procrastinate...start today. \nBTW I'm not paid nor have ties  with this place to write this review. I'm just one satisfied member who wants to share and spread a good word.",
+        "rating": 5,
+        "usernamefeed": "lorr d"
       }
     ]
   }

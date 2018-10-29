@@ -1718,58 +1718,7 @@
       }
     ]
   },
-  {
-    "name": "Zenbar Healing Studio & Medical Spa",
-    "image": "https://lh3.googleusercontent.com/p/AF1QipMY5f-khFLotVLcQUPqYdUTRdKUiWFLWOdTePR3=s1600-w1024-h1024",
-    "rating": 3.8,
-    "website": "http://www.zenbarhealing.com/",
-    "phone": "(905) 844-4800",
-    "description": "My boyfriend and I went for massages at Zenbar and absolutely loved it. Their service is amazing, from the minute you call to book an appointment till the moment you leave the spa, everyone is super friendly. The place is beautiful inside and the masseuses are great. I was so relaxed in my massage that I almost fell asleep.",
-    "amenities": [
-      "Parking",
-      "Locker",
-      "Smoothie Bar"
-    ],
-    "author": {
-      "id": "5bd5ec87075c5c1909b7d6d5",
-      "username": "Priyanka"
-    },
-    "classes": [
-      "Hot Yoga",
-      "Bikram Yoga",
-      "Vinyasa Yoga"
-    ],
-    "beginners": [
-      "No"
-    ],
-    "cost": 20,
-    "location": "9, 487 Cornwall Road, Oakville",
-    "lat": 43.4632545,
-    "lng": -79.67468020000001,
-    "commentfeed": [
-      {
-        "text": "My girlfriend took me here for my birthday 2 days ago for a couples 90 minute full body massage. I forget the names of our masseuses unfortunately but they were both great. I am a big dude at 6'5 and over 270 lbs but my masseuse almost made me shed a tear with how much pressure she applied to my back, which surprised me because she was a fairly small person. NOT in a bad way though, the pain felt great! its exactly what i asked for and needed because i work out and lift heavy weights daily so i felt i had tons of knots for her to deal with in my back. The whole massage was great and i would definitely recommend this place and will most likely be back eventually since i think my work benefits might cover these treatments! We came about 10 minutes late but the service was not rushed and staff was nice. Unfortunately i did not see our masseuses after treatment so i did not get to thank them.",
-        "rating": 5,
-        "usernamefeed": "Tomas"
-      },
-      {
-        "text": "*** EDIT, the manager has since called to apologize and rectify the situation, really shows they care about their clients & their business. Will return :)\n\nThe place was very clean and nice, however I was very disappointed that I had specifically booked an appointment with a certain RMT and was told she wasn't available as she was massaging someone else. I found this to be very unprofessional. I had a text confirmation with the girls name who I had requested. She had been recommended to me by several people and I was looking forward to the massage. Of course this was only told to me once I was already in a robe and had been waiting for 25 minutes. When I asked why it happened the receptionist said \"well we gave you $20 off\" which I didn't previously know & didn't find to be all that generous considering the massage was one of the more expensive ones I've been to. When I said thank you but I'm curious why it happened, she said \"Again we apologize\" (which was actually the 1st time anyone had apologized). Anyways all in all I was quite disappointed with the customer service I received.\n\n*** EDIT, the manager has since called to apologize and rectify the situation, really shows they care about their clients & their business. Will return :)",
-        "rating": 4,
-        "usernamefeed": "Beckey Whelpdale"
-      },
-      {
-        "text": "I’ve been coming Zenbar for a number of years for RMT massages and Monika has won a repeat customer in me.  Today’s massage however was really not up to snuff.  Not for her technique, but the table.  I could be mistaken, but normally there is a lot more cushion. It was very uncomfortable today. I could feel the wood underneath me and when Monika applied pressure, it was creaking loudly, taking away from the relaxation.   When I come back for my next massage, I won’t stay if it isn’t on one of their normal massage tables.",
-        "rating": 4,
-        "usernamefeed": "Mike Farrell"
-      },
-      {
-        "text": "It's a very nice and big place. I had a great massage from Allison. I would recommend.",
-        "rating": 5,
-        "usernamefeed": "Blake Noonan"
-      }
-    ]
-  },
-
+  
   {
     "name": "Ahimsa Yoga Whitby",
     "image": "https://lh3.googleusercontent.com/p/AF1QipN0i_os2CWdTSDvhZE4Xq8SwMvrVm11edwLMM2b=s1600-w1024-h1024",

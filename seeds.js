@@ -4,50 +4,78 @@ const Comment = require("./models/comment");
 const User = require("./models/user");
 const Favorites = require("./models/favorites");
 const data = require("./seeddata");
+const userdata = require("./seeduser");
+const favdata = require("./seedfav");
 mongoose.connect("mongodb://localhost:27017/yelp_camp_v6", {
   useNewUrlParser: true
 });
 
 function seedDB() {
+
+  
   //Remove all yoga
   Yoga.remove({}, function (err) {
     if (err) {
       console.log(err);
+    } else {
+      console.log("Removed yoga studios data!");
     }
-    console.log("Removed yoga studios data!");
   });
 
   //Remove all comments data
   Comment.remove({}, function (err) {
     if (err) {
       console.log(err);
+    } else {
+      console.log("Removed comments data!");
     }
-    console.log("Removed comments data!");
   });
-
-  /*  
-  //Remove all user data
+    
+  /*//Remove all user data
   User.remove({}, function (err) {
     if (err) {
       console.log(err);
+    } else {
+      console.log("Removed user data!");
     }
-    console.log("Removed user data!");
   });
-  */
-  
+   
+  //Add users
+  userdata.forEach(function (seed) {
+    User.create(seed, function(err, yoga) {
+      if (err) {
+        console.log(err);
+      } else {
+        console.log("Added a user");
+      }
+    })
+  }); */
+
   //Remove all favorites data
   Favorites.remove({}, function (err) {
     if (err) {
       console.log(err);
+    } else {
+      console.log("Removed favorites data!");
     }
-    console.log("Removed favorites data!");
   });
 
+  //Add Favorites
+  favdata.forEach(function (seed) {
+    Favorites.create(seed, function(err, yoga) {
+      if (err) {
+        console.log(err);
+      } else {
+        console.log("Added a favorite");
+      }
+    })
+  });
+  
   //add a few yoga
   data.forEach(function (seed) {
     Yoga.create(seed, function (err, yoga) {
       if (err) {
-        console.log(err)
+        console.log(err);
       } else {
         console.log("Added a yoga studio");
         //create a comment

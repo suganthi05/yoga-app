@@ -17,15 +17,18 @@
       <h1>Welcome To Yoga!</h1>
       <p>Explore yoga studios across the greater Toronto area!</p>
       <p>
-        <a class="btn btn-primary btn-xlarge" href="#all-studios">View All Yoga Studios</a>
-        <a class="btn btn-primary btn-xlarge" href="/yoga/new">Add New Yoga Studio</a>
-        <a class="btn btn-primary btn-xlarge" href="/yoga/getfavorites">My Favorites</a>
+        <a class="btn btn-primary btn-xlarge" href="#all-studios">
+          <span class="fa fa-eye" title="View"></span>&nbsp;&nbsp;View All Yoga Studios</a>
+        <a class="btn btn-primary btn-xlarge" href="/yoga/new">
+          <span class="fa fa-plus" title="Add"></span>&nbsp;&nbsp;Add New Yoga Studio</a>
+        <a class="btn btn-primary btn-xlarge" href="/yoga/getfavorites">
+          <span class="fa fa-heart" title="Add"></span>&nbsp;&nbsp;My Favorites</a>
         <p>
       <form action="/yoga" method="GET" class="form-inline">
         <div class="form-group-2">
           <!--begin: sj-->
-          <div id="form-1">
-          <input type="text" name="name" placeholder="Yoga Studio name" class="form-1">
+          <div id="form-2">
+          <input type="text" name="name" placeholder="Yoga Studio name" class="form-1"><br /><br />
           <input type="text" name="location" placeholder="Location name" >
         </div>
           <!-- begin: sj - bootstrap multi select dropdown added for classes -->
@@ -39,7 +42,7 @@
           </select>
           <div>
           <!-- end: sj - bootstrap multi select dropdown added for classes -->
-          <br>
+          <br />
           <!-- begin: sj - bootstrap multi select dropdown added for amenities -->
           <div id="select-form">
           <select class="selectpicker" title="Select amenities" multiple data-live-search="true">
@@ -80,6 +83,9 @@
         <div id="form-5">
           <button id="filterbutton" class="btn btn-default btn-primary btn-large">Search</button>
         </div>
+        <span class="container">
+          <%= count %> Studios found!
+        </span>
           <!--end: sj-->
         </div>
       </form>

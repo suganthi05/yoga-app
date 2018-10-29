@@ -1768,5 +1768,454 @@
         "usernamefeed": "Blake Noonan"
       }
     ]
+  },
+
+  {
+    "name": "Ahimsa Yoga Whitby",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipN0i_os2CWdTSDvhZE4Xq8SwMvrVm11edwLMM2b=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.ahimsayoga.com/",
+    "phone": "(905) 999-0429",
+    "description": "Love and inclusion radiates out of JP. He teaches from his heart and lives yoga as opposed to just doing yoga. I always love when there is a discussion or learning in a class, and the class I attended was just that. Adjustments are very important to me in a class- to take me deeper and to focus breath. There were two people performing them which was amazing.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "3, 100 Dundas Street West, Whitby",
+    "lat": 43.8799405,
+    "lng": -78.9423559,
+    "commentfeed": [
+      {
+        "text": "I really enjoy Rebecca's class, she is doing such a great job.",
+        "rating": 5,
+        "usernamefeed": "rosemarie reichl"
+      },
+      {
+        "text": "Great yoga studio. Famtastic teachers, classes and workshops. Easy parking.",
+        "rating": 5,
+        "usernamefeed": "Doug Brick"
+      },
+      {
+        "text": "Wonderful staff and AMAZING classes.  I recommend this studio to all :)",
+        "rating": 5,
+        "usernamefeed": "Audrianna Martin Del Campo"
+      },
+      {
+        "text": "Friendly , welcoming and very helpful",
+        "rating": 5,
+        "usernamefeed": "Shelley Shaubel"
+      }
+    ]
+  },
+  {
+    "name": "Lotus Blossom Day Spa and Yoga Studio",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 5,
+    "phone": "(905) 449-8612",
+    "description": "Absolutely loved the yoga classes at the Lotus Blossom. The studio has a very calming atmosphere. Beautiful place to do yoga and meditate!",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "78 John Walter Crescent, Courtice",
+    "lat": 43.900384,
+    "lng": -78.78925500000003,
+    "commentfeed": []
+  },
+  {
+    "name": "Yoga Jungle Aerial Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPP0KnFVaYS7xH4MeAXxZzQdcVXqavTZEXN-OtU=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.yogajungle.ca/",
+    "description": "Jenna is such an incredible teacher - making you feel completely at ease with the hammock and so encouraging! Her space is absolutely gorgeous, fresh white industrial loft vibe with soft twinkle lights and tons of plants. You won't be disappointed!",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "182 Wellington Street, Bowmanville",
+    "lat": 43.9163348,
+    "lng": -78.69526810000002,
+    "commentfeed": [
+      {
+        "text": "Amazing flow, BEAUTIFUL studio, and really great energy all together!",
+        "rating": 5,
+        "usernamefeed": "Angelica M"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Nik Bayley"
+      }
+    ]
+  },
+  {
+    "name": "Ahimsa Yoga Courtice",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipM23rhYKFqNhBs3lKfIudFt10kR9wyncIhF_-TQ=s1600-w640-h427",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(289) 385-0010",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "1430 Pebblestone Road, Courtice",
+    "lat": 43.9298471,
+    "lng": -78.82018419999997,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "ReSoulution Yoga Massage Spa",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNt0xKqyqweJKC95MLIryyGw0qJjsGfKkx0LDly=s1600-w1024-h1024",
+    "rating": 4.7,
+    "website": "http://resoulution.ca/",
+    "phone": "(289) 600-2929",
+    "description": "Great instructors. They are all friendly and welcoming and treat everyone with kindness and respect. The teachers are great at guiding you into poses and given tips to help get into more challenging poses. They always go the extra mile to help you get the most out of your class. The teachers even give wonderful neck, shoulder or head massages  to finish a class. A treat to attend these classes! Also a great variety in terms of styles and levels of difficulty.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "98 King Street West, Bowmanville",
+    "lat": 43.9130483,
+    "lng": -78.69196420000003,
+    "commentfeed": [
+      {
+        "text": "Awesome yoga! \nFrom beginner to advanced classes are available for all levels.  The instructors are knowledgeable, professional  and friendly. \nIf you have never practiced yoga the beginner series offered by the owner Jana is a perfect introduction to the practice of yoga.  If you are a seasoned yogie the hot advanced classes are amazing!\nThe spa is spotless and professional.",
+        "rating": 5,
+        "usernamefeed": "Kate Kunath"
+      },
+      {
+        "text": "I am blessed to have this Studio right in my hometown. From the moment you walk in you are made to feel welcome. The Owner & her Teachers are knowledgeable, kind, caring, truly want you to have the very best experience, without judgement. I cannot recommend trying this studio out, a variety of classes & times from beginner to advanced. Jana’s Studio is my Happy Place.",
+        "rating": 5,
+        "usernamefeed": "Dorothy Afonso"
+      },
+      {
+        "text": "I have been seeing Romy for several months now for my lash extensions. I wouldn't go anywhere else! She is so thorough and detail-oriented, so I always leave with perfect lashes. The whole experience is very relaxing. Highly recommend - 10/10!",
+        "rating": 5,
+        "usernamefeed": "Jennifer McNish"
+      },
+      {
+        "text": "Very poor spa services that was given in past , not worth the money that was charged. The owner will ignore you for a while hoping you will give up and go away, until you are persistent and do not give up until she responds , she will finally respond to a complaint or issue but weeks or a good month later on, but do not give up, call if the emails are being ignored. You have to be persistent with this management style, and if no response, you can always report this business behaviour as most businesses should be responsible and respond right away to complaints and issues .",
+        "rating": 1,
+        "usernamefeed": "Lilly S"
+      }
+    ]
+  },
+  {
+    "name": "Power Yoga Canada Oshawa",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipPzlKjn2CLF99TxDGpRsrMmdSD8OMtYatXMSb8W=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://poweryogacanada.com/oshawa/",
+    "phone": "(905) 240-7926",
+    "description": "THIS PLACE has changed my life! I started here 4 years ago and wow what an amazing community. The energy of this space is felt the moment you walk in. I have been teaching here for the last 3 years now and it's my second home. There is nowhere like it! Come check out the amazing teaching and energy exchange staff. You will not only gain strength and flexibility in your practice but you will make some connections that last a lifetime ",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "866 Taunton Road West #1, Oshawa",
+    "lat": 43.926182,
+    "lng": -78.911203,
+    "commentfeed": [
+      {
+        "text": "Love Power Yoga Oshawa!  The studio is amazing.  Kelly and Denise are amazing, so encouraging and supportive.  I was intimidating about trying hot yoga but now I'm hooked.  What a great and supportive community of people.  Can't imagine going anywhere else.",
+        "rating": 5,
+        "usernamefeed": "R Dm"
+      },
+      {
+        "text": "Power Yoga Canada in Oshawa literally changed my life! The people there are so welcoming & friendly. It makes me smile just to walk through the door. I have made so many amazing friends & love the way I feel so rinsed & clear after a class🙏🏽",
+        "rating": 5,
+        "usernamefeed": "Morgan McPhee"
+      },
+      {
+        "text": "The best place in the world! Best people in the world! My second home. Such a good workout and everyone is so welcoming and friendly. If you're on the fence, don't be. Just go! You won't regret it.",
+        "rating": 5,
+        "usernamefeed": "Lindsay Hogg"
+      },
+      {
+        "text": "Power Yoga Canada Oshawa offers such an inclusive and positive environment for all who enter the studio! Regardless of any prior experience, or lacking of, their is a a class accessible to you! Overall, LOVE this studio and I am so glad to have found such an amazing and supportive community!",
+        "rating": 5,
+        "usernamefeed": "Jade Stephenson"
+      }
+    ]
+  },
+  {
+    "name": "Lava Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNI6tHjEsfaphi3c7LpCXjU6fRpIHoAf0lao7hk=s1600-w1024-h1024",
+    "rating": 4.8,
+    "website": "http://www.lava-yoga.com/",
+    "phone": "(905) 725-5282",
+    "description": "Great brand new space right in the heart of downtown Oshawa! Once you enter, the outside sounds are dull at most. Beautifully remodeled after having been a bank space for so long.  Only yoga studio I’ve been to on ground level ... unique and accessible ... no stairs to navigate!  Energy in the space is very inviting, warm and clean. Staff are very friendly. The salad & smoothie bar is going to be a great feature once opened. Nice variety of classes available on the schedule. Plenty of parking.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "1 Simcoe Street North, Oshawa",
+    "lat": 43.89786669999999,
+    "lng": -78.86354340000003,
+    "commentfeed": [
+      {
+        "text": "Very welcoming atmosphere. Got a hug on my first visit! Thank you!",
+        "rating": 5,
+        "usernamefeed": "Jonathan French"
+      },
+      {
+        "text": "Lava yoga is a wonderful place where compassionate and open minded community is being created. Oshawa needed this.  Great location for the corporate world to take a break from office and do yoga at lunch.  Amazing instructors. Powerful classes.  Super friendly staff.  Love Lava!",
+        "rating": 5,
+        "usernamefeed": "Ivona Stefanski"
+      },
+      {
+        "text": "Genuine and Helpful. \nI have been coming to the studio 5 times per week since Lava opened because I value the ownership, the instructors, and the facility. Lava has exceeded my expectations. I found that people here are down to earth, and the instructors encourage this same attitude in their patrons. I find the classes are helping me sink into deeper levels of healing in my physical, emotional, and energetic 'bodies'. Each class is well structured with common threads that link movements together, amd also provides enough variety for the avid attender to always feel like they are growing in their practice. I am also very thankful for a number of simple and kind gestures made by the staff. These have made me see that Lava brings MORE than just a business to downtown Oshawa, but also a the vibration of joy. I feel content, nourished, and safe here.",
+        "rating": 5,
+        "usernamefeed": "Maygen"
+      },
+      {
+        "text": "Awesome yoga studio. The instructors are great and you get an excellent workout. Good vibes and a friendly environment here - would recommend to everyone (even beginners). A+",
+        "rating": 5,
+        "usernamefeed": "Kevin DeMara"
+      }
+    ]
+  },
+  {
+    "name": "Wendy's Gentle Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMIaDmuXMApJfLgMJUMx7uy0FrHzzay_AcJ_54w=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://wendysgentleyoga.ca/",
+    "phone": "(289) 927-3340",
+    "description": "Wendy's Gentle Yoga has helped me in regaining  my flexibility, moving with ease and reduction of pain. Her talent for adjusting the lesson for the needs of each person in the class is inclusive and positive. Wendy's studio has  a significant amount of props so there is no need for personal financial investment or need to carry props and equipment to class. You will love how easy your stride is after a class.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "1050 Grandview Street North, Oshawa",
+    "lat": 43.931768,
+    "lng": -78.835647,
+    "commentfeed": [
+      {
+        "text": "I am proud to say I am Wendy's first student.  In 2008 I fell 15 ft sustaining a burst L1fracture.  Two years later my fracture was well healed but I still had a fair amount of discomfort. I had never done  a yoga class so I started with private classes. Wendy was very patient and with the use of props I was able to get in most poses.\n\nWendy is constantly learning and sharing her knowledge with her students.\n\nWendy's studio is still my happy place 6 years later.",
+        "rating": 5,
+        "usernamefeed": "Patti Watson"
+      },
+      {
+        "text": "Wendy is a fantastic yoga teacher. I've been going with my girlfriend for a few years now- very welcoming to guys and appropriate for all levels of experience. I had no experience when I started and have learnt to relax and enjoy it. Highly recommend it!",
+        "rating": 5,
+        "usernamefeed": "jordan Michaud"
+      },
+      {
+        "text": "I was new to yoga when I first met Wendy 2 years ago, and was not sure I could do yoga with arthritis and degenerative disk disease.  Wendy changed that as she consistently customizes her yoga for each & every student in the class!  I have noticed such a difference in my physical condition, but one of the best things about yoga with Wendy is the emotional/spiritual support she provides.  I am lucky to be a student of Wendy's!",
+        "rating": 5,
+        "usernamefeed": "Cathie Ketcheson"
+      },
+      {
+        "text": "Wow! If I knew yoga could be like this I would have started years ago! Wendy is amazing and so attentive to each student. I went in to her class skeptical but came out feeling rejeuventated and relaxed! I highly recommend Wendy's yoga studio to everyone!",
+        "rating": 5,
+        "usernamefeed": "Holly Davies"
+      }
+    ]
+  },
+  {
+    "name": "Wellness Path",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipP76bNH7uEg2axbp7pLVOCrQA807VHEmwJ4K_49=s1600-w1024-h1024",
+    "rating": 4.6,
+    "website": "http://www.wellnesspath.ca/",
+    "phone": "(905) 623-9232",
+    "description": "I go there for acupuncture at Catheryne because I need to handle with my anxiety and menopause symptoms. Now, after three sessions, I can say I feel much better than before. Catheryne is professional and she is so warm that simply her presence gives you positive energy. \nAlso, the place is cozy and the ladies from the front desk are friendly.",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "103 King Street East, Bowmanville",
+    "lat": 43.91119,
+    "lng": -78.68587200000002,
+    "commentfeed": [
+      {
+        "text": "Awesome yoga classes! Like the variety and small classes.  Sarah is amazing at leading the class, no matter what your level.  Overall a great place.",
+        "rating": 5,
+        "usernamefeed": "Jane Camacho"
+      },
+      {
+        "text": "I have been here a few times and enjoyed it. Yesterday I went for a massage with Kimberly, was very disappointed to say the least! She proceeded to chew gum the entire 60 mins I was in treatment, nothing more unrelaxing then having someone chew and snap their the gum while I was there to relax. I specified I didn't want anything too deep, there were periods where I had to clench my teeth it was so painful. And this morning I woke up with a headache from the pressure she used.\nAnd to top it all off she didn't accept Greensheild!?! So now I have to make another trip into Bowmanville (we live 20 mins North of Bowmanville) to pay out of pocket until I can get reimbursed. The receptionist should have asked if I was paying with insurance and who my provider was, then inform me that this particular RMT didn't accept that insurance and I would have booked either with another RMT or another Spa.\nI use the Wellness Path as my backup when my regular RMT is booked up, I'm sad to say I will not be going back after yesterdays treatment.",
+        "rating": 2,
+        "usernamefeed": "Carole Johnston"
+      },
+      {
+        "text": "Love the intimate atmosphere, excellent treatments and superb customer service provided at this Spa!!  So wonderful to have a local business like this one in our community!!",
+        "rating": 5,
+        "usernamefeed": "Sue Duffy"
+      },
+      {
+        "text": "Sarah.....bliss....the classes....the atmosphere....everything",
+        "rating": 5,
+        "usernamefeed": "Donna Greenaway"
+      }
+    ]
+  },
+  {
+    "name": "Breath Of Light Yoga",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipN54AMF3Nk_CvcowyrUro8vtx1YY4qgF6Ta_bDg=s1600-w711-h400",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(905) 410-3331",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "388 Fleetwood Drive, Oshawa",
+    "lat": 43.9146609,
+    "lng": -78.82535970000004,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
   }
 ]

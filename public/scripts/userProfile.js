@@ -77,6 +77,7 @@ function addMarkers() {
                 let infowindow = new google.maps.InfoWindow();
                 infowindow.setContent(
                     "<p><b>" + yoga.name + "</b></p>" +
+                    console.log("favYoga" + yoga.name);
                     // "<p>" + yoga.location + "</p>" +
                     "<img src='" + yoga.image + "' width='100px' height='80px'>")
                 // "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/yoga/" + yoga._id + "' class='btn btn-primary'>More Info</a>")

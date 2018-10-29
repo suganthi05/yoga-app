@@ -143,6 +143,9 @@ function loadMapMarkers(yogadata) {
 
 // ajax call to get yoga search result and render on screen
 $(document).ready(function () {
+
+
+
     // initial load of map
     $.ajax({
         url: "yoga/getallstudios",

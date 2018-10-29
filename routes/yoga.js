@@ -202,8 +202,16 @@ router.get("/", function (req, res) {
             if (err) {
                 console.log(err);
             } else {
+
+                var sortedyoga = allYoga.slice();
+                sortedyoga.sort(function (a, b) {
+                    return a.rating - b.rating
+                });
+                var topRatedyogaArray = sortedyoga.slice(0, 4);
+
                 res.render("yoga/index", {
                     yoga: allYoga,
+                    topratedyoga: topRatedyogaArray,
                     noMatch: noMatch
                 });
             }

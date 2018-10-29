@@ -692,7 +692,7 @@ float: left !important;
     width: 20%;
     height: 20%;
     border: 3px solid #2bddcf;
-    margin-left: 65%;
+    margin-right: -5%;
 }
 
 .user-info {
@@ -715,6 +715,7 @@ float: left !important;
 .welcome {
     margin-top: 0;
     font-size: 5em;
+    padding-right: 270px;
 }
 
 .big {

@@ -1309,5 +1309,464 @@
         "usernamefeed": "Mich D"
       }
     ]
+  },
+  {
+    "name": "Once Upon a Mat",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNtUO1b57LMtNDXjk1b-lh_-jbvhLNPmfPmqmc=s1600-w1024-h666",
+    "rating": 4.5,
+    "website": "http://onceuponamat.ca/",
+    "phone": "(289) 725-8880",
+    "description": "As a lover of yoga, I was so excited when Once Upon A Mat opened up as it provided my family with a beautiful space to connect and play while teaching the benefits of yoga and mindfulness to children. Incia has created an atmosphere where all are welcome and children are encouraged to truly be themselves. My four year old loves attending Kids Yoga classes, and has taken part in previous PA Day and Summer Camps. My one year old also attends the Happy Minds Preschool and Kids Playgroups, and absolutely loves both. She gains the interaction she thrives for with other toddlers, and thoroughly enjoys all the sensory yoga activities, songs and books that are part of all the programs. We truly do love everything this sweet studio has to offer!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "3068 George Savage Avenue, Oakville",
+    "lat": 43.471399,
+    "lng": -79.74175600000001,
+    "commentfeed": [
+      {
+        "text": "Once Upon a Mat goes above and beyond in every way. Not only does Incia incorporate an age appropriate experience that is educational and fun, she does everything with love. The minute we walked in the door of her beautiful studio my daughter and I felt at home and as if we’d been part of Once Upon a Mat forever! We can’t wait to return.",
+        "rating": 5,
+        "usernamefeed": "Jenny Fox"
+      },
+      {
+        "text": "I was so excited when this studio opened up in my neighbourhood last year.  The space is beautiful and walking distance from my house.  I have a toddler and a baby and we've tried the Toddler Playgroup, Music Therapy & Yoga and as well as a few others.  I signed up my toddler son for Happy Minds Preschool once a week so he gets more comfortable around people that aren't family since he doesn't go to daycare.  Incia, the owner, is wonderful to speak with and she \"gets kids\" as she's very patient and encourages them to explore and discover.  We need more places like this in Halton.  I highly recommend visiting this place even if you aren't into yoga.",
+        "rating": 5,
+        "usernamefeed": "Leah Nicoletta"
+      },
+      {
+        "text": "I have been bringing my 18 month old daughter (and sometimes 4 year old son) to Once Upon a Mat since April. We have done the  yoga playgroup session a few times and we are now attending the Happy Minds Preschool. We love it so much and I can’t say enough about the wonderful atmosphere Incia has created for babies and children. It is a great place to be able to chat with other moms/caregivers, while also providing such an enriching experience for kids. Incia’s programs are so different from anything my kids have participated in. I highly recommend Once Upon a Mat to anyone with young kids!",
+        "rating": 5,
+        "usernamefeed": "Sophie Pick"
+      },
+      {
+        "text": "I did my first yoga session which my 3 year old today and we both loved it! Great space, great atmosphere, great teacher. What an amazing way to do something fun on a weekend morning. Thank you! We will be back soon.",
+        "rating": 5,
+        "usernamefeed": "Anna Dowgialo"
+      }
+    ]
+  },
+  {
+    "name": "Yoga & Pole",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNWfl_X6xDFG644oTVmv24JAZm1K-HyMp_JWgut=s1600-w512-h288",
+    "rating": 5,
+    "website": "http://www.yogaandpole.ca/",
+    "phone": "(289) 400-4643",
+    "description": "I attended my first aerial yoga yesterday. It was a great experience, fun and relaxing environment in a  beautiful studio.\nThank you Lynne for a great class!",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "On 5A bus route, 3085 George Savage Avenue, Oakville",
+    "lat": 43.47187,
+    "lng": -79.74222700000001,
+    "commentfeed": [
+      {
+        "text": "Love the aerial yoga classes, Lynne is the best!",
+        "rating": 5,
+        "usernamefeed": "Rattan West"
+      },
+      {
+        "text": "The women that come to Just4MiE Pole Dance Studio come in all shapes and sizes, fitness levels and ages.  The one thing that they all have in common is the courage to try something new!  The combination of grounding meditation & yoga, the sassy fun of sensual dance and the strength building of pole moves ensures a uniquely fun way to be active and build confidence!  It's the workout that doesn't feel like work!",
+        "rating": 5,
+        "usernamefeed": "Lynne Niepage"
+      },
+      {
+        "text": "Lynne's classes are professional, fun and a great workout!  You get to explore your sexy side with dim lighting and learn some new moves with Lynne.  Her studio is very classy from the time you walk in the front door to the dance room...including the change room that has a vanity area to get yourself freshened up afterwards. Can't wait for the class when we get to wear those high, sexy heels!  \n\n",
+        "rating": 5,
+        "usernamefeed": "Debbie Innes"
+      },
+      {
+        "text": "",
+        "rating": 5,
+        "usernamefeed": "Justyna B"
+      }
+    ]
+  },
+  {
+    "name": "Kula Yoga Studio",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMQup46iMoXNWCDJJwGAA0keTPlxLlYgDLLZnI5=s1600-w800-h534",
+    "rating": 4.7,
+    "website": "http://www.mykula.ca/",
+    "phone": "(905) 829-3443",
+    "description": "Excellent staff and studio space. Excellent teachers from novice to expert. Highly recommended.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "2640 Bristol Circle, Oakville",
+    "lat": 43.5126782,
+    "lng": -79.687997,
+    "commentfeed": [
+      {
+        "text": "I have never been so disappointed in a yoga class in my life. Save yourself the time and money and watch a yoga video online, it would be a million times more engaging than the Friday night karma class at Kula Yoga Oakville. “Hot” yoga is a lie, the room was barely warm. I’m sure the yoga teacher is a nice woman, but the class was so boring. There was no variation, no levels or options proposed during the class. if youre a begginner in yoga, then this class is STILL WAY TOO SLOW AND EASY for you. Also, you couldn’t hear the music at all. I am not a certified yoga teacher by any means and I could have led a more dynamic and interesting class. It is no surprise I was one of only 5 people in the class that day. If you’re looking for a workout, a good yoga class, relaxing way to spend an hour or a pleasant experience, DEFINITELY SKIP KULA YOGA!!it didn’t help that The two receptionists on Friday karma class were not very welcoming",
+        "rating": 1,
+        "usernamefeed": "Katherina Horvath"
+      },
+      {
+        "text": "I've been coming here for about 10 years now! How time flies! I've been around to other studios around Oakville, Mississauga, and London, and there's no place like this one. It is hands down my favorite place to go for yoga and barre classes. Even when I moved away for university, I always made sure to attend a class when I was visiting home. \n\nI love Kula Oakville because they have great facilities, amazing teachers, and a very tranquil environment. Going into class and knowing that you can just be there in silence before and after class is so nice. This was the kind of etiquette I got used to because this was my first yoga studio, and the chatter that happens at other places has always been jarring in comparison. It's truly a place where you can leave everything behind and just be with yourself. \n\nMost of all I love the community feel you get here. They just gave me a phone call to let me know that the class I went to last week has been canceled. It's a personal touch of thoughtfulness like this that keeps me coming back.",
+        "rating": 5,
+        "usernamefeed": "Karen Lee"
+      },
+      {
+        "text": "This is an amazing studio! All the instructors and staff are so personable, helpful and very knowledgeable.   They make you feel very much like part of the family.  Such a warm and inviting atmosphere.  Always look forward to attending their classes. Highly recommend this studio.",
+        "rating": 5,
+        "usernamefeed": "Linda Paul"
+      },
+      {
+        "text": "Very nice Yoga Studio, very clean and airy. Many clases to choose from depending on your skill levels. People and instructors are very friendly. ",
+        "rating": 5,
+        "usernamefeed": "Jazmin Rojas"
+      }
+    ]
+  },
+  {
+    "name": "Creating Space Yoga",
+    "image": "https://images.pexels.com/photos/374101/pexels-photo-374101.jpeg",
+    "rating": 5,
+    "website": "http://creatingspaceyoga.info/",
+    "phone": "(905) 337-3598",
+    "description": "Amazing teachers at this studio. Friendly, caring, and detail oriented. Every instructor adjusts instruction and offers modifications to help all students participate safely and comfortably. (While still encouraging us to work hard!)",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "594 Chartwell Road, Oakville",
+    "lat": 43.4659395,
+    "lng": -79.67595169999998,
+    "commentfeed": []
+  },
+  {
+    "name": "Renaissance Gymnasiums",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOl6Z5TBo6Mk4md6Wh_nVcD-cAjPTtakGrxvM8G=s1600-w1024-h1024",
+    "rating": 5,
+    "phone": "(905) 338-2266",
+    "description": "The instructors and the gym itself are both amazing! Came in for a body weight training and yoga class, Jamie and team are great teachers and very friendly to work with. Prices are very reasonable for the personalized and experienced training from the staff. Clean gym with great ambiance, would recommend to anyone in the area!",
+    "amenities": [
+      "Parking",
+      "Shower",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5ed2c075c5c1909b7d6d7",
+      "username": "Deepika"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Prenatal Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 30,
+    "location": "220 Lakeshore Road East, Oakville",
+    "lat": 43.4459627,
+    "lng": -79.66750639999998,
+    "commentfeed": [
+      {
+        "text": "This gym is amazing. For a beginner, weekend warrior, or someone just looking to just get healthy again (like me), Jamie and his instructors are welcoming, inviting, and results driven. Oh, and the place is beautiful too!",
+        "rating": 5,
+        "usernamefeed": "John Tourigny"
+      },
+      {
+        "text": "Absolutely love this place! Very inviting, great service and atmosphere. The Yoga room is beautiful with natural lighting, clean and very organized. Definitely would recommend it to anyone looking to join a positive fun intimate community for personal training and yoga classes! Also love the location, right downtown Oakville close to cafes, shops and the lake.",
+        "rating": 5,
+        "usernamefeed": "Debbie Fornazar"
+      },
+      {
+        "text": "was struggling to to break through my fitness plateaus and needed a more personal gym. 1 on 1s with Jamie have been exactly what I was looking for",
+        "rating": 5,
+        "usernamefeed": "Thomas Ashman"
+      },
+      {
+        "text": "Such a beautiful facility that really offers a cool range of things from personal training to acroyoga! Jamie is awesome and I would definitely recommend checking out his gym/studio!",
+        "rating": 5,
+        "usernamefeed": "Veronica Lee"
+      }
+    ]
+  },
+  {
+    "name": "Power Yoga Canada - Oakville",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipOCRVtl7abWLFpAf_LEibXVJ-RxDE2HkarnkGQC=s1600-w1024-h1024",
+    "rating": 5,
+    "website": "http://www.poweryogacanada.com/",
+    "phone": "(905) 403-9642",
+    "description": "Each class I have taken here has left me feeling renewed and refreshed. All of the teachers at this location are very talented and unique in their teaching style which helps for when you want to shake things up in your practice.\n\nThe facilities themselves are very nice as well. The building is always clean and the environment is quite welcoming. \n\nI cannot recommend classes here enough!",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Hot Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 12,
+    "location": "485 Trafalgar Road, Oakville",
+    "lat": 43.45654119999999,
+    "lng": -79.68002630000001,
+    "commentfeed": [
+      {
+        "text": "I’ve always had an interest in yoga and as of late, wanted to kick it up a notch and be involved in a setting more challenging than the basic gym-membership yoga class. Power Yoga doesn’t only challenge my body, mind and spirit each class I attend, but has developed a deeper level of love for myself and this wonderful art. Thank you PYC for the warm welcome :)",
+        "rating": 5,
+        "usernamefeed": "Angela E.U."
+      },
+      {
+        "text": "This is the flagship yoga studio in Oakville. This is more of a workout then just stretching. Temperature of the room is just right and they play good music during the class. Its good how they have 830 pm classes too.",
+        "rating": 5,
+        "usernamefeed": "Marrek Gillespie"
+      },
+      {
+        "text": "Great place. Great location. Someone told me the baptiste way isn’t a good form of yoga but that’s their opinion. I enjoy it, the instructors are the best. I haven’t found my favourite instructor yet because they all have a great style and integrate themselves into their teachings which is wonderful. 10/10 - none judgemental.",
+        "rating": 5,
+        "usernamefeed": "Andrew Pikula"
+      },
+      {
+        "text": "Absolutely love this place! Everyone is so welcoming and friendly. You always leave feeling challenged and refreshed. Love, love, love.",
+        "rating": 5,
+        "usernamefeed": "Kiley Szkilnyk"
+      }
+    ]
+  },
+  {
+    "name": "Sunseed Yoga at St Jude's Church (Lower Level)",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipM1KI3Pk5DVcqu899n2tllXwZwz9o8Y-oDn018L=s1600-w1024-h1024",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(416) 829-0421",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "Yes"
+    ],
+    "cost": 10,
+    "location": "160 William Street, Oakville",
+    "lat": 43.4436182,
+    "lng": -79.66743559999998,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "iGita Hot Yoga Studios",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNDiAw_UN9ndXkKLN0ucakvm5c3D9Ct3krQyF12=s1600-w1024-h1024",
+    "rating": 3.8,
+    "website": "http://www.omlife.ca/",
+    "phone": "(905) 338-9642",
+    "description": "Possibly the world's most unprofessional staff. They overcrowd classes and put unauthorized charges on my credit. I won the dispute through my credit card company, but iGita wouldn't even respond to my emails about the charges and they don't man their phones. Bizarrely inappropriate staff and owners...",
+    "amenities": [
+      "Wifi",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ed82075c5c1909b7d6d8",
+      "username": "Lucia"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 10,
+    "location": "2, 467 Speers Road, Oakville",
+    "lat": 43.4381273,
+    "lng": -79.69808660000001,
+    "commentfeed": [
+      {
+        "text": "Fantastic staff and a great studio! I would highly recommend Tim's yoga classes for anyone to try 5*",
+        "rating": 5,
+        "usernamefeed": "James Inwood"
+      },
+      {
+        "text": "Excellent experience, nice people, very informative, many yoga/ Pilates teachers to choose Michelle, Christine, Timbo and Nicole ....R Luis",
+        "rating": 5,
+        "usernamefeed": "Spirit Saturday night"
+      },
+      {
+        "text": "I love this Yoga Studio. The staff and instructors are top notch and having the mats already there is just perfect.",
+        "rating": 5,
+        "usernamefeed": "Jordan Duarte"
+      },
+      {
+        "text": "I love the studio but some of the staff need to learn basic customer service. I find some of the staff very rude. Great yoga instructors though.",
+        "rating": 4,
+        "usernamefeed": "Liliana Castronovo"
+      }
+    ]
+  },
+  {
+    "name": "Scoria World Yoga HQ + Champions",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipNMzyEEQNs5PIjm5VV0nMtRYOPv-N3xP_cjyQs-=s1600-w1024-h1024",
+    "rating": 4,
+    "website": "http://sampleyogastudio.com",
+    "phone": "(647) 808-2217",
+    "description": "This is a good yoga studio! 12+ styles from stretchy to sweaty,  heated and non-heated, for all levels of practice.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Wifi"
+    ],
+    "author": {
+      "id": "5bd5eccd075c5c1909b7d6d6",
+      "username": "Alice"
+    },
+    "classes": [
+      "Hatha Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "1033 North Service Road East, Oakville",
+    "lat": 43.4693135,
+    "lng": -79.67726379999999,
+    "commentfeed": [
+      {
+        "text": "This is good yoga studio. I love it!",
+        "rating": 4,
+        "usernamefeed": "Alex Parrish"
+      }
+    ]
+  },
+  {
+    "name": "Zenbar Healing Studio & Medical Spa",
+    "image": "https://lh3.googleusercontent.com/p/AF1QipMY5f-khFLotVLcQUPqYdUTRdKUiWFLWOdTePR3=s1600-w1024-h1024",
+    "rating": 3.8,
+    "website": "http://www.zenbarhealing.com/",
+    "phone": "(905) 844-4800",
+    "description": "My boyfriend and I went for massages at Zenbar and absolutely loved it. Their service is amazing, from the minute you call to book an appointment till the moment you leave the spa, everyone is super friendly. The place is beautiful inside and the masseuses are great. I was so relaxed in my massage that I almost fell asleep.",
+    "amenities": [
+      "Parking",
+      "Locker",
+      "Smoothie Bar"
+    ],
+    "author": {
+      "id": "5bd5ec87075c5c1909b7d6d5",
+      "username": "Priyanka"
+    },
+    "classes": [
+      "Hot Yoga",
+      "Bikram Yoga",
+      "Vinyasa Yoga"
+    ],
+    "beginners": [
+      "No"
+    ],
+    "cost": 20,
+    "location": "9, 487 Cornwall Road, Oakville",
+    "lat": 43.4632545,
+    "lng": -79.67468020000001,
+    "commentfeed": [
+      {
+        "text": "My girlfriend took me here for my birthday 2 days ago for a couples 90 minute full body massage. I forget the names of our masseuses unfortunately but they were both great. I am a big dude at 6'5 and over 270 lbs but my masseuse almost made me shed a tear with how much pressure she applied to my back, which surprised me because she was a fairly small person. NOT in a bad way though, the pain felt great! its exactly what i asked for and needed because i work out and lift heavy weights daily so i felt i had tons of knots for her to deal with in my back. The whole massage was great and i would definitely recommend this place and will most likely be back eventually since i think my work benefits might cover these treatments! We came about 10 minutes late but the service was not rushed and staff was nice. Unfortunately i did not see our masseuses after treatment so i did not get to thank them.",
+        "rating": 5,
+        "usernamefeed": "Tomas"
+      },
+      {
+        "text": "*** EDIT, the manager has since called to apologize and rectify the situation, really shows they care about their clients & their business. Will return :)\n\nThe place was very clean and nice, however I was very disappointed that I had specifically booked an appointment with a certain RMT and was told she wasn't available as she was massaging someone else. I found this to be very unprofessional. I had a text confirmation with the girls name who I had requested. She had been recommended to me by several people and I was looking forward to the massage. Of course this was only told to me once I was already in a robe and had been waiting for 25 minutes. When I asked why it happened the receptionist said \"well we gave you $20 off\" which I didn't previously know & didn't find to be all that generous considering the massage was one of the more expensive ones I've been to. When I said thank you but I'm curious why it happened, she said \"Again we apologize\" (which was actually the 1st time anyone had apologized). Anyways all in all I was quite disappointed with the customer service I received.\n\n*** EDIT, the manager has since called to apologize and rectify the situation, really shows they care about their clients & their business. Will return :)",
+        "rating": 4,
+        "usernamefeed": "Beckey Whelpdale"
+      },
+      {
+        "text": "I’ve been coming Zenbar for a number of years for RMT massages and Monika has won a repeat customer in me.  Today’s massage however was really not up to snuff.  Not for her technique, but the table.  I could be mistaken, but normally there is a lot more cushion. It was very uncomfortable today. I could feel the wood underneath me and when Monika applied pressure, it was creaking loudly, taking away from the relaxation.   When I come back for my next massage, I won’t stay if it isn’t on one of their normal massage tables.",
+        "rating": 4,
+        "usernamefeed": "Mike Farrell"
+      },
+      {
+        "text": "It's a very nice and big place. I had a great massage from Allison. I would recommend.",
+        "rating": 5,
+        "usernamefeed": "Blake Noonan"
+      }
+    ]
   }
 ]

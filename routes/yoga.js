@@ -218,7 +218,7 @@ router.get("/", function (req, res) {
         }
         console.log(query);
 
-        Yoga.find(query, function (err, allYoga) {
+        Yoga.find(query).populate("comments").exec(function (err, allYoga) {
             if (err) {
                 console.log('MongoDB Error:' + err);
             } else {
@@ -227,7 +227,7 @@ router.get("/", function (req, res) {
                     noMatch = "No yoga studio match that query, please try again.";
                 }
                 res.send({
-                    yoga: allYoga,
+                    yoga: allYoga.map((y) => y.toObject()),
                     noMatch: noMatch,
                     count: allYoga.length
                 });
@@ -235,7 +235,7 @@ router.get("/", function (req, res) {
         });
     } else {
         // Get all yoga studio from DB and render
-        Yoga.find({}, function (err, allYoga) {
+        Yoga.find({}).populate("comments").exec(function (err, allYoga) {
             if (err) {
                 console.log(err);
             } else {
@@ -247,7 +247,7 @@ router.get("/", function (req, res) {
                 var topRatedyogaArray = sortedyoga.slice(0, 4);
 
                 res.render("yoga/index", {
-                    yoga: allYoga,
+                    yoga: allYoga.map((y) => y.toObject()),
                     count: allYoga.length,
                     topratedyoga: topRatedyogaArray,
                     noMatch: noMatch

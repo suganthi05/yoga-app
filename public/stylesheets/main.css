@@ -53,6 +53,7 @@ body {
     margin-left: 14%;
     color: white;
     margin-bottom: 30%;
+    padding-top: 20px;
 }
 
 #yoga-header:hover {
@@ -540,6 +541,7 @@ span:active {
 .login-font {
     font-size: 19px;
     color: white !important;
+    padding-top: 16.5px;
 }
 
 .login-font:hover {
@@ -593,7 +595,8 @@ span:active {
     /*float: left !important;
     margin-bottom: 3%;
     margin-right: 3%;*/
-
+    height: 35px;
+    margin-bottom: 12px;
 }
 
 #form-2 {
@@ -631,6 +634,19 @@ span:active {
 }
 
 .btn-xlarge {
+    margin-right: 1%;
+    padding: 14px 18px;
+    font-size: 16px;
+    border-color: grey !important;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background-color: grey !important;
+}
+
+.btn-xxlarge {
+    width: 200px;
     margin-right: 1%;
     padding: 14px 18px;
     font-size: 16px;

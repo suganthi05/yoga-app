@@ -732,6 +732,7 @@ float: left !important;
 .search-results {
     height: 350px;
   margin-bottom: 8%;
+  color: black;
 }
 
 .search-results img.image-results {
@@ -785,6 +786,7 @@ float: left !important;
 .review-size {
     height: 40px !important;
     margin-top: 0%;
+
 }
 
 .well {
@@ -882,6 +884,7 @@ float: left !important;
 .star-right {
         float: right;
         color: white !important;
+        line-height: 4px;
 }
 
 .container-2 {
@@ -942,6 +945,12 @@ float: left !important;
 #all-studios {
     color: white !important;
 }
+
+.review-user {
+    float: left;
+    line-height: 12px
+}
+
 
 
 

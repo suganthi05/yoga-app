@@ -918,6 +918,9 @@ float: left !important;
   word-wrap: break-word;
   hyphens: auto;
 }
+
+.top-rated-studios {
+    color: black !important;
 }
 
 

@@ -433,7 +433,7 @@ span:active {
 
 .active span,
 .active-2 span {
-    color: red !important;
+    /*color: red !important;*/
 }
 
 .active-2 .ring {
@@ -563,7 +563,7 @@ span:active {
 
 .jumbo-4 {
     margin-top: 5%;
-    background-image: url(https://images.unsplash.com/photo-1516830927954-58378e11dbe5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8b1862a2ce7cda1580944b7a2a39065&auto=format&fit=crop&w=800&q=60);
+    /*background-image: url(https://images.unsplash.com/photo-1516830927954-58378e11dbe5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8b1862a2ce7cda1580944b7a2a39065&auto=format&fit=crop&w=800&q=60);*/
     padding: 1%;
     height: 80px;
     margin-bottom: 4%;
@@ -659,10 +659,10 @@ span:active {
     margin-top:0;
     color: white !important;
     text-align: center;
-    font-size: 2.75em;
+    font-size: 3.75em;
     font-weight: normal;
     margin-top: 1%;
-
+    padding-top: 0;
 }
 
 /*
@@ -718,6 +718,13 @@ float: left !important;
 
 .search-results img.image-results {
   height: 175px;
+}
+
+.search-results:hover {
+
+    border-color: #b8be19;
+    border-width: 1px;
+    box-shadow: 1px 2px #b8be19;
 }
 
 .more-info {
@@ -849,6 +856,7 @@ float: left !important;
 
 .star-right {
         float: right;
+        color: white !important;
 }
 
 .container-2 {
@@ -861,8 +869,35 @@ float: left !important;
 }
 
 #jumbo-5 {
-   background-image: url(./lightwood.png);
+    background-image: url(./lightwood.png);
 }
+
+.jumbo-6 {
+    background-image: url(https://images.unsplash.com/photo-1516830927954-58378e11dbe5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8b1862a2ce7cda1580944b7a2a39065&auto=format&fit=crop&w=800&q=60);
+    margin-top: 5%;
+    /*background-image: url(https://images.unsplash.com/photo-1516830927954-58378e11dbe5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d8b1862a2ce7cda1580944b7a2a39065&auto=format&fit=crop&w=800&q=60);*/
+    padding: 1%;
+    height: 90px;
+    margin-bottom: 4%;
+
+}
+
+.heart-color {
+    color: #b8be19;
+}
+
+.star-right .fa-star {
+    color: white;
+}
+
+.fa-star {
+
+}
+
+#amen-color {
+    color: #b8be19;
+}
+
 
 
 

@@ -49,7 +49,7 @@
                     <div class="caption-full">
                         <h4 class="pull-right large-ish">$
                             <%= yoga.cost %>/Day Pass</h4>
-                        <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish">Average Rating:
+                        <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish" >Average Rating:
                             <% for (var i = 0; i < 5 ; i++) { %>
                             <% if (i < yoga.rating) { %>
                             <span class="fa fa-star checked"></span>
@@ -108,6 +108,13 @@
                     <p>
                         <%= yoga.description %>
                     </p>
+                        <% for (var i = 0; i < 5 ; i++) { %>
+                            <% if (i < yoga.rating) { %>
+                            <span class="fa fa-star checked"></span>
+                            <%} else {%>
+                            <span class="fa fa-star unchecked"></span>
+                            <% } %>
+                            <% }; %>
                     <p>
                         <em>Submitted by:
                             <%= yoga.author.username %>,

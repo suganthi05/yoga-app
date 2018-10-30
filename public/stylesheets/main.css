@@ -554,6 +554,8 @@ span:active {
 .jumbo-2 {
     background: white;
     margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
     /*background-image: url(./yoga-img.png);*/
 }
 
@@ -726,6 +728,12 @@ float: left !important;
     border-width: 1px;
     box-shadow: 1px 2px #b8be19;
 }
+.search-results2:hover {
+
+    border-color: #b8be19;
+    border-width: 1px;
+    box-shadow: 1px 2px #b8be19;
+}
 
 .more-info {
   margin-bottom: 3% !important;
@@ -743,7 +751,7 @@ float: left !important;
 
 .large {
     font-size: 30px !important;
-    color: white !important;
+    color: #993300 !important;
 }
 
 .large-ish {
@@ -752,6 +760,7 @@ float: left !important;
 
 #headerr {
     margin-top: 0;
+    padding-top: 0;
     margin-bottom: 5%;
     font-size: 3em;
     width: 60%;
@@ -886,16 +895,29 @@ float: left !important;
     color: #b8be19;
 }
 
-.star-right .fa-star {
-    color: white;
+.fa-star {
+    color: #993300;
 }
 
-.fa-star {
-
+.star-right .fa-star {
+    color: #993300;
 }
 
 #amen-color {
     color: #b8be19;
+}
+
+.my-faves {
+    color: white;
+    font-size: 3.75em;
+    margin-left: 32%;
+}
+
+.wrapped-form  {
+ overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
 }
 
 

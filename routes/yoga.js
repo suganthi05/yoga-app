@@ -323,7 +323,7 @@ router.get("/new", middleware.isLoggedIn, function (req, res) {
 // SHOW - shows more info about one campground
 router.get("/:id", function (req, res) {
     //find the campground with provided ID
-    Yoga.findById(req.params.id).populate("comments").exec(function (err, foundYoga) {
+    Yoga.findById(req.params.id, req.body.yoga_id).populate("comments").exec(function (err, foundYoga) {
         if (err) {
             console.log(err);
         } else {

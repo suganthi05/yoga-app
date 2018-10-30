@@ -32,7 +32,7 @@ var yogaSchema = new mongoose.Schema({
 },{toObject:{virtuals:true},toJSON:{virtuals:true}});
 yogaSchema.virtual('avg_rating').get(function(){
 
-  return this.populate("comments").comments.reduce((a,b) => a+b.rating, 0)/this.comments.length;
+  return this.populate("comments").comments.reduce((a,b) => a+b.rating, this.rating)/(this.comments.length +1);
 
 })
 

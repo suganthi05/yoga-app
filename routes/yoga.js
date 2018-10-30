@@ -330,7 +330,8 @@ router.get("/:id", function (req, res) {
             console.log(foundYoga);
             //render show template with that campground
             res.render("yoga/show", {
-                yoga: foundYoga
+                yoga: foundYoga.toObject()
+
             });
         }
     });

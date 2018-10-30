@@ -31,7 +31,8 @@ function seedDB() {
     }
   });
 
-  /*//Remove all user data
+/*
+  //Remove all user data
   User.remove({}, function (err) {
     if (err) {
       console.log(err);
@@ -39,7 +40,7 @@ function seedDB() {
       console.log("Removed user data!");
     }
   });
-  */
+*/  
   //Add users
   userdata.forEach(function (seed) {
     User.create(seed, function (err, yoga) {

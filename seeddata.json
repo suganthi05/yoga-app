@@ -529,51 +529,7 @@
       }
     ]
   },
-  {
-    "name": "Power Yoga City Centre",
-    "image": "https://lh3.googleusercontent.com/p/AF1QipNRV_suRDAssiwmJ_nUvvL45Y0N7Hr-SD1gBmE7=s1600-w1024-h1024",
-    "rating": 5,
-    "website": "http://www.poweryogacanada.com/city-centre",
-    "phone": "(905) 949-9997",
-    "description": "Amazing place with awesome offerings. Sarah and Tania are very warm and welcoming! They are attentive to every detail.I strongly recommend this community for its instructors and programs. Thank you!",
-    "amenities": [
-      "Wifi",
-      "Locker",
-      "Smoothie Bar"
-    ],
-    "author": {
-      "id": "5bd5ed82075c5c1909b7d6d8",
-      "username": "Lucia"
-    },
-    "classes": [
-      "Hatha Yoga",
-      "Bikram Yoga",
-      "Vinyasa Yoga"
-    ],
-    "beginners": [
-      "Yes"
-    ],
-    "cost": 10,
-    "location": "925 Rathburn Road East Unit B1, Mississauga",
-    "lat": 43.61608299999999,
-    "lng": -79.61757599999999,
-    "commentfeed": [{
-        "text": "The location of PYC City Centre is so convienant. The staff and EE's are awesome! 9:30 am classes are the BEST way to start the day. So happy a PYC opened up in this area 🙌🙌🙌",
-        "rating": 5,
-        "usernamefeed": "Nicole Henry"
-      },
-      {
-        "text": "",
-        "rating": 5,
-        "usernamefeed": "Kristina Pancevski"
-      },
-      {
-        "text": "",
-        "rating": 5,
-        "usernamefeed": "Sarah Desiree"
-      }
-    ]
-  },
+
   {
     "name": "Mind to Body Yoga & Fitness",
     "image": "https://lh3.googleusercontent.com/p/AF1QipM66JbtakGhGSzkDx7VfbzOj5xVK_zw-uZTXSZI=s1600-w1024-h1024",
@@ -2733,7 +2689,7 @@
     ]
   },
   {
-    "name": "Redwood Hot Yoga Studio",
+    "name": "Redwood Studio",
     "image": "https://lh3.googleusercontent.com/p/AF1QipNvBwo2O0TGjMnuN4dNeta__VwEWATGl-3Bnxmw=s1600-w990-h503",
     "rating": 5,
     "website": "http://www.redwoodhotyoga.com/",
@@ -5493,7 +5449,7 @@
     ]
   },
   {
-    "name": "The Basement Yoga Studio",
+    "name": "The Basement Studio",
     "image": "https://lh3.googleusercontent.com/p/AF1QipP2m-CI_z-CRXpqULABdEM3U-RG_PiHIGnq6_td=s1600-w1024-h1024",
     "rating": 5,
     "website": "http://www.thebasementyoga.com/",
@@ -5544,7 +5500,7 @@
     ]
   },
   {
-    "name": "Breath Uptown Pilates & Yoga Studio",
+    "name": "Breath Uptown Studio",
     "image": "https://lh3.googleusercontent.com/p/AF1QipM2jBsM938Sxx78_fiF-eRAyL3wXgFBU1Idv5lO=s1600-w1024-h818",
     "rating": 5,
     "website": "http://www.breatheuptownpilates.ca/",

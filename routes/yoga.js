@@ -26,6 +26,41 @@ router.get("/getallstudios", function (req, res) {
 });
 
 
+
+router.post("/checkfavorite", middleware.isLoggedIn, function (req, res) {
+
+    Favorites.find({
+        'yoga_id': req.body.yoga_id //this user is loggedin
+    }, function (err, allfav) {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log("----" + allfav.length);
+            if (allfav.length == 0) {
+                res.json({
+                    "isFav": false
+                });
+            } else {
+                var isMatchFound = false;
+                allfav.forEach(element => {
+                    if (element.user_id == req.user._id) {
+                        isMatchFound = true;
+                    }
+                });
+                if (isMatchFound) {
+                    res.json({
+                        "isFav": true
+                    });
+                } else {
+                    res.json({
+                        "isFav": false
+                    });
+                }
+            }
+        }
+    });
+});
+
 router.get("/getfavorites", middleware.isLoggedIn, function (req, res) {
 
     //console.log(req.user._id);
@@ -301,7 +336,7 @@ router.get("/:id", function (req, res) {
     });
 });
 
-// EDIT CAMPGROUND ROUTE
+// EDIT Yoga ROUTE
 router.get("/:id/edit", middleware.checkCampgroundOwnership, function (req, res) {
     Yoga.findById(req.params.id, function (err, foundYoga) {
         res.render("yoga/edit", {
@@ -310,7 +345,7 @@ router.get("/:id/edit", middleware.checkCampgroundOwnership, function (req, res)
     });
 });
 
-// UPDATE CAMPGROUND ROUTE
+// UPDATE Yoga ROUTE
 router.put("/:id", middleware.checkCampgroundOwnership, function (req, res) {
     geocoder.geocode(req.body.location, function (err, data) {
         if (err || !data.length) {
@@ -333,7 +368,7 @@ router.put("/:id", middleware.checkCampgroundOwnership, function (req, res) {
     });
 });
 
-// DESTROY CAMPGROUND ROUTE
+// DESTROY Yoga ROUTE
 router.delete("/:id", middleware.checkCampgroundOwnership, function (req, res) {
     Yoga.findByIdAndRemove(req.params.id, function (err) {
         if (err) {

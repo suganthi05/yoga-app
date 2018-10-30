@@ -108,7 +108,7 @@ router.put("/:comment_id", function (req, res) {
 });
 
 // COMMENT DESTROY ROUTE
-router.delete("/:comment_id", middleware.checkCampgroundOwnership, function (req, res) {
+router.delete("/:comment_id", middleware.checkCommentOwnership, function (req, res) {
     Comment.findByIdAndRemove(req.params.comment_id, function (err) {
         if (err) {
             res.redirect("/yoga");

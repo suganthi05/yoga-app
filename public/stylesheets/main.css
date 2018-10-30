@@ -659,7 +659,7 @@ span:active {
 
 .all-yoga-studios {
     margin-top:0;
-    color: white !important;
+    color: black !important;
     text-align: center;
     font-size: 3.75em;
     font-weight: normal;
@@ -921,6 +921,10 @@ float: left !important;
 
 .top-rated-studios {
     color: black !important;
+}
+
+#all-studios {
+    color: white !important;
 }
 
 

@@ -13,15 +13,14 @@ $(document).ready(function () {
         console.log("inside Value: " + response.isFav);
         if (response.isFav) {
             $("#id-of-input").click(function (event) {
-                event.preventDefault();
-                //  <
+                // event.preventDefault(); <
                 // i class = "glyphicon glyphicon-heart-empty" > < /i> <
                 // i class = "glyphicon glyphicon-heart" > < /i>
             });
 
             //Show the button state, already added, show button press, Change CSS
         } else {
-            //Show the button state, NOT added, Change CSS
+
         }
     }).catch(function (error) {
         console.log("Error:", error);

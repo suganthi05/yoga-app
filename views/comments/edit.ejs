@@ -5,7 +5,7 @@
         <form action="/yoga/<%= yoga_id %>/comments/<%=comment._id %>?_method=PUT" method="POST">
             <div class="form-group form-width">
                 <label>Edit Review: </label>
-                <input class="form-control form-height" type="text" value="<%=comment.text %>" name="comment" placeholder="Review">
+                <textarea class="form-control form-height" type="text" rows="5" name="comment" placeholder="Review" autofocus="true"><%=comment.text %></textarea>
                 <label style="margin-top: 10%">Edit Rating: </label>
                 <input class="form-control form-height" type="number" name="rating" placeholder="Rating">
 

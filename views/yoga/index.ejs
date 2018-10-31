@@ -79,7 +79,8 @@
                   <!-- </div> -->
                     </div>
                   <div id="form-5">
-                    <button id="filterbutton" class="btn btn-default btn-primary btn-xxlarge">Search&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-search"></span></button>
+                    <button id="filterbutton" class="btn btn-default btn-primary btn-xxlarge">Search&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-search"></span></button><br /><br />
+                    <h3 id="results-found"><span class="label label-warning"><%=count%> yoga studio(s) found!</span></h3>
                   </div>
                   <!--end: sj-->
                 </div>
@@ -92,15 +93,8 @@
   <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcrlOjVKHhFlqVzG9Fp96FmZNYDF-0gG4&callback=initMap"></script>
 </div>
   <!--aa-->
-  <!--
-  <div class="jumbotron jumbo-4">
-    <a href="#"><p class="form-style first">West GTA</p></a>
-    <a href="#"><p class="form-style second">Toronto Core</p></a>
-    <a href="#"><p class="form-style third">East GTA</p></a>
-  </div> -->
 
   <!-- code for top pics starts -->
-
   <header >
     <div class="jumbotron" id="jumbo-5">
     <div>
@@ -116,10 +110,7 @@
             <h4>
               <%= mystudio.name %>
             </h4>
-
-
           </div>
-
           <p>
             <a href="/yoga/<%= mystudio._id %>" class="btn btn-primary">More Info</a>
           </p>
@@ -186,7 +177,7 @@
           <br /><br />
           <!-- end: sj - show amenities using awesome font -->
           <!-- begin: sj - display rating star -->
-          <% for (var i = 0; i < 5 ; i++) { %>
+          <% for (let i = 0; i < 5 ; i++) { %>
           <% if (i < yoga.avg_rating) { %>
           <span class="fa fa-star checked"></span>
           <%} else {%>

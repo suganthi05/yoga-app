@@ -41,64 +41,32 @@
 
         <!--aa-->
 
-   <header id="jumbo-5" class="jumbotron">
-        <div class="container">
-            <h2 class="my-faves">My Favorites!</h2>
-        </div>
-        <div class="row text-center" style="display:flex; flex-wrap: wrap;">
-
-            <% yoga.forEach(function(yogaelement){ %>
-            <script>
-                userFavLocations.push({
-                    lat: <%= yogaelement.lat %>,
-                    lng: <%= yogaelement.lng %>,
-                    name: "<%= yogaelement.name %>",
-                    image: "<%= yogaelement.image %>"
-                });
-            </script>
-            <div class="col-md-3 col-sm-6">
-                <div class="search-results2 thumbnail">
-                    <img class="image-results2" src="<%= yogaelement.image %>">
-                    <div class="caption">
-                        <h4>
-                            <%= yogaelement.name %>
-                        </h4>
-
-                    </div>
-                    <p>
-                        <a href="/yoga/<%= yogaelement._id %>" class="btn btn-primary">More Info</a>
-                    </p>
-                </div>
+        <header id="jumbo-5" class="jumbotron">
+            <div class="container">
+                <h2 class="my-faves">My Favorites!</h2>
             </div>
-            <% }); %>
-        </div>
-
-</div>
-</header>
-
-        <header class="jumbotron jumbo-2">
-            <div class="jumbotron jumbo-6">
-  <h2 id="all-studios" class="all-yoga-studios">My Created Studios</h2>
-</div>
             <div class="row text-center" style="display:flex; flex-wrap: wrap;">
 
-                <% allstudios.forEach(function(mystudio){ %>
+                <% yoga.forEach(function(yogaelement){ %>
+                <script>
+                    userFavLocations.push({
+                        lat: <%= yogaelement.lat %>,
+                        lng: <%= yogaelement.lng %>,
+                        name: "<%= yogaelement.name %>",
+                        image: "<%= yogaelement.image %>"
+                    });
+                </script>
                 <div class="col-md-3 col-sm-6">
                     <div class="search-results2 thumbnail">
-                        <img class="image-results2" src="<%= mystudio.image %>">
+                        <img class="image-results2" src="<%= yogaelement.image %>">
                         <div class="caption">
                             <h4>
-                                <%= mystudio.name %>
-                                <script>
-                                    userStudiosLocations.push({
-                                        lat: <%= mystudio.lat %>,
-                                        lng: <%= mystudio.lng %>
-                                    });
-                                </script>
+                                <%= yogaelement.name %>
                             </h4>
+
                         </div>
                         <p>
-                            <a href="/yoga/<%= mystudio._id %>" class="btn btn-primary">More Info</a>
+                            <a href="/yoga/<%= yogaelement._id %>" class="btn btn-primary">More Info</a>
                         </p>
                     </div>
                 </div>
@@ -107,6 +75,38 @@
 
     </div>
     </header>
+
+    <header class="jumbotron jumbo-2">
+        <div class="jumbotron jumbo-6">
+            <h2 id="all-studios" class="all-yoga-studios">My Created Studios</h2>
+        </div>
+        <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+
+            <% allstudios.forEach(function(mystudio){ %>
+            <div class="col-md-3 col-sm-6">
+                <div class="search-results2 thumbnail">
+                    <img class="image-results2" src="<%= mystudio.image %>">
+                    <div class="caption">
+                        <h4>
+                            <%= mystudio.name %>
+                            <script>
+                                userStudiosLocations.push({
+                                    lat: <%= mystudio.lat %>,
+                                    lng: <%= mystudio.lng %>
+                                });
+                            </script>
+                        </h4>
+                    </div>
+                    <p>
+                        <a href="/yoga/<%= mystudio._id %>" class="btn btn-primary">More Info</a>
+                    </p>
+                </div>
+            </div>
+            <% }); %>
+        </div>
+
+</div>
+</header>
 
 
 

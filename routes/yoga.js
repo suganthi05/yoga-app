@@ -88,7 +88,7 @@ router.get("/getfavorites", middleware.isLoggedIn, function (req, res) {
                         } else {
                             ++index;
                             console.log("foundYoga " + foundYoga);
-                            allYoga.push(foundYoga)
+                            foundYoga && allYoga.push(foundYoga)
                             if (index == total) {
                                 //res.json(allYoga);
                                 fetchUserCreatedStudios(req, res, allYoga);
@@ -113,7 +113,7 @@ function fetchUserCreatedStudios(req, res, allYoga) {
     Yoga.find({
         author: authorToFind
     }, function (err, allYogaStudios) {
-
+        console.log("allYoga" + allYoga)
         res.render("yoga/favorites", {
             yoga: allYoga,
             allstudios: allYogaStudios

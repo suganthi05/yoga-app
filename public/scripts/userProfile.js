@@ -3,7 +3,7 @@ let map;
 function initMap() {
     let mapOptions = {
         center: new google.maps.LatLng(43.65432, -79.38347), //Toronto
-        zoom: 8,
+        zoom: 8.5,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map(document.getElementById("map"), mapOptions);
@@ -12,7 +12,7 @@ function initMap() {
         position: new google.maps.LatLng(userLat, userLng),
         map: map,
         icon: {
-            url: "https://png.icons8.com/dusk/40/000000/order-delivered.png"
+            url: "https://png.icons8.com/dusk/60/000000/order-delivered.png"
         }
 
     });

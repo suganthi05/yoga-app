@@ -1,5 +1,6 @@
-<% include ../partials/header %>
+
 <!-- Icon library for adding star -->
+  <script src="https://code.jquery.com/jquery-git2.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="/scripts/show.js"></script>
@@ -192,6 +193,42 @@
 </div>
 </div>
 <script>
+<% if (!currentUser) {%>
+function initMap(){
+
+   let lat = <%=yoga.lat %>;
+       let lng = <%= yoga.lng %>;
+       let center = {
+           lat: lat,
+           lng: lng
+       };
+       let map = new google.maps.Map(document.getElementById('map'), {
+           zoom: 6,
+           center: center,
+           scrollwheel: false
+       });
+       let contentString =
+         `<strong><%= yoga.name %></strong>
+         <br />
+         <%= yoga.location %>
+         <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=<%= yoga.location %>" target="_blank">Get Directions</a></p>`
+       let infowindow = new google.maps.InfoWindow({
+           content: contentString
+       });
+       let marker = new google.maps.Marker({
+           position: center,
+           map: map
+       });
+       marker.addListener('click', function () {
+           infowindow.open(map, marker);
+       });
+       infowindow.open(map,marker);
+
+
+}
+<% } else { %>
+
+
     function initMap() {
         var lat = <%=yoga.lat %>;
         var lng = <%= yoga.lng %>;
@@ -210,7 +247,12 @@
             center: center,
             scrollwheel: false
         });
-        var contentString = `<%= yoga.name %>`;
+        let contentString =
+           `<strong><%= yoga.name %></strong>
+        <br />
+        <%= yoga.location %>
+        <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=<%= yoga.location %>" target="_blank">Get Directions</a></p>`;
+
         var infowindow = new google.maps.InfoWindow({
             content: contentString
         });
@@ -263,7 +305,9 @@
             $('#time').text("Drive-time: " + Math.round(totalDuration / 60) + "  Minutes Away");
         });
     }
+<% } %>
 
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3AixTo7xh0edocjmRhu8LWl_og4s5L0o&callback=initMap"></script>
 <% include ../partials/footer %>
+<% include ../partials/header %>

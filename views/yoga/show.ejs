@@ -193,11 +193,10 @@
             scrollwheel: false
         });
         var contentString =
-            `
-      <strong><%= yoga.name %><br />
-      <%= yoga.location %></strong>
-      <p><%= yoga.description %></p>
-    `
+          `<strong><%= yoga.name %></strong>
+          <br />
+          <%= yoga.location %>
+          <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=<%= yoga.location %>" target="_blank">Get Directions</a></p>`
         var infowindow = new google.maps.InfoWindow({
             content: contentString
         });

@@ -267,8 +267,8 @@
                 totalDuration += legs[i].duration.value;
             }
 
-            $('#distance').text((totalDistance / 1000) + "  Km Away");
-            $('#time').text((totalDuration / 60) + "  Minutes Away");
+            $('#distance').text(Math.round(totalDistance / 1000) + "  Km Away");
+            $('#time').text(Math.round(totalDuration / 60) + "  Minutes Away");
 
 
         });

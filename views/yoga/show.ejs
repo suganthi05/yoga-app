@@ -56,7 +56,7 @@
                         <h4 class="pull-right large-ish">$
                             <%= yoga.cost %>/Day Pass</h4>
                         <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish" >Average Rating:
-                            <% for (var i = 0; i < 5 ; i++) { %>
+                            <% for (let i = 0; i < 5 ; i++) { %>
                             <% if (i < yoga.avg_rating) { %>
                             <span class="fa fa-star checked"></span>
                             <%} else {%>
@@ -81,7 +81,7 @@
                                     <% }); %>
                                 </span></li>
                             <li id="amenitiesBox" class="list-group-item">
-                                <% for(var i=0; i<yoga.amenities.length; i++){ %>
+                                <% for(let i=0; i<yoga.amenities.length; i++){ %>
                                 <i class="btn btn-lg btn-default">
                                     <%=yoga.amenities[i]%></i>
                                 <% } %>
@@ -91,7 +91,7 @@
                         <div class="list-group">
                             <li class="list-group-item active large-ish">Classes</li>
                             <li id="amenitiesBox" class="list-group-item">
-                                <% for(var i=0; i<yoga.classes.length; i++){ %>
+                                <% for(let i=0; i<yoga.classes.length; i++){ %>
                                 <i class="btn btn-lg btn-default">
                                     <%=yoga.classes[i]%></i>
                                 <% } %>
@@ -101,7 +101,7 @@
                         <div class="list-group">
                             <li class="list-group-item active large-ish">Classes Suitable for Beginners?</li>
                             <li id="amenitiesBox" class="list-group-item">
-                                <% for(var i=0; i<yoga.beginners.length; i++){ %>
+                                <% for(let i=0; i<yoga.beginners.length; i++){ %>
                                 <i class="btn btn-lg btn-default">
                                     <%=yoga.beginners[i]%></i>
                                 <% } %>
@@ -114,7 +114,7 @@
                     <p>
                         <%= yoga.description %>
                     </p>
-                        <% for (var i = 0; i < 5 ; i++) { %>
+                        <% for (let i = 0; i < 5 ; i++) { %>
                             <% if (i < yoga.rating) { %>
                             <span class="fa fa-star checked"></span>
                             <%} else {%>
@@ -150,7 +150,7 @@
                             <%= comment.author.username %>
                             </div>
                             <div class="star-right">
-                            <% for (var i = 0; i < 5 ; i++) { %>
+                            <% for (let i = 0; i < 5 ; i++) { %>
                             <% if (i < comment.rating) { %>
                             <span class="fa fa-star checked"></span>
                             <%}%>
@@ -181,26 +181,26 @@
 </div>
 <script>
     function initMap() {
-        var lat = <%=yoga.lat %>;
-        var lng = <%= yoga.lng %>;
-        var center = {
+        let lat = <%=yoga.lat %>;
+        let lng = <%= yoga.lng %>;
+        let center = {
             lat: lat,
             lng: lng
         };
-        var map = new google.maps.Map(document.getElementById('map'), {
+        let map = new google.maps.Map(document.getElementById('map'), {
             zoom: 6,
             center: center,
             scrollwheel: false
         });
-        var contentString =
+        let contentString =
           `<strong><%= yoga.name %></strong>
           <br />
           <%= yoga.location %>
           <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=<%= yoga.location %>" target="_blank">Get Directions</a></p>`
-        var infowindow = new google.maps.InfoWindow({
+        let infowindow = new google.maps.InfoWindow({
             content: contentString
         });
-        var marker = new google.maps.Marker({
+        let marker = new google.maps.Marker({
             position: center,
             map: map
         });

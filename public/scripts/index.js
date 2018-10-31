@@ -1,4 +1,11 @@
 // begin - sj
+function showCount(count) {
+    $("h3#results-found").html('');
+    let text = `${count} yoga studio(s) found!`;
+    let $count = $("<span>").addClass("label label-warning").append(text);
+    $("h3#results-found").append($count);
+} 
+
 // render yoga studio search results
 function renderResult(yogadata, nomatch) {
     $("div#search-result").html('');
@@ -199,6 +206,7 @@ $(document).ready(function () {
         }).then(function (data) {
             renderResult(data.yoga, data.noMatch);
             loadMapMarkers(data.yoga);
+            showCount(data.count);
         }).catch(function (error) {
             console.log("Error:", error);
         })

@@ -1,22 +1,22 @@
 <% include ../partials/header %>
 <div style="margin-top: 10%" class="row">
     <h1 style="text-align: center">Edit Review</h1>
-    <div style="width: 30%; margin: 25px auto;">
-        <div class="form-wrap">
+    <div class="list-group-item" style="width: 30%; margin: 25px auto;">
+        
         <form action="/yoga/<%= yoga_id %>/comments/<%=comment._id %>?_method=PUT" method="POST">
 
-            <div>
-                <label>Edit Text: </label>
-                <input class="form-control review-edit-width" type="text" value="<%=comment.text %>" name="comment" placeholder="Review">
+            <div class="form-group form-width">
+                <label>Edit Review: </label>
+                <textarea class="form-control form-height" type="text" rows="5" name="comment" placeholder="Review" autofocus="true"><%=comment.text %></textarea>
                 <label style="margin-top: 10%">Edit Rating: </label>
-                <input class="form-control review-edit-width" type="number" name="rating" placeholder="Rating">
+                <input class="form-control form-height" type="number" min="1" max="5" name="rating" placeholder="Rating" value="<%=comment.rating %>">
 
             </div>
-            <div>
-                <button style="margin-top:10%" class="btn btn-lg btn-primary btn-block">Submit!</button>
+            <div class="form-group">
+                <button class="btn btn-lg btn-primary btn-block">Update!</button>
             </div>
         </form>
-    </div>
+        <a class="go-back" href="/yoga/<%= yoga_id %>">Go Back</a>
     </div>
 </div>
 <% include ../partials/footer %>

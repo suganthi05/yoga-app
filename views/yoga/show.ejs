@@ -38,12 +38,12 @@
                     </li>
                 </div>
                 <div>
-                    <li class="wrapped-form list-group-item"><a href="<%=yoga.website%>">
+                    <li class="wrapped-form list-group-item"><a href="<%=yoga.website%>" target="_blank">
                             <%=yoga.website%></a></li>
                         </div>
                         <div>
                     <li class="list-group-item">
-                        <%=yoga.phone%>
+                        <a href="tel:<%=yoga.phone%>"><%=yoga.phone%></a>
                     </li>
                 </div>
                 </div>
@@ -82,8 +82,8 @@
                                 </span></li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(var i=0; i<yoga.amenities.length; i++){ %>
-                                <i class="material-icons">
-                                    <%=yoga.amenities[i] + ","%></i>
+                                  <i class="btn btn-lg btn-default">
+                                      <%=yoga.amenities[i]%></i>
                                 <% } %>
                             </li>
                             </li>
@@ -92,8 +92,8 @@
                             <li class="list-group-item active large-ish">Classes</li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(var i=0; i<yoga.classes.length; i++){ %>
-                                <i class="material-icons">
-                                    <%=yoga.classes[i]+ ","%></i>
+                                  <i class="btn btn-lg btn-default">
+                                    <%=yoga.classes[i]%></i>
                                 <% } %>
                             </li>
                             </li>
@@ -102,7 +102,7 @@
                             <li class="list-group-item active large-ish">Classes Suitable for Beginners?</li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(var i=0; i<yoga.beginners.length; i++){ %>
-                                <i class="material-icons">
+                                <i class="btn btn-lg btn-default">
                                     <%=yoga.beginners[i]%></i>
                                 <% } %>
                             </li>
@@ -136,8 +136,12 @@
             </div>
             <div class="well background-box">
                 <div class="text-right">
+                    <a class="go-back" href="/yoga/ %>">Back to search</a>
+                </div><br />
+                <div class="text-right">
                     <a class="btn btn-success " href="/yoga/<%= yoga._id %>/comments/new">Add New Review</a>
                 </div>
+
                 <hr>
                 <% yoga.comments.forEach(function(comment){ %>
                 <div class="row review-size">
@@ -147,7 +151,7 @@
                             <%= comment.author.username %>
                             </div>
                             <div class="star-right">
-                            <% for (var i = 0; i < 5 ; i++) { %>
+                            <% for (let i = 0; i < 5 ; i++) { %>
                             <% if (i < comment.rating) { %>
                             <span class="fa fa-star checked"></span>
                             <%}%>
@@ -190,11 +194,10 @@
             scrollwheel: false
         });
         var contentString =
-            `
-      <strong><%= yoga.name %><br />
-      <%= yoga.location %></strong>
-      <p><%= yoga.description %></p>
-    `
+          `<strong><%= yoga.name %></strong>
+          <br />
+          <%= yoga.location %>
+          <p><a href="https://www.google.com/maps?saddr=My+Location&daddr=<%= yoga.location %>" target="_blank">Get Directions</a></p>`
         var infowindow = new google.maps.InfoWindow({
             content: contentString
         });
@@ -205,7 +208,9 @@
         marker.addListener('click', function () {
             infowindow.open(map, marker);
         });
+        infowindow.open(map,marker);
     }
 </script>
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVNqmxoPpZXHe89d2y12ozPDVjoLAk4hw&callback=initMap"></script>
 <% include ../partials/footer %>

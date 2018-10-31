@@ -1,9 +1,12 @@
-<% include ../partials/header %>
+
 <!-- Icon library for adding star -->
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <script src="/scripts/show.js"></script>
+
 <!--Aa to show fav-->
+<div class="container">
 <div style="font-family: 'Raleway', sans-serif;">
     <div class="row top-space color-container">
         <div>
@@ -176,6 +179,7 @@
         </div>
     </div>
 </div>
+</div>
 <script>
     function initMap() {
         var lat = <%=yoga.lat %>;
@@ -209,3 +213,4 @@
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVNqmxoPpZXHe89d2y12ozPDVjoLAk4hw&callback=initMap"></script>
 <% include ../partials/footer %>
+<% include ../partials/header %>

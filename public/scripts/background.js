@@ -10,9 +10,10 @@ function changeBG() {
         "url(https://images.pexels.com/photos/588561/pexels-photo-588561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260?dpr=2&fit=crop&fm=jpg&h=825&ixlib=rb-0.3.5&q=50&w=1450)",
         "url(https://images.pexels.com/photos/823694/pexels-photo-823694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260?dpr=2&fit=crop&fm=jpg&h=825&ixlib=rb-0.3.5&q=50&w=1450)",
         "url(https://images.pexels.com/photos/999309/pexels-photo-999309.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260?dpr=2&fit=crop&fm=jpg&h=825&ixlib=rb-0.3.5&q=50&w=1450)",
-        "url(https://images.pexels.com/photos/396133/pexels-photo-396133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260?dpr=2&fit=crop&fm=jpg&h=825&ixlib=rb-0.3.5&q=50&w=1450)"
-    ]
+        "url(https://images.pexels.com/photos/396133/pexels-photo-396133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260?dpr=2&fit=crop&fm=jpg&h=825&ixlib=rb-0.3.5&q=50&w=1450)",
+      "url(https://images.pexels.com/photos/1191804/pexels-photo-1191804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260?dpr=2&fit=crop&fm=jpg&h=825&ixlib=rb-0.3.5&q=50&w=1450)"
 
+     ]
     if (counter === imgs.length) counter = 0;
     $("body").css("background-image", imgs[counter]);
 

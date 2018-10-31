@@ -72,35 +72,3 @@ $(document).ready(function () {
 
 
 });
-
-//code for add to my favs   
-// $(document).ready(function () {
-
-//     $('.click').click(function () {
-//         if ($(this).find('span').hasClass("fa-star")) {
-//             $(this).removeClass('active')
-//             setTimeout(function () {
-//                 $(this).removeClass('active-2')
-//             }, 30)
-//             $(this).removeClass('active-3')
-//             setTimeout(function () {
-//                 $(this).find('span').removeClass('fa-star');
-//                 $(this).find('span').addClass('fa-star-o')
-//             }, 15)
-//         } else {
-//             $(this).addClass('active')
-//             $(this).addClass('active-2')
-//             setTimeout(function () {
-//                 $(this).addClass('fa-star')
-//                 $(this).removeClass('fa-star-o')
-//             }, 150)
-//             setTimeout(function () {
-//                 $(this).addClass('active-3')
-//             }, 150)
-//             $('.info').addClass('info-tog')
-//             setTimeout(function () {
-//                 $('.info').removeClass('info-tog')
-//             }, 1000)
-//         }
-//     })
-// });

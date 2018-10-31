@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="/scripts/show.js"></script>
 <!--Aa to show fav-->
+<div class="container">
 <div style="font-family: 'Raleway', sans-serif;">
     <div class="row top-space color-container">
         <div>
@@ -32,22 +33,21 @@
                 <br>
                 <div class="
                 list-group">
-
-                <div>
-                    <li class="list-group-item">
-                        <%=yoga.name%>
-                    </li>
-                </div>
-                <div>
-                    <li class="wrapped-form list-group-item"><a href="<%=yoga.website%>" target="_blank">
-                            <%=yoga.website%></a></li>
-                        </div>
-                        <div>
-                    <li class="list-group-item">
-                        <a href="tel:<%=yoga.phone%>"><%=yoga.phone%></a>
-                    </li>
-                </div>
-
+                    <div>
+                        <li class="list-group-item" style="text-align: center">
+                           <strong> <%=yoga.name%> </strong>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="wrapped-form list-group-item"><a href="<%=yoga.website%>" target="_blank">
+                                <%=yoga.website%></a></li>
+                    </div>
+                    <div>
+                        <li class="list-group-item">
+                            <a href="tel:<%=yoga.phone%>">
+                                <%=yoga.phone%></a>
+                        </li>
+                    </div>
                 </div>
                 <div id="map"></div>
                 <div class="
@@ -66,9 +66,9 @@
                 <div class="thumbnail">
                     <img class="img-responsive" src="<%= yoga.image %>">
                     <div class="caption-full">
-                        <h4 class="pull-right large-ish">$
+                        <h4 id="cost-color" class="pull-right large-ish">$
                             <%= yoga.cost %>/Day Pass</h4>
-                            <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish" >Average Rating:
+                        <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish">Average Rating:
                             <% for (let i = 0; i < 5 ; i++) { %>
                             <% if (i < yoga.avg_rating) { %>
                             <span class="fa fa-star checked"></span>
@@ -95,7 +95,7 @@
                                 </span></li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(let i=0; i<yoga.amenities.length; i++){ %>
-                                <i class="btn btn-lg btn-default">
+                                <i class="btn btn-lg btn-default default">
                                     <%=yoga.amenities[i]%></i>
                                 <% } %>
                             </li>
@@ -105,7 +105,7 @@
                             <li class="list-group-item active large-ish">Classes</li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(let i=0; i<yoga.classes.length; i++){ %>
-                                <i class="btn btn-lg btn-default">
+                                <i class="btn btn-lg btn-default default">
                                     <%=yoga.classes[i]%></i>
                                 <% } %>
                             </li>
@@ -115,7 +115,7 @@
                             <li class="list-group-item active large-ish">Classes Suitable for Beginners?</li>
                             <li id="amenitiesBox" class="list-group-item">
                                 <% for(let i=0; i<yoga.beginners.length; i++){ %>
-                                <i class="btn btn-lg btn-default">
+                                <i class="btn btn-lg btn-default default">
                                     <%=yoga.beginners[i]%></i>
                                 <% } %>
                             </li>
@@ -123,36 +123,32 @@
                         </div>
                     </div>
                     <h4 style="font-family: 'Raleway', sans-serif;" class="large-ish">
-                        User Review:</h4>
+                        <strong>User Review:</strong></h4>
                     <p>
                         <%= yoga.description %>
                     </p>
-
-                        <% for (let i = 0; i < 5 ; i++) { %>
-                            <% if (i < yoga.rating) { %>
-                            <span class="fa fa-star checked"></span>
-                            <%} else {%>
-                            <span class="fa fa-star unchecked"></span>
-                            <% } %>
-                            <% }; %>
-
+                    <% for (let i = 0; i < 5 ; i++) { %>
+                    <% if (i < yoga.rating) { %>
+                    <span class="fa fa-star checked"></span>
+                    <%} else {%>
+                    <span class="fa fa-star unchecked"></span>
+                    <% } %>
+                    <% }; %>
                     <p>
                         <em>Submitted by:
                             <%= yoga.author.username %>,
                             <%= moment(yoga.createdAt).fromNow() %></em>
                     </p>
                     <% if(currentUser && yoga.author.id.equals(currentUser._id)){ %>
-                    <a class="btn btn-warning" href="/yoga/<%= yoga._id %>/edit">Edit Yoga Rating</a>
+                    <a class="btn btn-warning" href="/yoga/<%= yoga._id %>/edit">Edit Yoga Studio</a>
                     <form id="delete-form" action="/yoga/<%= yoga._id %>?_method=DELETE" method="POST">
-                        <button class="btn btn-danger">Delete Yoga Rating</button>
+                        <button class="btn btn-danger">Delete Yoga Studio</button>
                     </form>
                     <% } %>
                 </div>
             </div>
             <div class="well background-box">
-                <div class="text-right">
-                    <a class="go-back" href="/yoga/ %>">Back to search</a>
-                </div>
+
                 <div class="text-right">
                     <a class="btn btn-success " href="/yoga/<%= yoga._id %>/comments/new">Add New Review</a>
                 </div>
@@ -165,14 +161,12 @@
                                 <%= comment.author.username %>
                             </div>
                             <div class="star-right">
-
-                            <% for (let i = 0; i < 5 ; i++) { %>
-                            <% if (i < comment.rating) { %>
-                            <span class="fa fa-star checked"></span>
-                            <%}%>
-                            <% }; %>
-                        </div>
-
+                                <% for (let i = 0; i < 5 ; i++) { %>
+                                <% if (i < comment.rating) { %>
+                                <span class="fa fa-star checked"></span>
+                                <%}%>
+                                <% }; %>
+                            </div>
                         </strong>
                         </strong>
                         <div class="list-group-item">
@@ -196,93 +190,80 @@
         </div>
     </div>
 </div>
+</div>
 <script>
-   function initMap() {
+    function initMap() {
+        var lat = <%=yoga.lat %>;
+        var lng = <%= yoga.lng %>;
+        var center = {
+            lat: lat,
+            lng: lng
+        };
+        var latHome = <%=currentUser.lat %>;
+        var lngHome = <%= currentUser.lng %>;
+        var centerHome = {
+            lat: latHome,
+            lng: lngHome
+        };
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 6,
+            center: center,
+            scrollwheel: false
+        });
+        var contentString = `<%= yoga.name %>`;
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+        var marker = new google.maps.Marker({
+            position: center,
+            map: map,
+            icon: {
+                url: "https://png.icons8.com/color/48/000000/yoga.png"
+            }
+        });
+        marker.addListener('click', function () {
+            infowindow.open(map, marker);
+        });
+        var contentHomeString = `<%= currentUser.username %>`;
+        var infowindowHome = new google.maps.InfoWindow({
+            content: contentHomeString
+        });
+        var markerHome = new google.maps.Marker({
+            position: centerHome,
+            map: map,
+            icon: {
+                url: "https://png.icons8.com/dusk/40/000000/order-delivered.png"
+            }
+        });
+        markerHome.addListener('click', function () {
+            infowindowHome.open(map, markerHome);
+        });
+        var yogastudiolocation = `<%= yoga.location %>`;
+        var userlocation = `<%= currentUser.home %>`;
+        var directionsService = new google.maps.DirectionsService();
+        var request = {
+            origin: userlocation,
+            destination: yogastudiolocation,
+            travelMode: google.maps.DirectionsTravelMode.DRIVING
+        };
+        directionsService.route(request, function (directionsResult, directionsStatus) {
+            var directionsRenderer = new google.maps.DirectionsRenderer({
+                directions: directionsResult,
+                map: map,
+                suppressMarkers: true
+            });
+            var totalDistance = 0;
+            var totalDuration = 0;
+            var legs = directionsResult.routes[0].legs;
+            for (var i = 0; i < legs.length; ++i) {
+                totalDistance += legs[i].distance.value;
+                totalDuration += legs[i].duration.value;
+            }
+            $('#distance').text("Distance:  " + Math.round(totalDistance / 1000) + "  Km Away");
+            $('#time').text("Drive-time: " + Math.round(totalDuration / 60) + "  Minutes Away");
+        });
+    }
 
-       var lat = <%=yoga.lat %>;
-       var lng = <%= yoga.lng %>;
-       var center = {
-           lat: lat,
-           lng: lng
-       };
-
-       var latHome = <%=currentUser.lat %>;
-       var lngHome = <%= currentUser.lng %>;
-       var centerHome = {
-           lat: latHome,
-           lng: lngHome
-       };
-
-       var map = new google.maps.Map(document.getElementById('map'), {
-           zoom: 6,
-           center: center,
-           scrollwheel: false
-       });
-
-       var contentString = `<%= yoga.name %>`;
-       var infowindow = new google.maps.InfoWindow({
-           content: contentString
-       });
-       var marker = new google.maps.Marker({
-           position: center,
-           map: map,
-           icon: {
-               url: "https://png.icons8.com/color/48/000000/yoga.png"
-           }
-       });
-       marker.addListener('click', function () {
-           infowindow.open(map, marker);
-       });
-
-       var contentHomeString = `<%= currentUser.username %>`;
-       var infowindowHome = new google.maps.InfoWindow({
-           content: contentHomeString
-       });
-       var markerHome = new google.maps.Marker({
-           position: centerHome,
-           map: map,
-           icon: {
-               url: "https://png.icons8.com/dusk/40/000000/order-delivered.png"
-           }
-       });
-       markerHome.addListener('click', function () {
-           infowindowHome.open(map, markerHome);
-       });
-
-
-       var yogastudiolocation = `<%= yoga.location %>`;
-       var userlocation = `<%= currentUser.home %>`;
-       var directionsService = new google.maps.DirectionsService();
-       var request = {
-           origin: userlocation,
-           destination: yogastudiolocation,
-           travelMode: google.maps.DirectionsTravelMode.DRIVING
-       };
-
-       directionsService.route(request, function (directionsResult, directionsStatus) {
-
-           var directionsRenderer = new google.maps.DirectionsRenderer({
-               directions: directionsResult,
-               map: map,
-               suppressMarkers: true
-
-           });
-
-           var totalDistance = 0;
-           var totalDuration = 0;
-           var legs = directionsResult.routes[0].legs;
-           for (var i = 0; i < legs.length; ++i) {
-               totalDistance += legs[i].distance.value;
-               totalDuration += legs[i].duration.value;
-           }
-
-           $('#distance').text(Math.round(totalDistance / 1000) + "  Km Away");
-           $('#time').text(Math.round(totalDuration / 60) + "  Minutes Away");
-
-
-       });
-
-   }
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3AixTo7xh0edocjmRhu8LWl_og4s5L0o&callback=initMap"></script>
 <% include ../partials/footer %>

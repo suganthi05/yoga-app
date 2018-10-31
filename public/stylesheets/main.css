@@ -53,7 +53,7 @@ body {
     margin-left: 14%;
     color: white;
     margin-bottom: 30%;
-    padding-top: 20px;
+    margin-top: 0 !important;
 }
 
 #yoga-header:hover {
@@ -511,6 +511,7 @@ span:active {
 
 .yoga-header {
     margin-left: 35%;
+    margin-top: 8% !important;
 }
 
 .form-width {
@@ -773,6 +774,7 @@ float: left !important;
 
 .large-ish {
     font-size: 20px;
+
 }
 
 #headerr {
@@ -951,7 +953,17 @@ float: left !important;
     line-height: 12px
 }
 
+.default {
+    cursor: default;
+}
 
+/*.avg-rating {
+    color: black !important;
+}*/
+
+#cost-color {
+    color: grey !important;
+}
 
 
 
